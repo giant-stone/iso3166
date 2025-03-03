@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	HardCodedMapCountrytCommonName = map[string]string{
+	HardCodedMapCountryCommonName = map[string]string{
 		// country short name list in https://zh.wikipedia.org/zh-cn/ISO_3166-1
 
 		// "Bolivia (Plurinational State of)": "Bolivia",
@@ -64,7 +64,7 @@ func ParseNativeAndLangs(body []byte) (rs map[string]*iso3166.Region, err error)
 			capitalExonym := ParseTextFromNodeText(htmlquery.InnerText(nodesTd[1]))
 
 			commonName := countryExonym
-			if _commonName, ok := HardCodedMapCountrytCommonName[commonName]; ok {
+			if _commonName, ok := HardCodedMapCountryCommonName[commonName]; ok {
 				commonName = _commonName
 			}
 
@@ -148,7 +148,7 @@ func ParseIso3166(body []byte) (rs map[string]*iso3166.Region, err error) {
 		}
 
 		commonName := shortName
-		if _commonName, ok := HardCodedMapCountrytCommonName[shortNameOrigin]; ok {
+		if _commonName, ok := HardCodedMapCountryCommonName[shortNameOrigin]; ok {
 			commonName = _commonName
 		}
 
