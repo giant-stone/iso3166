@@ -7,6 +7,7 @@ require (
 	github.com/emvi/iso-639-1 v1.1.0
 	github.com/giant-stone/go v1.0.0
 	github.com/stretchr/testify v1.9.0
+	golang.org/x/net v0.33.0
 	golang.org/x/text v0.21.0
 )
 
@@ -20,6 +21,5 @@ require (
 	go.uber.org/mock v0.4.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.20.0 // indirect
-	golang.org/x/net v0.33.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

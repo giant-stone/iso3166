@@ -24,3 +24,5 @@ go.work
 t.*
 ignore/
 .*
+log.*
+*.bak

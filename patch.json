@@ -1,0 +1,370 @@
+[
+  {
+    "Alpha2Code": "",
+    "Alpha3code": "",
+    "Alpha4code": "",
+    "Independent": false,
+    "NumericCode": "",
+    "CommonName": "",
+    "RegionInNative": "",
+    "RegionInCN": "",
+    "ShortName": ""
+  },
+  {
+    "Alpha2Code": "XK",
+    "Alpha3code": "XKV",
+    "Independent": true,
+    "CommonName": "Kosovo",
+    "RegionInNative": "Kosova",
+    "RegionInCN": "科索沃",
+    "ShortName": "Republic of Kosovo"
+  },
+  {
+    "_comment": "1 March 1919 ~ 15 August 1948, https://en.wikipedia.org/wiki/Korea",
+    "Alpha3code": "XKO",
+    "Independent": true,
+    "Languages": [
+      "Hangul",
+      "Hanja",
+      "Korean"
+    ],
+    "CommonName": "Korea",
+    "RegionInNative": "한국",
+    "RegionInCN": "朝鲜"
+  },
+  {
+    "Alpha2Code": "AR",
+    "CallingCode": "54",
+    "NumericCode": "032",
+    "CommonName": "Argentina"
+  },
+  {
+    "Alpha2Code": "AU",
+    "CallingCode": "61",
+    "NumericCode": "036",
+    "CommonName": "Australia"
+  },
+  {
+    "Alpha2Code": "VG",
+    "NumericCode": "092",
+    "CommonName": "United States Virgin Islands"
+  },
+  {
+    "Alpha2Code": "BA",
+    "NumericCode": "070",
+    "CommonName": "Bosnia"
+  },
+  {
+    "Alpha2Code": "BR",
+    "CallingCode": "55",
+    "NumericCode": "076",
+    "CommonName": "Brazil"
+  },
+  {
+    "Alpha2Code": "BN",
+    "NumericCode": "096",
+    "CommonName": "Brunei"
+  },
+  {
+    "Alpha4code": "BUMM",
+    "Independent": true,
+    "NumericCode": "104",
+    "CommonName": "Burma",
+    "RegionInCN": "前缅甸"
+  },
+  {
+    "Alpha2Code": "MM",
+    "CallingCode": "95",
+    "NumericCode": "104",
+    "CommonName": "Myanmar"
+  },
+  {
+    "Alpha2Code": "KH",
+    "CallingCode": "855",
+    "NumericCode": "116",
+    "CommonName": "Cambodia"
+  },
+  {
+    "Alpha2Code": "CA",
+    "CallingCode": "1",
+    "NumericCode": "124",
+    "CommonName": "Canada"
+  },
+  {
+    "Alpha2Code": "CN",
+    "CallingCode": "86",
+    "NumericCode": "156",
+    "CommonName": "China",
+    "RegionInCN": "中国大陆",
+    "RegionInNative": "中国",
+    "Languages": [
+      "Mandarin Chinese"
+    ]
+  },
+  {
+    "Alpha2Code": "TW",
+    "CallingCode": "886",
+    "NumericCode": "158",
+    "CommonName": "Taiwan",
+    "RegionInCN": "中国台湾",
+    "RegionInNative": "臺灣",
+    "Languages": [
+      "Chinese"
+    ]
+  },
+  {
+    "Alpha2Code": "CD",
+    "NumericCode": "180",
+    "CommonName": "Congo Kinshasa"
+  },
+  {
+    "Alpha2Code": "CZ",
+    "NumericCode": "203",
+    "CommonName": "Czech Republic"
+  },
+  {
+    "Alpha2Code": "FR",
+    "CallingCode": "33",
+    "NumericCode": "250",
+    "CommonName": "France"
+  },
+  {
+    "Alpha4code": "FQHH",
+    "NumericCode": "260",
+    "RegionInCN": "前法属南部和南极领地",
+    "CommonName": "French Southern and Antarctic Territories"
+  },
+  {
+    "Alpha2Code": "DE",
+    "CallingCode": "49",
+    "NumericCode": "276",
+    "CommonName": "Germany"
+  },
+  {
+    "_comment": "7 October 1949 ~ 3 October 1990, https://en.wikipedia.org/wiki/East_Germany",
+    "Alpha4code": "DDDE",
+    "Independent": true,
+    "Languages": [
+      "German"
+    ],
+    "NumericCode": "278",
+    "CommonName": "East Germany",
+    "RegionInCN": "东德",
+    "ShortName": "German Democratic Republic"
+  },
+  {
+    "_comment": "23 May 1949 ~ 3 October 1990, https://en.wikipedia.org/wiki/West_Germany",
+    "Alpha3code": "XWG",
+    "Independent": true,
+    "Languages": [
+      "German"
+    ],
+    "CommonName": "West Germany",
+    "RegionInCN": "西德",
+    "ShortName": "Federal Republic of Germany"
+  },
+  {
+    "Alpha2Code": "HK",
+    "CallingCode": "852",
+    "NumericCode": "344",
+    "CommonName": "Hong Kong",
+    "RegionInCN": "中国香港",
+    "RegionInNative": "香港",
+    "Languages": [
+      "English",
+      "Cantonese"
+    ]
+  },
+  {
+    "Alpha2Code": "ID",
+    "CallingCode": "62",
+    "NumericCode": "360",
+    "CommonName": "Indonesia"
+  },
+  {
+    "Alpha2Code": "IR",
+    "NumericCode": "364",
+    "CommonName": "Iran"
+  },
+  {
+    "Alpha2Code": "IT",
+    "CallingCode": "39",
+    "NumericCode": "380",
+    "CommonName": "Italy"
+  },
+  {
+    "Alpha2Code": "CI",
+    "NumericCode": "384",
+    "CommonName": "Ivory Coast"
+  },
+  {
+    "Alpha2Code": "JP",
+    "CallingCode": "81",
+    "NumericCode": "392",
+    "CommonName": "Japan"
+  },
+  {
+    "Alpha2Code": "KP",
+    "NumericCode": "408",
+    "CommonName": "North Korea",
+    "RegionInCN": "北韩"
+  },
+  {
+    "Alpha2Code": "KR",
+    "CallingCode": "82",
+    "NumericCode": "410",
+    "CommonName": "South Korea",
+    "RegionInCN": "南韩"
+  },
+  {
+    "Alpha2Code": "MO",
+    "CallingCode": "853",
+    "NumericCode": "446",
+    "CommonName": "Macao",
+    "RegionInCN": "中国澳门",
+    "RegionInNative": "中國澳門"
+  },
+  {
+    "Alpha2Code": "MG",
+    "CallingCode": "261",
+    "NumericCode": "450",
+    "CommonName": "Madagascar"
+  },
+  {
+    "Alpha2Code": "MY",
+    "CallingCode": "60",
+    "NumericCode": "458",
+    "CommonName": "Malaysia"
+  },
+  {
+    "Alpha2Code": "LA",
+    "CallingCode": "856",
+    "NumericCode": "481",
+    "CommonName": "Laos"
+  },
+  {
+    "Alpha2Code": "CW",
+    "NumericCode": "531",
+    "CommonName": "Curacao"
+  },
+  {
+    "Alpha2Code": "BQ",
+    "NumericCode": "535",
+    "CommonName": "Caribbean Netherlands"
+  },
+  {
+    "Alpha2Code": "NZ",
+    "CallingCode": "64",
+    "NumericCode": "554",
+    "CommonName": "New Zealand"
+  },
+  {
+    "Alpha2Code": "PA",
+    "CallingCode": "507",
+    "NumericCode": "591",
+    "CommonName": "Panama"
+  },
+  {
+    "Alpha2Code": "PH",
+    "CallingCode": "63",
+    "NumericCode": "608",
+    "CommonName": "Philippines"
+  },
+  {
+    "Alpha2Code": "PN",
+    "NumericCode": "612",
+    "CommonName": "Pitcairn Islands"
+  },
+  {
+    "Alpha4code": "TPTL",
+    "NumericCode": "626",
+    "CommonName": "East Timor",
+    "RegionInCN": "东帝汶省"
+  },
+  {
+    "Alpha2Code": "RU",
+    "CallingCode": "7",
+    "NumericCode": "643",
+    "CommonName": "Russia"
+  },
+  {
+    "Alpha2Code": "SA",
+    "CallingCode": "966",
+    "NumericCode": "682",
+    "CommonName": "Saudi Arabia"
+  },
+  {
+    "Alpha2Code": "SG",
+    "CallingCode": "65",
+    "NumericCode": "702",
+    "CommonName": "Singapore"
+  },
+  {
+    "Alpha2Code": "VN",
+    "CallingCode": "84",
+    "NumericCode": "704",
+    "CommonName": "Viet Nam"
+  },
+  {
+    "Alpha2Code": "ZA",
+    "CallingCode": "27",
+    "NumericCode": "710",
+    "CommonName": "South Africa"
+  },
+  {
+    "Alpha2Code": "ES",
+    "CallingCode": "34",
+    "NumericCode": "724",
+    "CommonName": "Spain"
+  },
+  {
+    "Alpha2Code": "TH",
+    "CallingCode": "66",
+    "NumericCode": "764",
+    "CommonName": "Thailand"
+  },
+  {
+    "Alpha2Code": "AE",
+    "CallingCode": "971",
+    "NumericCode": "784",
+    "CommonName": "United Arab Emirates"
+  },
+  {
+    "Alpha2Code": "TR",
+    "CallingCode": "90",
+    "NumericCode": "792",
+    "CommonName": "Turkey"
+  },
+  {
+    "Alpha2Code": "SU",
+    "Alpha3code": "SUN",
+    "Alpha4code": "SUHH",
+    "Independent": true,
+    "NumericCode": "810",
+    "CommonName": "Soviet Union",
+    "ShortName": "USSR",
+    "RegionInCN": "苏联"
+  },
+  {
+    "Alpha2Code": "GB",
+    "CallingCode": "44",
+    "NumericCode": "826",
+    "CommonName": "United Kingdom"
+  },
+  {
+    "Alpha2Code": "TZ",
+    "NumericCode": "834",
+    "CommonName": "Tanzania"
+  },
+  {
+    "Alpha2Code": "US",
+    "CallingCode": "1",
+    "NumericCode": "840",
+    "CommonName": "United States"
+  },
+  {
+    "Alpha2Code": "VI",
+    "NumericCode": "850",
+    "CommonName": "Virgin Islands"
+  }
+]
