@@ -13,6 +13,9 @@ type ICurrencyCode interface {
 
 	GetCurrency() string
 	SetCurrency(v string)
+
+	GetEntities() []string
+	SetEntities(v []string)
 }
 
 type IIso4217Extended interface {

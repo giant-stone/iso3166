@@ -2,6 +2,7 @@ package iso4217
 
 import (
 	"os"
+	"sort"
 	"testing"
 
 	"github.com/stretchr/testify/require"
@@ -105,22 +106,27 @@ func TestParseRegionNameOrCodeFromString(t *testing.T) {
 	}
 }
 
-func TestParser_ParseWikipediaHtml(t *testing.T) {
+func TestParser_ParseWikipediaHtmlAndGroupBy(t *testing.T) {
 	tt.Setup(t)
 
 	type args struct {
 		filepath string
+		groupBy  iso.GroupBy
 	}
 	tests := []struct {
-		name    string
-		args    args
-		wantT   iso.ITable
-		wantErr bool
+		name      string
+		args      args
+		wantT     iso.ITable
+		wantTotal int
+		wantErr   bool
 	}{
 		{
-			name: "",
-			args: args{filepath: "../../test_data/en.wikipedia.org/wiki/ISO_4217.250305.html"},
-			wantT: iso.NewTable("").Load(map[string]iso.IEntity{
+			name: "GroupByIso3166CodeOrVariantName",
+			args: args{
+				filepath: "../../test_data/en.wikipedia.org/wiki/ISO_4217.250305.html",
+				groupBy:  iso.GroupByIso3166CodeOrVariantName,
+			},
+			wantT: iso.NewTable("").SetGroupBy(iso.GroupByIso3166CodeOrVariantName).Load(map[string]iso.IEntity{
 				"CW": &iso.Entity{
 					Alpha2Code: "CW", ShortName: "Curaçao", AlphabeticCode: "ANG", NumericCode4217: "532", Currency: "Netherlands Antillean guilder", MinorUnit: 2,
 				},
@@ -137,7 +143,34 @@ func TestParser_ParseWikipediaHtml(t *testing.T) {
 				"Japan":       &iso.Entity{Alpha2Code: "", ShortName: "Japan", AlphabeticCode: "JPY", NumericCode4217: "392", Currency: "Japanese yen", MinorUnit: 0},
 				"South Korea": &iso.Entity{Alpha2Code: "", ShortName: "South Korea", AlphabeticCode: "KRW", NumericCode4217: "410", Currency: "South Korean won", MinorUnit: 0},
 			}),
-			wantErr: false,
+			wantTotal: 7,
+			wantErr:   false,
+		},
+
+		{
+			name: "GroupByIso4217AlphabeticCode",
+			args: args{
+				filepath: "../../test_data/en.wikipedia.org/wiki/ISO_4217.250305.html",
+				groupBy:  iso.GroupByIso4217AlphabeticCode,
+			},
+			wantT: iso.NewTable("").SetGroupBy(iso.GroupByIso4217AlphabeticCode).Load(map[string]iso.IEntity{
+				"ANG": &iso.Entity{
+					AlphabeticCode: "ANG", NumericCode4217: "532", Currency: "Netherlands Antillean guilder", MinorUnit: 2,
+					Entities: []string{"CW", "SX"},
+				},
+
+				"CHF": &iso.Entity{
+					AlphabeticCode: "CHF", NumericCode4217: "756", Currency: "Swiss franc", MinorUnit: 2,
+					Entities: []string{"Switzerland", "LI"},
+				},
+
+				"HKD": &iso.Entity{
+					AlphabeticCode: "HKD", NumericCode4217: "344", Currency: "Hong Kong dollar", MinorUnit: 2,
+					Entities: []string{"Hong Kong"},
+				},
+			}),
+			wantTotal: 3,
+			wantErr:   false,
 		},
 	}
 	for _, tt := range tests {
@@ -146,6 +179,8 @@ func TestParser_ParseWikipediaHtml(t *testing.T) {
 			require.NoError(t, err)
 
 			i := New()
+			i.GetTable().SetGroupBy(tt.args.groupBy)
+
 			gotT, err := i.ParseWikipediaHtml(data)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("Parser.ParseWikipediaHtml() error = %v, wantErr %v", err, tt.wantErr)
@@ -153,10 +188,20 @@ func TestParser_ParseWikipediaHtml(t *testing.T) {
 			}
 
 			m := gotT.Map()
-			require.LessOrEqual(t, TOTAL_ENTITY, len(m))
+			require.LessOrEqual(t, tt.wantTotal, len(m))
+			require.Equal(t, tt.wantTotal, len(tt.wantT.Map()))
 
 			for code, wantEntity := range tt.wantT.Map() {
 				if gotEntity, ok := m[code]; ok {
+
+					entities := gotEntity.GetEntities()
+					sort.Strings(entities)
+					gotEntity.SetEntities(entities)
+
+					entities = wantEntity.GetEntities()
+					sort.Strings(entities)
+					wantEntity.SetEntities(entities)
+
 					require.Equal(t, wantEntity, gotEntity, "code=%s", code)
 				} else {
 					t.Errorf("entity code %s not found in want", code)

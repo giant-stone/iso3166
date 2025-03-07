@@ -1624,33 +1624,6 @@ var (
 		CurrencyInCN: "",
 	}
 
-	Czechoslovakia = &iso.Entity{
-		Alpha2Code:  "CS",
-		Alpha3Code:  "CSK",
-		Alpha4Code:  "CSHH",
-		Independent: false,
-		NumericCode: "200",
-		ShortName:   "Czechoslovakia",
-
-		PeriodOfValidity: "1974–1993",
-
-		Alias:                    []string{},
-		CommonName:               "Czechoslovakia",
-		CommonNameInAlphaNumeric: "Czechoslovakia",
-		CallingCode:              "",
-		Languages:                []string{},
-
-		RegionInCN:     "捷克斯洛伐克",
-		RegionInNative: "",
-
-		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
-		Currency:        "",
-
-		CurrencyInCN: "",
-	}
-
 	Dahomey = &iso.Entity{
 		Alpha2Code:  "DY",
 		Alpha3Code:  "DHY",
@@ -5809,6 +5782,33 @@ var (
 		CurrencyInCN: "",
 	}
 
+	SerbiaAndMontenegro = &iso.Entity{
+		Alpha2Code:  "CS",
+		Alpha3Code:  "SCG",
+		Alpha4Code:  "CSXX",
+		Independent: false,
+		NumericCode: "891",
+		ShortName:   "Serbia and Montenegro",
+
+		PeriodOfValidity: "2003–2006",
+
+		Alias:                    []string{},
+		CommonName:               "Serbia And Montenegro",
+		CommonNameInAlphaNumeric: "SerbiaAndMontenegro",
+		CallingCode:              "",
+		Languages:                []string{},
+
+		RegionInCN:     "塞尔维亚和黑山",
+		RegionInNative: "",
+
+		AlphabeticCode:  "",
+		NumericCode4217: "",
+		MinorUnit:       0,
+		Currency:        "",
+
+		CurrencyInCN: "",
+	}
+
 	Seychelles = &iso.Entity{
 		Alpha2Code:  "SC",
 		Alpha3Code:  "SYC",
@@ -7550,8 +7550,6 @@ var (
 		"CW":   Curacao,
 		"CY":   Cyprus,
 		"CZ":   CzechRepublic,
-		"CS":   Czechoslovakia,
-		"CSHH": Czechoslovakia,
 		"DY":   Dahomey,
 		"DYBJ": Dahomey,
 		"DK":   Denmark,
@@ -7721,6 +7719,8 @@ var (
 		"SA":   SaudiArabia,
 		"SN":   Senegal,
 		"RS":   Serbia,
+		"CS":   SerbiaAndMontenegro,
+		"CSXX": SerbiaAndMontenegro,
 		"SC":   Seychelles,
 		"SL":   SierraLeone,
 		"SK":   Sikkim,
@@ -7858,7 +7858,6 @@ var (
 		"库拉索":          Curacao,
 		"塞浦路斯":         Cyprus,
 		"捷克":           CzechRepublic,
-		"捷克斯洛伐克":       Czechoslovakia,
 		"达荷美":          Dahomey,
 		"丹麦":           Denmark,
 		"吉布提":          Djibouti,
@@ -8013,6 +8012,7 @@ var (
 		"沙特阿拉伯":              SaudiArabia,
 		"塞内加尔":               Senegal,
 		"塞尔维亚":               Serbia,
+		"塞尔维亚和黑山":            SerbiaAndMontenegro,
 		"塞舌尔":                Seychelles,
 		"塞拉利昂":               SierraLeone,
 		"锡金":                 Sikkim,
@@ -8140,7 +8140,6 @@ var (
 		"Curacao":                                Curacao,
 		"Cyprus":                                 Cyprus,
 		"CzechRepublic":                          CzechRepublic,
-		"Czechoslovakia":                         Czechoslovakia,
 		"Dahomey":                                Dahomey,
 		"Denmark":                                Denmark,
 		"Djibouti":                               Djibouti,
@@ -8295,6 +8294,7 @@ var (
 		"SaudiArabia":                            SaudiArabia,
 		"Senegal":                                Senegal,
 		"Serbia":                                 Serbia,
+		"SerbiaAndMontenegro":                    SerbiaAndMontenegro,
 		"Seychelles":                             Seychelles,
 		"SierraLeone":                            SierraLeone,
 		"Sikkim":                                 Sikkim,

@@ -137,12 +137,16 @@ func main() {
 	}
 
 	if len(doGenStds) > 0 && len(mapLangToSaveTo) > 0 {
-		genIso3166Extended(doGenStds, mapLangToSaveTo)
+		genIso3166Extended(doGenStds, mapLangToSaveTo, override)
+	}
+
+	if _, ok := doGenStds[parser_iso4217.STANDARD_ISO_4217]; ok {
+		genIso4217Extended(mapLangToSaveTo, pathPatch, override)
 	}
 }
 
-func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[string]string) {
-	mergeTable := iso.NewTable(STANDARD_3166_EXTENDED)
+func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[string]string, override bool) {
+	tableMerge := iso.NewTable(STANDARD_3166_EXTENDED).SetGroupBy(iso.GroupByIso3166CodeOrVariantName)
 
 	for _, std := range []string{
 		// Keep following in order.
@@ -156,6 +160,7 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 			gutil.ExitOnErr(err)
 
 			p := mapStdToParser[std]
+			p.GetTable().SetGroupBy(iso.GroupByIso3166CodeOrVariantName)
 			t, err := p.ParseWikipediaHtml(body)
 			gutil.ExitOnErr(err)
 
@@ -163,9 +168,9 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 			if std != parser_iso4217.STANDARD_ISO_4217 {
 				action = iso.MergeActionMerge
 			} else {
-				action = iso.MergeActionOnlyOverwriteBy4217
+				action = iso.MergeActionFillWithIso4217
 			}
-			mergeTable.MergeTable(t, action)
+			tableMerge.MergeTable(t, action)
 
 			m := t.Map()
 			glogging.Sugared.Infof("Merged ISO standard %s %d entities with action %d.", std, len(m), action)
@@ -173,7 +178,7 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 	}
 
 	if pathPatch != "" {
-		mergeTable.MergeFromJson(pathPatch, iso.MergeActionMerge)
+		tableMerge.MergeFromJson(pathPatch, iso.MergeActionMerge)
 	}
 
 	mapLangToGenerator := map[string]FuncNewGenerator{
@@ -192,9 +197,9 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 		saveTo := mapLangToSaveTo[lang]
 		funcNewGenerator := mapLangToGenerator[lang]
 		filenameTemplate := mapLangToFilenameTemplate[lang]
-		g := funcNewGenerator(mergeTable)
+		g := funcNewGenerator(tableMerge)
 
-		fullPath := path.Join(saveTo, fmt.Sprintf(filenameTemplate, mergeTable.GetStandard()))
+		fullPath := path.Join(saveTo, fmt.Sprintf(filenameTemplate, tableMerge.GetStandard()))
 
 		shouldWriteIt := false
 		if _, err := os.Stat(fullPath); err != nil {
@@ -206,7 +211,80 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 		}
 
 		if shouldWriteIt {
-			g.WriteTo(fullPath, 0755, fmtPretty)
+			err := g.WriteTo(fullPath, 0755, fmtPretty)
+			if err != nil {
+				glogging.Sugared.Fatalf("WriteTo %v, %s", err, fullPath)
+			}
+
+			glogging.Sugared.Infof("Created or updated %s .", fullPath)
+		} else {
+			glogging.Sugared.Infof("Skip write file for %s already exists.", fullPath)
+		}
+	}
+}
+
+func genIso4217Extended(mapLangToSaveTo map[string]string, pathPatch string, override bool) {
+	tableMerge := iso.NewTable(STANDARD_3166_EXTENDED).SetGroupBy(iso.GroupByIso3166CodeOrVariantName)
+
+	sourceFilePathIso3166P1 := defaultMapStdToSourceDataPath[parser_iso3166p1.STANDARD_ISO_3166_PART_1]
+	bodyIso3166P1, err := os.ReadFile(sourceFilePathIso3166P1)
+	gutil.ExitOnErr(err)
+
+	parserIso3166P1 := mapStdToParser[parser_iso3166p1.STANDARD_ISO_3166_PART_1]
+	tableIso3166P1, err := parserIso3166P1.ParseWikipediaHtml(bodyIso3166P1)
+	gutil.ExitOnErr(err)
+
+	tableMerge.MergeTable(tableIso3166P1, iso.MergeActionMerge)
+
+	if pathPatch != "" {
+		tableMerge.MergeFromJson(pathPatch, iso.MergeActionMerge)
+	}
+
+	sourceFilePathIso4217 := defaultMapStdToSourceDataPath[parser_iso4217.STANDARD_ISO_4217]
+	bodyIso4217, err := os.ReadFile(sourceFilePathIso4217)
+	gutil.ExitOnErr(err)
+
+	parser4217 := parser_iso4217.New()
+	parser4217.GetTable().SetGroupBy(iso.GroupByIso4217AlphabeticCode)
+	tableIso4217, err := parser4217.ParseWikipediaHtml(bodyIso4217)
+	gutil.ExitOnErr(err)
+
+	tableIso4217.MergeTable(tableMerge, iso.MergeActionFillWithIso4217)
+
+	mapLangToGenerator := map[string]FuncNewGenerator{
+		LANG_JSON: generator_json.New,
+		LANG_GO:   generator_golang.New,
+		LANG_TS:   generator_typescript.New,
+	}
+
+	mapLangToFilenameTemplate := map[string]string{
+		LANG_JSON: "%s.json",
+		LANG_GO:   "%s.go",
+		LANG_TS:   "%s.ts",
+	}
+
+	for lang := range mapLangToSaveTo {
+		saveTo := mapLangToSaveTo[lang]
+		funcNewGenerator := mapLangToGenerator[lang]
+		filenameTemplate := mapLangToFilenameTemplate[lang]
+		g := funcNewGenerator(tableIso4217)
+
+		fullPath := path.Join(saveTo, fmt.Sprintf(filenameTemplate, tableIso4217.GetStandard()))
+
+		shouldWriteIt := false
+		if _, err := os.Stat(fullPath); err != nil {
+			if errors.Is(err, os.ErrNotExist) {
+				shouldWriteIt = true
+			}
+		} else if override {
+			shouldWriteIt = true
+		}
+
+		if shouldWriteIt {
+			err = g.WriteTo(fullPath, 0755, fmtPretty)
+			if err != nil {
+				glogging.Sugared.Fatalf("WriteTo %v, %s", err, fullPath)
+			}
 			glogging.Sugared.Infof("Created or updated %s .", fullPath)
 		} else {
 			glogging.Sugared.Infof("Skip write file for %s already exists.", fullPath)

@@ -24,6 +24,7 @@
     "NumericCode4217": "971",
     "MinorUnit": 2,
     "Currency": "Afghan afghani",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -51,6 +52,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -78,6 +80,7 @@
     "NumericCode4217": "008",
     "MinorUnit": 2,
     "Currency": "Albanian lek",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -105,6 +108,7 @@
     "NumericCode4217": "012",
     "MinorUnit": 2,
     "Currency": "Algerian dinar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -132,6 +136,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -159,6 +164,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -186,6 +192,7 @@
     "NumericCode4217": "973",
     "MinorUnit": 2,
     "Currency": "Angolan kwanza",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -213,6 +220,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -240,6 +248,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -267,6 +276,7 @@
     "NumericCode4217": "032",
     "MinorUnit": 2,
     "Currency": "Argentine peso",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -294,6 +304,7 @@
     "NumericCode4217": "051",
     "MinorUnit": 2,
     "Currency": "Armenian dram",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -321,6 +332,7 @@
     "NumericCode4217": "533",
     "MinorUnit": 2,
     "Currency": "Aruban florin",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -348,6 +360,7 @@
     "NumericCode4217": "036",
     "MinorUnit": 2,
     "Currency": "Australian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -375,6 +388,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -402,6 +416,7 @@
     "NumericCode4217": "944",
     "MinorUnit": 2,
     "Currency": "Azerbaijani manat",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -429,6 +444,7 @@
     "NumericCode4217": "044",
     "MinorUnit": 2,
     "Currency": "Bahamian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -456,6 +472,7 @@
     "NumericCode4217": "048",
     "MinorUnit": 3,
     "Currency": "Bahraini dinar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -483,6 +500,7 @@
     "NumericCode4217": "050",
     "MinorUnit": 2,
     "Currency": "Bangladeshi taka",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -510,6 +528,7 @@
     "NumericCode4217": "052",
     "MinorUnit": 2,
     "Currency": "Barbados dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -537,6 +556,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -564,6 +584,7 @@
     "NumericCode4217": "084",
     "MinorUnit": 2,
     "Currency": "Belize dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -591,6 +612,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -618,6 +640,7 @@
     "NumericCode4217": "060",
     "MinorUnit": 2,
     "Currency": "Bermudian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -645,6 +668,7 @@
     "NumericCode4217": "356",
     "MinorUnit": 2,
     "Currency": "Indian rupee",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -672,6 +696,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -699,6 +724,7 @@
     "NumericCode4217": "977",
     "MinorUnit": 2,
     "Currency": "Bosnia and Herzegovina convertible mark",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -726,6 +752,7 @@
     "NumericCode4217": "072",
     "MinorUnit": 2,
     "Currency": "Botswana pula",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -753,6 +780,7 @@
     "NumericCode4217": "578",
     "MinorUnit": 2,
     "Currency": "Norwegian krone",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -780,6 +808,7 @@
     "NumericCode4217": "986",
     "MinorUnit": 2,
     "Currency": "Brazilian real",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -807,6 +836,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -834,6 +864,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -861,6 +892,7 @@
     "NumericCode4217": "975",
     "MinorUnit": 2,
     "Currency": "Bulgarian lev",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -888,6 +920,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -915,6 +948,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -942,6 +976,7 @@
     "NumericCode4217": "108",
     "MinorUnit": 0,
     "Currency": "Burundian franc",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -969,6 +1004,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -996,6 +1032,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1023,6 +1060,7 @@
     "NumericCode4217": "116",
     "MinorUnit": 2,
     "Currency": "Cambodian riel",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1050,6 +1088,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1077,6 +1116,7 @@
     "NumericCode4217": "124",
     "MinorUnit": 2,
     "Currency": "Canadian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1104,6 +1144,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1131,6 +1172,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1158,6 +1200,7 @@
     "NumericCode4217": "136",
     "MinorUnit": 2,
     "Currency": "Cayman Islands dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1185,6 +1228,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1212,6 +1256,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1239,6 +1284,7 @@
     "NumericCode4217": "990",
     "MinorUnit": 4,
     "Currency": "Unidad de Fomento",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1268,6 +1314,7 @@
     "NumericCode4217": "156",
     "MinorUnit": 2,
     "Currency": "Renminbi",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1295,6 +1342,7 @@
     "NumericCode4217": "036",
     "MinorUnit": 2,
     "Currency": "Australian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1322,6 +1370,7 @@
     "NumericCode4217": "036",
     "MinorUnit": 2,
     "Currency": "Australian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1349,6 +1398,7 @@
     "NumericCode4217": "170",
     "MinorUnit": 2,
     "Currency": "Colombian peso",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1376,6 +1426,7 @@
     "NumericCode4217": "174",
     "MinorUnit": 0,
     "Currency": "Comoro franc",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1403,6 +1454,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1430,6 +1482,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1457,6 +1510,7 @@
     "NumericCode4217": "554",
     "MinorUnit": 2,
     "Currency": "New Zealand dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1484,6 +1538,7 @@
     "NumericCode4217": "188",
     "MinorUnit": 2,
     "Currency": "Costa Rican colon",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1511,6 +1566,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1538,6 +1594,7 @@
     "NumericCode4217": "192",
     "MinorUnit": 2,
     "Currency": "Cuban peso",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1565,6 +1622,7 @@
     "NumericCode4217": "532",
     "MinorUnit": 2,
     "Currency": "Netherlands Antillean guilder",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1592,6 +1650,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1619,33 +1678,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
-    "CurrencyInCN": ""
-  },
-  {
-    "Alpha2Code": "CS",
-    "ShortName": "Czechoslovakia",
-    "ShortNameLowerCase": "",
-    "FullName": "",
-    "Alpha3Code": "CSK",
-    "NumericCode": "200",
-    "Remarks": null,
-    "Independent": false,
-    "Status": "",
-    "Alpha4Code": "CSHH",
-    "PeriodOfValidity": "1974–1993",
-    "Alias": null,
-    "CommonName": "Czechoslovakia",
-    "CommonNameInAlphaNumeric": "Czechoslovakia",
-    "CallingCode": "",
-    "Capital": "",
-    "CapitalInNative": "",
-    "Languages": null,
-    "RegionInCN": "捷克斯洛伐克",
-    "RegionInNative": "",
-    "AlphabeticCode": "",
-    "NumericCode4217": "",
-    "MinorUnit": 0,
-    "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1673,6 +1706,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1700,6 +1734,7 @@
     "NumericCode4217": "208",
     "MinorUnit": 2,
     "Currency": "Danish krone",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1727,6 +1762,7 @@
     "NumericCode4217": "262",
     "MinorUnit": 0,
     "Currency": "Djiboutian franc",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1754,6 +1790,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1781,6 +1818,7 @@
     "NumericCode4217": "214",
     "MinorUnit": 2,
     "Currency": "Dominican peso",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1808,6 +1846,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1837,6 +1876,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1864,6 +1904,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1891,6 +1932,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1918,6 +1960,7 @@
     "NumericCode4217": "818",
     "MinorUnit": 2,
     "Currency": "Egyptian pound",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1945,6 +1988,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1972,6 +2016,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -1999,6 +2044,7 @@
     "NumericCode4217": "232",
     "MinorUnit": 2,
     "Currency": "Eritrean nakfa",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2026,6 +2072,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2053,6 +2100,7 @@
     "NumericCode4217": "710",
     "MinorUnit": 2,
     "Currency": "South African rand",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2080,6 +2128,7 @@
     "NumericCode4217": "230",
     "MinorUnit": 2,
     "Currency": "Ethiopian birr",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2107,6 +2156,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2134,6 +2184,7 @@
     "NumericCode4217": "208",
     "MinorUnit": 2,
     "Currency": "Danish krone",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2161,6 +2212,7 @@
     "NumericCode4217": "242",
     "MinorUnit": 2,
     "Currency": "Fiji dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2188,6 +2240,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2215,6 +2268,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2242,6 +2296,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2269,6 +2324,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2296,6 +2352,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2323,6 +2380,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2350,6 +2408,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2377,6 +2436,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2404,6 +2464,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2431,6 +2492,7 @@
     "NumericCode4217": "270",
     "MinorUnit": 2,
     "Currency": "Gambian dalasi",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2458,6 +2520,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2485,6 +2548,7 @@
     "NumericCode4217": "936",
     "MinorUnit": 2,
     "Currency": "Ghanaian cedi",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2512,6 +2576,7 @@
     "NumericCode4217": "292",
     "MinorUnit": 2,
     "Currency": "Gibraltar pound",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2539,6 +2604,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2566,6 +2632,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2593,6 +2660,7 @@
     "NumericCode4217": "208",
     "MinorUnit": 2,
     "Currency": "Danish krone",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2620,6 +2688,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2647,6 +2716,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2674,6 +2744,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2701,6 +2772,7 @@
     "NumericCode4217": "320",
     "MinorUnit": 2,
     "Currency": "Guatemalan quetzal",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2728,6 +2800,7 @@
     "NumericCode4217": "826",
     "MinorUnit": 2,
     "Currency": "Pound sterling",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2755,6 +2828,7 @@
     "NumericCode4217": "324",
     "MinorUnit": 0,
     "Currency": "Guinean franc",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2782,6 +2856,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2809,6 +2884,7 @@
     "NumericCode4217": "328",
     "MinorUnit": 2,
     "Currency": "Guyanese dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2836,6 +2912,7 @@
     "NumericCode4217": "332",
     "MinorUnit": 2,
     "Currency": "Haitian gourde",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2863,6 +2940,7 @@
     "NumericCode4217": "036",
     "MinorUnit": 2,
     "Currency": "Australian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2890,6 +2968,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2917,6 +2996,7 @@
     "NumericCode4217": "340",
     "MinorUnit": 2,
     "Currency": "Honduran lempira",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2947,6 +3027,7 @@
     "NumericCode4217": "344",
     "MinorUnit": 2,
     "Currency": "Hong Kong dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -2974,6 +3055,7 @@
     "NumericCode4217": "348",
     "MinorUnit": 2,
     "Currency": "Hungarian forint",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3001,6 +3083,7 @@
     "NumericCode4217": "352",
     "MinorUnit": 0,
     "Currency": "Icelandic króna",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3028,6 +3111,7 @@
     "NumericCode4217": "356",
     "MinorUnit": 2,
     "Currency": "Indian rupee",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3055,6 +3139,7 @@
     "NumericCode4217": "360",
     "MinorUnit": 2,
     "Currency": "Indonesian rupiah",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3082,6 +3167,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3109,6 +3195,7 @@
     "NumericCode4217": "368",
     "MinorUnit": 3,
     "Currency": "Iraqi dinar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3136,6 +3223,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3163,6 +3251,7 @@
     "NumericCode4217": "826",
     "MinorUnit": 2,
     "Currency": "Pound sterling",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3190,6 +3279,7 @@
     "NumericCode4217": "376",
     "MinorUnit": 2,
     "Currency": "Israeli new shekel",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3217,6 +3307,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3244,6 +3335,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3271,6 +3363,7 @@
     "NumericCode4217": "388",
     "MinorUnit": 2,
     "Currency": "Jamaican dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3298,6 +3391,7 @@
     "NumericCode4217": "392",
     "MinorUnit": 0,
     "Currency": "Japanese yen",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3325,6 +3419,7 @@
     "NumericCode4217": "826",
     "MinorUnit": 2,
     "Currency": "Pound sterling",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3352,6 +3447,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3379,6 +3475,7 @@
     "NumericCode4217": "400",
     "MinorUnit": 3,
     "Currency": "Jordanian dinar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3406,6 +3503,7 @@
     "NumericCode4217": "398",
     "MinorUnit": 2,
     "Currency": "Kazakhstani tenge",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3433,6 +3531,7 @@
     "NumericCode4217": "404",
     "MinorUnit": 2,
     "Currency": "Kenyan shilling",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3460,6 +3559,7 @@
     "NumericCode4217": "036",
     "MinorUnit": 2,
     "Currency": "Australian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3491,6 +3591,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3518,6 +3619,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3545,6 +3647,7 @@
     "NumericCode4217": "414",
     "MinorUnit": 3,
     "Currency": "Kuwaiti dinar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3572,6 +3675,7 @@
     "NumericCode4217": "417",
     "MinorUnit": 2,
     "Currency": "Kyrgyzstani som",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3599,6 +3703,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3626,6 +3731,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3653,6 +3759,7 @@
     "NumericCode4217": "422",
     "MinorUnit": 2,
     "Currency": "Lebanese pound",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3680,6 +3787,7 @@
     "NumericCode4217": "710",
     "MinorUnit": 2,
     "Currency": "South African rand",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3707,6 +3815,7 @@
     "NumericCode4217": "430",
     "MinorUnit": 2,
     "Currency": "Liberian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3734,6 +3843,7 @@
     "NumericCode4217": "434",
     "MinorUnit": 3,
     "Currency": "Libyan dinar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3761,6 +3871,7 @@
     "NumericCode4217": "756",
     "MinorUnit": 2,
     "Currency": "Swiss franc",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3788,6 +3899,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3815,6 +3927,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3842,6 +3955,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3869,6 +3983,7 @@
     "NumericCode4217": "969",
     "MinorUnit": 0,
     "Currency": "Malagasy ariary",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3896,6 +4011,7 @@
     "NumericCode4217": "454",
     "MinorUnit": 2,
     "Currency": "Malawian kwacha",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3923,6 +4039,7 @@
     "NumericCode4217": "458",
     "MinorUnit": 2,
     "Currency": "Malaysian ringgit",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3950,6 +4067,7 @@
     "NumericCode4217": "462",
     "MinorUnit": 2,
     "Currency": "Maldivian rufiyaa",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -3977,6 +4095,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4004,6 +4123,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4031,6 +4151,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4058,6 +4179,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4085,6 +4207,7 @@
     "NumericCode4217": "929",
     "MinorUnit": 0,
     "Currency": "Mauritanian ouguiya",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4112,6 +4235,7 @@
     "NumericCode4217": "480",
     "MinorUnit": 2,
     "Currency": "Mauritian rupee",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4139,6 +4263,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4166,6 +4291,7 @@
     "NumericCode4217": "484",
     "MinorUnit": 2,
     "Currency": "Mexican peso",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4193,6 +4319,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4220,6 +4347,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4247,6 +4375,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4274,6 +4403,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4301,6 +4431,7 @@
     "NumericCode4217": "496",
     "MinorUnit": 2,
     "Currency": "Mongolian tögrög",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4328,6 +4459,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4355,6 +4487,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4382,6 +4515,7 @@
     "NumericCode4217": "504",
     "MinorUnit": 2,
     "Currency": "Moroccan dirham",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4409,6 +4543,7 @@
     "NumericCode4217": "943",
     "MinorUnit": 2,
     "Currency": "Mozambican metical",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4436,6 +4571,7 @@
     "NumericCode4217": "104",
     "MinorUnit": 2,
     "Currency": "Myanmar kyat",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4463,6 +4599,7 @@
     "NumericCode4217": "710",
     "MinorUnit": 2,
     "Currency": "South African rand",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4490,6 +4627,7 @@
     "NumericCode4217": "036",
     "MinorUnit": 2,
     "Currency": "Australian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4517,6 +4655,7 @@
     "NumericCode4217": "524",
     "MinorUnit": 2,
     "Currency": "Nepalese rupee",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4544,6 +4683,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4571,6 +4711,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4598,6 +4739,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4625,6 +4767,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4652,6 +4795,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4679,6 +4823,7 @@
     "NumericCode4217": "554",
     "MinorUnit": 2,
     "Currency": "New Zealand dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4706,6 +4851,7 @@
     "NumericCode4217": "558",
     "MinorUnit": 2,
     "Currency": "Nicaraguan córdoba",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4733,6 +4879,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4760,6 +4907,7 @@
     "NumericCode4217": "566",
     "MinorUnit": 2,
     "Currency": "Nigerian naira",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4787,6 +4935,7 @@
     "NumericCode4217": "554",
     "MinorUnit": 2,
     "Currency": "New Zealand dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4814,6 +4963,7 @@
     "NumericCode4217": "036",
     "MinorUnit": 2,
     "Currency": "Australian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4841,6 +4991,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4868,6 +5019,7 @@
     "NumericCode4217": "807",
     "MinorUnit": 2,
     "Currency": "Macedonian denar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4895,6 +5047,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4922,6 +5075,7 @@
     "NumericCode4217": "578",
     "MinorUnit": 2,
     "Currency": "Norwegian krone",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4949,6 +5103,7 @@
     "NumericCode4217": "512",
     "MinorUnit": 3,
     "Currency": "Omani rial",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -4976,6 +5131,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5003,6 +5159,7 @@
     "NumericCode4217": "586",
     "MinorUnit": 2,
     "Currency": "Pakistani rupee",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5030,6 +5187,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5057,6 +5215,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5084,6 +5243,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5111,6 +5271,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5138,6 +5299,7 @@
     "NumericCode4217": "598",
     "MinorUnit": 2,
     "Currency": "Papua New Guinean kina",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5165,6 +5327,7 @@
     "NumericCode4217": "600",
     "MinorUnit": 0,
     "Currency": "Paraguayan guaraní",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5192,6 +5355,7 @@
     "NumericCode4217": "604",
     "MinorUnit": 2,
     "Currency": "Peruvian sol",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5219,6 +5383,7 @@
     "NumericCode4217": "608",
     "MinorUnit": 2,
     "Currency": "Philippine peso",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5246,6 +5411,7 @@
     "NumericCode4217": "554",
     "MinorUnit": 2,
     "Currency": "New Zealand dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5273,6 +5439,7 @@
     "NumericCode4217": "985",
     "MinorUnit": 2,
     "Currency": "Polish złoty",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5300,6 +5467,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5327,6 +5495,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5354,6 +5523,7 @@
     "NumericCode4217": "634",
     "MinorUnit": 2,
     "Currency": "Qatari riyal",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5381,6 +5551,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5408,6 +5579,7 @@
     "NumericCode4217": "946",
     "MinorUnit": 2,
     "Currency": "Romanian leu",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5435,6 +5607,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5462,6 +5635,7 @@
     "NumericCode4217": "646",
     "MinorUnit": 0,
     "Currency": "Rwandan franc",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5489,6 +5663,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5516,6 +5691,7 @@
     "NumericCode4217": "826",
     "MinorUnit": 2,
     "Currency": "Pound sterling",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5543,6 +5719,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5570,6 +5747,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5597,6 +5775,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5624,6 +5803,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5651,6 +5831,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5678,6 +5859,7 @@
     "NumericCode4217": "882",
     "MinorUnit": 2,
     "Currency": "Samoan tala",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5705,6 +5887,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5732,6 +5915,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5759,6 +5943,7 @@
     "NumericCode4217": "682",
     "MinorUnit": 2,
     "Currency": "Saudi riyal",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5786,6 +5971,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5813,6 +5999,35 @@
     "NumericCode4217": "941",
     "MinorUnit": 2,
     "Currency": "Serbian dinar",
+    "Entities": null,
+    "CurrencyInCN": ""
+  },
+  {
+    "Alpha2Code": "CS",
+    "ShortName": "Serbia and Montenegro",
+    "ShortNameLowerCase": "",
+    "FullName": "",
+    "Alpha3Code": "SCG",
+    "NumericCode": "891",
+    "Remarks": null,
+    "Independent": false,
+    "Status": "",
+    "Alpha4Code": "CSXX",
+    "PeriodOfValidity": "2003–2006",
+    "Alias": null,
+    "CommonName": "Serbia And Montenegro",
+    "CommonNameInAlphaNumeric": "SerbiaAndMontenegro",
+    "CallingCode": "",
+    "Capital": "",
+    "CapitalInNative": "",
+    "Languages": null,
+    "RegionInCN": "塞尔维亚和黑山",
+    "RegionInNative": "",
+    "AlphabeticCode": "",
+    "NumericCode4217": "",
+    "MinorUnit": 0,
+    "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5840,6 +6055,7 @@
     "NumericCode4217": "690",
     "MinorUnit": 2,
     "Currency": "Seychelles rupee",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5867,6 +6083,7 @@
     "NumericCode4217": "925",
     "MinorUnit": 2,
     "Currency": "Sierra Leonean leone",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5894,6 +6111,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5921,6 +6139,7 @@
     "NumericCode4217": "702",
     "MinorUnit": 2,
     "Currency": "Singapore dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5948,6 +6167,7 @@
     "NumericCode4217": "532",
     "MinorUnit": 2,
     "Currency": "Netherlands Antillean guilder",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -5975,6 +6195,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6002,6 +6223,7 @@
     "NumericCode4217": "090",
     "MinorUnit": 2,
     "Currency": "Solomon Islands dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6029,6 +6251,7 @@
     "NumericCode4217": "706",
     "MinorUnit": 2,
     "Currency": "Somalian shilling",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6056,6 +6279,7 @@
     "NumericCode4217": "710",
     "MinorUnit": 2,
     "Currency": "South African rand",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6083,6 +6307,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6110,6 +6335,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6137,6 +6363,7 @@
     "NumericCode4217": "728",
     "MinorUnit": 2,
     "Currency": "South Sudanese pound",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6164,6 +6391,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6191,6 +6419,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6218,6 +6447,7 @@
     "NumericCode4217": "978",
     "MinorUnit": 2,
     "Currency": "Euro",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6245,6 +6475,7 @@
     "NumericCode4217": "144",
     "MinorUnit": 2,
     "Currency": "Sri Lankan rupee",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6272,6 +6503,7 @@
     "NumericCode4217": "938",
     "MinorUnit": 2,
     "Currency": "Sudanese pound",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6299,6 +6531,7 @@
     "NumericCode4217": "968",
     "MinorUnit": 2,
     "Currency": "Surinamese dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6326,6 +6559,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6353,6 +6587,7 @@
     "NumericCode4217": "752",
     "MinorUnit": 2,
     "Currency": "Swedish krona",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6380,6 +6615,7 @@
     "NumericCode4217": "947",
     "MinorUnit": 2,
     "Currency": "WIR",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6407,6 +6643,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6436,6 +6673,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6463,6 +6701,7 @@
     "NumericCode4217": "972",
     "MinorUnit": 2,
     "Currency": "Tajikistani somoni",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6490,6 +6729,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6517,6 +6757,7 @@
     "NumericCode4217": "764",
     "MinorUnit": 2,
     "Currency": "Thai baht",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6544,6 +6785,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6571,6 +6813,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6598,6 +6841,7 @@
     "NumericCode4217": "554",
     "MinorUnit": 2,
     "Currency": "New Zealand dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6625,6 +6869,7 @@
     "NumericCode4217": "776",
     "MinorUnit": 2,
     "Currency": "Tongan paʻanga",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6652,6 +6897,7 @@
     "NumericCode4217": "780",
     "MinorUnit": 2,
     "Currency": "Trinidad and Tobago dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6679,6 +6925,7 @@
     "NumericCode4217": "788",
     "MinorUnit": 3,
     "Currency": "Tunisian dinar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6706,6 +6953,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6733,6 +6981,7 @@
     "NumericCode4217": "934",
     "MinorUnit": 2,
     "Currency": "Turkmenistan manat",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6760,6 +7009,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6787,6 +7037,7 @@
     "NumericCode4217": "036",
     "MinorUnit": 2,
     "Currency": "Australian dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6814,6 +7065,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6841,6 +7093,7 @@
     "NumericCode4217": "800",
     "MinorUnit": 0,
     "Currency": "Ugandan shilling",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6868,6 +7121,7 @@
     "NumericCode4217": "980",
     "MinorUnit": 2,
     "Currency": "Ukrainian hryvnia",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6895,6 +7149,7 @@
     "NumericCode4217": "784",
     "MinorUnit": 2,
     "Currency": "United Arab Emirates dirham",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6922,6 +7177,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6949,6 +7205,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -6976,6 +7233,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7003,6 +7261,7 @@
     "NumericCode4217": "840",
     "MinorUnit": 2,
     "Currency": "United States dollar",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7030,6 +7289,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7057,6 +7317,7 @@
     "NumericCode4217": "858",
     "MinorUnit": 2,
     "Currency": "Uruguayan peso",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7084,6 +7345,7 @@
     "NumericCode4217": "860",
     "MinorUnit": 2,
     "Currency": "Uzbekistani sum",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7111,6 +7373,7 @@
     "NumericCode4217": "548",
     "MinorUnit": 0,
     "Currency": "Vanuatu vatu",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7138,6 +7401,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7165,6 +7429,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7192,6 +7457,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7219,6 +7485,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7246,6 +7513,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7273,6 +7541,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7302,6 +7571,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7329,6 +7599,7 @@
     "NumericCode4217": "504",
     "MinorUnit": 2,
     "Currency": "Moroccan dirham",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7356,6 +7627,7 @@
     "NumericCode4217": "886",
     "MinorUnit": 2,
     "Currency": "Yemeni rial",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7383,6 +7655,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7410,6 +7683,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7437,6 +7711,7 @@
     "NumericCode4217": "",
     "MinorUnit": 0,
     "Currency": "",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7464,6 +7739,7 @@
     "NumericCode4217": "967",
     "MinorUnit": 2,
     "Currency": "Zambian kwacha",
+    "Entities": null,
     "CurrencyInCN": ""
   },
   {
@@ -7491,6 +7767,7 @@
     "NumericCode4217": "924",
     "MinorUnit": 2,
     "Currency": "Zimbabwe Gold",
+    "Entities": null,
     "CurrencyInCN": ""
   }
 ]

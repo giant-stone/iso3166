@@ -8,9 +8,9 @@ import (
 	"github.com/giant-stone/iso3166/iso"
 )
 
-func TestTable_Merge(t *testing.T) {
+func TestTable_MergeActionMerge(t *testing.T) {
 	type fields struct {
-		MapKeyIsAlpha2Code map[string]iso.IEntity
+		MapEntities map[string]iso.IEntity
 	}
 	type args struct {
 		srcItems map[string]iso.IEntity
@@ -26,7 +26,7 @@ func TestTable_Merge(t *testing.T) {
 		{
 			name: "override the CommonName field value",
 			fields: fields{
-				MapKeyIsAlpha2Code: map[string]iso.IEntity{
+				MapEntities: map[string]iso.IEntity{
 					"CN": &iso.Entity{Alpha2Code: "CN", CommonName: "China"},
 					"JP": &iso.Entity{Alpha2Code: "JP", CommonName: "Japan"},
 					"KR": &iso.Entity{Alpha2Code: "KR", CommonName: "Korea (Republic of)"},
@@ -49,7 +49,7 @@ func TestTable_Merge(t *testing.T) {
 		{
 			name: "auto deduplicate",
 			fields: fields{
-				MapKeyIsAlpha2Code: map[string]iso.IEntity{
+				MapEntities: map[string]iso.IEntity{
 					"CN": &iso.Entity{Alpha2Code: "CN", CommonName: "China"},
 					"JP": &iso.Entity{Alpha2Code: "JP", CommonName: "Japan"},
 					"KR": &iso.Entity{Alpha2Code: "KR", CommonName: "South Korea"},
@@ -71,10 +71,10 @@ func TestTable_Merge(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			i := iso.NewTable("").Load(tt.fields.MapKeyIsAlpha2Code)
-			i.Merge(tt.args.srcItems, tt.args.action)
+			myTable := iso.NewTable("").SetGroupBy(iso.GroupByIso3166CodeOrVariantName).Load(tt.fields.MapEntities)
+			myTable.Merge(tt.args.srcItems, tt.args.action)
 
-			gotEntityMap := i.Map()
+			gotEntityMap := myTable.Map()
 			require.Equal(t, len(tt.wantEntities), len(gotEntityMap))
 
 			for key, wantEntity := range tt.wantEntities {
@@ -85,13 +85,14 @@ func TestTable_Merge(t *testing.T) {
 	}
 }
 
-func TestTable_Merge3166And4217(t *testing.T) {
+func TestTable_MergeActionFillWithIso4217(t *testing.T) {
 	type fields struct {
-		MapKeyIsAlpha2Code map[string]iso.IEntity
+		destItems map[string]iso.IEntity
 	}
 	type args struct {
 		srcItems map[string]iso.IEntity
 		action   iso.MergeAction
+		groupBy  iso.GroupBy
 	}
 	tests := []struct {
 		name   string
@@ -99,12 +100,13 @@ func TestTable_Merge3166And4217(t *testing.T) {
 		args   args
 
 		wantEntities map[string]iso.IEntity
+		wantTotal    int
 	}{
 		{
-			name: "Merge ISO 3166 with ISO 4217",
+			name: "test action iso.MergeActionFillWithIso4217",
 			// ISO 3166 part 1
 			fields: fields{
-				MapKeyIsAlpha2Code: map[string]iso.IEntity{
+				destItems: map[string]iso.IEntity{
 					"CN": &iso.Entity{
 						Alpha2Code: "CN", Alpha3Code: "CHN", Independent: true, NumericCode: "156", ShortName: "China", CommonName: "China", CommonNameInAlphaNumeric: "China", RegionInCN: "中国",
 					},
@@ -128,40 +130,95 @@ func TestTable_Merge3166And4217(t *testing.T) {
 						Alpha2Code: "CW", ShortName: "Curaçao", AlphabeticCode: "ANG", NumericCode4217: "532", Currency: "Netherlands Antillean guilder", MinorUnit: 2,
 					},
 				},
-				action: iso.MergeActionOnlyOverwriteBy4217,
+				action:  iso.MergeActionFillWithIso4217,
+				groupBy: iso.GroupByIso3166CodeOrVariantName,
 			},
 
 			wantEntities: map[string]iso.IEntity{
 				"CN": &iso.Entity{
-					// iso3166 field
+					// iso3166 fields
 					Alpha2Code: "CN", Alpha3Code: "CHN", Independent: true, NumericCode: "156", ShortName: "China", CommonName: "China", CommonNameInAlphaNumeric: "China", RegionInCN: "中国",
 
-					// 4217 field
+					// 4217 fields
 					AlphabeticCode: "CNY", NumericCode4217: "156", Currency: "Renminbi", MinorUnit: 2,
 				},
 
 				"CW": &iso.Entity{
-					// iso3166 field
 					Alpha2Code: "CW", Alpha3Code: "CUW", Independent: true, NumericCode: "531", ShortName: "Curaçao", CommonName: "Curacao", CommonNameInAlphaNumeric: "Curacao", RegionInCN: "库拉索",
 
-					// 4217 field
 					AlphabeticCode: "ANG", NumericCode4217: "532", Currency: "Netherlands Antillean guilder", MinorUnit: 2,
 				},
 			},
+
+			wantTotal: 2,
+		},
+
+		{
+			name: "test action iso.MergeActionFillWithIso3166",
+			// ISO 4217
+			fields: fields{
+				destItems: map[string]iso.IEntity{
+					"ANG": &iso.Entity{
+						AlphabeticCode: "ANG", NumericCode4217: "532", Currency: "Netherlands Antillean guilder", MinorUnit: 2,
+						Entities: []string{"CW", "SX"},
+					},
+
+					"HKD": &iso.Entity{
+						AlphabeticCode: "HKD", NumericCode4217: "344", Currency: "Hong Kong dollar", MinorUnit: 2,
+						Entities: []string{"Hong Kong"},
+					},
+				},
+			},
+
+			// ISO 3166 part 1
+			args: args{
+				srcItems: map[string]iso.IEntity{
+					// use alpha-2 code as key
+					"HK": &iso.Entity{
+						Alpha2Code: "HK", Alpha3Code: "HKG", Independent: false, NumericCode: "344", ShortName: "Hong Kong", CommonName: "Hong Kong", CommonNameInAlphaNumeric: "HongKong", RegionInCN: "香港",
+					},
+				},
+				action:  iso.MergeActionFillWithIso3166,
+				groupBy: iso.GroupByIso4217AlphabeticCode,
+			},
+
+			wantEntities: map[string]iso.IEntity{
+				"ANG": &iso.Entity{
+					// 4217 fields
+					AlphabeticCode: "ANG", NumericCode4217: "532", Currency: "Netherlands Antillean guilder", MinorUnit: 2,
+
+					// They are no changes since they already are ISO 3166 alpha-2 codes.
+					Entities: []string{"CW", "SX"},
+				},
+
+				"HKD": &iso.Entity{
+					// 4217 fields
+					AlphabeticCode: "HKD", NumericCode4217: "344", Currency: "Hong Kong dollar", MinorUnit: 2,
+
+					// The common name "Hong Kong" should be replace with alpha-2 code "HK".
+					Entities: []string{"HK"},
+				},
+			},
+
+			wantTotal: 2,
 		},
 	}
-	for _, tt := range tests {
+	for idx, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			i := iso.NewTable("").Load(tt.fields.MapKeyIsAlpha2Code)
-			i.Merge(tt.args.srcItems, tt.args.action)
+			myTable := iso.NewTable("").SetGroupBy(tt.args.groupBy).Load(tt.fields.destItems)
+			myTable.Merge(tt.args.srcItems, tt.args.action)
 
-			gotEntityMap := i.Map()
-			require.Len(t, gotEntityMap, 2)
-			require.Equal(t, 2, len(gotEntityMap))
+			gotEntityMap := myTable.Map()
+			require.Equal(t, tt.wantTotal, len(gotEntityMap), "idx=%d", idx)
 
 			for key, wantEntity := range tt.wantEntities {
-				gotEntity := gotEntityMap[wantEntity.GetAlpha2Code()]
-				require.Equal(t, wantEntity, gotEntity, "key=%s", key)
+				var gotEntity iso.IEntity
+				if tt.args.groupBy == iso.GroupByIso3166CodeOrVariantName {
+					gotEntity = gotEntityMap[wantEntity.GetAlpha2Code()]
+				} else if tt.args.groupBy == iso.GroupByIso4217AlphabeticCode {
+					gotEntity = gotEntityMap[wantEntity.GetAlphabeticCode()]
+				}
+				require.Equal(t, wantEntity, gotEntity, "idx=%d key=%s", idx, key)
 			}
 		})
 	}

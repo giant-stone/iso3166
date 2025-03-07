@@ -7,6 +7,13 @@ import (
 	"sort"
 )
 
+type GroupBy string
+
+const (
+	GroupByIso3166CodeOrVariantName GroupBy = "GroupByIso3166CodeOrVariantName"
+	GroupByIso4217AlphabeticCode    GroupBy = "GroupByIso4217AlphabeticCode"
+)
+
 type MergeAction int
 
 func (m MergeAction) String() string {
@@ -15,29 +22,28 @@ func (m MergeAction) String() string {
 
 const (
 	MergeActionUnspecified MergeAction = 0
-	MergeActionAuto        MergeAction = 0
 
-	MergeActionSkip  MergeAction = 1 // Skip merge the item if it is duplicated.
-	MergeActionMerge MergeAction = 2 // Merge the item of src into dest if it is duplicated.
+	MergeActionSkip MergeAction = 1 // Skip the merge if it is duplicate.
 
-	MergeActionOnlyOverwriteBy4217 MergeAction = 3 // Overwrite the dest item with src ISO 4217 if it is duplicated.
+	// This options only work with GroupByIso3166CodeOrVariantName.
+	MergeActionMerge           MergeAction = 2 // Merge src into dest if it is duplicate.
+	MergeActionFillWithIso4217 MergeAction = 3 // Fill the dest ISO 4217 related fields with src's if it is duplicate.
 
-	MergeActionOnlyOverwriteCapitalsAndLangs MergeAction = 4
+	// This option only works with GroupByIso4217AlphabeticCode.
+	MergeActionFillWithIso3166 MergeAction = 4 // Fill the dest ISO 3166 related fields with src's if it is duplicate.
+
+	MergeActionOnlyOverwriteCapitalsAndLangs MergeAction = 10
 )
 
 type ITable interface {
+	GetGroupBy() GroupBy
+	SetGroupBy(v GroupBy) ITable
+
 	GetStandard() string
 	SetStandard(s string) ITable
 
 	Put(value IEntity) (codeIsDuplicated, shortNameIsDuplicated, commonNameIsDuplicated bool)
 	Del(value IEntity)
-
-	GetByAlpha2Code(s string) IEntity
-	GetByAlpha3Code(s string) IEntity
-	GetByAlpha4Code(s string) IEntity
-
-	GetByCode(s string) IEntity
-	GetByVariantName(s string) IEntity
 
 	Load(rs map[string]IEntity) ITable
 	LoadFromJson(name string) error
@@ -48,14 +54,44 @@ type ITable interface {
 	Merge(value map[string]IEntity, action MergeAction) ITable
 	MergeTable(t ITable, action MergeAction) ITable
 	MergeFromJson(name string, action MergeAction) ITable
+
+	// For ISO 3166
+	GetByAlpha2Code(s string) IEntity
+	GetByAlpha3Code(s string) IEntity
+	GetByAlpha4Code(s string) IEntity
+
+	GetByCode(s string) IEntity
+	GetByVariantName(s string) IEntity
+
+	// For ISO 4217
+	GetByAlphabeticCode(s string) IEntity
 }
 
 type Table struct {
+	GroupBy GroupBy
+
 	Std string
 
-	MapKeyIsCode map[string]IEntity
+	MapKeyIsIso3166Code        map[string]IEntity
+	MapKeyIsIso3166VariantName map[string]IEntity
 
-	MapKeyIsVariantName map[string]IEntity
+	MapKeyIsIso4217AlphabeticCode map[string]IEntity
+}
+
+// GetByAlphabeticCode implements ITable.
+func (i *Table) GetByAlphabeticCode(s string) IEntity {
+	return i.MapKeyIsIso4217AlphabeticCode[s]
+}
+
+// GetGroupBy implements ITable.
+func (i *Table) GetGroupBy() GroupBy {
+	return i.GroupBy
+}
+
+// SetGroupBy implements ITable.
+func (i *Table) SetGroupBy(v GroupBy) ITable {
+	i.GroupBy = v
+	return i
 }
 
 // MergeTable implements ITable.
@@ -119,26 +155,34 @@ func (i *Table) LoadFromJson(name string) (err error) {
 
 // Put implements ITable.
 func (i *Table) Put(value IEntity) (codeIsDuplicated, shortNameIsDuplicated, commonNameIsDuplicated bool) {
-	if code := value.Code(); code != "" {
-		_, codeIsDuplicated = i.MapKeyIsCode[code]
+	if i.GroupBy == GroupByIso3166CodeOrVariantName {
+		if code := value.Code(); code != "" {
+			_, codeIsDuplicated = i.MapKeyIsIso3166Code[code]
 
-		AutoFillCommonNamesFromShortName(value)
+			AutoFillCommonNamesFromShortName(value)
 
-		i.MapKeyIsCode[code] = value
-	}
+			i.MapKeyIsIso3166Code[code] = value
+		}
 
-	if shortName := value.GetShortName(); shortName != "" {
-		_, shortNameIsDuplicated = i.MapKeyIsVariantName[shortName]
+		if shortName := value.GetShortName(); shortName != "" {
+			_, shortNameIsDuplicated = i.MapKeyIsIso3166VariantName[shortName]
 
-		AutoFillCommonNamesFromShortName(value)
+			AutoFillCommonNamesFromShortName(value)
 
-		i.MapKeyIsVariantName[shortName] = value
-	}
+			i.MapKeyIsIso3166VariantName[shortName] = value
+		}
 
-	if commonName := value.GetCommonName(); commonName != "" {
-		_, commonNameIsDuplicated = i.MapKeyIsVariantName[commonName]
+		if commonName := value.GetCommonName(); commonName != "" {
+			_, commonNameIsDuplicated = i.MapKeyIsIso3166VariantName[commonName]
 
-		i.MapKeyIsVariantName[commonName] = value
+			i.MapKeyIsIso3166VariantName[commonName] = value
+		}
+	} else if i.GroupBy == GroupByIso4217AlphabeticCode {
+		if code := value.GetAlphabeticCode(); code != "" {
+			_, codeIsDuplicated = i.MapKeyIsIso4217AlphabeticCode[code]
+
+			i.MapKeyIsIso4217AlphabeticCode[code] = value
+		}
 	}
 
 	return codeIsDuplicated, shortNameIsDuplicated, commonNameIsDuplicated
@@ -146,16 +190,23 @@ func (i *Table) Put(value IEntity) (codeIsDuplicated, shortNameIsDuplicated, com
 
 // Del implements ITable.
 func (i *Table) Del(value IEntity) {
-	if code := value.Code(); code != "" {
-		delete(i.MapKeyIsCode, value.Code())
-	}
+	if i.GroupBy == GroupByIso3166CodeOrVariantName {
+		if code := value.Code(); code != "" {
+			delete(i.MapKeyIsIso3166Code, code)
+		}
 
-	if shortName := value.GetShortName(); shortName != "" {
-		delete(i.MapKeyIsVariantName, shortName)
-	}
+		if shortName := value.GetShortName(); shortName != "" {
+			delete(i.MapKeyIsIso3166VariantName, shortName)
+		}
 
-	if commonName := value.GetCommonName(); commonName != "" {
-		delete(i.MapKeyIsVariantName, commonName)
+		if commonName := value.GetCommonName(); commonName != "" {
+			delete(i.MapKeyIsIso3166VariantName, commonName)
+		}
+
+	} else if i.GroupBy == GroupByIso4217AlphabeticCode {
+		if code := value.Code(); code != "" {
+			delete(i.MapKeyIsIso4217AlphabeticCode, code)
+		}
 	}
 
 }
@@ -174,46 +225,61 @@ func (i *Table) List() []IEntity {
 	uniq := map[string]struct{}{}
 
 	rs := make([]IEntity, 0)
-	for _, v := range i.MapKeyIsCode {
-		code := v.Code()
-		if _, dup := uniq[code]; code == "" || dup {
-			continue
-		}
-		uniq[code] = struct{}{}
 
-		if shortName := v.GetShortName(); shortName != "" {
-			uniq[shortName] = struct{}{}
+	if i.GroupBy == GroupByIso3166CodeOrVariantName {
+		for _, v := range i.MapKeyIsIso3166Code {
+			code := v.Code()
+			if _, dup := uniq[code]; code == "" || dup {
+				continue
+			}
+			uniq[code] = struct{}{}
+
+			if shortName := v.GetShortName(); shortName != "" {
+				uniq[shortName] = struct{}{}
+			}
+
+			if commonName := v.GetCommonName(); commonName != "" {
+				uniq[commonName] = struct{}{}
+			}
+
+			rs = append(rs, v)
 		}
 
-		if commonName := v.GetCommonName(); commonName != "" {
-			uniq[commonName] = struct{}{}
+		for _, v := range i.MapKeyIsIso3166VariantName {
+			shortName := v.GetShortName()
+			commonName := v.GetCommonName()
+
+			if _, dup := uniq[shortName]; shortName != "" && dup {
+				continue
+			} else if _, dup := uniq[commonName]; commonName != "" && dup {
+				continue
+			}
+
+			if shortName != "" {
+				uniq[shortName] = struct{}{}
+			}
+
+			if commonName != "" {
+				uniq[commonName] = struct{}{}
+			}
+
+			rs = append(rs, v)
 		}
 
-		rs = append(rs, v)
+		sort.Sort(SortByCommonName(rs))
+
+	} else if i.GroupBy == GroupByIso4217AlphabeticCode {
+		for _, v := range i.MapKeyIsIso4217AlphabeticCode {
+			code := v.GetAlphabeticCode()
+			if _, dup := uniq[code]; code == "" || dup {
+				continue
+			}
+			uniq[code] = struct{}{}
+
+			rs = append(rs, v)
+		}
 	}
 
-	for _, v := range i.MapKeyIsVariantName {
-		shortName := v.GetShortName()
-		commonName := v.GetCommonName()
-
-		if _, dup := uniq[shortName]; shortName != "" && dup {
-			continue
-		} else if _, dup := uniq[commonName]; commonName != "" && dup {
-			continue
-		}
-
-		if shortName != "" {
-			uniq[shortName] = struct{}{}
-		}
-
-		if commonName != "" {
-			uniq[commonName] = struct{}{}
-		}
-
-		rs = append(rs, v)
-	}
-
-	sort.Sort(SortByCommonName(rs))
 	return rs
 }
 
@@ -222,42 +288,54 @@ func (i *Table) Map() map[string]IEntity {
 	uniq := map[string]struct{}{}
 
 	rs := make(map[string]IEntity, 0)
-	for _, v := range i.MapKeyIsCode {
-		code := v.Code()
-		if _, dup := uniq[code]; code == "" || dup {
-			continue
-		}
-		uniq[code] = struct{}{}
 
-		if shortName := v.GetShortName(); shortName != "" {
-			uniq[shortName] = struct{}{}
-		}
+	if i.GroupBy == GroupByIso3166CodeOrVariantName {
+		for _, v := range i.MapKeyIsIso3166Code {
+			code := v.Code()
+			if _, dup := uniq[code]; code == "" || dup {
+				continue
+			}
+			uniq[code] = struct{}{}
 
-		if commonName := v.GetCommonName(); commonName != "" {
-			uniq[commonName] = struct{}{}
-		}
+			if shortName := v.GetShortName(); shortName != "" {
+				uniq[shortName] = struct{}{}
+			}
 
-		rs[code] = v
-	}
+			if commonName := v.GetCommonName(); commonName != "" {
+				uniq[commonName] = struct{}{}
+			}
 
-	for _, v := range i.MapKeyIsVariantName {
-		shortName := v.GetShortName()
-		commonName := v.GetCommonName()
-
-		if _, dup := uniq[shortName]; shortName != "" && dup {
-			continue
-		} else if _, dup := uniq[commonName]; commonName != "" && dup {
-			continue
+			rs[code] = v
 		}
 
-		if shortName != "" {
-			uniq[shortName] = struct{}{}
-			rs[shortName] = v
-		}
+		for _, v := range i.MapKeyIsIso3166VariantName {
+			shortName := v.GetShortName()
+			commonName := v.GetCommonName()
 
-		if commonName != "" {
-			uniq[commonName] = struct{}{}
-			rs[commonName] = v
+			if _, dup := uniq[shortName]; shortName != "" && dup {
+				continue
+			} else if _, dup := uniq[commonName]; commonName != "" && dup {
+				continue
+			}
+
+			if shortName != "" {
+				uniq[shortName] = struct{}{}
+				rs[shortName] = v
+			}
+
+			if commonName != "" {
+				uniq[commonName] = struct{}{}
+				rs[commonName] = v
+			}
+		}
+	} else if i.GroupBy == GroupByIso4217AlphabeticCode {
+		for _, v := range i.MapKeyIsIso4217AlphabeticCode {
+			code := v.GetAlphabeticCode()
+			if _, dup := uniq[code]; code == "" || dup {
+				continue
+			}
+			uniq[code] = struct{}{}
+			rs[code] = v
 		}
 	}
 
@@ -266,6 +344,47 @@ func (i *Table) Map() map[string]IEntity {
 
 // Merge implements ITable.
 func (i *Table) Merge(srcItems map[string]IEntity, action MergeAction) ITable {
+	if i.GroupBy == GroupByIso3166CodeOrVariantName {
+		i.mergeGroupByIso3166CodeOrVariantName(srcItems, action)
+	} else if i.GroupBy == GroupByIso4217AlphabeticCode {
+		i.mergeGroupByIso4217AlphabeticCode(srcItems, action)
+	}
+
+	return i
+}
+
+func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, action MergeAction) ITable {
+	t := NewTable("").SetGroupBy(GroupByIso3166CodeOrVariantName).Load(srcItems)
+
+	for _, destItem := range i.MapKeyIsIso4217AlphabeticCode {
+		alpha2codesUseThisCurrency := []string{}
+		uniq := map[string]struct{}{}
+
+		entitiesUseThisCurrency := destItem.GetEntities()
+
+		for _, commonNameOrCode := range entitiesUseThisCurrency {
+			if _, dup := uniq[commonNameOrCode]; !dup {
+				if IsAlpha2Code(commonNameOrCode) {
+					uniq[commonNameOrCode] = struct{}{}
+					alpha2codesUseThisCurrency = append(alpha2codesUseThisCurrency, commonNameOrCode)
+				} else {
+					if entity := t.GetByVariantName(commonNameOrCode); entity != nil {
+						if code := entity.GetAlpha2Code(); code != "" {
+							uniq[commonNameOrCode] = struct{}{}
+							alpha2codesUseThisCurrency = append(alpha2codesUseThisCurrency, code)
+						}
+					}
+				}
+			}
+		}
+
+		destItem.SetEntities(alpha2codesUseThisCurrency)
+	}
+
+	return i
+}
+
+func (i *Table) mergeGroupByIso3166CodeOrVariantName(srcItems map[string]IEntity, action MergeAction) ITable {
 	for _, srcItem := range srcItems {
 		code := srcItem.Code()
 		shortName := srcItem.GetShortName()
@@ -279,11 +398,11 @@ func (i *Table) Merge(srcItems map[string]IEntity, action MergeAction) ITable {
 		var dup bool
 
 		if IsAlpha2Code(code) {
-			destItem, dup = i.MapKeyIsCode[code]
+			destItem, dup = i.MapKeyIsIso3166Code[code]
 		} else {
-			destItem, dup = i.MapKeyIsVariantName[shortName]
+			destItem, dup = i.MapKeyIsIso3166VariantName[shortName]
 			if !dup {
-				destItem, dup = i.MapKeyIsVariantName[commonName]
+				destItem, dup = i.MapKeyIsIso3166VariantName[commonName]
 			}
 		}
 
@@ -380,7 +499,7 @@ func (i *Table) Merge(srcItems map[string]IEntity, action MergeAction) ITable {
 
 				i.Put(destItem)
 
-			} else if action == MergeActionOnlyOverwriteBy4217 {
+			} else if action == MergeActionFillWithIso4217 {
 
 				destItem.SetAlphabeticCode(srcItem.GetAlphabeticCode())
 				destItem.SetNumericCode4217(srcItem.GetNumericCode4217())
@@ -397,7 +516,7 @@ func (i *Table) Merge(srcItems map[string]IEntity, action MergeAction) ITable {
 
 			}
 
-		} else if action != MergeActionOnlyOverwriteBy4217 {
+		} else if action != MergeActionFillWithIso4217 {
 			destItem := srcItem.Clone()
 
 			i.Put(destItem)
@@ -408,34 +527,35 @@ func (i *Table) Merge(srcItems map[string]IEntity, action MergeAction) ITable {
 
 // GetByAlpha2Code implements ITable.
 func (i *Table) GetByAlpha2Code(s string) IEntity {
-	return i.MapKeyIsCode[s]
+	return i.MapKeyIsIso3166Code[s]
 }
 
 // GetByAlpha3Code implements ITable.
 func (i *Table) GetByAlpha3Code(s string) IEntity {
-	panic("unimplemented")
+	return i.MapKeyIsIso3166Code[s]
 }
 
 // GetByAlpha4Code implements ITable.
 func (i *Table) GetByAlpha4Code(s string) IEntity {
-	panic("unimplemented")
+	return i.MapKeyIsIso3166Code[s]
 }
 
 // GetByCode implements ITable.
 func (i *Table) GetByCode(s string) IEntity {
-	return i.MapKeyIsCode[s]
+	return i.MapKeyIsIso3166Code[s]
 }
 
 // GetByVariantName implements ITable.
 func (i *Table) GetByVariantName(s string) IEntity {
-	return i.MapKeyIsVariantName[s]
+	return i.MapKeyIsIso3166VariantName[s]
 }
 
 func NewTable(std string) ITable {
 	return &Table{
-		Std:                 std,
-		MapKeyIsCode:        make(map[string]IEntity),
-		MapKeyIsVariantName: make(map[string]IEntity),
+		Std:                           std,
+		MapKeyIsIso3166Code:           make(map[string]IEntity),
+		MapKeyIsIso3166VariantName:    make(map[string]IEntity),
+		MapKeyIsIso4217AlphabeticCode: make(map[string]IEntity),
 	}
 }
 

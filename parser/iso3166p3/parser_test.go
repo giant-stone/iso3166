@@ -15,16 +15,17 @@ func TestParser_ParseWikipediaHtml(t *testing.T) {
 		filepath string
 	}
 	tests := []struct {
-		name    string
-		args    args
-		wantT   iso.ITable
-		wantErr bool
+		name      string
+		args      args
+		wantT     iso.ITable
+		wantTotal int
+		wantErr   bool
 	}{
 		{
 			name: "",
 
 			args: args{filepath: "../..//test_data/zh.wikipedia.org/zh-cn/ISO_3166-3.250305.html"},
-			wantT: iso.NewTable("").Load(map[string]iso.IEntity{
+			wantT: iso.NewTable("").SetGroupBy(iso.GroupByIso3166CodeOrVariantName).Load(map[string]iso.IEntity{
 				"SU": &iso.Entity{
 					Alpha2Code:               "SU",
 					Alpha3Code:               "SUN",
@@ -38,7 +39,8 @@ func TestParser_ParseWikipediaHtml(t *testing.T) {
 					PeriodOfValidity:         "1974–1992",
 				},
 			}),
-			wantErr: false,
+			wantTotal: 1,
+			wantErr:   false,
 		},
 	}
 	for _, tt := range tests {
@@ -47,14 +49,15 @@ func TestParser_ParseWikipediaHtml(t *testing.T) {
 			require.NoError(t, err)
 
 			i := New()
-			gotRs, err := i.ParseWikipediaHtml(data)
+			gotT, err := i.ParseWikipediaHtml(data)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("ReaderWriter.ParseWikipediaHtml() error = %v, wantErr %v", err, tt.wantErr)
 				return
 			}
 
-			m := gotRs.Map()
-			require.LessOrEqual(t, TOTAL_ENTITY, len(m))
+			m := gotT.Map()
+			require.LessOrEqual(t, tt.wantTotal, len(m))
+			require.Equal(t, tt.wantTotal, len(tt.wantT.Map()))
 
 			for code, wantEntity := range tt.wantT.Map() {
 				if gotEntity, ok := m[code]; ok {

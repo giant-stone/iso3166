@@ -30,7 +30,7 @@ func TestGenerator_Bytes(t *testing.T) {
 		// TODO: Add test cases.
 		{
 			name: "",
-			fields: fields{Table: iso.NewTable("").Load(
+			fields: fields{Table: iso.NewTable("").SetGroupBy(iso.GroupByIso3166CodeOrVariantName).Load(
 				map[string]iso.IEntity{
 					"CN": &iso.Entity{Alpha2Code: "CN", CommonName: "China"},
 					"JP": &iso.Entity{Alpha2Code: "JP", CommonName: "Japan"},

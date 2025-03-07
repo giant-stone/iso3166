@@ -79,12 +79,24 @@ type Entity struct {
 	MinorUnit       int
 	Currency        string
 
+	Entities []string
+
 	//
 	// ISO 4217 extended fields
 	//
 
 	// The currency (entity) in Simplified Chinese.
 	CurrencyInCN string
+}
+
+// GetEntities implements IEntity.
+func (it *Entity) GetEntities() []string {
+	return it.Entities
+}
+
+// SetEntities implements IEntity.
+func (it *Entity) SetEntities(v []string) {
+	it.Entities = v
 }
 
 // Clone implements IEntity.

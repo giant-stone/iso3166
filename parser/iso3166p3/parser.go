@@ -117,7 +117,7 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (t iso.ITable, err error) {
 		}
 	}
 
-	return iso.NewTable("").Load(m), nil
+	return i.Table.Load(m), nil
 }
 
 // GetTable implements IReaderWriter.
@@ -126,7 +126,7 @@ func (i *Parser) GetTable() iso.ITable {
 }
 
 func New() parser.IParser {
-	return &Parser{Table: iso.NewTable(STANDARD_ISO_3166_PART_3)}
+	return &Parser{Table: iso.NewTable(STANDARD_ISO_3166_PART_3).SetGroupBy(iso.GroupByIso3166CodeOrVariantName)}
 }
 
 // Parse alpha2, alpha3 and alpha4 codes from a string.

@@ -96,7 +96,7 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (rs iso.ITable, err error) {
 		m[alpha2code] = entity
 	}
 
-	return iso.NewTable("").Load(m), nil
+	return i.Table.Load(m), nil
 }
 
 // Add implements IReaderWriter.
@@ -135,7 +135,7 @@ func (i *Parser) WriteFile(path string, perm os.FileMode) (err error) {
 }
 
 func New() parser.IParser {
-	return &Parser{Table: iso.NewTable(STANDARD_ISO_3166_PART_1)}
+	return &Parser{Table: iso.NewTable(STANDARD_ISO_3166_PART_1).SetGroupBy(iso.GroupByIso3166CodeOrVariantName)}
 }
 
 // Parse short name from a string, remove any brackets(references).

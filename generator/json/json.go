@@ -42,8 +42,18 @@ func (g *Generator) Bytes(fmtPretty bool) ([]byte, error) {
 	uniq := map[string]struct{}{}
 	listEntity := make([]iso.IEntity, 0)
 
+	groupBy := g.Table.GetGroupBy()
+
 	for _, v := range g.Table.List() {
-		uniqKey := v.Code()
+		var uniqKey string
+		if groupBy == iso.GroupByIso3166CodeOrVariantName {
+			uniqKey = v.Code()
+		} else if groupBy == iso.GroupByIso4217AlphabeticCode {
+			uniqKey = v.GetAlphabeticCode()
+		} else {
+			continue
+		}
+
 		if _, dup := uniq[uniqKey]; dup {
 			continue
 		}

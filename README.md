@@ -101,7 +101,7 @@ Output：
   "AlphabeticCode": "HKD",
   "NumericCode4217": "344",
   "MinorUnit": 2,
-  "Entity": "Hong Kong dollar",
+  "Currency": "Hong Kong dollar",
   "CurrencyInCN": ""
 }
 true
@@ -142,7 +142,7 @@ Output:
   "alphabetic_code": "HKD",
   "numeric_code_4217": "344",
   "minor_unit": 2,
-  "entity": "Hong Kong dollar",
+  "currency": "Hong Kong dollar",
   "currency_in_cn": ""
 }
 true

@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	"github.com/antchfx/htmlquery"
+	"github.com/giant-stone/go/gslice"
 	"github.com/giant-stone/go/gstrconv"
 	"golang.org/x/net/html"
 
@@ -42,6 +43,7 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (t iso.ITable, err error) {
 	}
 
 	m := make(map[string]iso.IEntity)
+	groupBy := i.Table.GetGroupBy()
 
 	for _, nodeTr := range htmlquery.Find(nodeTable, `//tr`) {
 		nodesTd := htmlquery.Find(nodeTr, `./td`)
@@ -75,33 +77,54 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (t iso.ITable, err error) {
 		}
 
 		if strings.Contains(currency, "(") {
-			// Skip some invalid value, E.g. "United States dollar (next day) (funds code)".
+			// Skip some unexpected values, E.g. "United States dollar (next day) (funds code)".
 			continue
 		}
 
-		for _, entityLocation := range locationMap {
-			key := entityLocation.GetAlpha2Code()
-			if key == "" {
-				key = entityLocation.GetShortName()
+		if groupBy == iso.GroupByIso3166CodeOrVariantName {
+			for _, entityLocation := range locationMap {
+				key := entityLocation.GetAlpha2Code()
+				if key == "" {
+					key = entityLocation.GetShortName()
+				}
+				if _, dup := m[key]; key == "" || dup {
+					continue
+				}
+
+				entity := iso.NewEntity()
+
+				entity.SetAlpha2Code(entityLocation.GetAlpha2Code())
+				entity.SetShortName(entityLocation.GetShortName())
+				entity.SetAlphabeticCode(code)
+				entity.SetNumericCode4217(num)
+				entity.SetMinorUnit(gstrconv.Atoi(decimalSeparator))
+				entity.SetCurrency(currency)
+
+				m[key] = entity
 			}
-			if _, dup := m[key]; key == "" || dup {
-				continue
-			}
+		} else if groupBy == iso.GroupByIso4217AlphabeticCode {
+			key := code
 
 			entity := iso.NewEntity()
 
-			entity.SetAlpha2Code(entityLocation.GetAlpha2Code())
-			entity.SetShortName(entityLocation.GetShortName())
+			entity.SetAlpha2Code("")
+			entity.SetShortName("")
 			entity.SetAlphabeticCode(code)
 			entity.SetNumericCode4217(num)
 			entity.SetMinorUnit(gstrconv.Atoi(decimalSeparator))
 			entity.SetCurrency(currency)
 
+			entities := map[string]struct{}{}
+			for regionCommonNameOrCode := range locationMap {
+				entities[regionCommonNameOrCode] = struct{}{}
+			}
+			entity.SetEntities(gslice.UniqMapToSlice(entities))
+
 			m[key] = entity
 		}
 	}
 
-	return iso.NewTable(STANDARD_ISO_4217).Load(m), nil
+	return i.Table.Load(m), nil
 }
 
 // GetTable implements IReaderWriter.
