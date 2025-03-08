@@ -1,0 +1,325 @@
+[
+  {
+    "Alpha2Code": "",
+    "Alpha3code": "",
+    "Alpha4code": "",
+    "Independent": false,
+    "NumericCode": "",
+    "CommonName": "",
+    "RegionInNative": "",
+    "RegionInCN": "",
+    "ShortName": ""
+  },
+  {
+    "Alpha2Code": "AR",
+    "CallingCode": "54",
+    "NumericCode": "032",
+    "CommonName": "Argentina"
+  },
+  {
+    "Alpha2Code": "AU",
+    "CallingCode": "61",
+    "NumericCode": "036",
+    "CommonName": "Australia"
+  },
+  {
+    "Alpha2Code": "BR",
+    "CallingCode": "55",
+    "NumericCode": "076",
+    "CommonName": "Brazil"
+  },
+  {
+    "Alpha4code": "BUMM",
+    "Independent": true,
+    "NumericCode": "104",
+    "CommonName": "Burma",
+    "RegionInCN": "前缅甸"
+  },
+  {
+    "Alpha2Code": "MM",
+    "CallingCode": "95",
+    "NumericCode": "104",
+    "CommonName": "Myanmar"
+  },
+  {
+    "Alpha2Code": "KH",
+    "CallingCode": "855",
+    "NumericCode": "116",
+    "CommonName": "Cambodia"
+  },
+  {
+    "Alpha2Code": "CA",
+    "CallingCode": "1",
+    "NumericCode": "124",
+    "CommonName": "Canada"
+  },
+  {
+    "Alpha2Code": "CN",
+    "CallingCode": "86",
+    "NumericCode": "156",
+    "CommonName": "China",
+    "RegionInCN": "中国大陆",
+    "RegionInNative": "中国",
+    "Languages": [
+      "Mandarin Chinese"
+    ],
+    "CurrencyInCN": "人民币",
+    "CurrencyInNative": "人民币"
+  },
+  {
+    "Alpha2Code": "TW",
+    "CallingCode": "886",
+    "NumericCode": "158",
+    "CommonName": "Taiwan",
+    "RegionInCN": "中国台湾",
+    "RegionInNative": "臺灣",
+    "Languages": [
+      "Chinese"
+    ],
+    "CurrencyInCN": "新台币",
+    "CurrencyInNative": "新臺幣"
+  },
+  {
+    "Alpha2Code": "FR",
+    "CallingCode": "33",
+    "NumericCode": "250",
+    "CommonName": "France"
+  },
+  {
+    "Alpha2Code": "DE",
+    "CallingCode": "49",
+    "NumericCode": "276",
+    "CommonName": "Germany",
+    "CurrencyInCN": "欧元",
+    "CurrencyInNative": "Euro"
+  },
+  {
+    "_comment": "7 October 1949 ~ 3 October 1990, https://en.wikipedia.org/wiki/East_Germany",
+    "Alpha4code": "DDDE",
+    "CommonName": "East Germany",
+    "Independent": true,
+    "Languages": [
+      "German"
+    ],
+    "NumericCode": "278",
+    "RegionInCN": "东德",
+    "ShortName": "German Democratic Republic"
+  },
+  {
+    "Alpha2Code": "HK",
+    "CallingCode": "852",
+    "NumericCode": "344",
+    "CommonName": "Hong Kong",
+    "RegionInCN": "中国香港",
+    "RegionInNative": "香港",
+    "Languages": [
+      "English",
+      "Cantonese"
+    ],
+    "CurrencyInCN": "港元",
+    "CurrencyInNative": "港幣"
+  },
+  {
+    "Alpha2Code": "ID",
+    "CallingCode": "62",
+    "NumericCode": "360",
+    "CommonName": "Indonesia"
+  },
+  {
+    "Alpha2Code": "IT",
+    "CallingCode": "39",
+    "NumericCode": "380",
+    "CommonName": "Italy"
+  },
+  {
+    "Alpha2Code": "JP",
+    "CallingCode": "81",
+    "NumericCode": "392",
+    "CommonName": "Japan",
+    "CurrencyInCN": "日元",
+    "CurrencyInNative": "日本円"
+  },
+  {
+    "Alpha2Code": "KP",
+    "NumericCode": "408",
+    "CommonName": "North Korea",
+    "RegionInCN": "北韩"
+  },
+  {
+    "Alpha2Code": "KR",
+    "CallingCode": "82",
+    "NumericCode": "410",
+    "CommonName": "South Korea",
+    "RegionInCN": "南韩"
+  },
+  {
+    "Alpha2Code": "MO",
+    "CallingCode": "853",
+    "NumericCode": "446",
+    "CommonName": "Macao",
+    "RegionInCN": "中国澳门",
+    "RegionInNative": "中國澳門",
+    "CurrencyInCN": "澳门元",
+    "CurrencyInNative": "澳門元"
+  },
+  {
+    "Alpha2Code": "MG",
+    "CallingCode": "261",
+    "NumericCode": "450",
+    "CommonName": "Madagascar"
+  },
+  {
+    "Alpha2Code": "MY",
+    "CallingCode": "60",
+    "NumericCode": "458",
+    "CommonName": "Malaysia"
+  },
+  {
+    "Alpha2Code": "LA",
+    "CallingCode": "856",
+    "NumericCode": "481",
+    "CommonName": "Laos"
+  },
+  {
+    "Alpha2Code": "NZ",
+    "CallingCode": "64",
+    "NumericCode": "554",
+    "CommonName": "New Zealand"
+  },
+  {
+    "Alpha2Code": "PA",
+    "CallingCode": "507",
+    "NumericCode": "591",
+    "CommonName": "Panama"
+  },
+  {
+    "Alpha2Code": "PH",
+    "CallingCode": "63",
+    "NumericCode": "608",
+    "CommonName": "Philippines"
+  },
+  {
+    "Alpha2Code": "RU",
+    "CallingCode": "7",
+    "NumericCode": "643",
+    "CommonName": "Russia"
+  },
+  {
+    "Alpha2Code": "SA",
+    "CallingCode": "966",
+    "NumericCode": "682",
+    "CommonName": "Saudi Arabia"
+  },
+  {
+    "Alpha2Code": "SG",
+    "CallingCode": "65",
+    "NumericCode": "702",
+    "CommonName": "Singapore"
+  },
+  {
+    "Alpha2Code": "VN",
+    "CallingCode": "84",
+    "NumericCode": "704",
+    "CommonName": "Viet Nam"
+  },
+  {
+    "Alpha2Code": "ZA",
+    "CallingCode": "27",
+    "NumericCode": "710",
+    "CommonName": "South Africa"
+  },
+  {
+    "Alpha2Code": "ES",
+    "CallingCode": "34",
+    "NumericCode": "724",
+    "CommonName": "Spain"
+  },
+  {
+    "Alpha2Code": "CH",
+    "CallingCode": "41",
+    "NumericCode": "756",
+    "CommonName": "Switzerland",
+    "CurrencyInCN": "瑞士法郎",
+    "CurrencyInNative": "Swiss franc"
+  },
+  {
+    "Alpha2Code": "TH",
+    "CallingCode": "66",
+    "NumericCode": "764",
+    "CommonName": "Thailand"
+  },
+  {
+    "Alpha2Code": "TR",
+    "CallingCode": "90",
+    "NumericCode": "792",
+    "CommonName": "Turkey"
+  },
+  {
+    "Alpha2Code": "SU",
+    "Alpha3code": "SUN",
+    "Alpha4code": "SUHH",
+    "Independent": true,
+    "NumericCode": "810",
+    "CommonName": "Soviet Union",
+    "ShortName": "USSR",
+    "RegionInCN": "苏联"
+  },
+  {
+    "Alpha2Code": "GB",
+    "CallingCode": "44",
+    "NumericCode": "826",
+    "CommonName": "United Kingdom",
+    "CurrencyInCN": "英镑",
+    "CurrencyInNative": "Pound sterling"
+  },
+  {
+    "Alpha2Code": "US",
+    "CallingCode": "1",
+    "NumericCode": "840",
+    "CommonName": "United States",
+    "CurrencyInCN": "美元",
+    "CurrencyInNative": "United States dollar"
+  },
+  {
+    "Alpha2Code": "AE",
+    "CallingCode": "971",
+    "NumericCode": "784",
+    "CommonName": "United Arab Emirates"
+  },
+  {
+    "_comment": "1 March 1919 ~ 15 August 1948, https://en.wikipedia.org/wiki/Korea",
+    "Alpha3code": "XKO",
+    "Independent": true,
+    "NumericCode": "9991919",
+    "Languages": [
+      "Hangul",
+      "Hanja",
+      "Korean"
+    ],
+    "CommonName": "Korea",
+    "RegionInNative": "한국",
+    "RegionInCN": "朝鲜"
+  },
+  {
+    "_comment": "23 May 1949 ~ 3 October 1990, https://en.wikipedia.org/wiki/West_Germany",
+    "Alpha3code": "XWG",
+    "CommonName": "West Germany",
+    "Independent": true,
+    "Languages": [
+      "German"
+    ],
+    "NumericCode": "9991949",
+    "RegionInCN": "西德",
+    "ShortName": "Federal Republic of Germany"
+  },
+  {
+    "Alpha2Code": "XK",
+    "Alpha3code": "XKX",
+    "CommonName": "Kosovo",
+    "Independent": true,
+    "NumericCode": "9992008",
+    "RegionInNative": "Kosova",
+    "RegionInCN": "科索沃",
+    "ShortName": "Republic of Kosovo"
+  }
+]
