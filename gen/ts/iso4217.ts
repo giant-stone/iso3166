@@ -1,6 +1,6 @@
 export interface IEntity {
   alphabetic_code: string;
-  numeric_code: string;
+  numeric_code_4217: string;
   minor_unit: number;
   currency: string;
   entities: string[];
@@ -11,7 +11,7 @@ export interface IEntity {
 
 const ALL = {
   alphabetic_code: "ALL",
-  numeric_code: "",
+  numeric_code_4217: "008",
   minor_unit: 2,
   currency: "Albanian lek",
 
@@ -23,7 +23,7 @@ const ALL = {
 
 const DZD = {
   alphabetic_code: "DZD",
-  numeric_code: "",
+  numeric_code_4217: "012",
   minor_unit: 2,
   currency: "Algerian dinar",
 
@@ -35,7 +35,7 @@ const DZD = {
 
 const ARS = {
   alphabetic_code: "ARS",
-  numeric_code: "",
+  numeric_code_4217: "032",
   minor_unit: 2,
   currency: "Argentine peso",
 
@@ -47,7 +47,7 @@ const ARS = {
 
 const AUD = {
   alphabetic_code: "AUD",
-  numeric_code: "",
+  numeric_code_4217: "036",
   minor_unit: 2,
   currency: "Australian dollar",
 
@@ -59,7 +59,7 @@ const AUD = {
 
 const BSD = {
   alphabetic_code: "BSD",
-  numeric_code: "",
+  numeric_code_4217: "044",
   minor_unit: 2,
   currency: "Bahamian dollar",
 
@@ -71,7 +71,7 @@ const BSD = {
 
 const BHD = {
   alphabetic_code: "BHD",
-  numeric_code: "",
+  numeric_code_4217: "048",
   minor_unit: 3,
   currency: "Bahraini dinar",
 
@@ -83,7 +83,7 @@ const BHD = {
 
 const BDT = {
   alphabetic_code: "BDT",
-  numeric_code: "",
+  numeric_code_4217: "050",
   minor_unit: 2,
   currency: "Bangladeshi taka",
 
@@ -95,7 +95,7 @@ const BDT = {
 
 const AMD = {
   alphabetic_code: "AMD",
-  numeric_code: "",
+  numeric_code_4217: "051",
   minor_unit: 2,
   currency: "Armenian dram",
 
@@ -107,7 +107,7 @@ const AMD = {
 
 const BBD = {
   alphabetic_code: "BBD",
-  numeric_code: "",
+  numeric_code_4217: "052",
   minor_unit: 2,
   currency: "Barbados dollar",
 
@@ -119,7 +119,7 @@ const BBD = {
 
 const BMD = {
   alphabetic_code: "BMD",
-  numeric_code: "",
+  numeric_code_4217: "060",
   minor_unit: 2,
   currency: "Bermudian dollar",
 
@@ -131,7 +131,7 @@ const BMD = {
 
 const BTN = {
   alphabetic_code: "BTN",
-  numeric_code: "",
+  numeric_code_4217: "064",
   minor_unit: 2,
   currency: "Bhutanese ngultrum",
 
@@ -143,7 +143,7 @@ const BTN = {
 
 const BOB = {
   alphabetic_code: "BOB",
-  numeric_code: "",
+  numeric_code_4217: "068",
   minor_unit: 2,
   currency: "Boliviano",
 
@@ -155,7 +155,7 @@ const BOB = {
 
 const BWP = {
   alphabetic_code: "BWP",
-  numeric_code: "",
+  numeric_code_4217: "072",
   minor_unit: 2,
   currency: "Botswana pula",
 
@@ -167,7 +167,7 @@ const BWP = {
 
 const BZD = {
   alphabetic_code: "BZD",
-  numeric_code: "",
+  numeric_code_4217: "084",
   minor_unit: 2,
   currency: "Belize dollar",
 
@@ -179,7 +179,7 @@ const BZD = {
 
 const SBD = {
   alphabetic_code: "SBD",
-  numeric_code: "",
+  numeric_code_4217: "090",
   minor_unit: 2,
   currency: "Solomon Islands dollar",
 
@@ -191,7 +191,7 @@ const SBD = {
 
 const BND = {
   alphabetic_code: "BND",
-  numeric_code: "",
+  numeric_code_4217: "096",
   minor_unit: 2,
   currency: "Brunei dollar",
 
@@ -203,7 +203,7 @@ const BND = {
 
 const MMK = {
   alphabetic_code: "MMK",
-  numeric_code: "",
+  numeric_code_4217: "104",
   minor_unit: 2,
   currency: "Myanmar kyat",
 
@@ -215,7 +215,7 @@ const MMK = {
 
 const BIF = {
   alphabetic_code: "BIF",
-  numeric_code: "",
+  numeric_code_4217: "108",
   minor_unit: 0,
   currency: "Burundian franc",
 
@@ -227,7 +227,7 @@ const BIF = {
 
 const KHR = {
   alphabetic_code: "KHR",
-  numeric_code: "",
+  numeric_code_4217: "116",
   minor_unit: 2,
   currency: "Cambodian riel",
 
@@ -239,7 +239,7 @@ const KHR = {
 
 const CAD = {
   alphabetic_code: "CAD",
-  numeric_code: "",
+  numeric_code_4217: "124",
   minor_unit: 2,
   currency: "Canadian dollar",
 
@@ -251,7 +251,7 @@ const CAD = {
 
 const CVE = {
   alphabetic_code: "CVE",
-  numeric_code: "",
+  numeric_code_4217: "132",
   minor_unit: 2,
   currency: "Cape Verdean escudo",
 
@@ -263,7 +263,7 @@ const CVE = {
 
 const KYD = {
   alphabetic_code: "KYD",
-  numeric_code: "",
+  numeric_code_4217: "136",
   minor_unit: 2,
   currency: "Cayman Islands dollar",
 
@@ -275,7 +275,7 @@ const KYD = {
 
 const LKR = {
   alphabetic_code: "LKR",
-  numeric_code: "",
+  numeric_code_4217: "144",
   minor_unit: 2,
   currency: "Sri Lankan rupee",
 
@@ -287,7 +287,7 @@ const LKR = {
 
 const CLP = {
   alphabetic_code: "CLP",
-  numeric_code: "",
+  numeric_code_4217: "152",
   minor_unit: 0,
   currency: "Chilean peso",
 
@@ -299,7 +299,7 @@ const CLP = {
 
 const CNY = {
   alphabetic_code: "CNY",
-  numeric_code: "",
+  numeric_code_4217: "156",
   minor_unit: 2,
   currency: "Renminbi",
 
@@ -311,7 +311,7 @@ const CNY = {
 
 const COP = {
   alphabetic_code: "COP",
-  numeric_code: "",
+  numeric_code_4217: "170",
   minor_unit: 2,
   currency: "Colombian peso",
 
@@ -323,7 +323,7 @@ const COP = {
 
 const KMF = {
   alphabetic_code: "KMF",
-  numeric_code: "",
+  numeric_code_4217: "174",
   minor_unit: 0,
   currency: "Comoro franc",
 
@@ -335,7 +335,7 @@ const KMF = {
 
 const CRC = {
   alphabetic_code: "CRC",
-  numeric_code: "",
+  numeric_code_4217: "188",
   minor_unit: 2,
   currency: "Costa Rican colon",
 
@@ -347,7 +347,7 @@ const CRC = {
 
 const CUP = {
   alphabetic_code: "CUP",
-  numeric_code: "",
+  numeric_code_4217: "192",
   minor_unit: 2,
   currency: "Cuban peso",
 
@@ -359,7 +359,7 @@ const CUP = {
 
 const CZK = {
   alphabetic_code: "CZK",
-  numeric_code: "",
+  numeric_code_4217: "203",
   minor_unit: 2,
   currency: "Czech koruna",
 
@@ -371,7 +371,7 @@ const CZK = {
 
 const DKK = {
   alphabetic_code: "DKK",
-  numeric_code: "",
+  numeric_code_4217: "208",
   minor_unit: 2,
   currency: "Danish krone",
 
@@ -383,7 +383,7 @@ const DKK = {
 
 const DOP = {
   alphabetic_code: "DOP",
-  numeric_code: "",
+  numeric_code_4217: "214",
   minor_unit: 2,
   currency: "Dominican peso",
 
@@ -395,7 +395,7 @@ const DOP = {
 
 const SVC = {
   alphabetic_code: "SVC",
-  numeric_code: "",
+  numeric_code_4217: "222",
   minor_unit: 2,
   currency: "Salvadoran colón",
 
@@ -407,7 +407,7 @@ const SVC = {
 
 const ETB = {
   alphabetic_code: "ETB",
-  numeric_code: "",
+  numeric_code_4217: "230",
   minor_unit: 2,
   currency: "Ethiopian birr",
 
@@ -419,7 +419,7 @@ const ETB = {
 
 const ERN = {
   alphabetic_code: "ERN",
-  numeric_code: "",
+  numeric_code_4217: "232",
   minor_unit: 2,
   currency: "Eritrean nakfa",
 
@@ -431,7 +431,7 @@ const ERN = {
 
 const FKP = {
   alphabetic_code: "FKP",
-  numeric_code: "",
+  numeric_code_4217: "238",
   minor_unit: 2,
   currency: "Falkland Islands pound",
 
@@ -443,7 +443,7 @@ const FKP = {
 
 const FJD = {
   alphabetic_code: "FJD",
-  numeric_code: "",
+  numeric_code_4217: "242",
   minor_unit: 2,
   currency: "Fiji dollar",
 
@@ -455,7 +455,7 @@ const FJD = {
 
 const DJF = {
   alphabetic_code: "DJF",
-  numeric_code: "",
+  numeric_code_4217: "262",
   minor_unit: 0,
   currency: "Djiboutian franc",
 
@@ -467,7 +467,7 @@ const DJF = {
 
 const GMD = {
   alphabetic_code: "GMD",
-  numeric_code: "",
+  numeric_code_4217: "270",
   minor_unit: 2,
   currency: "Gambian dalasi",
 
@@ -479,7 +479,7 @@ const GMD = {
 
 const GIP = {
   alphabetic_code: "GIP",
-  numeric_code: "",
+  numeric_code_4217: "292",
   minor_unit: 2,
   currency: "Gibraltar pound",
 
@@ -491,7 +491,7 @@ const GIP = {
 
 const GTQ = {
   alphabetic_code: "GTQ",
-  numeric_code: "",
+  numeric_code_4217: "320",
   minor_unit: 2,
   currency: "Guatemalan quetzal",
 
@@ -503,7 +503,7 @@ const GTQ = {
 
 const GNF = {
   alphabetic_code: "GNF",
-  numeric_code: "",
+  numeric_code_4217: "324",
   minor_unit: 0,
   currency: "Guinean franc",
 
@@ -515,7 +515,7 @@ const GNF = {
 
 const GYD = {
   alphabetic_code: "GYD",
-  numeric_code: "",
+  numeric_code_4217: "328",
   minor_unit: 2,
   currency: "Guyanese dollar",
 
@@ -527,7 +527,7 @@ const GYD = {
 
 const HTG = {
   alphabetic_code: "HTG",
-  numeric_code: "",
+  numeric_code_4217: "332",
   minor_unit: 2,
   currency: "Haitian gourde",
 
@@ -539,7 +539,7 @@ const HTG = {
 
 const HNL = {
   alphabetic_code: "HNL",
-  numeric_code: "",
+  numeric_code_4217: "340",
   minor_unit: 2,
   currency: "Honduran lempira",
 
@@ -551,7 +551,7 @@ const HNL = {
 
 const HKD = {
   alphabetic_code: "HKD",
-  numeric_code: "",
+  numeric_code_4217: "344",
   minor_unit: 2,
   currency: "Hong Kong dollar",
 
@@ -563,7 +563,7 @@ const HKD = {
 
 const HUF = {
   alphabetic_code: "HUF",
-  numeric_code: "",
+  numeric_code_4217: "348",
   minor_unit: 2,
   currency: "Hungarian forint",
 
@@ -575,7 +575,7 @@ const HUF = {
 
 const ISK = {
   alphabetic_code: "ISK",
-  numeric_code: "",
+  numeric_code_4217: "352",
   minor_unit: 0,
   currency: "Icelandic króna",
 
@@ -587,7 +587,7 @@ const ISK = {
 
 const INR = {
   alphabetic_code: "INR",
-  numeric_code: "",
+  numeric_code_4217: "356",
   minor_unit: 2,
   currency: "Indian rupee",
 
@@ -599,7 +599,7 @@ const INR = {
 
 const IDR = {
   alphabetic_code: "IDR",
-  numeric_code: "",
+  numeric_code_4217: "360",
   minor_unit: 2,
   currency: "Indonesian rupiah",
 
@@ -611,7 +611,7 @@ const IDR = {
 
 const IRR = {
   alphabetic_code: "IRR",
-  numeric_code: "",
+  numeric_code_4217: "364",
   minor_unit: 2,
   currency: "Iranian rial",
 
@@ -623,7 +623,7 @@ const IRR = {
 
 const IQD = {
   alphabetic_code: "IQD",
-  numeric_code: "",
+  numeric_code_4217: "368",
   minor_unit: 3,
   currency: "Iraqi dinar",
 
@@ -635,7 +635,7 @@ const IQD = {
 
 const ILS = {
   alphabetic_code: "ILS",
-  numeric_code: "",
+  numeric_code_4217: "376",
   minor_unit: 2,
   currency: "Israeli new shekel",
 
@@ -647,7 +647,7 @@ const ILS = {
 
 const JMD = {
   alphabetic_code: "JMD",
-  numeric_code: "",
+  numeric_code_4217: "388",
   minor_unit: 2,
   currency: "Jamaican dollar",
 
@@ -659,7 +659,7 @@ const JMD = {
 
 const JPY = {
   alphabetic_code: "JPY",
-  numeric_code: "",
+  numeric_code_4217: "392",
   minor_unit: 0,
   currency: "Japanese yen",
 
@@ -671,7 +671,7 @@ const JPY = {
 
 const KZT = {
   alphabetic_code: "KZT",
-  numeric_code: "",
+  numeric_code_4217: "398",
   minor_unit: 2,
   currency: "Kazakhstani tenge",
 
@@ -683,7 +683,7 @@ const KZT = {
 
 const JOD = {
   alphabetic_code: "JOD",
-  numeric_code: "",
+  numeric_code_4217: "400",
   minor_unit: 3,
   currency: "Jordanian dinar",
 
@@ -695,7 +695,7 @@ const JOD = {
 
 const KES = {
   alphabetic_code: "KES",
-  numeric_code: "",
+  numeric_code_4217: "404",
   minor_unit: 2,
   currency: "Kenyan shilling",
 
@@ -707,7 +707,7 @@ const KES = {
 
 const KPW = {
   alphabetic_code: "KPW",
-  numeric_code: "",
+  numeric_code_4217: "408",
   minor_unit: 2,
   currency: "North Korean won",
 
@@ -719,7 +719,7 @@ const KPW = {
 
 const KRW = {
   alphabetic_code: "KRW",
-  numeric_code: "",
+  numeric_code_4217: "410",
   minor_unit: 0,
   currency: "South Korean won",
 
@@ -731,7 +731,7 @@ const KRW = {
 
 const KWD = {
   alphabetic_code: "KWD",
-  numeric_code: "",
+  numeric_code_4217: "414",
   minor_unit: 3,
   currency: "Kuwaiti dinar",
 
@@ -743,7 +743,7 @@ const KWD = {
 
 const KGS = {
   alphabetic_code: "KGS",
-  numeric_code: "",
+  numeric_code_4217: "417",
   minor_unit: 2,
   currency: "Kyrgyzstani som",
 
@@ -755,7 +755,7 @@ const KGS = {
 
 const LAK = {
   alphabetic_code: "LAK",
-  numeric_code: "",
+  numeric_code_4217: "418",
   minor_unit: 2,
   currency: "Lao kip",
 
@@ -767,7 +767,7 @@ const LAK = {
 
 const LBP = {
   alphabetic_code: "LBP",
-  numeric_code: "",
+  numeric_code_4217: "422",
   minor_unit: 2,
   currency: "Lebanese pound",
 
@@ -779,7 +779,7 @@ const LBP = {
 
 const LSL = {
   alphabetic_code: "LSL",
-  numeric_code: "",
+  numeric_code_4217: "426",
   minor_unit: 2,
   currency: "Lesotho loti",
 
@@ -791,7 +791,7 @@ const LSL = {
 
 const LRD = {
   alphabetic_code: "LRD",
-  numeric_code: "",
+  numeric_code_4217: "430",
   minor_unit: 2,
   currency: "Liberian dollar",
 
@@ -803,7 +803,7 @@ const LRD = {
 
 const LYD = {
   alphabetic_code: "LYD",
-  numeric_code: "",
+  numeric_code_4217: "434",
   minor_unit: 3,
   currency: "Libyan dinar",
 
@@ -815,7 +815,7 @@ const LYD = {
 
 const MOP = {
   alphabetic_code: "MOP",
-  numeric_code: "",
+  numeric_code_4217: "446",
   minor_unit: 2,
   currency: "Macanese pataca",
 
@@ -827,7 +827,7 @@ const MOP = {
 
 const MWK = {
   alphabetic_code: "MWK",
-  numeric_code: "",
+  numeric_code_4217: "454",
   minor_unit: 2,
   currency: "Malawian kwacha",
 
@@ -839,7 +839,7 @@ const MWK = {
 
 const MYR = {
   alphabetic_code: "MYR",
-  numeric_code: "",
+  numeric_code_4217: "458",
   minor_unit: 2,
   currency: "Malaysian ringgit",
 
@@ -851,7 +851,7 @@ const MYR = {
 
 const MVR = {
   alphabetic_code: "MVR",
-  numeric_code: "",
+  numeric_code_4217: "462",
   minor_unit: 2,
   currency: "Maldivian rufiyaa",
 
@@ -863,7 +863,7 @@ const MVR = {
 
 const MUR = {
   alphabetic_code: "MUR",
-  numeric_code: "",
+  numeric_code_4217: "480",
   minor_unit: 2,
   currency: "Mauritian rupee",
 
@@ -875,7 +875,7 @@ const MUR = {
 
 const MXN = {
   alphabetic_code: "MXN",
-  numeric_code: "",
+  numeric_code_4217: "484",
   minor_unit: 2,
   currency: "Mexican peso",
 
@@ -887,7 +887,7 @@ const MXN = {
 
 const MNT = {
   alphabetic_code: "MNT",
-  numeric_code: "",
+  numeric_code_4217: "496",
   minor_unit: 2,
   currency: "Mongolian tögrög",
 
@@ -899,7 +899,7 @@ const MNT = {
 
 const MDL = {
   alphabetic_code: "MDL",
-  numeric_code: "",
+  numeric_code_4217: "498",
   minor_unit: 2,
   currency: "Moldovan leu",
 
@@ -911,7 +911,7 @@ const MDL = {
 
 const MAD = {
   alphabetic_code: "MAD",
-  numeric_code: "",
+  numeric_code_4217: "504",
   minor_unit: 2,
   currency: "Moroccan dirham",
 
@@ -923,7 +923,7 @@ const MAD = {
 
 const OMR = {
   alphabetic_code: "OMR",
-  numeric_code: "",
+  numeric_code_4217: "512",
   minor_unit: 3,
   currency: "Omani rial",
 
@@ -935,7 +935,7 @@ const OMR = {
 
 const NAD = {
   alphabetic_code: "NAD",
-  numeric_code: "",
+  numeric_code_4217: "516",
   minor_unit: 2,
   currency: "Namibian dollar",
 
@@ -947,7 +947,7 @@ const NAD = {
 
 const NPR = {
   alphabetic_code: "NPR",
-  numeric_code: "",
+  numeric_code_4217: "524",
   minor_unit: 2,
   currency: "Nepalese rupee",
 
@@ -959,7 +959,7 @@ const NPR = {
 
 const ANG = {
   alphabetic_code: "ANG",
-  numeric_code: "",
+  numeric_code_4217: "532",
   minor_unit: 2,
   currency: "Netherlands Antillean guilder",
 
@@ -971,7 +971,7 @@ const ANG = {
 
 const AWG = {
   alphabetic_code: "AWG",
-  numeric_code: "",
+  numeric_code_4217: "533",
   minor_unit: 2,
   currency: "Aruban florin",
 
@@ -983,7 +983,7 @@ const AWG = {
 
 const VUV = {
   alphabetic_code: "VUV",
-  numeric_code: "",
+  numeric_code_4217: "548",
   minor_unit: 0,
   currency: "Vanuatu vatu",
 
@@ -995,7 +995,7 @@ const VUV = {
 
 const NZD = {
   alphabetic_code: "NZD",
-  numeric_code: "",
+  numeric_code_4217: "554",
   minor_unit: 2,
   currency: "New Zealand dollar",
 
@@ -1007,7 +1007,7 @@ const NZD = {
 
 const NIO = {
   alphabetic_code: "NIO",
-  numeric_code: "",
+  numeric_code_4217: "558",
   minor_unit: 2,
   currency: "Nicaraguan córdoba",
 
@@ -1019,7 +1019,7 @@ const NIO = {
 
 const NGN = {
   alphabetic_code: "NGN",
-  numeric_code: "",
+  numeric_code_4217: "566",
   minor_unit: 2,
   currency: "Nigerian naira",
 
@@ -1031,7 +1031,7 @@ const NGN = {
 
 const NOK = {
   alphabetic_code: "NOK",
-  numeric_code: "",
+  numeric_code_4217: "578",
   minor_unit: 2,
   currency: "Norwegian krone",
 
@@ -1043,7 +1043,7 @@ const NOK = {
 
 const PKR = {
   alphabetic_code: "PKR",
-  numeric_code: "",
+  numeric_code_4217: "586",
   minor_unit: 2,
   currency: "Pakistani rupee",
 
@@ -1055,7 +1055,7 @@ const PKR = {
 
 const PAB = {
   alphabetic_code: "PAB",
-  numeric_code: "",
+  numeric_code_4217: "590",
   minor_unit: 2,
   currency: "Panamanian balboa",
 
@@ -1067,7 +1067,7 @@ const PAB = {
 
 const PGK = {
   alphabetic_code: "PGK",
-  numeric_code: "",
+  numeric_code_4217: "598",
   minor_unit: 2,
   currency: "Papua New Guinean kina",
 
@@ -1079,7 +1079,7 @@ const PGK = {
 
 const PYG = {
   alphabetic_code: "PYG",
-  numeric_code: "",
+  numeric_code_4217: "600",
   minor_unit: 0,
   currency: "Paraguayan guaraní",
 
@@ -1091,7 +1091,7 @@ const PYG = {
 
 const PEN = {
   alphabetic_code: "PEN",
-  numeric_code: "",
+  numeric_code_4217: "604",
   minor_unit: 2,
   currency: "Peruvian sol",
 
@@ -1103,7 +1103,7 @@ const PEN = {
 
 const PHP = {
   alphabetic_code: "PHP",
-  numeric_code: "",
+  numeric_code_4217: "608",
   minor_unit: 2,
   currency: "Philippine peso",
 
@@ -1115,7 +1115,7 @@ const PHP = {
 
 const QAR = {
   alphabetic_code: "QAR",
-  numeric_code: "",
+  numeric_code_4217: "634",
   minor_unit: 2,
   currency: "Qatari riyal",
 
@@ -1127,7 +1127,7 @@ const QAR = {
 
 const RUB = {
   alphabetic_code: "RUB",
-  numeric_code: "",
+  numeric_code_4217: "643",
   minor_unit: 2,
   currency: "Russian ruble",
 
@@ -1139,7 +1139,7 @@ const RUB = {
 
 const RWF = {
   alphabetic_code: "RWF",
-  numeric_code: "",
+  numeric_code_4217: "646",
   minor_unit: 0,
   currency: "Rwandan franc",
 
@@ -1151,7 +1151,7 @@ const RWF = {
 
 const SHP = {
   alphabetic_code: "SHP",
-  numeric_code: "",
+  numeric_code_4217: "654",
   minor_unit: 2,
   currency: "Saint Helena pound",
 
@@ -1163,7 +1163,7 @@ const SHP = {
 
 const SAR = {
   alphabetic_code: "SAR",
-  numeric_code: "",
+  numeric_code_4217: "682",
   minor_unit: 2,
   currency: "Saudi riyal",
 
@@ -1175,7 +1175,7 @@ const SAR = {
 
 const SCR = {
   alphabetic_code: "SCR",
-  numeric_code: "",
+  numeric_code_4217: "690",
   minor_unit: 2,
   currency: "Seychelles rupee",
 
@@ -1187,7 +1187,7 @@ const SCR = {
 
 const SGD = {
   alphabetic_code: "SGD",
-  numeric_code: "",
+  numeric_code_4217: "702",
   minor_unit: 2,
   currency: "Singapore dollar",
 
@@ -1199,7 +1199,7 @@ const SGD = {
 
 const VND = {
   alphabetic_code: "VND",
-  numeric_code: "",
+  numeric_code_4217: "704",
   minor_unit: 0,
   currency: "Vietnamese đồng",
 
@@ -1211,7 +1211,7 @@ const VND = {
 
 const SOS = {
   alphabetic_code: "SOS",
-  numeric_code: "",
+  numeric_code_4217: "706",
   minor_unit: 2,
   currency: "Somalian shilling",
 
@@ -1223,7 +1223,7 @@ const SOS = {
 
 const ZAR = {
   alphabetic_code: "ZAR",
-  numeric_code: "",
+  numeric_code_4217: "710",
   minor_unit: 2,
   currency: "South African rand",
 
@@ -1235,7 +1235,7 @@ const ZAR = {
 
 const SSP = {
   alphabetic_code: "SSP",
-  numeric_code: "",
+  numeric_code_4217: "728",
   minor_unit: 2,
   currency: "South Sudanese pound",
 
@@ -1247,7 +1247,7 @@ const SSP = {
 
 const SZL = {
   alphabetic_code: "SZL",
-  numeric_code: "",
+  numeric_code_4217: "748",
   minor_unit: 2,
   currency: "Swazi lilangeni",
 
@@ -1259,7 +1259,7 @@ const SZL = {
 
 const SEK = {
   alphabetic_code: "SEK",
-  numeric_code: "",
+  numeric_code_4217: "752",
   minor_unit: 2,
   currency: "Swedish krona",
 
@@ -1271,7 +1271,7 @@ const SEK = {
 
 const CHF = {
   alphabetic_code: "CHF",
-  numeric_code: "",
+  numeric_code_4217: "756",
   minor_unit: 2,
   currency: "Swiss franc",
 
@@ -1283,7 +1283,7 @@ const CHF = {
 
 const SYP = {
   alphabetic_code: "SYP",
-  numeric_code: "",
+  numeric_code_4217: "760",
   minor_unit: 2,
   currency: "Syrian pound",
 
@@ -1295,7 +1295,7 @@ const SYP = {
 
 const THB = {
   alphabetic_code: "THB",
-  numeric_code: "",
+  numeric_code_4217: "764",
   minor_unit: 2,
   currency: "Thai baht",
 
@@ -1307,7 +1307,7 @@ const THB = {
 
 const TOP = {
   alphabetic_code: "TOP",
-  numeric_code: "",
+  numeric_code_4217: "776",
   minor_unit: 2,
   currency: "Tongan paʻanga",
 
@@ -1319,7 +1319,7 @@ const TOP = {
 
 const TTD = {
   alphabetic_code: "TTD",
-  numeric_code: "",
+  numeric_code_4217: "780",
   minor_unit: 2,
   currency: "Trinidad and Tobago dollar",
 
@@ -1331,7 +1331,7 @@ const TTD = {
 
 const AED = {
   alphabetic_code: "AED",
-  numeric_code: "",
+  numeric_code_4217: "784",
   minor_unit: 2,
   currency: "United Arab Emirates dirham",
 
@@ -1343,7 +1343,7 @@ const AED = {
 
 const TND = {
   alphabetic_code: "TND",
-  numeric_code: "",
+  numeric_code_4217: "788",
   minor_unit: 3,
   currency: "Tunisian dinar",
 
@@ -1355,7 +1355,7 @@ const TND = {
 
 const UGX = {
   alphabetic_code: "UGX",
-  numeric_code: "",
+  numeric_code_4217: "800",
   minor_unit: 0,
   currency: "Ugandan shilling",
 
@@ -1367,7 +1367,7 @@ const UGX = {
 
 const MKD = {
   alphabetic_code: "MKD",
-  numeric_code: "",
+  numeric_code_4217: "807",
   minor_unit: 2,
   currency: "Macedonian denar",
 
@@ -1379,7 +1379,7 @@ const MKD = {
 
 const EGP = {
   alphabetic_code: "EGP",
-  numeric_code: "",
+  numeric_code_4217: "818",
   minor_unit: 2,
   currency: "Egyptian pound",
 
@@ -1391,7 +1391,7 @@ const EGP = {
 
 const GBP = {
   alphabetic_code: "GBP",
-  numeric_code: "",
+  numeric_code_4217: "826",
   minor_unit: 2,
   currency: "Pound sterling",
 
@@ -1403,7 +1403,7 @@ const GBP = {
 
 const TZS = {
   alphabetic_code: "TZS",
-  numeric_code: "",
+  numeric_code_4217: "834",
   minor_unit: 2,
   currency: "Tanzanian shilling",
 
@@ -1415,7 +1415,7 @@ const TZS = {
 
 const USD = {
   alphabetic_code: "USD",
-  numeric_code: "",
+  numeric_code_4217: "840",
   minor_unit: 2,
   currency: "United States dollar",
 
@@ -1427,7 +1427,7 @@ const USD = {
 
 const UYU = {
   alphabetic_code: "UYU",
-  numeric_code: "",
+  numeric_code_4217: "858",
   minor_unit: 2,
   currency: "Uruguayan peso",
 
@@ -1439,7 +1439,7 @@ const UYU = {
 
 const UZS = {
   alphabetic_code: "UZS",
-  numeric_code: "",
+  numeric_code_4217: "860",
   minor_unit: 2,
   currency: "Uzbekistani sum",
 
@@ -1451,7 +1451,7 @@ const UZS = {
 
 const WST = {
   alphabetic_code: "WST",
-  numeric_code: "",
+  numeric_code_4217: "882",
   minor_unit: 2,
   currency: "Samoan tala",
 
@@ -1463,7 +1463,7 @@ const WST = {
 
 const YER = {
   alphabetic_code: "YER",
-  numeric_code: "",
+  numeric_code_4217: "886",
   minor_unit: 2,
   currency: "Yemeni rial",
 
@@ -1475,7 +1475,7 @@ const YER = {
 
 const TWD = {
   alphabetic_code: "TWD",
-  numeric_code: "",
+  numeric_code_4217: "901",
   minor_unit: 2,
   currency: "New Taiwan dollar",
 
@@ -1487,7 +1487,7 @@ const TWD = {
 
 const ZWG = {
   alphabetic_code: "ZWG",
-  numeric_code: "",
+  numeric_code_4217: "924",
   minor_unit: 2,
   currency: "Zimbabwe Gold",
 
@@ -1499,7 +1499,7 @@ const ZWG = {
 
 const SLE = {
   alphabetic_code: "SLE",
-  numeric_code: "",
+  numeric_code_4217: "925",
   minor_unit: 2,
   currency: "Sierra Leonean leone",
 
@@ -1511,7 +1511,7 @@ const SLE = {
 
 const VED = {
   alphabetic_code: "VED",
-  numeric_code: "",
+  numeric_code_4217: "926",
   minor_unit: 2,
   currency: "Venezuelan digital bolívar",
 
@@ -1523,7 +1523,7 @@ const VED = {
 
 const VES = {
   alphabetic_code: "VES",
-  numeric_code: "",
+  numeric_code_4217: "928",
   minor_unit: 2,
   currency: "Venezuelan sovereign bolívar",
 
@@ -1535,7 +1535,7 @@ const VES = {
 
 const MRU = {
   alphabetic_code: "MRU",
-  numeric_code: "",
+  numeric_code_4217: "929",
   minor_unit: 0,
   currency: "Mauritanian ouguiya",
 
@@ -1547,7 +1547,7 @@ const MRU = {
 
 const STN = {
   alphabetic_code: "STN",
-  numeric_code: "",
+  numeric_code_4217: "930",
   minor_unit: 0,
   currency: "São Tomé and Príncipe dobra",
 
@@ -1559,7 +1559,7 @@ const STN = {
 
 const BYN = {
   alphabetic_code: "BYN",
-  numeric_code: "",
+  numeric_code_4217: "933",
   minor_unit: 2,
   currency: "Belarusian ruble",
 
@@ -1571,7 +1571,7 @@ const BYN = {
 
 const TMT = {
   alphabetic_code: "TMT",
-  numeric_code: "",
+  numeric_code_4217: "934",
   minor_unit: 2,
   currency: "Turkmenistan manat",
 
@@ -1583,7 +1583,7 @@ const TMT = {
 
 const GHS = {
   alphabetic_code: "GHS",
-  numeric_code: "",
+  numeric_code_4217: "936",
   minor_unit: 2,
   currency: "Ghanaian cedi",
 
@@ -1595,7 +1595,7 @@ const GHS = {
 
 const SDG = {
   alphabetic_code: "SDG",
-  numeric_code: "",
+  numeric_code_4217: "938",
   minor_unit: 2,
   currency: "Sudanese pound",
 
@@ -1607,7 +1607,7 @@ const SDG = {
 
 const RSD = {
   alphabetic_code: "RSD",
-  numeric_code: "",
+  numeric_code_4217: "941",
   minor_unit: 2,
   currency: "Serbian dinar",
 
@@ -1619,7 +1619,7 @@ const RSD = {
 
 const MZN = {
   alphabetic_code: "MZN",
-  numeric_code: "",
+  numeric_code_4217: "943",
   minor_unit: 2,
   currency: "Mozambican metical",
 
@@ -1631,7 +1631,7 @@ const MZN = {
 
 const AZN = {
   alphabetic_code: "AZN",
-  numeric_code: "",
+  numeric_code_4217: "944",
   minor_unit: 2,
   currency: "Azerbaijani manat",
 
@@ -1643,7 +1643,7 @@ const AZN = {
 
 const RON = {
   alphabetic_code: "RON",
-  numeric_code: "",
+  numeric_code_4217: "946",
   minor_unit: 2,
   currency: "Romanian leu",
 
@@ -1655,7 +1655,7 @@ const RON = {
 
 const CHE = {
   alphabetic_code: "CHE",
-  numeric_code: "",
+  numeric_code_4217: "947",
   minor_unit: 2,
   currency: "WIR",
 
@@ -1667,7 +1667,7 @@ const CHE = {
 
 const CHW = {
   alphabetic_code: "CHW",
-  numeric_code: "",
+  numeric_code_4217: "948",
   minor_unit: 2,
   currency: "WIR",
 
@@ -1679,7 +1679,7 @@ const CHW = {
 
 const TRY = {
   alphabetic_code: "TRY",
-  numeric_code: "",
+  numeric_code_4217: "949",
   minor_unit: 2,
   currency: "Turkish lira",
 
@@ -1691,7 +1691,7 @@ const TRY = {
 
 const ZMW = {
   alphabetic_code: "ZMW",
-  numeric_code: "",
+  numeric_code_4217: "967",
   minor_unit: 2,
   currency: "Zambian kwacha",
 
@@ -1703,7 +1703,7 @@ const ZMW = {
 
 const SRD = {
   alphabetic_code: "SRD",
-  numeric_code: "",
+  numeric_code_4217: "968",
   minor_unit: 2,
   currency: "Surinamese dollar",
 
@@ -1715,7 +1715,7 @@ const SRD = {
 
 const MGA = {
   alphabetic_code: "MGA",
-  numeric_code: "",
+  numeric_code_4217: "969",
   minor_unit: 0,
   currency: "Malagasy ariary",
 
@@ -1727,7 +1727,7 @@ const MGA = {
 
 const AFN = {
   alphabetic_code: "AFN",
-  numeric_code: "",
+  numeric_code_4217: "971",
   minor_unit: 2,
   currency: "Afghan afghani",
 
@@ -1739,7 +1739,7 @@ const AFN = {
 
 const TJS = {
   alphabetic_code: "TJS",
-  numeric_code: "",
+  numeric_code_4217: "972",
   minor_unit: 2,
   currency: "Tajikistani somoni",
 
@@ -1751,7 +1751,7 @@ const TJS = {
 
 const AOA = {
   alphabetic_code: "AOA",
-  numeric_code: "",
+  numeric_code_4217: "973",
   minor_unit: 2,
   currency: "Angolan kwanza",
 
@@ -1763,7 +1763,7 @@ const AOA = {
 
 const BGN = {
   alphabetic_code: "BGN",
-  numeric_code: "",
+  numeric_code_4217: "975",
   minor_unit: 2,
   currency: "Bulgarian lev",
 
@@ -1775,7 +1775,7 @@ const BGN = {
 
 const CDF = {
   alphabetic_code: "CDF",
-  numeric_code: "",
+  numeric_code_4217: "976",
   minor_unit: 2,
   currency: "Congolese franc",
 
@@ -1787,7 +1787,7 @@ const CDF = {
 
 const BAM = {
   alphabetic_code: "BAM",
-  numeric_code: "",
+  numeric_code_4217: "977",
   minor_unit: 2,
   currency: "Bosnia and Herzegovina convertible mark",
 
@@ -1799,7 +1799,7 @@ const BAM = {
 
 const EUR = {
   alphabetic_code: "EUR",
-  numeric_code: "",
+  numeric_code_4217: "978",
   minor_unit: 2,
   currency: "Euro",
 
@@ -1811,7 +1811,7 @@ const EUR = {
 
 const MXV = {
   alphabetic_code: "MXV",
-  numeric_code: "",
+  numeric_code_4217: "979",
   minor_unit: 2,
   currency: "Mexican Unidad de Inversion",
 
@@ -1823,7 +1823,7 @@ const MXV = {
 
 const UAH = {
   alphabetic_code: "UAH",
-  numeric_code: "",
+  numeric_code_4217: "980",
   minor_unit: 2,
   currency: "Ukrainian hryvnia",
 
@@ -1835,7 +1835,7 @@ const UAH = {
 
 const GEL = {
   alphabetic_code: "GEL",
-  numeric_code: "",
+  numeric_code_4217: "981",
   minor_unit: 2,
   currency: "Georgian lari",
 
@@ -1847,7 +1847,7 @@ const GEL = {
 
 const PLN = {
   alphabetic_code: "PLN",
-  numeric_code: "",
+  numeric_code_4217: "985",
   minor_unit: 2,
   currency: "Polish złoty",
 
@@ -1859,7 +1859,7 @@ const PLN = {
 
 const BRL = {
   alphabetic_code: "BRL",
-  numeric_code: "",
+  numeric_code_4217: "986",
   minor_unit: 2,
   currency: "Brazilian real",
 
@@ -1871,7 +1871,7 @@ const BRL = {
 
 const CLF = {
   alphabetic_code: "CLF",
-  numeric_code: "",
+  numeric_code_4217: "990",
   minor_unit: 4,
   currency: "Unidad de Fomento",
 

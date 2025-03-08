@@ -12,7 +12,7 @@ import (
 
 const fileTemplateIso4217 = `export interface IEntity {
   alphabetic_code: string;
-  numeric_code: string;
+  numeric_code_4217: string;
   minor_unit: number;
   currency: string;
   entities: string[];
@@ -41,7 +41,7 @@ export const CurrencyFromAlphabeticCode = {
 
 const lineTemplateIso4217 = `const {{.AlphabeticCode}} = {
   alphabetic_code: "{{.AlphabeticCode}}",
-  numeric_code: "{{.Currencies}}",
+  numeric_code_4217: "{{.NumericCode4217}}",
   minor_unit: {{.MinorUnit}},
   currency: "{{.Currency}}",
 
@@ -83,10 +83,10 @@ func (g *Generator) bytesIso4217(fmtPretty bool) (rs []byte, err error) {
 		CurrencyNames[alphabeticCode] = struct{}{}
 
 		err = tmpl.Execute(rw, map[string]interface{}{
-			"AlphabeticCode": v.GetAlphabeticCode(),
-			"NumericCode":    v.GetNumericCode4217(),
-			"MinorUnit":      v.GetMinorUnit(),
-			"Currency":       v.GetCurrency(),
+			"AlphabeticCode":  v.GetAlphabeticCode(),
+			"NumericCode4217": v.GetNumericCode4217(),
+			"MinorUnit":       v.GetMinorUnit(),
+			"Currency":        v.GetCurrency(),
 
 			"Entities": template.HTML(serializeSliceStringForTsCode(v.GetEntities())),
 
