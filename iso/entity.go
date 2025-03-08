@@ -120,7 +120,8 @@ func (it *Entity) Clone() IEntity {
 
 // String implements IEntity.
 func (it *Entity) String() string {
-	return fmt.Sprintf("<Entity Alpha2Code=%s Alpha3Code=%s Alpha4Code=%s CommonName=%s AlphabeticCode=%s >",
+	return fmt.Sprintf("<Entity NumericCode=%s Alpha2Code=%s Alpha3Code=%s Alpha4Code=%s CommonName=-%s- AlphabeticCode=%s >",
+		it.NumericCode,
 		it.Alpha2Code,
 		it.Alpha3Code,
 		it.Alpha4Code,

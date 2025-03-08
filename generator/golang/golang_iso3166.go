@@ -6,7 +6,10 @@ import (
 	"go/format"
 	"html/template"
 	"io"
+	"sort"
 	"strings"
+
+	"github.com/giant-stone/iso3166/iso"
 )
 
 const fileTemplateIso3166 = `// THIS IS AUTO GENERATED, DON'T EDIT FOLLOWING BY MANUAL.
@@ -86,6 +89,9 @@ func (g *Generator) bytesIso3166(fmtPretty bool) (rs []byte, err error) {
 	rw := bytes.NewBuffer([]byte(``))
 
 	listEntity := g.Table.List()
+	// Make sure it is sorted.
+	sort.Sort(iso.SortByIso3166Fields(listEntity))
+
 	for _, v := range listEntity {
 		commonNameInAlphaNumeric := v.GetCommonNameInAlphaNumeric()
 		alpha2Code := v.GetAlpha2Code()

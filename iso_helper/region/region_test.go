@@ -169,7 +169,7 @@ func TestNewFromChineseName(t *testing.T) {
 				CommonName: "Kosovo",
 				RegionInCN: "科索沃",
 				Alpha2Code: "XK",
-				Alpha3Code: "XKV",
+				Alpha3Code: "XKX",
 			},
 		},
 

@@ -195,7 +195,7 @@ const BND = {
   minor_unit: 2,
   currency: "Brunei dollar",
 
-  entities: ["BN"],
+  entities: [],
 
   currency_in_cn: "",
   currency_in_native: "",
@@ -363,7 +363,7 @@ const CZK = {
   minor_unit: 2,
   currency: "Czech koruna",
 
-  entities: ["CZ"],
+  entities: [],
 
   currency_in_cn: "",
   currency_in_native: "",
@@ -615,7 +615,7 @@ const IRR = {
   minor_unit: 2,
   currency: "Iranian rial",
 
-  entities: ["IR"],
+  entities: [],
 
   currency_in_cn: "",
   currency_in_native: "",
@@ -1407,7 +1407,7 @@ const TZS = {
   minor_unit: 2,
   currency: "Tanzanian shilling",
 
-  entities: ["TZ"],
+  entities: [],
 
   currency_in_cn: "",
   currency_in_native: "",

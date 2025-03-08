@@ -22,21 +22,29 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (t iso.ITable, err error) {
 
 	// Some former codes has been deleted from ISO-3166-1 but reuse in latest, it is possible cause conflict.
 	// we define a blacklist skip add it into final big MAP.
-	alpha2codeBlacklist := map[string]struct{}{
-		// 'Gilbert Islands'  GE 1974–1979 => Georgia GE
+	skipAlpha2Codes := map[string]struct{}{
+		// 'Gilbert Islands'  GE 1974–1979 => 'Georgia' GE
 		"GE": {},
 
 		// 'British Antarctic Territory' BQ 1974–1979 => 'Bonaire, Sint Eustatius and Saba' BQ
 		"BQ": {},
 
-		// 'Sikkim' SK 1974–1975 => Slovakia SK
+		// 'Sikkim' SK 1974–1975 => 'Slovakia' SK
 		"SK": {},
 
-		// 'Byelorussian SSR' BY 1974–1992 => Belarus BY
+		// 'Byelorussian SSR' BY 1974–1992 => 'Belarus' BY
 		"BY": {},
 
-		// 'French Afars and Issas' AI 1974–1977 => Anguilla AI
+		// 'French Afars and Issas' AI 1974–1977 => 'Anguilla' AI
 		"AI": {},
+
+		// https://en.wikipedia.org/wiki/ISO_3166-2:AN
+		"AN": {},
+	}
+
+	emptyAvoidConflictAlpha2Codes := map[string]struct{}{
+		// https://en.wikipedia.org/wiki/ISO_3166-2:CS
+		"CS": {},
 	}
 
 	alpha4CodeToCommonNameMap := map[string]string{
@@ -82,7 +90,7 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (t iso.ITable, err error) {
 		if !ok {
 			continue
 		}
-		alpha2code := strings.TrimSpace(codes[0])
+		alpha2Code := strings.TrimSpace(codes[0])
 		alpha3code := strings.TrimSpace(codes[1])
 		numericCode := strings.TrimSpace(codes[2])
 
@@ -94,7 +102,7 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (t iso.ITable, err error) {
 
 		entity := iso.NewEntity()
 		entity.SetShortName(shortName)
-		entity.SetAlpha2Code(alpha2code)
+		entity.SetAlpha2Code(alpha2Code)
 		entity.SetAlpha3Code(alpha3code)
 		entity.SetAlpha4Code(alpha4code)
 		entity.SetNumericCode(numericCode)
@@ -103,17 +111,21 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (t iso.ITable, err error) {
 		entity.SetCommonName(alpha4CodeToCommonNameMap[alpha4code])
 		entity.SetRegionInCN(simplifiedChinese)
 
-		if _, dup := m[alpha4code]; !dup {
-			m[alpha4code] = entity
-		}
-
-		_, isBlack := alpha2codeBlacklist[alpha2code]
+		_, isBlack := skipAlpha2Codes[alpha2Code]
 		if isBlack {
 			continue
 		}
 
-		if _, dup := m[alpha2code]; !dup {
-			m[alpha2code] = entity
+		if _, ok := emptyAvoidConflictAlpha2Codes[alpha2Code]; ok {
+			entity.SetAlpha2Code("")
+		}
+
+		if _, dup := m[alpha4code]; !dup {
+			m[alpha4code] = entity
+		}
+
+		if _, dup := m[alpha2Code]; alpha2Code != "" && !dup {
+			m[alpha2Code] = entity
 		}
 	}
 

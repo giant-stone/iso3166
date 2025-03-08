@@ -174,7 +174,7 @@ var (
 		NumericCode4217: "096",
 		MinorUnit:       2,
 		Currency:        "Brunei dollar",
-		Entities:        []string{"BN"},
+		Entities:        []string{},
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -328,7 +328,7 @@ var (
 		NumericCode4217: "203",
 		MinorUnit:       2,
 		Currency:        "Czech koruna",
-		Entities:        []string{"CZ"},
+		Entities:        []string{},
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -559,7 +559,7 @@ var (
 		NumericCode4217: "364",
 		MinorUnit:       2,
 		Currency:        "Iranian rial",
-		Entities:        []string{"IR"},
+		Entities:        []string{},
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1285,7 +1285,7 @@ var (
 		NumericCode4217: "834",
 		MinorUnit:       2,
 		Currency:        "Tanzanian shilling",
-		Entities:        []string{"TZ"},
+		Entities:        []string{},
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",

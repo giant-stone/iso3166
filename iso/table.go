@@ -266,7 +266,7 @@ func (i *Table) List() []IEntity {
 			rs = append(rs, v)
 		}
 
-		sort.Sort(SortByNumericCode(rs))
+		sort.Sort(SortByIso3166Fields(rs))
 
 	} else if i.GroupBy == GroupByIso4217AlphabeticCode {
 		for _, v := range i.MapKeyIsIso4217AlphabeticCode {
@@ -280,7 +280,7 @@ func (i *Table) List() []IEntity {
 		}
 	}
 
-	sort.Sort(SortByNumericCode4217(rs))
+	sort.Sort(SortByIso4217Fields(rs))
 
 	return rs
 }
@@ -359,7 +359,7 @@ func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, a
 	t := NewTable("").SetGroupBy(GroupByIso3166CodeOrVariantName).Load(srcItems)
 
 	for _, destItem := range i.MapKeyIsIso4217AlphabeticCode {
-		alpha2codesUseThisCurrency := []string{}
+		alpha2CodesUseThisCurrency := []string{}
 		uniq := map[string]struct{}{}
 
 		entitiesUseThisCurrency := destItem.GetEntities()
@@ -371,7 +371,7 @@ func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, a
 
 				if IsAlpha2Code(commonNameOrCode) {
 					uniq[commonNameOrCode] = struct{}{}
-					alpha2codesUseThisCurrency = append(alpha2codesUseThisCurrency, commonNameOrCode)
+					alpha2CodesUseThisCurrency = append(alpha2CodesUseThisCurrency, commonNameOrCode)
 
 					entity = t.GetByAlpha2Code(commonNameOrCode)
 
@@ -381,7 +381,7 @@ func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, a
 					if entity := t.GetByVariantName(commonNameOrCode); entity != nil {
 						if code := entity.GetAlpha2Code(); code != "" {
 							uniq[commonNameOrCode] = struct{}{}
-							alpha2codesUseThisCurrency = append(alpha2codesUseThisCurrency, code)
+							alpha2CodesUseThisCurrency = append(alpha2CodesUseThisCurrency, code)
 						}
 					}
 				}
@@ -398,7 +398,7 @@ func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, a
 			}
 		}
 
-		destItem.SetEntities(alpha2codesUseThisCurrency)
+		destItem.SetEntities(alpha2CodesUseThisCurrency)
 	}
 
 	return i
@@ -593,27 +593,25 @@ func NewTable(std string) ITable {
 	}
 }
 
-type SortByCommonName []IEntity
+type SortByIso3166Fields []IEntity
 
-func (items SortByCommonName) Len() int      { return len(items) }
-func (items SortByCommonName) Swap(i, j int) { items[i], items[j] = items[j], items[i] }
-func (items SortByCommonName) Less(i, j int) bool {
-	return items[i].GetCommonName() < items[j].GetCommonName()
+func (items SortByIso3166Fields) Len() int      { return len(items) }
+func (items SortByIso3166Fields) Swap(i, j int) { items[i], items[j] = items[j], items[i] }
+func (items SortByIso3166Fields) Less(i, j int) bool {
+	a := items[i].GetNumericCode()
+	b := items[j].GetNumericCode()
+	if a == b {
+		a = items[i].Code()
+		b = items[j].Code()
+	}
+	return a < b
 }
 
-type SortByNumericCode []IEntity
+type SortByIso4217Fields []IEntity
 
-func (items SortByNumericCode) Len() int      { return len(items) }
-func (items SortByNumericCode) Swap(i, j int) { items[i], items[j] = items[j], items[i] }
-func (items SortByNumericCode) Less(i, j int) bool {
-	return items[i].GetNumericCode() < items[j].GetNumericCode()
-}
-
-type SortByNumericCode4217 []IEntity
-
-func (items SortByNumericCode4217) Len() int      { return len(items) }
-func (items SortByNumericCode4217) Swap(i, j int) { items[i], items[j] = items[j], items[i] }
-func (items SortByNumericCode4217) Less(i, j int) bool {
+func (items SortByIso4217Fields) Len() int      { return len(items) }
+func (items SortByIso4217Fields) Swap(i, j int) { items[i], items[j] = items[j], items[i] }
+func (items SortByIso4217Fields) Less(i, j int) bool {
 	return items[i].GetNumericCode4217() < items[j].GetNumericCode4217()
 }
 

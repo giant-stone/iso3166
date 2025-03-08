@@ -11,28 +11,6 @@
     "ShortName": ""
   },
   {
-    "Alpha2Code": "XK",
-    "Alpha3code": "XKV",
-    "Independent": true,
-    "CommonName": "Kosovo",
-    "RegionInNative": "Kosova",
-    "RegionInCN": "科索沃",
-    "ShortName": "Republic of Kosovo"
-  },
-  {
-    "_comment": "1 March 1919 ~ 15 August 1948, https://en.wikipedia.org/wiki/Korea",
-    "Alpha3code": "XKO",
-    "Independent": true,
-    "Languages": [
-      "Hangul",
-      "Hanja",
-      "Korean"
-    ],
-    "CommonName": "Korea",
-    "RegionInNative": "한국",
-    "RegionInCN": "朝鲜"
-  },
-  {
     "Alpha2Code": "AR",
     "CallingCode": "54",
     "NumericCode": "032",
@@ -45,25 +23,10 @@
     "CommonName": "Australia"
   },
   {
-    "Alpha2Code": "VG",
-    "NumericCode": "092",
-    "CommonName": "United States Virgin Islands"
-  },
-  {
-    "Alpha2Code": "BA",
-    "NumericCode": "070",
-    "CommonName": "Bosnia"
-  },
-  {
     "Alpha2Code": "BR",
     "CallingCode": "55",
     "NumericCode": "076",
     "CommonName": "Brazil"
-  },
-  {
-    "Alpha2Code": "BN",
-    "NumericCode": "096",
-    "CommonName": "Brunei"
   },
   {
     "Alpha4code": "BUMM",
@@ -117,26 +80,10 @@
     "CurrencyInNative": "新臺幣"
   },
   {
-    "Alpha2Code": "CD",
-    "NumericCode": "180",
-    "CommonName": "Congo Kinshasa"
-  },
-  {
-    "Alpha2Code": "CZ",
-    "NumericCode": "203",
-    "CommonName": "Czech Republic"
-  },
-  {
     "Alpha2Code": "FR",
     "CallingCode": "33",
     "NumericCode": "250",
     "CommonName": "France"
-  },
-  {
-    "Alpha4code": "FQHH",
-    "NumericCode": "260",
-    "RegionInCN": "前法属南部和南极领地",
-    "CommonName": "French Southern and Antarctic Territories"
   },
   {
     "Alpha2Code": "DE",
@@ -149,25 +96,14 @@
   {
     "_comment": "7 October 1949 ~ 3 October 1990, https://en.wikipedia.org/wiki/East_Germany",
     "Alpha4code": "DDDE",
+    "CommonName": "East Germany",
     "Independent": true,
     "Languages": [
       "German"
     ],
     "NumericCode": "278",
-    "CommonName": "East Germany",
     "RegionInCN": "东德",
     "ShortName": "German Democratic Republic"
-  },
-  {
-    "_comment": "23 May 1949 ~ 3 October 1990, https://en.wikipedia.org/wiki/West_Germany",
-    "Alpha3code": "XWG",
-    "Independent": true,
-    "Languages": [
-      "German"
-    ],
-    "CommonName": "West Germany",
-    "RegionInCN": "西德",
-    "ShortName": "Federal Republic of Germany"
   },
   {
     "Alpha2Code": "HK",
@@ -190,20 +126,10 @@
     "CommonName": "Indonesia"
   },
   {
-    "Alpha2Code": "IR",
-    "NumericCode": "364",
-    "CommonName": "Iran"
-  },
-  {
     "Alpha2Code": "IT",
     "CallingCode": "39",
     "NumericCode": "380",
     "CommonName": "Italy"
-  },
-  {
-    "Alpha2Code": "CI",
-    "NumericCode": "384",
-    "CommonName": "Ivory Coast"
   },
   {
     "Alpha2Code": "JP",
@@ -255,16 +181,6 @@
     "CommonName": "Laos"
   },
   {
-    "Alpha2Code": "CW",
-    "NumericCode": "531",
-    "CommonName": "Curacao"
-  },
-  {
-    "Alpha2Code": "BQ",
-    "NumericCode": "535",
-    "CommonName": "Caribbean Netherlands"
-  },
-  {
     "Alpha2Code": "NZ",
     "CallingCode": "64",
     "NumericCode": "554",
@@ -281,17 +197,6 @@
     "CallingCode": "63",
     "NumericCode": "608",
     "CommonName": "Philippines"
-  },
-  {
-    "Alpha2Code": "PN",
-    "NumericCode": "612",
-    "CommonName": "Pitcairn Islands"
-  },
-  {
-    "Alpha4code": "TPTL",
-    "NumericCode": "626",
-    "CommonName": "East Timor",
-    "RegionInCN": "东帝汶省"
   },
   {
     "Alpha2Code": "RU",
@@ -368,11 +273,6 @@
     "CurrencyInNative": "Pound sterling"
   },
   {
-    "Alpha2Code": "TZ",
-    "NumericCode": "834",
-    "CommonName": "Tanzania"
-  },
-  {
     "Alpha2Code": "US",
     "CallingCode": "1",
     "NumericCode": "840",
@@ -381,14 +281,45 @@
     "CurrencyInNative": "United States dollar"
   },
   {
-    "Alpha2Code": "VI",
-    "NumericCode": "850",
-    "CommonName": "Virgin Islands"
-  },
-  {
     "Alpha2Code": "AE",
     "CallingCode": "971",
     "NumericCode": "784",
     "CommonName": "United Arab Emirates"
+  },
+  {
+    "_comment": "1 March 1919 ~ 15 August 1948, https://en.wikipedia.org/wiki/Korea",
+    "Alpha3code": "XKO",
+    "Independent": true,
+    "NumericCode": "9991919",
+    "Languages": [
+      "Hangul",
+      "Hanja",
+      "Korean"
+    ],
+    "CommonName": "Korea",
+    "RegionInNative": "한국",
+    "RegionInCN": "朝鲜"
+  },
+  {
+    "_comment": "23 May 1949 ~ 3 October 1990, https://en.wikipedia.org/wiki/West_Germany",
+    "Alpha3code": "XWG",
+    "CommonName": "West Germany",
+    "Independent": true,
+    "Languages": [
+      "German"
+    ],
+    "NumericCode": "9991949",
+    "RegionInCN": "西德",
+    "ShortName": "Federal Republic of Germany"
+  },
+  {
+    "Alpha2Code": "XK",
+    "Alpha3code": "XKX",
+    "CommonName": "Kosovo",
+    "Independent": true,
+    "NumericCode": "9992008",
+    "RegionInNative": "Kosova",
+    "RegionInCN": "科索沃",
+    "ShortName": "Republic of Kosovo"
   }
 ]

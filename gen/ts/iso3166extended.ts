@@ -1,5 +1,5 @@
 export interface IEntity {
-  alpha2code: string;
+  alpha2Code: string;
   short_name: string;
   alpha3code: string;
   alpha4code: string;
@@ -31,2360 +31,36 @@ export interface IEntity {
   currency_in_native: string;
 }
 
-const CentralAfricanRepublic = {
-  alpha2code: "CF",
-  alpha3code: "CAF",
+const Afghanistan = {
+  alpha2Code: "AF",
+  alpha3code: "AFG",
   alpha4code: "",
   independent: true,
-  numeric_code: "140",
-  short_name: "Central African Republic",
+  numeric_code: "004",
+  short_name: "Afghanistan",
 
   period_of_validity: "",
 
   alias: "[]",
-  common_name: "Central African Republic",
+  common_name: "Afghanistan",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "中非",
+  region_in_cn: "阿富汗",
   region_in_native: "",
 
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const NewCaledonia = {
-  alpha2code: "NC",
-  alpha3code: "NCL",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "540",
-  short_name: "New Caledonia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "New Caledonia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "新喀里多尼亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const WestGermany = {
-  alpha2code: "",
-  alpha3code: "XWG",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "",
-  short_name: "Federal Republic of Germany",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "West Germany",
-  calling_code: "",
-
-  languages: "["German"]",
-
-  region_in_cn: "西德",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SerbiaAndMontenegro = {
-  alpha2code: "CS",
-  alpha3code: "SCG",
-  alpha4code: "CSXX",
-  independent: false,
-  numeric_code: "891",
-  short_name: "Serbia and Montenegro",
-
-  period_of_validity: "2003–2006",
-
-  alias: "[]",
-  common_name: "Serbia And Montenegro",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "塞尔维亚和黑山",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Antarctica = {
-  alpha2code: "AQ",
-  alpha3code: "ATA",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "010",
-  short_name: "Antarctica",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Antarctica",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "南极洲",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Yugoslavia = {
-  alpha2code: "YU",
-  alpha3code: "YUG",
-  alpha4code: "YUCS",
-  independent: false,
-  numeric_code: "891",
-  short_name: "Yugoslavia",
-
-  period_of_validity: "1974–2003",
-
-  alias: "[]",
-  common_name: "Yugoslavia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "南斯拉夫",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const WallisAndFutuna = {
-  alpha2code: "WF",
-  alpha3code: "WLF",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "876",
-  short_name: "Wallis and Futuna",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Wallis And Futuna",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "瓦利斯和富图纳",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const WakeIsland = {
-  alpha2code: "WK",
-  alpha3code: "WAK",
-  alpha4code: "WKUM",
-  independent: false,
-  numeric_code: "872",
-  short_name: "Wake Island",
-
-  period_of_validity: "1974–1986",
-
-  alias: "[]",
-  common_name: "Wake Island",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "威克岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const AntiguaAndBarbuda = {
-  alpha2code: "AG",
-  alpha3code: "ATG",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "028",
-  short_name: "Antigua and Barbuda",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Antigua And Barbuda",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "安提瓜和巴布达",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const VenezuelaBolivarianRepublicOf = {
-  alpha2code: "VE",
-  alpha3code: "VEN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "862",
-  short_name: "Venezuela (Bolivarian Republic of)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Venezuela Bolivarian Republic Of",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "委内瑞拉",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Timor_Leste = {
-  alpha2code: "TL",
-  alpha3code: "TLS",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "626",
-  short_name: "Timor-Leste",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Timor_Leste",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "东帝汶",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const UpperVolta = {
-  alpha2code: "HV",
-  alpha3code: "HVO",
-  alpha4code: "HVBF",
-  independent: false,
-  numeric_code: "854",
-  short_name: "Upper Volta",
-
-  period_of_validity: "1974–1984",
-
-  alias: "[]",
-  common_name: "Upper Volta",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "上沃尔特",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const FrenchSouthernAndAntarcticTerritories = {
-  alpha2code: "FQ",
-  alpha3code: "ATF",
-  alpha4code: "FQHH",
-  independent: false,
-  numeric_code: "260",
-  short_name: "French Southern and Antarctic Territories",
-
-  period_of_validity: "1974–1979",
-
-  alias: "[]",
-  common_name: "French Southern and Antarctic Territories",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "前法属南部和南极领地",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const EastTimor = {
-  alpha2code: "TP",
-  alpha3code: "TMP",
-  alpha4code: "TPTL",
-  independent: false,
-  numeric_code: "626",
-  short_name: "East Timor",
-
-  period_of_validity: "1974–2002",
-
-  alias: "[]",
-  common_name: "East Timor",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "东帝汶省",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const PanamaCanalZone = {
-  alpha2code: "PZ",
-  alpha3code: "PCZ",
-  alpha4code: "PZPA",
-  independent: false,
-  numeric_code: "594",
-  short_name: "Panama Canal Zone",
-
-  period_of_validity: "1974–1980",
-
-  alias: "[]",
-  common_name: "Panama Canal Zone",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "巴拿马运河区",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Russia = {
-  alpha2code: "RU",
-  alpha3code: "RUS",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "643",
-  short_name: "Russian Federation",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Russia",
-  calling_code: "7",
-
-  languages: "[]",
-
-  region_in_cn: "俄罗斯",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Kosovo = {
-  alpha2code: "XK",
-  alpha3code: "XKV",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "",
-  short_name: "Republic of Kosovo",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Kosovo",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "科索沃",
-  region_in_native: "Kosova",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Chad = {
-  alpha2code: "TD",
-  alpha3code: "TCD",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "148",
-  short_name: "Chad",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Chad",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "乍得",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const BurkinaFaso = {
-  alpha2code: "BF",
-  alpha3code: "BFA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "854",
-  short_name: "Burkina Faso",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Burkina Faso",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "布基纳法索",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SaintKittsAndNevis = {
-  alpha2code: "KN",
-  alpha3code: "KNA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "659",
-  short_name: "Saint Kitts and Nevis",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Saint Kitts And Nevis",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣基茨和尼维斯",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SaintLucia = {
-  alpha2code: "LC",
-  alpha3code: "LCA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "662",
-  short_name: "Saint Lucia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Saint Lucia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣卢西亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const BoliviaPlurinationalStateOf = {
-  alpha2code: "BO",
-  alpha3code: "BOL",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "068",
-  short_name: "Bolivia (Plurinational State of)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Bolivia Plurinational State Of",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "玻利维亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const VirginIslands = {
-  alpha2code: "VI",
-  alpha3code: "VIR",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "850",
-  short_name: "Virgin Islands (U.S.)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Virgin Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "美属维尔京群岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Niger = {
-  alpha2code: "NE",
-  alpha3code: "NER",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "562",
-  short_name: "Niger",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Niger",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "尼日尔",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const NewHebrides = {
-  alpha2code: "NH",
-  alpha3code: "NHB",
-  alpha4code: "NHVU",
-  independent: false,
-  numeric_code: "548",
-  short_name: "New Hebrides",
-
-  period_of_validity: "1974–1980",
-
-  alias: "[]",
-  common_name: "New Hebrides",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "新赫布里底群岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const USMiscellaneousPacificIslands = {
-  alpha2code: "PU",
-  alpha3code: "PUS",
-  alpha4code: "PUUM",
-  independent: false,
-  numeric_code: "849",
-  short_name: "U.S. Miscellaneous Pacific Islands",
-
-  period_of_validity: "1974–1986",
-
-  alias: "[]",
-  common_name: "US Miscellaneous Pacific Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "美国其它太平洋岛屿",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const MoldovaRepublicOf = {
-  alpha2code: "MD",
-  alpha3code: "MDA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "498",
-  short_name: "Moldova (Republic of)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Moldova Republic Of",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "摩尔多瓦",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const UnitedStates = {
-  alpha2code: "US",
-  alpha3code: "USA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "840",
-  short_name: "United States of America",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "United States",
-  calling_code: "1",
-
-  languages: "[]",
-
-  region_in_cn: "美国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "美元",
-  currency_in_native: "United States dollar",
-} as IEntity;
-
-const NeutralZone = {
-  alpha2code: "NT",
-  alpha3code: "NTZ",
-  alpha4code: "NTHH",
-  independent: false,
-  numeric_code: "536",
-  short_name: "Neutral Zone",
-
-  period_of_validity: "1974–1993",
-
-  alias: "[]",
-  common_name: "Neutral Zone",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "沙特阿拉伯－伊拉克中立区",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Tanzania = {
-  alpha2code: "TZ",
-  alpha3code: "TZA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "834",
-  short_name: "Tanzania, United Republic of",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Tanzania",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "坦桑尼亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Brunei = {
-  alpha2code: "BN",
-  alpha3code: "BRN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "096",
-  short_name: "Brunei Darussalam",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Brunei",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "文莱",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const UnitedKingdom = {
-  alpha2code: "GB",
-  alpha3code: "GBR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "826",
-  short_name: "United Kingdom of Great Britain and Northern Ireland",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "United Kingdom",
-  calling_code: "44",
-
-  languages: "[]",
-
-  region_in_cn: "英国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "英镑",
-  currency_in_native: "Pound sterling",
-} as IEntity;
-
-const Burma = {
-  alpha2code: "BU",
-  alpha3code: "BUR",
-  alpha4code: "BUMM",
-  independent: true,
-  numeric_code: "104",
-  short_name: "Burma",
-
-  period_of_validity: "1974–1989",
-
-  alias: "[]",
-  common_name: "Burma",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "前缅甸",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const CaribbeanNetherlands = {
-  alpha2code: "BQ",
-  alpha3code: "ATB",
-  alpha4code: "BQAQ",
-  independent: false,
-  numeric_code: "535",
-  short_name: "British Antarctic Territory",
-
-  period_of_validity: "1974–1979",
-
-  alias: "[]",
-  common_name: "Caribbean Netherlands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "英属南极领地",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const NetherlandsAntilles = {
-  alpha2code: "AN",
-  alpha3code: "ANT",
-  alpha4code: "ANHH",
-  independent: false,
-  numeric_code: "530",
-  short_name: "Netherlands Antilles",
-
-  period_of_validity: "1974–2010",
-
-  alias: "[]",
-  common_name: "Netherlands Antilles",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "荷属安的列斯",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const ByelorussianSSR = {
-  alpha2code: "BY",
-  alpha3code: "BYS",
-  alpha4code: "BYAA",
-  independent: true,
-  numeric_code: "112",
-  short_name: "Byelorussian SSR",
-
-  period_of_validity: "1974–1992",
-
-  alias: "[]",
-  common_name: "Byelorussian SSR",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "白俄罗斯苏维埃社会主义共和国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SaintVincentAndTheGrenadines = {
-  alpha2code: "VC",
-  alpha3code: "VCT",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "670",
-  short_name: "Saint Vincent and the Grenadines",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Saint Vincent And The Grenadines",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣文森特和格林纳丁斯",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Cameroon = {
-  alpha2code: "CM",
-  alpha3code: "CMR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "120",
-  short_name: "Cameroon",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Cameroon",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "喀麦隆",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SaoTomeAndPrincipe = {
-  alpha2code: "ST",
-  alpha3code: "STP",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "678",
-  short_name: "Sao Tome and Principe",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Sao Tome And Principe",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣多美和普林西比",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const CantonAndEnderburyIslands = {
-  alpha2code: "CT",
-  alpha3code: "CTE",
-  alpha4code: "CTKI",
-  independent: false,
-  numeric_code: "128",
-  short_name: "Canton and Enderbury Islands",
-
-  period_of_validity: "1974–1984",
-
-  alias: "[]",
-  common_name: "Canton And Enderbury Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "坎顿及恩德伯里群岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const CaboVerde = {
-  alpha2code: "CV",
-  alpha3code: "CPV",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "132",
-  short_name: "Cabo Verde",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Cabo Verde",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "佛得角",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Montserrat = {
-  alpha2code: "MS",
-  alpha3code: "MSR",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "500",
-  short_name: "Montserrat",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Montserrat",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "蒙特塞拉特",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SovietUnion = {
-  alpha2code: "SU",
-  alpha3code: "SUN",
-  alpha4code: "SUHH",
-  independent: true,
-  numeric_code: "810",
-  short_name: "USSR",
-
-  period_of_validity: "1974–1992",
-
-  alias: "[]",
-  common_name: "Soviet Union",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "苏联",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Korea = {
-  alpha2code: "",
-  alpha3code: "XKO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "",
-  short_name: "",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Korea",
-  calling_code: "",
-
-  languages: "["Hangul","Hanja","Korean"]",
-
-  region_in_cn: "朝鲜",
-  region_in_native: "한국",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const PacificIslandsTrustTerritoryOfthe = {
-  alpha2code: "PC",
-  alpha3code: "PCI",
-  alpha4code: "PCHH",
-  independent: false,
-  numeric_code: "582",
-  short_name: "Pacific Islands, Trust Territory of the",
-
-  period_of_validity: "1974–1986",
-
-  alias: "[]",
-  common_name: "Pacific Islands Trust Territory Of the",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "太平洋群岛托管地",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Senegal = {
-  alpha2code: "SN",
-  alpha3code: "SEN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "686",
-  short_name: "Senegal",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Senegal",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "塞内加尔",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const MidwayIslands = {
-  alpha2code: "MI",
-  alpha3code: "MID",
-  alpha4code: "MIUM",
-  independent: false,
-  numeric_code: "488",
-  short_name: "Midway Islands",
-
-  period_of_validity: "1974–1986",
-
-  alias: "[]",
-  common_name: "Midway Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "中途岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Taiwan = {
-  alpha2code: "TW",
-  alpha3code: "TWN",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "158",
-  short_name: "Taiwan, Province of China",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Taiwan",
-  calling_code: "886",
-
-  languages: "["Chinese"]",
-
-  region_in_cn: "中国台湾",
-  region_in_native: "臺灣",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "新台币",
-  currency_in_native: "新臺幣",
-} as IEntity;
-
-const Laos = {
-  alpha2code: "LA",
-  alpha3code: "LAO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "481",
-  short_name: "Lao People's Democratic Republic",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Laos",
-  calling_code: "856",
-
-  languages: "[]",
-
-  region_in_cn: "老挝",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const VietNam = {
-  alpha2code: "VN",
-  alpha3code: "VNM",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "704",
-  short_name: "Viet Nam",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Viet Nam",
-  calling_code: "84",
-
-  languages: "[]",
-
-  region_in_cn: "越南",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Mali = {
-  alpha2code: "ML",
-  alpha3code: "MLI",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "466",
-  short_name: "Mali",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Mali",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "马里",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Viet_NamDemocraticRepublicOf = {
-  alpha2code: "VD",
-  alpha3code: "VDR",
-  alpha4code: "VDVN",
-  independent: false,
-  numeric_code: "704",
-  short_name: "Viet-Nam, Democratic Republic of",
-
-  period_of_validity: "1974–1977",
-
-  alias: "[]",
-  common_name: "Viet_Nam Democratic Republic Of",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "越南民主共和国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Togo = {
-  alpha2code: "TG",
-  alpha3code: "TGO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "768",
-  short_name: "Togo",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Togo",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "多哥",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Congo = {
-  alpha2code: "CG",
-  alpha3code: "COG",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "178",
-  short_name: "Congo",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Congo",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "刚果共和国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Zaire = {
-  alpha2code: "ZR",
-  alpha3code: "ZAR",
-  alpha4code: "ZRCD",
-  independent: false,
-  numeric_code: "180",
-  short_name: "Zaire",
-
-  period_of_validity: "1974–1997",
-
-  alias: "[]",
-  common_name: "Zaire",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "扎伊尔",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const CongoKinshasa = {
-  alpha2code: "CD",
-  alpha3code: "COD",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "180",
-  short_name: "Congo (Democratic Republic of the)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Congo Kinshasa",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "刚果民主共和国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Macao = {
-  alpha2code: "MO",
-  alpha3code: "MAC",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "446",
-  short_name: "Macao",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Macao",
-  calling_code: "853",
-
-  languages: "[]",
-
-  region_in_cn: "中国澳门",
-  region_in_native: "中國澳門",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "澳门元",
-  currency_in_native: "澳門元",
-} as IEntity;
-
-const SouthernRhodesia = {
-  alpha2code: "RH",
-  alpha3code: "RHO",
-  alpha4code: "RHZW",
-  independent: false,
-  numeric_code: "716",
-  short_name: "Southern Rhodesia",
-
-  period_of_validity: "1974–1980",
-
-  alias: "[]",
-  common_name: "Southern Rhodesia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "南罗德西亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SouthKorea = {
-  alpha2code: "KR",
-  alpha3code: "KOR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "410",
-  short_name: "Korea (Republic of)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "South Korea",
-  calling_code: "82",
-
-  languages: "[]",
-
-  region_in_cn: "南韩",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const NorthKorea = {
-  alpha2code: "KP",
-  alpha3code: "PRK",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "408",
-  short_name: "Korea (Democratic People's Republic of)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "North Korea",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "北韩",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const JohnstonIsland = {
-  alpha2code: "JT",
-  alpha3code: "JTN",
-  alpha4code: "JTUM",
-  independent: false,
-  numeric_code: "396",
-  short_name: "Johnston Island",
-
-  period_of_validity: "1974–1986",
-
-  alias: "[]",
-  common_name: "Johnston Island",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "约翰斯顿环礁",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const CzechRepublic = {
-  alpha2code: "CZ",
-  alpha3code: "CZE",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "203",
-  short_name: "Czechia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Czech Republic",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "捷克",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Benin = {
-  alpha2code: "BJ",
-  alpha3code: "BEN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "204",
-  short_name: "Benin",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Benin",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "贝宁",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Dahomey = {
-  alpha2code: "DY",
-  alpha3code: "DHY",
-  alpha4code: "DYBJ",
-  independent: false,
-  numeric_code: "204",
-  short_name: "Dahomey",
-
-  period_of_validity: "1974–1977",
-
-  alias: "[]",
-  common_name: "Dahomey",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "达荷美",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const IvoryCoast = {
-  alpha2code: "CI",
-  alpha3code: "CIV",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "384",
-  short_name: "Côte d'Ivoire",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Ivory Coast",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "科特迪瓦",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Dominica = {
-  alpha2code: "DM",
-  alpha3code: "DMA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "212",
-  short_name: "Dominica",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Dominica",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "多米尼克",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const YemenDemocratic = {
-  alpha2code: "YD",
-  alpha3code: "YMD",
-  alpha4code: "YDYE",
-  independent: false,
-  numeric_code: "720",
-  short_name: "Yemen, Democratic",
-
-  period_of_validity: "1974–1990",
-
-  alias: "[]",
-  common_name: "Yemen Democratic",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "也门民主人民共和国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const DronningMaudLand = {
-  alpha2code: "NQ",
-  alpha3code: "ATN",
-  alpha4code: "NQAQ",
-  independent: false,
-  numeric_code: "216",
-  short_name: "Dronning Maud Land",
-
-  period_of_validity: "1974–1983",
-
-  alias: "[]",
-  common_name: "Dronning Maud Land",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "毛德皇后地",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Iran = {
-  alpha2code: "IR",
-  alpha3code: "IRN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "364",
-  short_name: "Iran (Islamic Republic of)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Iran",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "伊朗",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Turkey = {
-  alpha2code: "TR",
-  alpha3code: "TUR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "792",
-  short_name: "Türkiye",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Turkey",
-  calling_code: "90",
-
-  languages: "[]",
-
-  region_in_cn: "土耳其",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const EquatorialGuinea = {
-  alpha2code: "GQ",
-  alpha3code: "GNQ",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "226",
-  short_name: "Equatorial Guinea",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Equatorial Guinea",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "赤道几内亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SvalbardAndJanMayen = {
-  alpha2code: "SJ",
-  alpha3code: "SJM",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "744",
-  short_name: "Svalbard and Jan Mayen",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Svalbard And Jan Mayen",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "斯瓦尔巴和扬马延",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Grenada = {
-  alpha2code: "GD",
-  alpha3code: "GRD",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "308",
-  short_name: "Grenada",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Grenada",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "格林纳达",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const GilbertAndElliceIslands = {
-  alpha2code: "GE",
-  alpha3code: "GEL",
-  alpha4code: "GEHH",
-  independent: true,
-  numeric_code: "296",
-  short_name: "Gilbert and Ellice Islands",
-
-  period_of_validity: "1974–1979",
-
-  alias: "[]",
-  common_name: "Gilbert And Ellice Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "吉尔伯特和埃利斯群岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Guinea_Bissau = {
-  alpha2code: "GW",
-  alpha3code: "GNB",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "624",
-  short_name: "Guinea-Bissau",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Guinea_Bissau",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "几内亚比绍",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const FalklandIslandsMalvinas = {
-  alpha2code: "FK",
-  alpha3code: "FLK",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "238",
-  short_name: "Falkland Islands (Malvinas)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Falkland Islands Malvinas",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "福克兰群岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SouthGeorgiaAndTheSouthSandwichIslands = {
-  alpha2code: "GS",
-  alpha3code: "SGS",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "239",
-  short_name: "South Georgia and the South Sandwich Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "South Georgia And The South Sandwich Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "南乔治亚和南桑威奇群岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SyrianArabRepublic = {
-  alpha2code: "SY",
-  alpha3code: "SYR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "760",
-  short_name: "Syrian Arab Republic",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Syrian Arab Republic",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "叙利亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const EastGermany = {
-  alpha2code: "DD",
-  alpha3code: "DDR",
-  alpha4code: "DDDE",
-  independent: true,
-  numeric_code: "278",
-  short_name: "German Democratic Republic",
-
-  period_of_validity: "1974–1990",
-
-  alias: "[]",
-  common_name: "East Germany",
-  calling_code: "",
-
-  languages: "["German"]",
-
-  region_in_cn: "东德",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const PalestineStateOf = {
-  alpha2code: "PS",
-  alpha3code: "PSE",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "275",
-  short_name: "Palestine, State of",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Palestine State Of",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "巴勒斯坦",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const FranceMetropolitan = {
-  alpha2code: "FX",
-  alpha3code: "FXX",
-  alpha4code: "FXFR",
-  independent: false,
-  numeric_code: "249",
-  short_name: "France, Metropolitan",
-
-  period_of_validity: "1993–1997",
-
-  alias: "[]",
-  common_name: "France Metropolitan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "法国本土",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Gabon = {
-  alpha2code: "GA",
-  alpha3code: "GAB",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "266",
-  short_name: "Gabon",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Gabon",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "加蓬",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const FrenchAfarAndIssas = {
-  alpha2code: "AI",
-  alpha3code: "AFI",
-  alpha4code: "AIDJ",
-  independent: false,
-  numeric_code: "262",
-  short_name: "French Afar and Issas",
-
-  period_of_validity: "1974–1977",
-
-  alias: "[]",
-  common_name: "French Afar And Issas",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "法属阿法尔和伊萨领地",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const FrenchPolynesia = {
-  alpha2code: "PF",
-  alpha3code: "PYF",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "258",
-  short_name: "French Polynesia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "French Polynesia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "法属波利尼西亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
+  alphabetic_code: "AFN",
+  numeric_code_4217: "971",
+  minor_unit: 2,
+  currency: "Afghan afghani",
 
   currency_in_cn: "",
   currency_in_native: "",
 } as IEntity;
 
 const Albania = {
-  alpha2code: "AL",
+  alpha2Code: "AL",
   alpha3code: "ALB",
   alpha4code: "",
   independent: true,
@@ -2411,8 +87,36 @@ const Albania = {
   currency_in_native: "",
 } as IEntity;
 
+const Antarctica = {
+  alpha2Code: "AQ",
+  alpha3code: "ATA",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "010",
+  short_name: "Antarctica",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Antarctica",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "南极洲",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Algeria = {
-  alpha2code: "DZ",
+  alpha2Code: "DZ",
   alpha3code: "DZA",
   alpha4code: "",
   independent: true,
@@ -2439,8 +143,148 @@ const Algeria = {
   currency_in_native: "",
 } as IEntity;
 
+const AmericanSamoa = {
+  alpha2Code: "AS",
+  alpha3code: "ASM",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "016",
+  short_name: "American Samoa",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "American Samoa",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "美属萨摩亚",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Andorra = {
+  alpha2Code: "AD",
+  alpha3code: "AND",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "020",
+  short_name: "Andorra",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Andorra",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "安道尔",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Angola = {
+  alpha2Code: "AO",
+  alpha3code: "AGO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "024",
+  short_name: "Angola",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Angola",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "安哥拉",
+  region_in_native: "",
+
+  alphabetic_code: "AOA",
+  numeric_code_4217: "973",
+  minor_unit: 2,
+  currency: "Angolan kwanza",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const AntiguaAndBarbuda = {
+  alpha2Code: "AG",
+  alpha3code: "ATG",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "028",
+  short_name: "Antigua and Barbuda",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Antigua And Barbuda",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "安提瓜和巴布达",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Azerbaijan = {
+  alpha2Code: "AZ",
+  alpha3code: "AZE",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "031",
+  short_name: "Azerbaijan",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Azerbaijan",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "阿塞拜疆",
+  region_in_native: "",
+
+  alphabetic_code: "AZN",
+  numeric_code_4217: "944",
+  minor_unit: 2,
+  currency: "Azerbaijani manat",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Argentina = {
-  alpha2code: "AR",
+  alpha2Code: "AR",
   alpha3code: "ARG",
   alpha4code: "",
   independent: true,
@@ -2467,64 +311,8 @@ const Argentina = {
   currency_in_native: "",
 } as IEntity;
 
-const Kiribati = {
-  alpha2code: "KI",
-  alpha3code: "KIR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "296",
-  short_name: "Kiribati",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Kiribati",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "基里巴斯",
-  region_in_native: "",
-
-  alphabetic_code: "AUD",
-  numeric_code_4217: "036",
-  minor_unit: 2,
-  currency: "Australian dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const NorfolkIsland = {
-  alpha2code: "NF",
-  alpha3code: "NFK",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "574",
-  short_name: "Norfolk Island",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Norfolk Island",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "诺福克岛",
-  region_in_native: "",
-
-  alphabetic_code: "AUD",
-  numeric_code_4217: "036",
-  minor_unit: 2,
-  currency: "Australian dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
 const Australia = {
-  alpha2code: "AU",
+  alpha2Code: "AU",
   alpha3code: "AUS",
   alpha4code: "",
   independent: true,
@@ -2551,148 +339,36 @@ const Australia = {
   currency_in_native: "",
 } as IEntity;
 
-const Tuvalu = {
-  alpha2code: "TV",
-  alpha3code: "TUV",
+const Austria = {
+  alpha2Code: "AT",
+  alpha3code: "AUT",
   alpha4code: "",
   independent: true,
-  numeric_code: "798",
-  short_name: "Tuvalu",
+  numeric_code: "040",
+  short_name: "Austria",
 
   period_of_validity: "",
 
   alias: "[]",
-  common_name: "Tuvalu",
+  common_name: "Austria",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "图瓦卢",
+  region_in_cn: "奥地利",
   region_in_native: "",
 
-  alphabetic_code: "AUD",
-  numeric_code_4217: "036",
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
   minor_unit: 2,
-  currency: "Australian dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const HeardIslandAndMcDonaldIslands = {
-  alpha2code: "HM",
-  alpha3code: "HMD",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "334",
-  short_name: "Heard Island and McDonald Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Heard Island And McDonald Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "赫德岛和麦克唐纳群岛",
-  region_in_native: "",
-
-  alphabetic_code: "AUD",
-  numeric_code_4217: "036",
-  minor_unit: 2,
-  currency: "Australian dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Nauru = {
-  alpha2code: "NR",
-  alpha3code: "NRU",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "520",
-  short_name: "Nauru",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Nauru",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "瑙鲁",
-  region_in_native: "",
-
-  alphabetic_code: "AUD",
-  numeric_code_4217: "036",
-  minor_unit: 2,
-  currency: "Australian dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const CocosKeelingIslands = {
-  alpha2code: "CC",
-  alpha3code: "CCK",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "166",
-  short_name: "Cocos (Keeling) Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Cocos Keeling Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "科科斯（基林）群岛",
-  region_in_native: "",
-
-  alphabetic_code: "AUD",
-  numeric_code_4217: "036",
-  minor_unit: 2,
-  currency: "Australian dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const ChristmasIsland = {
-  alpha2code: "CX",
-  alpha3code: "CXR",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "162",
-  short_name: "Christmas Island",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Christmas Island",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣诞岛",
-  region_in_native: "",
-
-  alphabetic_code: "AUD",
-  numeric_code_4217: "036",
-  minor_unit: 2,
-  currency: "Australian dollar",
+  currency: "Euro",
 
   currency_in_cn: "",
   currency_in_native: "",
 } as IEntity;
 
 const Bahamas = {
-  alpha2code: "BS",
+  alpha2Code: "BS",
   alpha3code: "BHS",
   alpha4code: "",
   independent: true,
@@ -2720,7 +396,7 @@ const Bahamas = {
 } as IEntity;
 
 const Bahrain = {
-  alpha2code: "BH",
+  alpha2Code: "BH",
   alpha3code: "BHR",
   alpha4code: "",
   independent: true,
@@ -2748,7 +424,7 @@ const Bahrain = {
 } as IEntity;
 
 const Bangladesh = {
-  alpha2code: "BD",
+  alpha2Code: "BD",
   alpha3code: "BGD",
   alpha4code: "",
   independent: true,
@@ -2776,7 +452,7 @@ const Bangladesh = {
 } as IEntity;
 
 const Armenia = {
-  alpha2code: "AM",
+  alpha2Code: "AM",
   alpha3code: "ARM",
   alpha4code: "",
   independent: true,
@@ -2804,7 +480,7 @@ const Armenia = {
 } as IEntity;
 
 const Barbados = {
-  alpha2code: "BB",
+  alpha2Code: "BB",
   alpha3code: "BRB",
   alpha4code: "",
   independent: true,
@@ -2831,8 +507,36 @@ const Barbados = {
   currency_in_native: "",
 } as IEntity;
 
+const Belgium = {
+  alpha2Code: "BE",
+  alpha3code: "BEL",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "056",
+  short_name: "Belgium",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Belgium",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "比利时",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Bermuda = {
-  alpha2code: "BM",
+  alpha2Code: "BM",
   alpha3code: "BMU",
   alpha4code: "",
   independent: false,
@@ -2859,8 +563,92 @@ const Bermuda = {
   currency_in_native: "",
 } as IEntity;
 
+const Bhutan = {
+  alpha2Code: "BT",
+  alpha3code: "BTN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "064",
+  short_name: "Bhutan",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Bhutan",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "不丹",
+  region_in_native: "",
+
+  alphabetic_code: "INR",
+  numeric_code_4217: "356",
+  minor_unit: 2,
+  currency: "Indian rupee",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const BoliviaPlurinationalStateOf = {
+  alpha2Code: "BO",
+  alpha3code: "BOL",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "068",
+  short_name: "Bolivia (Plurinational State of)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Bolivia Plurinational State Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "玻利维亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const BosniaAndHerzegovina = {
+  alpha2Code: "BA",
+  alpha3code: "BIH",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "070",
+  short_name: "Bosnia and Herzegovina",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Bosnia And Herzegovina",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "波黑",
+  region_in_native: "",
+
+  alphabetic_code: "BAM",
+  numeric_code_4217: "977",
+  minor_unit: 2,
+  currency: "Bosnia and Herzegovina convertible mark",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Botswana = {
-  alpha2code: "BW",
+  alpha2Code: "BW",
   alpha3code: "BWA",
   alpha4code: "",
   independent: true,
@@ -2887,8 +675,64 @@ const Botswana = {
   currency_in_native: "",
 } as IEntity;
 
+const BouvetIsland = {
+  alpha2Code: "BV",
+  alpha3code: "BVT",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "074",
+  short_name: "Bouvet Island",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Bouvet Island",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "布韦岛",
+  region_in_native: "",
+
+  alphabetic_code: "NOK",
+  numeric_code_4217: "578",
+  minor_unit: 2,
+  currency: "Norwegian krone",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Brazil = {
+  alpha2Code: "BR",
+  alpha3code: "BRA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "076",
+  short_name: "Brazil",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Brazil",
+  calling_code: "55",
+
+  languages: "[]",
+
+  region_in_cn: "巴西",
+  region_in_native: "",
+
+  alphabetic_code: "BRL",
+  numeric_code_4217: "986",
+  minor_unit: 2,
+  currency: "Brazilian real",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Belize = {
-  alpha2code: "BZ",
+  alpha2Code: "BZ",
   alpha3code: "BLZ",
   alpha4code: "",
   independent: true,
@@ -2915,8 +759,36 @@ const Belize = {
   currency_in_native: "",
 } as IEntity;
 
+const BritishIndianOceanTerritory = {
+  alpha2Code: "IO",
+  alpha3code: "IOT",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "086",
+  short_name: "British Indian Ocean Territory",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "British Indian Ocean Territory",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "英属印度洋领地",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const SolomonIslands = {
-  alpha2code: "SB",
+  alpha2Code: "SB",
   alpha3code: "SLB",
   alpha4code: "",
   independent: true,
@@ -2943,8 +815,120 @@ const SolomonIslands = {
   currency_in_native: "",
 } as IEntity;
 
+const VirginIslandsBritish = {
+  alpha2Code: "VG",
+  alpha3code: "VGB",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "092",
+  short_name: "Virgin Islands (British)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Virgin Islands British",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "英属维尔京群岛",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const BruneiDarussalam = {
+  alpha2Code: "BN",
+  alpha3code: "BRN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "096",
+  short_name: "Brunei Darussalam",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Brunei Darussalam",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "文莱",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Bulgaria = {
+  alpha2Code: "BG",
+  alpha3code: "BGR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "100",
+  short_name: "Bulgaria",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Bulgaria",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "保加利亚",
+  region_in_native: "",
+
+  alphabetic_code: "BGN",
+  numeric_code_4217: "975",
+  minor_unit: 2,
+  currency: "Bulgarian lev",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Burma = {
+  alpha2Code: "BU",
+  alpha3code: "BUR",
+  alpha4code: "BUMM",
+  independent: true,
+  numeric_code: "104",
+  short_name: "Burma",
+
+  period_of_validity: "1974–1989",
+
+  alias: "[]",
+  common_name: "Burma",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "前缅甸",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Myanmar = {
-  alpha2code: "MM",
+  alpha2Code: "MM",
   alpha3code: "MMR",
   alpha4code: "",
   independent: true,
@@ -2972,7 +956,7 @@ const Myanmar = {
 } as IEntity;
 
 const Burundi = {
-  alpha2code: "BI",
+  alpha2Code: "BI",
   alpha3code: "BDI",
   alpha4code: "",
   independent: true,
@@ -2999,8 +983,36 @@ const Burundi = {
   currency_in_native: "",
 } as IEntity;
 
+const Belarus = {
+  alpha2Code: "BY",
+  alpha3code: "BLR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "112",
+  short_name: "Belarus",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Belarus",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "白俄罗斯",
+  region_in_native: "",
+
+  alphabetic_code: "BYN",
+  numeric_code_4217: "933",
+  minor_unit: 2,
+  currency: "Belarusian ruble",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Cambodia = {
-  alpha2code: "KH",
+  alpha2Code: "KH",
   alpha3code: "KHM",
   alpha4code: "",
   independent: true,
@@ -3027,8 +1039,36 @@ const Cambodia = {
   currency_in_native: "",
 } as IEntity;
 
+const Cameroon = {
+  alpha2Code: "CM",
+  alpha3code: "CMR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "120",
+  short_name: "Cameroon",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Cameroon",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "喀麦隆",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Canada = {
-  alpha2code: "CA",
+  alpha2Code: "CA",
   alpha3code: "CAN",
   alpha4code: "",
   independent: true,
@@ -3055,8 +1095,64 @@ const Canada = {
   currency_in_native: "",
 } as IEntity;
 
+const CantonAndEnderburyIslands = {
+  alpha2Code: "CT",
+  alpha3code: "CTE",
+  alpha4code: "CTKI",
+  independent: false,
+  numeric_code: "128",
+  short_name: "Canton and Enderbury Islands",
+
+  period_of_validity: "1974–1984",
+
+  alias: "[]",
+  common_name: "Canton And Enderbury Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "坎顿及恩德伯里群岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const CaboVerde = {
+  alpha2Code: "CV",
+  alpha3code: "CPV",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "132",
+  short_name: "Cabo Verde",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Cabo Verde",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "佛得角",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const CaymanIslands = {
-  alpha2code: "KY",
+  alpha2Code: "KY",
   alpha3code: "CYM",
   alpha4code: "",
   independent: false,
@@ -3083,8 +1179,36 @@ const CaymanIslands = {
   currency_in_native: "",
 } as IEntity;
 
+const CentralAfricanRepublic = {
+  alpha2Code: "CF",
+  alpha3code: "CAF",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "140",
+  short_name: "Central African Republic",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Central African Republic",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "中非",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const SriLanka = {
-  alpha2code: "LK",
+  alpha2Code: "LK",
   alpha3code: "LKA",
   alpha4code: "",
   independent: true,
@@ -3111,8 +1235,64 @@ const SriLanka = {
   currency_in_native: "",
 } as IEntity;
 
+const Chad = {
+  alpha2Code: "TD",
+  alpha3code: "TCD",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "148",
+  short_name: "Chad",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Chad",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "乍得",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Chile = {
+  alpha2Code: "CL",
+  alpha3code: "CHL",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "152",
+  short_name: "Chile",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Chile",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "智利",
+  region_in_native: "",
+
+  alphabetic_code: "CLF",
+  numeric_code_4217: "990",
+  minor_unit: 4,
+  currency: "Unidad de Fomento",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const China = {
-  alpha2code: "CN",
+  alpha2Code: "CN",
   alpha3code: "CHN",
   alpha4code: "",
   independent: true,
@@ -3139,8 +1319,92 @@ const China = {
   currency_in_native: "人民币",
 } as IEntity;
 
+const Taiwan = {
+  alpha2Code: "TW",
+  alpha3code: "TWN",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "158",
+  short_name: "Taiwan, Province of China",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Taiwan",
+  calling_code: "886",
+
+  languages: "["Chinese"]",
+
+  region_in_cn: "中国台湾",
+  region_in_native: "臺灣",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "新台币",
+  currency_in_native: "新臺幣",
+} as IEntity;
+
+const ChristmasIsland = {
+  alpha2Code: "CX",
+  alpha3code: "CXR",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "162",
+  short_name: "Christmas Island",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Christmas Island",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣诞岛",
+  region_in_native: "",
+
+  alphabetic_code: "AUD",
+  numeric_code_4217: "036",
+  minor_unit: 2,
+  currency: "Australian dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const CocosKeelingIslands = {
+  alpha2Code: "CC",
+  alpha3code: "CCK",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "166",
+  short_name: "Cocos (Keeling) Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Cocos Keeling Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "科科斯（基林）群岛",
+  region_in_native: "",
+
+  alphabetic_code: "AUD",
+  numeric_code_4217: "036",
+  minor_unit: 2,
+  currency: "Australian dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Colombia = {
-  alpha2code: "CO",
+  alpha2Code: "CO",
   alpha3code: "COL",
   alpha4code: "",
   independent: true,
@@ -3168,7 +1432,7 @@ const Colombia = {
 } as IEntity;
 
 const Comoros = {
-  alpha2code: "KM",
+  alpha2Code: "KM",
   alpha3code: "COM",
   alpha4code: "",
   independent: true,
@@ -3195,8 +1459,148 @@ const Comoros = {
   currency_in_native: "",
 } as IEntity;
 
+const Mayotte = {
+  alpha2Code: "YT",
+  alpha3code: "MYT",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "175",
+  short_name: "Mayotte",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Mayotte",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "马约特",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Congo = {
+  alpha2Code: "CG",
+  alpha3code: "COG",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "178",
+  short_name: "Congo",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Congo",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "刚果共和国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const CongoDemocraticRepublicOfthe = {
+  alpha2Code: "CD",
+  alpha3code: "COD",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "180",
+  short_name: "Congo (Democratic Republic of the)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Congo Democratic Republic Of the",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "刚果民主共和国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Zaire = {
+  alpha2Code: "ZR",
+  alpha3code: "ZAR",
+  alpha4code: "ZRCD",
+  independent: false,
+  numeric_code: "180",
+  short_name: "Zaire",
+
+  period_of_validity: "1974–1997",
+
+  alias: "[]",
+  common_name: "Zaire",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "扎伊尔",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const CookIslands = {
+  alpha2Code: "CK",
+  alpha3code: "COK",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "184",
+  short_name: "Cook Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Cook Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "库克群岛",
+  region_in_native: "",
+
+  alphabetic_code: "NZD",
+  numeric_code_4217: "554",
+  minor_unit: 2,
+  currency: "New Zealand dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const CostaRica = {
-  alpha2code: "CR",
+  alpha2Code: "CR",
   alpha3code: "CRI",
   alpha4code: "",
   independent: true,
@@ -3223,8 +1627,36 @@ const CostaRica = {
   currency_in_native: "",
 } as IEntity;
 
+const Croatia = {
+  alpha2Code: "HR",
+  alpha3code: "HRV",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "191",
+  short_name: "Croatia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Croatia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "克罗地亚",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Cuba = {
-  alpha2code: "CU",
+  alpha2Code: "CU",
   alpha3code: "CUB",
   alpha4code: "",
   independent: true,
@@ -3251,8 +1683,148 @@ const Cuba = {
   currency_in_native: "",
 } as IEntity;
 
+const Cyprus = {
+  alpha2Code: "CY",
+  alpha3code: "CYP",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "196",
+  short_name: "Cyprus",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Cyprus",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "塞浦路斯",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Czechoslovakia = {
+  alpha2Code: "",
+  alpha3code: "CSK",
+  alpha4code: "CSHH",
+  independent: false,
+  numeric_code: "200",
+  short_name: "Czechoslovakia",
+
+  period_of_validity: "1974–1993",
+
+  alias: "[]",
+  common_name: "Czechoslovakia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "捷克斯洛伐克",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Czechia = {
+  alpha2Code: "CZ",
+  alpha3code: "CZE",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "203",
+  short_name: "Czechia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Czechia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "捷克",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Benin = {
+  alpha2Code: "BJ",
+  alpha3code: "BEN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "204",
+  short_name: "Benin",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Benin",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "贝宁",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Dahomey = {
+  alpha2Code: "DY",
+  alpha3code: "DHY",
+  alpha4code: "DYBJ",
+  independent: false,
+  numeric_code: "204",
+  short_name: "Dahomey",
+
+  period_of_validity: "1974–1977",
+
+  alias: "[]",
+  common_name: "Dahomey",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "达荷美",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Denmark = {
-  alpha2code: "DK",
+  alpha2Code: "DK",
   alpha3code: "DNK",
   alpha4code: "",
   independent: true,
@@ -3279,64 +1851,36 @@ const Denmark = {
   currency_in_native: "",
 } as IEntity;
 
-const Greenland = {
-  alpha2code: "GL",
-  alpha3code: "GRL",
+const Dominica = {
+  alpha2Code: "DM",
+  alpha3code: "DMA",
   alpha4code: "",
-  independent: false,
-  numeric_code: "304",
-  short_name: "Greenland",
+  independent: true,
+  numeric_code: "212",
+  short_name: "Dominica",
 
   period_of_validity: "",
 
   alias: "[]",
-  common_name: "Greenland",
+  common_name: "Dominica",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "格陵兰",
+  region_in_cn: "多米尼克",
   region_in_native: "",
 
-  alphabetic_code: "DKK",
-  numeric_code_4217: "208",
-  minor_unit: 2,
-  currency: "Danish krone",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const FaroeIslands = {
-  alpha2code: "FO",
-  alpha3code: "FRO",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "234",
-  short_name: "Faroe Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Faroe Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "法罗群岛",
-  region_in_native: "",
-
-  alphabetic_code: "DKK",
-  numeric_code_4217: "208",
-  minor_unit: 2,
-  currency: "Danish krone",
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
 
   currency_in_cn: "",
   currency_in_native: "",
 } as IEntity;
 
 const DominicanRepublic = {
-  alpha2code: "DO",
+  alpha2Code: "DO",
   alpha3code: "DOM",
   alpha4code: "",
   independent: true,
@@ -3363,8 +1907,120 @@ const DominicanRepublic = {
   currency_in_native: "",
 } as IEntity;
 
+const DronningMaudLand = {
+  alpha2Code: "NQ",
+  alpha3code: "ATN",
+  alpha4code: "NQAQ",
+  independent: false,
+  numeric_code: "216",
+  short_name: "Dronning Maud Land",
+
+  period_of_validity: "1974–1983",
+
+  alias: "[]",
+  common_name: "Dronning Maud Land",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "毛德皇后地",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Ecuador = {
+  alpha2Code: "EC",
+  alpha3code: "ECU",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "218",
+  short_name: "Ecuador",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Ecuador",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "厄瓜多尔",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const ElSalvador = {
+  alpha2Code: "SV",
+  alpha3code: "SLV",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "222",
+  short_name: "El Salvador",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "El Salvador",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "萨尔瓦多",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const EquatorialGuinea = {
+  alpha2Code: "GQ",
+  alpha3code: "GNQ",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "226",
+  short_name: "Equatorial Guinea",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Equatorial Guinea",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "赤道几内亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Ethiopia = {
-  alpha2code: "ET",
+  alpha2Code: "ET",
   alpha3code: "ETH",
   alpha4code: "",
   independent: true,
@@ -3392,7 +2048,7 @@ const Ethiopia = {
 } as IEntity;
 
 const Eritrea = {
-  alpha2code: "ER",
+  alpha2Code: "ER",
   alpha3code: "ERI",
   alpha4code: "",
   independent: true,
@@ -3419,8 +2075,120 @@ const Eritrea = {
   currency_in_native: "",
 } as IEntity;
 
+const Estonia = {
+  alpha2Code: "EE",
+  alpha3code: "EST",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "233",
+  short_name: "Estonia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Estonia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "爱沙尼亚",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const FaroeIslands = {
+  alpha2Code: "FO",
+  alpha3code: "FRO",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "234",
+  short_name: "Faroe Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Faroe Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "法罗群岛",
+  region_in_native: "",
+
+  alphabetic_code: "DKK",
+  numeric_code_4217: "208",
+  minor_unit: 2,
+  currency: "Danish krone",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const FalklandIslandsMalvinas = {
+  alpha2Code: "FK",
+  alpha3code: "FLK",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "238",
+  short_name: "Falkland Islands (Malvinas)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Falkland Islands Malvinas",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "福克兰群岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SouthGeorgiaAndTheSouthSandwichIslands = {
+  alpha2Code: "GS",
+  alpha3code: "SGS",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "239",
+  short_name: "South Georgia and the South Sandwich Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "South Georgia And The South Sandwich Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "南乔治亚和南桑威奇群岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Fiji = {
-  alpha2code: "FJ",
+  alpha2Code: "FJ",
   alpha3code: "FJI",
   alpha4code: "",
   independent: true,
@@ -3447,8 +2215,232 @@ const Fiji = {
   currency_in_native: "",
 } as IEntity;
 
+const Finland = {
+  alpha2Code: "FI",
+  alpha3code: "FIN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "246",
+  short_name: "Finland",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Finland",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "芬兰",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const AlandIslands = {
+  alpha2Code: "AX",
+  alpha3code: "ALA",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "248",
+  short_name: "Åland Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Aland Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "奥兰",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const FranceMetropolitan = {
+  alpha2Code: "FX",
+  alpha3code: "FXX",
+  alpha4code: "FXFR",
+  independent: false,
+  numeric_code: "249",
+  short_name: "France, Metropolitan",
+
+  period_of_validity: "1993–1997",
+
+  alias: "[]",
+  common_name: "France Metropolitan",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "法国本土",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const France = {
+  alpha2Code: "FR",
+  alpha3code: "FRA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "250",
+  short_name: "France",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "France",
+  calling_code: "33",
+
+  languages: "[]",
+
+  region_in_cn: "法国",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const FrenchGuiana = {
+  alpha2Code: "GF",
+  alpha3code: "GUF",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "254",
+  short_name: "French Guiana",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "French Guiana",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "法属圭亚那",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const FrenchPolynesia = {
+  alpha2Code: "PF",
+  alpha3code: "PYF",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "258",
+  short_name: "French Polynesia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "French Polynesia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "法属波利尼西亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const FrenchSouthernAndAntarcticTerritories = {
+  alpha2Code: "FQ",
+  alpha3code: "ATF",
+  alpha4code: "FQHH",
+  independent: false,
+  numeric_code: "260",
+  short_name: "French Southern and Antarctic Territories",
+
+  period_of_validity: "1974–1979",
+
+  alias: "[]",
+  common_name: "French Southern And Antarctic Territories",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "法属南部和南极领地",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const FrenchSouthernTerritories = {
+  alpha2Code: "TF",
+  alpha3code: "ATF",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "260",
+  short_name: "French Southern Territories",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "French Southern Territories",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "法属南部和南极领地",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Djibouti = {
-  alpha2code: "DJ",
+  alpha2Code: "DJ",
   alpha3code: "DJI",
   alpha4code: "",
   independent: true,
@@ -3475,8 +2467,64 @@ const Djibouti = {
   currency_in_native: "",
 } as IEntity;
 
+const Gabon = {
+  alpha2Code: "GA",
+  alpha3code: "GAB",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "266",
+  short_name: "Gabon",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Gabon",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "加蓬",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Georgia = {
+  alpha2Code: "GE",
+  alpha3code: "GEO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "268",
+  short_name: "Georgia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Georgia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "格鲁吉亚",
+  region_in_native: "",
+
+  alphabetic_code: "GEL",
+  numeric_code_4217: "981",
+  minor_unit: 2,
+  currency: "Georgian lari",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Gambia = {
-  alpha2code: "GM",
+  alpha2Code: "GM",
   alpha3code: "GMB",
   alpha4code: "",
   independent: true,
@@ -3503,8 +2551,120 @@ const Gambia = {
   currency_in_native: "",
 } as IEntity;
 
+const PalestineStateOf = {
+  alpha2Code: "PS",
+  alpha3code: "PSE",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "275",
+  short_name: "Palestine, State of",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Palestine State Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "巴勒斯坦",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Germany = {
+  alpha2Code: "DE",
+  alpha3code: "DEU",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "276",
+  short_name: "Germany",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Germany",
+  calling_code: "49",
+
+  languages: "[]",
+
+  region_in_cn: "德国",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "欧元",
+  currency_in_native: "Euro",
+} as IEntity;
+
+const EastGermany = {
+  alpha2Code: "DD",
+  alpha3code: "DDR",
+  alpha4code: "DDDE",
+  independent: true,
+  numeric_code: "278",
+  short_name: "German Democratic Republic",
+
+  period_of_validity: "1974–1990",
+
+  alias: "[]",
+  common_name: "East Germany",
+  calling_code: "",
+
+  languages: "["German"]",
+
+  region_in_cn: "东德",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Ghana = {
+  alpha2Code: "GH",
+  alpha3code: "GHA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "288",
+  short_name: "Ghana",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Ghana",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "加纳",
+  region_in_native: "",
+
+  alphabetic_code: "GHS",
+  numeric_code_4217: "936",
+  minor_unit: 2,
+  currency: "Ghanaian cedi",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Gibraltar = {
-  alpha2code: "GI",
+  alpha2Code: "GI",
   alpha3code: "GIB",
   alpha4code: "",
   independent: false,
@@ -3531,8 +2691,176 @@ const Gibraltar = {
   currency_in_native: "",
 } as IEntity;
 
+const Kiribati = {
+  alpha2Code: "KI",
+  alpha3code: "KIR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "296",
+  short_name: "Kiribati",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Kiribati",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "基里巴斯",
+  region_in_native: "",
+
+  alphabetic_code: "AUD",
+  numeric_code_4217: "036",
+  minor_unit: 2,
+  currency: "Australian dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Greece = {
+  alpha2Code: "GR",
+  alpha3code: "GRC",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "300",
+  short_name: "Greece",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Greece",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "希腊",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Greenland = {
+  alpha2Code: "GL",
+  alpha3code: "GRL",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "304",
+  short_name: "Greenland",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Greenland",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "格陵兰",
+  region_in_native: "",
+
+  alphabetic_code: "DKK",
+  numeric_code_4217: "208",
+  minor_unit: 2,
+  currency: "Danish krone",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Grenada = {
+  alpha2Code: "GD",
+  alpha3code: "GRD",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "308",
+  short_name: "Grenada",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Grenada",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "格林纳达",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Guadeloupe = {
+  alpha2Code: "GP",
+  alpha3code: "GLP",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "312",
+  short_name: "Guadeloupe",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Guadeloupe",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "瓜德罗普",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Guam = {
+  alpha2Code: "GU",
+  alpha3code: "GUM",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "316",
+  short_name: "Guam",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Guam",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "关岛",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Guatemala = {
-  alpha2code: "GT",
+  alpha2Code: "GT",
   alpha3code: "GTM",
   alpha4code: "",
   independent: true,
@@ -3560,7 +2888,7 @@ const Guatemala = {
 } as IEntity;
 
 const Guinea = {
-  alpha2code: "GN",
+  alpha2Code: "GN",
   alpha3code: "GIN",
   alpha4code: "",
   independent: true,
@@ -3588,7 +2916,7 @@ const Guinea = {
 } as IEntity;
 
 const Guyana = {
-  alpha2code: "GY",
+  alpha2Code: "GY",
   alpha3code: "GUY",
   alpha4code: "",
   independent: true,
@@ -3616,7 +2944,7 @@ const Guyana = {
 } as IEntity;
 
 const Haiti = {
-  alpha2code: "HT",
+  alpha2Code: "HT",
   alpha3code: "HTI",
   alpha4code: "",
   independent: true,
@@ -3643,8 +2971,64 @@ const Haiti = {
   currency_in_native: "",
 } as IEntity;
 
+const HeardIslandAndMcDonaldIslands = {
+  alpha2Code: "HM",
+  alpha3code: "HMD",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "334",
+  short_name: "Heard Island and McDonald Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Heard Island And McDonald Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "赫德岛和麦克唐纳群岛",
+  region_in_native: "",
+
+  alphabetic_code: "AUD",
+  numeric_code_4217: "036",
+  minor_unit: 2,
+  currency: "Australian dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const HolySee = {
+  alpha2Code: "VA",
+  alpha3code: "VAT",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "336",
+  short_name: "Holy See",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Holy See",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "梵蒂冈",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Honduras = {
-  alpha2code: "HN",
+  alpha2Code: "HN",
   alpha3code: "HND",
   alpha4code: "",
   independent: true,
@@ -3672,7 +3056,7 @@ const Honduras = {
 } as IEntity;
 
 const HongKong = {
-  alpha2code: "HK",
+  alpha2Code: "HK",
   alpha3code: "HKG",
   alpha4code: "",
   independent: false,
@@ -3700,7 +3084,7 @@ const HongKong = {
 } as IEntity;
 
 const Hungary = {
-  alpha2code: "HU",
+  alpha2Code: "HU",
   alpha3code: "HUN",
   alpha4code: "",
   independent: true,
@@ -3728,7 +3112,7 @@ const Hungary = {
 } as IEntity;
 
 const Iceland = {
-  alpha2code: "IS",
+  alpha2Code: "IS",
   alpha3code: "ISL",
   alpha4code: "",
   independent: true,
@@ -3756,7 +3140,7 @@ const Iceland = {
 } as IEntity;
 
 const India = {
-  alpha2code: "IN",
+  alpha2Code: "IN",
   alpha3code: "IND",
   alpha4code: "",
   independent: true,
@@ -3783,36 +3167,8 @@ const India = {
   currency_in_native: "",
 } as IEntity;
 
-const Bhutan = {
-  alpha2code: "BT",
-  alpha3code: "BTN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "064",
-  short_name: "Bhutan",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Bhutan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "不丹",
-  region_in_native: "",
-
-  alphabetic_code: "INR",
-  numeric_code_4217: "356",
-  minor_unit: 2,
-  currency: "Indian rupee",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
 const Indonesia = {
-  alpha2code: "ID",
+  alpha2Code: "ID",
   alpha3code: "IDN",
   alpha4code: "",
   independent: true,
@@ -3839,8 +3195,36 @@ const Indonesia = {
   currency_in_native: "",
 } as IEntity;
 
+const IranIslamicRepublicOf = {
+  alpha2Code: "IR",
+  alpha3code: "IRN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "364",
+  short_name: "Iran (Islamic Republic of)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Iran Islamic Republic Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "伊朗",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Iraq = {
-  alpha2code: "IQ",
+  alpha2Code: "IQ",
   alpha3code: "IRQ",
   alpha4code: "",
   independent: true,
@@ -3867,8 +3251,36 @@ const Iraq = {
   currency_in_native: "",
 } as IEntity;
 
+const Ireland = {
+  alpha2Code: "IE",
+  alpha3code: "IRL",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "372",
+  short_name: "Ireland",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Ireland",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "爱尔兰",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Israel = {
-  alpha2code: "IL",
+  alpha2Code: "IL",
   alpha3code: "ISR",
   alpha4code: "",
   independent: true,
@@ -3895,8 +3307,64 @@ const Israel = {
   currency_in_native: "",
 } as IEntity;
 
+const Italy = {
+  alpha2Code: "IT",
+  alpha3code: "ITA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "380",
+  short_name: "Italy",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Italy",
+  calling_code: "39",
+
+  languages: "[]",
+
+  region_in_cn: "意大利",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const CotedIvoire = {
+  alpha2Code: "CI",
+  alpha3code: "CIV",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "384",
+  short_name: "Côte d'Ivoire",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Cote dIvoire",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "科特迪瓦",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Jamaica = {
-  alpha2code: "JM",
+  alpha2Code: "JM",
   alpha3code: "JAM",
   alpha4code: "",
   independent: true,
@@ -3924,7 +3392,7 @@ const Jamaica = {
 } as IEntity;
 
 const Japan = {
-  alpha2code: "JP",
+  alpha2Code: "JP",
   alpha3code: "JPN",
   alpha4code: "",
   independent: true,
@@ -3951,8 +3419,36 @@ const Japan = {
   currency_in_native: "日本円",
 } as IEntity;
 
+const JohnstonIsland = {
+  alpha2Code: "JT",
+  alpha3code: "JTN",
+  alpha4code: "JTUM",
+  independent: false,
+  numeric_code: "396",
+  short_name: "Johnston Island",
+
+  period_of_validity: "1974–1986",
+
+  alias: "[]",
+  common_name: "Johnston Island",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "约翰斯顿环礁",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Kazakhstan = {
-  alpha2code: "KZ",
+  alpha2Code: "KZ",
   alpha3code: "KAZ",
   alpha4code: "",
   independent: true,
@@ -3980,7 +3476,7 @@ const Kazakhstan = {
 } as IEntity;
 
 const Jordan = {
-  alpha2code: "JO",
+  alpha2Code: "JO",
   alpha3code: "JOR",
   alpha4code: "",
   independent: true,
@@ -4008,7 +3504,7 @@ const Jordan = {
 } as IEntity;
 
 const Kenya = {
-  alpha2code: "KE",
+  alpha2Code: "KE",
   alpha3code: "KEN",
   alpha4code: "",
   independent: true,
@@ -4035,8 +3531,64 @@ const Kenya = {
   currency_in_native: "",
 } as IEntity;
 
+const NorthKorea = {
+  alpha2Code: "KP",
+  alpha3code: "PRK",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "408",
+  short_name: "Korea (Democratic People's Republic of)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "North Korea",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "北韩",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SouthKorea = {
+  alpha2Code: "KR",
+  alpha3code: "KOR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "410",
+  short_name: "Korea (Republic of)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "South Korea",
+  calling_code: "82",
+
+  languages: "[]",
+
+  region_in_cn: "南韩",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Kuwait = {
-  alpha2code: "KW",
+  alpha2Code: "KW",
   alpha3code: "KWT",
   alpha4code: "",
   independent: true,
@@ -4064,7 +3616,7 @@ const Kuwait = {
 } as IEntity;
 
 const Kyrgyzstan = {
-  alpha2code: "KG",
+  alpha2Code: "KG",
   alpha3code: "KGZ",
   alpha4code: "",
   independent: true,
@@ -4092,7 +3644,7 @@ const Kyrgyzstan = {
 } as IEntity;
 
 const Lebanon = {
-  alpha2code: "LB",
+  alpha2Code: "LB",
   alpha3code: "LBN",
   alpha4code: "",
   independent: true,
@@ -4119,8 +3671,64 @@ const Lebanon = {
   currency_in_native: "",
 } as IEntity;
 
+const Lesotho = {
+  alpha2Code: "LS",
+  alpha3code: "LSO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "426",
+  short_name: "Lesotho",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Lesotho",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "莱索托",
+  region_in_native: "",
+
+  alphabetic_code: "ZAR",
+  numeric_code_4217: "710",
+  minor_unit: 2,
+  currency: "South African rand",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Latvia = {
+  alpha2Code: "LV",
+  alpha3code: "LVA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "428",
+  short_name: "Latvia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Latvia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "拉脱维亚",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Liberia = {
-  alpha2code: "LR",
+  alpha2Code: "LR",
   alpha3code: "LBR",
   alpha4code: "",
   independent: true,
@@ -4148,7 +3756,7 @@ const Liberia = {
 } as IEntity;
 
 const Libya = {
-  alpha2code: "LY",
+  alpha2Code: "LY",
   alpha3code: "LBY",
   alpha4code: "",
   independent: true,
@@ -4175,1128 +3783,8 @@ const Libya = {
   currency_in_native: "",
 } as IEntity;
 
-const Malawi = {
-  alpha2code: "MW",
-  alpha3code: "MWI",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "454",
-  short_name: "Malawi",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Malawi",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "马拉维",
-  region_in_native: "",
-
-  alphabetic_code: "MWK",
-  numeric_code_4217: "454",
-  minor_unit: 2,
-  currency: "Malawian kwacha",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Malaysia = {
-  alpha2code: "MY",
-  alpha3code: "MYS",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "458",
-  short_name: "Malaysia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Malaysia",
-  calling_code: "60",
-
-  languages: "[]",
-
-  region_in_cn: "马来西亚",
-  region_in_native: "",
-
-  alphabetic_code: "MYR",
-  numeric_code_4217: "458",
-  minor_unit: 2,
-  currency: "Malaysian ringgit",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Maldives = {
-  alpha2code: "MV",
-  alpha3code: "MDV",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "462",
-  short_name: "Maldives",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Maldives",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "马尔代夫",
-  region_in_native: "",
-
-  alphabetic_code: "MVR",
-  numeric_code_4217: "462",
-  minor_unit: 2,
-  currency: "Maldivian rufiyaa",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Mauritius = {
-  alpha2code: "MU",
-  alpha3code: "MUS",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "480",
-  short_name: "Mauritius",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Mauritius",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "毛里求斯",
-  region_in_native: "",
-
-  alphabetic_code: "MUR",
-  numeric_code_4217: "480",
-  minor_unit: 2,
-  currency: "Mauritian rupee",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Mexico = {
-  alpha2code: "MX",
-  alpha3code: "MEX",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "484",
-  short_name: "Mexico",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Mexico",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "墨西哥",
-  region_in_native: "",
-
-  alphabetic_code: "MXN",
-  numeric_code_4217: "484",
-  minor_unit: 2,
-  currency: "Mexican peso",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Mongolia = {
-  alpha2code: "MN",
-  alpha3code: "MNG",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "496",
-  short_name: "Mongolia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Mongolia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "蒙古国",
-  region_in_native: "",
-
-  alphabetic_code: "MNT",
-  numeric_code_4217: "496",
-  minor_unit: 2,
-  currency: "Mongolian tögrög",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const WesternSahara = {
-  alpha2code: "EH",
-  alpha3code: "ESH",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "732",
-  short_name: "Western Sahara",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Western Sahara",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "西撒哈拉",
-  region_in_native: "",
-
-  alphabetic_code: "MAD",
-  numeric_code_4217: "504",
-  minor_unit: 2,
-  currency: "Moroccan dirham",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Morocco = {
-  alpha2code: "MA",
-  alpha3code: "MAR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "504",
-  short_name: "Morocco",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Morocco",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "摩洛哥",
-  region_in_native: "",
-
-  alphabetic_code: "MAD",
-  numeric_code_4217: "504",
-  minor_unit: 2,
-  currency: "Moroccan dirham",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Oman = {
-  alpha2code: "OM",
-  alpha3code: "OMN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "512",
-  short_name: "Oman",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Oman",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "阿曼",
-  region_in_native: "",
-
-  alphabetic_code: "OMR",
-  numeric_code_4217: "512",
-  minor_unit: 3,
-  currency: "Omani rial",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Nepal = {
-  alpha2code: "NP",
-  alpha3code: "NPL",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "524",
-  short_name: "Nepal",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Nepal",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "尼泊尔",
-  region_in_native: "",
-
-  alphabetic_code: "NPR",
-  numeric_code_4217: "524",
-  minor_unit: 2,
-  currency: "Nepalese rupee",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SintMaartenDutchpart = {
-  alpha2code: "SX",
-  alpha3code: "SXM",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "534",
-  short_name: "Sint Maarten (Dutch part)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Sint Maarten Dutch part",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "荷属圣马丁",
-  region_in_native: "",
-
-  alphabetic_code: "ANG",
-  numeric_code_4217: "532",
-  minor_unit: 2,
-  currency: "Netherlands Antillean guilder",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Curacao = {
-  alpha2code: "CW",
-  alpha3code: "CUW",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "531",
-  short_name: "Curaçao",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Curacao",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "库拉索",
-  region_in_native: "",
-
-  alphabetic_code: "ANG",
-  numeric_code_4217: "532",
-  minor_unit: 2,
-  currency: "Netherlands Antillean guilder",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Aruba = {
-  alpha2code: "AW",
-  alpha3code: "ABW",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "533",
-  short_name: "Aruba",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Aruba",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "阿鲁巴",
-  region_in_native: "",
-
-  alphabetic_code: "AWG",
-  numeric_code_4217: "533",
-  minor_unit: 2,
-  currency: "Aruban florin",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Vanuatu = {
-  alpha2code: "VU",
-  alpha3code: "VUT",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "548",
-  short_name: "Vanuatu",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Vanuatu",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "瓦努阿图",
-  region_in_native: "",
-
-  alphabetic_code: "VUV",
-  numeric_code_4217: "548",
-  minor_unit: 0,
-  currency: "Vanuatu vatu",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Niue = {
-  alpha2code: "NU",
-  alpha3code: "NIU",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "570",
-  short_name: "Niue",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Niue",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "纽埃",
-  region_in_native: "",
-
-  alphabetic_code: "NZD",
-  numeric_code_4217: "554",
-  minor_unit: 2,
-  currency: "New Zealand dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const CookIslands = {
-  alpha2code: "CK",
-  alpha3code: "COK",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "184",
-  short_name: "Cook Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Cook Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "库克群岛",
-  region_in_native: "",
-
-  alphabetic_code: "NZD",
-  numeric_code_4217: "554",
-  minor_unit: 2,
-  currency: "New Zealand dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const PitcairnIslands = {
-  alpha2code: "PN",
-  alpha3code: "PCN",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "612",
-  short_name: "Pitcairn",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Pitcairn Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "皮特凯恩群岛",
-  region_in_native: "",
-
-  alphabetic_code: "NZD",
-  numeric_code_4217: "554",
-  minor_unit: 2,
-  currency: "New Zealand dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Tokelau = {
-  alpha2code: "TK",
-  alpha3code: "TKL",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "772",
-  short_name: "Tokelau",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Tokelau",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "托克劳",
-  region_in_native: "",
-
-  alphabetic_code: "NZD",
-  numeric_code_4217: "554",
-  minor_unit: 2,
-  currency: "New Zealand dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const NewZealand = {
-  alpha2code: "NZ",
-  alpha3code: "NZL",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "554",
-  short_name: "New Zealand",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "New Zealand",
-  calling_code: "64",
-
-  languages: "[]",
-
-  region_in_cn: "新西兰",
-  region_in_native: "",
-
-  alphabetic_code: "NZD",
-  numeric_code_4217: "554",
-  minor_unit: 2,
-  currency: "New Zealand dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Nicaragua = {
-  alpha2code: "NI",
-  alpha3code: "NIC",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "558",
-  short_name: "Nicaragua",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Nicaragua",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "尼加拉瓜",
-  region_in_native: "",
-
-  alphabetic_code: "NIO",
-  numeric_code_4217: "558",
-  minor_unit: 2,
-  currency: "Nicaraguan córdoba",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Nigeria = {
-  alpha2code: "NG",
-  alpha3code: "NGA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "566",
-  short_name: "Nigeria",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Nigeria",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "尼日利亚",
-  region_in_native: "",
-
-  alphabetic_code: "NGN",
-  numeric_code_4217: "566",
-  minor_unit: 2,
-  currency: "Nigerian naira",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Norway = {
-  alpha2code: "NO",
-  alpha3code: "NOR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "578",
-  short_name: "Norway",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Norway",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "挪威",
-  region_in_native: "",
-
-  alphabetic_code: "NOK",
-  numeric_code_4217: "578",
-  minor_unit: 2,
-  currency: "Norwegian krone",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const BouvetIsland = {
-  alpha2code: "BV",
-  alpha3code: "BVT",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "074",
-  short_name: "Bouvet Island",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Bouvet Island",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "布韦岛",
-  region_in_native: "",
-
-  alphabetic_code: "NOK",
-  numeric_code_4217: "578",
-  minor_unit: 2,
-  currency: "Norwegian krone",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Pakistan = {
-  alpha2code: "PK",
-  alpha3code: "PAK",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "586",
-  short_name: "Pakistan",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Pakistan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "巴基斯坦",
-  region_in_native: "",
-
-  alphabetic_code: "PKR",
-  numeric_code_4217: "586",
-  minor_unit: 2,
-  currency: "Pakistani rupee",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const PapuaNewGuinea = {
-  alpha2code: "PG",
-  alpha3code: "PNG",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "598",
-  short_name: "Papua New Guinea",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Papua New Guinea",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "巴布亚新几内亚",
-  region_in_native: "",
-
-  alphabetic_code: "PGK",
-  numeric_code_4217: "598",
-  minor_unit: 2,
-  currency: "Papua New Guinean kina",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Paraguay = {
-  alpha2code: "PY",
-  alpha3code: "PRY",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "600",
-  short_name: "Paraguay",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Paraguay",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "巴拉圭",
-  region_in_native: "",
-
-  alphabetic_code: "PYG",
-  numeric_code_4217: "600",
-  minor_unit: 0,
-  currency: "Paraguayan guaraní",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Peru = {
-  alpha2code: "PE",
-  alpha3code: "PER",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "604",
-  short_name: "Peru",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Peru",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "秘鲁",
-  region_in_native: "",
-
-  alphabetic_code: "PEN",
-  numeric_code_4217: "604",
-  minor_unit: 2,
-  currency: "Peruvian sol",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Philippines = {
-  alpha2code: "PH",
-  alpha3code: "PHL",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "608",
-  short_name: "Philippines",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Philippines",
-  calling_code: "63",
-
-  languages: "[]",
-
-  region_in_cn: "菲律宾",
-  region_in_native: "",
-
-  alphabetic_code: "PHP",
-  numeric_code_4217: "608",
-  minor_unit: 2,
-  currency: "Philippine peso",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Qatar = {
-  alpha2code: "QA",
-  alpha3code: "QAT",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "634",
-  short_name: "Qatar",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Qatar",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "卡塔尔",
-  region_in_native: "",
-
-  alphabetic_code: "QAR",
-  numeric_code_4217: "634",
-  minor_unit: 2,
-  currency: "Qatari riyal",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Rwanda = {
-  alpha2code: "RW",
-  alpha3code: "RWA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "646",
-  short_name: "Rwanda",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Rwanda",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "卢旺达",
-  region_in_native: "",
-
-  alphabetic_code: "RWF",
-  numeric_code_4217: "646",
-  minor_unit: 0,
-  currency: "Rwandan franc",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SaudiArabia = {
-  alpha2code: "SA",
-  alpha3code: "SAU",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "682",
-  short_name: "Saudi Arabia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Saudi Arabia",
-  calling_code: "966",
-
-  languages: "[]",
-
-  region_in_cn: "沙特阿拉伯",
-  region_in_native: "",
-
-  alphabetic_code: "SAR",
-  numeric_code_4217: "682",
-  minor_unit: 2,
-  currency: "Saudi riyal",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Seychelles = {
-  alpha2code: "SC",
-  alpha3code: "SYC",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "690",
-  short_name: "Seychelles",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Seychelles",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "塞舌尔",
-  region_in_native: "",
-
-  alphabetic_code: "SCR",
-  numeric_code_4217: "690",
-  minor_unit: 2,
-  currency: "Seychelles rupee",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Singapore = {
-  alpha2code: "SG",
-  alpha3code: "SGP",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "702",
-  short_name: "Singapore",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Singapore",
-  calling_code: "65",
-
-  languages: "[]",
-
-  region_in_cn: "新加坡",
-  region_in_native: "",
-
-  alphabetic_code: "SGD",
-  numeric_code_4217: "702",
-  minor_unit: 2,
-  currency: "Singapore dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Somalia = {
-  alpha2code: "SO",
-  alpha3code: "SOM",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "706",
-  short_name: "Somalia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Somalia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "索马里",
-  region_in_native: "",
-
-  alphabetic_code: "SOS",
-  numeric_code_4217: "706",
-  minor_unit: 2,
-  currency: "Somalian shilling",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Lesotho = {
-  alpha2code: "LS",
-  alpha3code: "LSO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "426",
-  short_name: "Lesotho",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Lesotho",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "莱索托",
-  region_in_native: "",
-
-  alphabetic_code: "ZAR",
-  numeric_code_4217: "710",
-  minor_unit: 2,
-  currency: "South African rand",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Eswatini = {
-  alpha2code: "SZ",
-  alpha3code: "SWZ",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "748",
-  short_name: "Eswatini",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Eswatini",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "斯威士兰",
-  region_in_native: "",
-
-  alphabetic_code: "ZAR",
-  numeric_code_4217: "710",
-  minor_unit: 2,
-  currency: "South African rand",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SouthAfrica = {
-  alpha2code: "ZA",
-  alpha3code: "ZAF",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "710",
-  short_name: "South Africa",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "South Africa",
-  calling_code: "27",
-
-  languages: "[]",
-
-  region_in_cn: "南非",
-  region_in_native: "",
-
-  alphabetic_code: "ZAR",
-  numeric_code_4217: "710",
-  minor_unit: 2,
-  currency: "South African rand",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Namibia = {
-  alpha2code: "NA",
-  alpha3code: "NAM",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "516",
-  short_name: "Namibia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Namibia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "纳米比亚",
-  region_in_native: "",
-
-  alphabetic_code: "ZAR",
-  numeric_code_4217: "710",
-  minor_unit: 2,
-  currency: "South African rand",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SouthSudan = {
-  alpha2code: "SS",
-  alpha3code: "SSD",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "728",
-  short_name: "South Sudan",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "South Sudan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "南苏丹",
-  region_in_native: "",
-
-  alphabetic_code: "SSP",
-  numeric_code_4217: "728",
-  minor_unit: 2,
-  currency: "South Sudanese pound",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Sweden = {
-  alpha2code: "SE",
-  alpha3code: "SWE",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "752",
-  short_name: "Sweden",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Sweden",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "瑞典",
-  region_in_native: "",
-
-  alphabetic_code: "SEK",
-  numeric_code_4217: "752",
-  minor_unit: 2,
-  currency: "Swedish krona",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
 const Liechtenstein = {
-  alpha2code: "LI",
+  alpha2Code: "LI",
   alpha3code: "LIE",
   alpha4code: "",
   independent: true,
@@ -5323,1940 +3811,8 @@ const Liechtenstein = {
   currency_in_native: "",
 } as IEntity;
 
-const Thailand = {
-  alpha2code: "TH",
-  alpha3code: "THA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "764",
-  short_name: "Thailand",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Thailand",
-  calling_code: "66",
-
-  languages: "[]",
-
-  region_in_cn: "泰国",
-  region_in_native: "",
-
-  alphabetic_code: "THB",
-  numeric_code_4217: "764",
-  minor_unit: 2,
-  currency: "Thai baht",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Tonga = {
-  alpha2code: "TO",
-  alpha3code: "TON",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "776",
-  short_name: "Tonga",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Tonga",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "汤加",
-  region_in_native: "",
-
-  alphabetic_code: "TOP",
-  numeric_code_4217: "776",
-  minor_unit: 2,
-  currency: "Tongan paʻanga",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const TrinidadAndTobago = {
-  alpha2code: "TT",
-  alpha3code: "TTO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "780",
-  short_name: "Trinidad and Tobago",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Trinidad And Tobago",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "特立尼达和多巴哥",
-  region_in_native: "",
-
-  alphabetic_code: "TTD",
-  numeric_code_4217: "780",
-  minor_unit: 2,
-  currency: "Trinidad and Tobago dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const UnitedArabEmirates = {
-  alpha2code: "AE",
-  alpha3code: "ARE",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "784",
-  short_name: "United Arab Emirates",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "United Arab Emirates",
-  calling_code: "971",
-
-  languages: "[]",
-
-  region_in_cn: "阿联酋",
-  region_in_native: "",
-
-  alphabetic_code: "AED",
-  numeric_code_4217: "784",
-  minor_unit: 2,
-  currency: "United Arab Emirates dirham",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Tunisia = {
-  alpha2code: "TN",
-  alpha3code: "TUN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "788",
-  short_name: "Tunisia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Tunisia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "突尼斯",
-  region_in_native: "",
-
-  alphabetic_code: "TND",
-  numeric_code_4217: "788",
-  minor_unit: 3,
-  currency: "Tunisian dinar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Uganda = {
-  alpha2code: "UG",
-  alpha3code: "UGA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "800",
-  short_name: "Uganda",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Uganda",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "乌干达",
-  region_in_native: "",
-
-  alphabetic_code: "UGX",
-  numeric_code_4217: "800",
-  minor_unit: 0,
-  currency: "Ugandan shilling",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const NorthMacedonia = {
-  alpha2code: "MK",
-  alpha3code: "MKD",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "807",
-  short_name: "North Macedonia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "North Macedonia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "北马其顿",
-  region_in_native: "",
-
-  alphabetic_code: "MKD",
-  numeric_code_4217: "807",
-  minor_unit: 2,
-  currency: "Macedonian denar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Egypt = {
-  alpha2code: "EG",
-  alpha3code: "EGY",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "818",
-  short_name: "Egypt",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Egypt",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "埃及",
-  region_in_native: "",
-
-  alphabetic_code: "EGP",
-  numeric_code_4217: "818",
-  minor_unit: 2,
-  currency: "Egyptian pound",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SaintHelenaAscensionAndTristandaCunha = {
-  alpha2code: "SH",
-  alpha3code: "SHN",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "654",
-  short_name: "Saint Helena, Ascension and Tristan da Cunha",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Saint Helena Ascension And Tristan da Cunha",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣赫勒拿、阿森松和特里斯坦-达库尼亚",
-  region_in_native: "",
-
-  alphabetic_code: "GBP",
-  numeric_code_4217: "826",
-  minor_unit: 2,
-  currency: "Pound sterling",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Guernsey = {
-  alpha2code: "GG",
-  alpha3code: "GGY",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "831",
-  short_name: "Guernsey",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Guernsey",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "根西",
-  region_in_native: "",
-
-  alphabetic_code: "GBP",
-  numeric_code_4217: "826",
-  minor_unit: 2,
-  currency: "Pound sterling",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const IsleOfMan = {
-  alpha2code: "IM",
-  alpha3code: "IMN",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "833",
-  short_name: "Isle of Man",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Isle Of Man",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "马恩岛",
-  region_in_native: "",
-
-  alphabetic_code: "GBP",
-  numeric_code_4217: "826",
-  minor_unit: 2,
-  currency: "Pound sterling",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Jersey = {
-  alpha2code: "JE",
-  alpha3code: "JEY",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "832",
-  short_name: "Jersey",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Jersey",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "泽西",
-  region_in_native: "",
-
-  alphabetic_code: "GBP",
-  numeric_code_4217: "826",
-  minor_unit: 2,
-  currency: "Pound sterling",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const TurksAndCaicosIslands = {
-  alpha2code: "TC",
-  alpha3code: "TCA",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "796",
-  short_name: "Turks and Caicos Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Turks And Caicos Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "特克斯和凯科斯群岛",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const PuertoRico = {
-  alpha2code: "PR",
-  alpha3code: "PRI",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "630",
-  short_name: "Puerto Rico",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Puerto Rico",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "波多黎各",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const BritishIndianOceanTerritory = {
-  alpha2code: "IO",
-  alpha3code: "IOT",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "086",
-  short_name: "British Indian Ocean Territory",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "British Indian Ocean Territory",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "英属印度洋领地",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Palau = {
-  alpha2code: "PW",
-  alpha3code: "PLW",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "585",
-  short_name: "Palau",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Palau",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "帕劳",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const MarshallIslands = {
-  alpha2code: "MH",
-  alpha3code: "MHL",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "584",
-  short_name: "Marshall Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Marshall Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "马绍尔群岛",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const AmericanSamoa = {
-  alpha2code: "AS",
-  alpha3code: "ASM",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "016",
-  short_name: "American Samoa",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "American Samoa",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "美属萨摩亚",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const MicronesiaFederatedStatesOf = {
-  alpha2code: "FM",
-  alpha3code: "FSM",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "583",
-  short_name: "Micronesia (Federated States of)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Micronesia Federated States Of",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "密克罗尼西亚联邦",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const UnitedStatesMinorOutlyingIslands = {
-  alpha2code: "UM",
-  alpha3code: "UMI",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "581",
-  short_name: "United States Minor Outlying Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "United States Minor Outlying Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "美国本土外小岛屿",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const NorthernMarianaIslands = {
-  alpha2code: "MP",
-  alpha3code: "MNP",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "580",
-  short_name: "Northern Mariana Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Northern Mariana Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "北马里亚纳群岛",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const UnitedStatesVirginIslands = {
-  alpha2code: "VG",
-  alpha3code: "VGB",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "092",
-  short_name: "Virgin Islands (British)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "United States Virgin Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "英属维尔京群岛",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Guam = {
-  alpha2code: "GU",
-  alpha3code: "GUM",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "316",
-  short_name: "Guam",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Guam",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "关岛",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Ecuador = {
-  alpha2code: "EC",
-  alpha3code: "ECU",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "218",
-  short_name: "Ecuador",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Ecuador",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "厄瓜多尔",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Panama = {
-  alpha2code: "PA",
-  alpha3code: "PAN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "591",
-  short_name: "Panama",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Panama",
-  calling_code: "507",
-
-  languages: "[]",
-
-  region_in_cn: "巴拿马",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const ElSalvador = {
-  alpha2code: "SV",
-  alpha3code: "SLV",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "222",
-  short_name: "El Salvador",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "El Salvador",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "萨尔瓦多",
-  region_in_native: "",
-
-  alphabetic_code: "USD",
-  numeric_code_4217: "840",
-  minor_unit: 2,
-  currency: "United States dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Uruguay = {
-  alpha2code: "UY",
-  alpha3code: "URY",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "858",
-  short_name: "Uruguay",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Uruguay",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "乌拉圭",
-  region_in_native: "",
-
-  alphabetic_code: "UYU",
-  numeric_code_4217: "858",
-  minor_unit: 2,
-  currency: "Uruguayan peso",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Uzbekistan = {
-  alpha2code: "UZ",
-  alpha3code: "UZB",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "860",
-  short_name: "Uzbekistan",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Uzbekistan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "乌兹别克斯坦",
-  region_in_native: "",
-
-  alphabetic_code: "UZS",
-  numeric_code_4217: "860",
-  minor_unit: 2,
-  currency: "Uzbekistani sum",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Samoa = {
-  alpha2code: "WS",
-  alpha3code: "WSM",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "882",
-  short_name: "Samoa",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Samoa",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "萨摩亚",
-  region_in_native: "",
-
-  alphabetic_code: "WST",
-  numeric_code_4217: "882",
-  minor_unit: 2,
-  currency: "Samoan tala",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Yemen = {
-  alpha2code: "YE",
-  alpha3code: "YEM",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "887",
-  short_name: "Yemen",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Yemen",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "也门",
-  region_in_native: "",
-
-  alphabetic_code: "YER",
-  numeric_code_4217: "886",
-  minor_unit: 2,
-  currency: "Yemeni rial",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Zimbabwe = {
-  alpha2code: "ZW",
-  alpha3code: "ZWE",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "716",
-  short_name: "Zimbabwe",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Zimbabwe",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "津巴布韦",
-  region_in_native: "",
-
-  alphabetic_code: "ZWG",
-  numeric_code_4217: "924",
-  minor_unit: 2,
-  currency: "Zimbabwe Gold",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SierraLeone = {
-  alpha2code: "SL",
-  alpha3code: "SLE",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "694",
-  short_name: "Sierra Leone",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Sierra Leone",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "塞拉利昂",
-  region_in_native: "",
-
-  alphabetic_code: "SLE",
-  numeric_code_4217: "925",
-  minor_unit: 2,
-  currency: "Sierra Leonean leone",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Mauritania = {
-  alpha2code: "MR",
-  alpha3code: "MRT",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "478",
-  short_name: "Mauritania",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Mauritania",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "毛里塔尼亚",
-  region_in_native: "",
-
-  alphabetic_code: "MRU",
-  numeric_code_4217: "929",
-  minor_unit: 0,
-  currency: "Mauritanian ouguiya",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Turkmenistan = {
-  alpha2code: "TM",
-  alpha3code: "TKM",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "795",
-  short_name: "Turkmenistan",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Turkmenistan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "土库曼斯坦",
-  region_in_native: "",
-
-  alphabetic_code: "TMT",
-  numeric_code_4217: "934",
-  minor_unit: 2,
-  currency: "Turkmenistan manat",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Ghana = {
-  alpha2code: "GH",
-  alpha3code: "GHA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "288",
-  short_name: "Ghana",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Ghana",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "加纳",
-  region_in_native: "",
-
-  alphabetic_code: "GHS",
-  numeric_code_4217: "936",
-  minor_unit: 2,
-  currency: "Ghanaian cedi",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Sudan = {
-  alpha2code: "SD",
-  alpha3code: "SDN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "729",
-  short_name: "Sudan",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Sudan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "苏丹",
-  region_in_native: "",
-
-  alphabetic_code: "SDG",
-  numeric_code_4217: "938",
-  minor_unit: 2,
-  currency: "Sudanese pound",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Serbia = {
-  alpha2code: "RS",
-  alpha3code: "SRB",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "688",
-  short_name: "Serbia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Serbia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "塞尔维亚",
-  region_in_native: "",
-
-  alphabetic_code: "RSD",
-  numeric_code_4217: "941",
-  minor_unit: 2,
-  currency: "Serbian dinar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Mozambique = {
-  alpha2code: "MZ",
-  alpha3code: "MOZ",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "508",
-  short_name: "Mozambique",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Mozambique",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "莫桑比克",
-  region_in_native: "",
-
-  alphabetic_code: "MZN",
-  numeric_code_4217: "943",
-  minor_unit: 2,
-  currency: "Mozambican metical",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Azerbaijan = {
-  alpha2code: "AZ",
-  alpha3code: "AZE",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "031",
-  short_name: "Azerbaijan",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Azerbaijan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "阿塞拜疆",
-  region_in_native: "",
-
-  alphabetic_code: "AZN",
-  numeric_code_4217: "944",
-  minor_unit: 2,
-  currency: "Azerbaijani manat",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Romania = {
-  alpha2code: "RO",
-  alpha3code: "ROU",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "642",
-  short_name: "Romania",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Romania",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "罗马尼亚",
-  region_in_native: "",
-
-  alphabetic_code: "RON",
-  numeric_code_4217: "946",
-  minor_unit: 2,
-  currency: "Romanian leu",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Switzerland = {
-  alpha2code: "CH",
-  alpha3code: "CHE",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "756",
-  short_name: "Switzerland",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Switzerland",
-  calling_code: "41",
-
-  languages: "[]",
-
-  region_in_cn: "瑞士",
-  region_in_native: "",
-
-  alphabetic_code: "CHE",
-  numeric_code_4217: "947",
-  minor_unit: 2,
-  currency: "WIR",
-
-  currency_in_cn: "瑞士法郎",
-  currency_in_native: "Swiss franc",
-} as IEntity;
-
-const Zambia = {
-  alpha2code: "ZM",
-  alpha3code: "ZMB",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "894",
-  short_name: "Zambia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Zambia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "赞比亚",
-  region_in_native: "",
-
-  alphabetic_code: "ZMW",
-  numeric_code_4217: "967",
-  minor_unit: 2,
-  currency: "Zambian kwacha",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Suriname = {
-  alpha2code: "SR",
-  alpha3code: "SUR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "740",
-  short_name: "Suriname",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Suriname",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "苏里南",
-  region_in_native: "",
-
-  alphabetic_code: "SRD",
-  numeric_code_4217: "968",
-  minor_unit: 2,
-  currency: "Surinamese dollar",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Madagascar = {
-  alpha2code: "MG",
-  alpha3code: "MDG",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "450",
-  short_name: "Madagascar",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Madagascar",
-  calling_code: "261",
-
-  languages: "[]",
-
-  region_in_cn: "马达加斯加",
-  region_in_native: "",
-
-  alphabetic_code: "MGA",
-  numeric_code_4217: "969",
-  minor_unit: 0,
-  currency: "Malagasy ariary",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Afghanistan = {
-  alpha2code: "AF",
-  alpha3code: "AFG",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "004",
-  short_name: "Afghanistan",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Afghanistan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "阿富汗",
-  region_in_native: "",
-
-  alphabetic_code: "AFN",
-  numeric_code_4217: "971",
-  minor_unit: 2,
-  currency: "Afghan afghani",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Tajikistan = {
-  alpha2code: "TJ",
-  alpha3code: "TJK",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "762",
-  short_name: "Tajikistan",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Tajikistan",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "塔吉克斯坦",
-  region_in_native: "",
-
-  alphabetic_code: "TJS",
-  numeric_code_4217: "972",
-  minor_unit: 2,
-  currency: "Tajikistani somoni",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Angola = {
-  alpha2code: "AO",
-  alpha3code: "AGO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "024",
-  short_name: "Angola",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Angola",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "安哥拉",
-  region_in_native: "",
-
-  alphabetic_code: "AOA",
-  numeric_code_4217: "973",
-  minor_unit: 2,
-  currency: "Angolan kwanza",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Bulgaria = {
-  alpha2code: "BG",
-  alpha3code: "BGR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "100",
-  short_name: "Bulgaria",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Bulgaria",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "保加利亚",
-  region_in_native: "",
-
-  alphabetic_code: "BGN",
-  numeric_code_4217: "975",
-  minor_unit: 2,
-  currency: "Bulgarian lev",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Bosnia = {
-  alpha2code: "BA",
-  alpha3code: "BIH",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "070",
-  short_name: "Bosnia and Herzegovina",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Bosnia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "波黑",
-  region_in_native: "",
-
-  alphabetic_code: "BAM",
-  numeric_code_4217: "977",
-  minor_unit: 2,
-  currency: "Bosnia and Herzegovina convertible mark",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Guadeloupe = {
-  alpha2code: "GP",
-  alpha3code: "GLP",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "312",
-  short_name: "Guadeloupe",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Guadeloupe",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "瓜德罗普",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Latvia = {
-  alpha2code: "LV",
-  alpha3code: "LVA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "428",
-  short_name: "Latvia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Latvia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "拉脱维亚",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Portugal = {
-  alpha2code: "PT",
-  alpha3code: "PRT",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "620",
-  short_name: "Portugal",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Portugal",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "葡萄牙",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Germany = {
-  alpha2code: "DE",
-  alpha3code: "DEU",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "276",
-  short_name: "Germany",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Germany",
-  calling_code: "49",
-
-  languages: "[]",
-
-  region_in_cn: "德国",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "欧元",
-  currency_in_native: "Euro",
-} as IEntity;
-
-const FrenchSouthernTerritories = {
-  alpha2code: "TF",
-  alpha3code: "ATF",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "260",
-  short_name: "French Southern Territories",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "French Southern Territories",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "法属南部和南极领地",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const FrenchGuiana = {
-  alpha2code: "GF",
-  alpha3code: "GUF",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "254",
-  short_name: "French Guiana",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "French Guiana",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "法属圭亚那",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const France = {
-  alpha2code: "FR",
-  alpha3code: "FRA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "250",
-  short_name: "France",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "France",
-  calling_code: "33",
-
-  languages: "[]",
-
-  region_in_cn: "法国",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const AlandIslands = {
-  alpha2code: "AX",
-  alpha3code: "ALA",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "248",
-  short_name: "Åland Islands",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Aland Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "奥兰",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Finland = {
-  alpha2code: "FI",
-  alpha3code: "FIN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "246",
-  short_name: "Finland",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Finland",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "芬兰",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Estonia = {
-  alpha2code: "EE",
-  alpha3code: "EST",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "233",
-  short_name: "Estonia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Estonia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "爱沙尼亚",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const HolySee = {
-  alpha2code: "VA",
-  alpha3code: "VAT",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "336",
-  short_name: "Holy See",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Holy See",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "梵蒂冈",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Ireland = {
-  alpha2code: "IE",
-  alpha3code: "IRL",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "372",
-  short_name: "Ireland",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Ireland",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "爱尔兰",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Spain = {
-  alpha2code: "ES",
-  alpha3code: "ESP",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "724",
-  short_name: "Spain",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Spain",
-  calling_code: "34",
-
-  languages: "[]",
-
-  region_in_cn: "西班牙",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Italy = {
-  alpha2code: "IT",
-  alpha3code: "ITA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "380",
-  short_name: "Italy",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Italy",
-  calling_code: "39",
-
-  languages: "[]",
-
-  region_in_cn: "意大利",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Cyprus = {
-  alpha2code: "CY",
-  alpha3code: "CYP",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "196",
-  short_name: "Cyprus",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Cyprus",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "塞浦路斯",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Reunion = {
-  alpha2code: "RE",
-  alpha3code: "REU",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "638",
-  short_name: "Réunion",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Reunion",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "留尼汪",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Croatia = {
-  alpha2code: "HR",
-  alpha3code: "HRV",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "191",
-  short_name: "Croatia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Croatia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "克罗地亚",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Mayotte = {
-  alpha2code: "YT",
-  alpha3code: "MYT",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "175",
-  short_name: "Mayotte",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Mayotte",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "马约特",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SaintBarthelemy = {
-  alpha2code: "BL",
-  alpha3code: "BLM",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "652",
-  short_name: "Saint Barthélemy",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Saint Barthelemy",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣巴泰勒米",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Greece = {
-  alpha2code: "GR",
-  alpha3code: "GRC",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "300",
-  short_name: "Greece",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Greece",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "希腊",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
 const Lithuania = {
-  alpha2code: "LT",
+  alpha2Code: "LT",
   alpha3code: "LTU",
   alpha4code: "",
   independent: true,
@@ -7284,7 +3840,7 @@ const Lithuania = {
 } as IEntity;
 
 const Luxembourg = {
-  alpha2code: "LU",
+  alpha2Code: "LU",
   alpha3code: "LUX",
   alpha4code: "",
   independent: true,
@@ -7311,36 +3867,176 @@ const Luxembourg = {
   currency_in_native: "",
 } as IEntity;
 
-const Slovenia = {
-  alpha2code: "SI",
-  alpha3code: "SVN",
+const Macao = {
+  alpha2Code: "MO",
+  alpha3code: "MAC",
   alpha4code: "",
-  independent: true,
-  numeric_code: "705",
-  short_name: "Slovenia",
+  independent: false,
+  numeric_code: "446",
+  short_name: "Macao",
 
   period_of_validity: "",
 
   alias: "[]",
-  common_name: "Slovenia",
+  common_name: "Macao",
+  calling_code: "853",
+
+  languages: "[]",
+
+  region_in_cn: "中国澳门",
+  region_in_native: "中國澳門",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "澳门元",
+  currency_in_native: "澳門元",
+} as IEntity;
+
+const Madagascar = {
+  alpha2Code: "MG",
+  alpha3code: "MDG",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "450",
+  short_name: "Madagascar",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Madagascar",
+  calling_code: "261",
+
+  languages: "[]",
+
+  region_in_cn: "马达加斯加",
+  region_in_native: "",
+
+  alphabetic_code: "MGA",
+  numeric_code_4217: "969",
+  minor_unit: 0,
+  currency: "Malagasy ariary",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Malawi = {
+  alpha2Code: "MW",
+  alpha3code: "MWI",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "454",
+  short_name: "Malawi",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Malawi",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "斯洛文尼亚",
+  region_in_cn: "马拉维",
   region_in_native: "",
 
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
+  alphabetic_code: "MWK",
+  numeric_code_4217: "454",
   minor_unit: 2,
-  currency: "Euro",
+  currency: "Malawian kwacha",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Malaysia = {
+  alpha2Code: "MY",
+  alpha3code: "MYS",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "458",
+  short_name: "Malaysia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Malaysia",
+  calling_code: "60",
+
+  languages: "[]",
+
+  region_in_cn: "马来西亚",
+  region_in_native: "",
+
+  alphabetic_code: "MYR",
+  numeric_code_4217: "458",
+  minor_unit: 2,
+  currency: "Malaysian ringgit",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Maldives = {
+  alpha2Code: "MV",
+  alpha3code: "MDV",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "462",
+  short_name: "Maldives",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Maldives",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "马尔代夫",
+  region_in_native: "",
+
+  alphabetic_code: "MVR",
+  numeric_code_4217: "462",
+  minor_unit: 2,
+  currency: "Maldivian rufiyaa",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Mali = {
+  alpha2Code: "ML",
+  alpha3code: "MLI",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "466",
+  short_name: "Mali",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Mali",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "马里",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
 
   currency_in_cn: "",
   currency_in_native: "",
 } as IEntity;
 
 const Malta = {
-  alpha2code: "MT",
+  alpha2Code: "MT",
   alpha3code: "MLT",
   alpha4code: "",
   independent: true,
@@ -7368,7 +4064,7 @@ const Malta = {
 } as IEntity;
 
 const Martinique = {
-  alpha2code: "MQ",
+  alpha2Code: "MQ",
   alpha3code: "MTQ",
   alpha4code: "",
   independent: false,
@@ -7395,120 +4091,148 @@ const Martinique = {
   currency_in_native: "",
 } as IEntity;
 
-const SaintMartinFrenchpart = {
-  alpha2code: "MF",
-  alpha3code: "MAF",
+const Mauritania = {
+  alpha2Code: "MR",
+  alpha3code: "MRT",
   alpha4code: "",
+  independent: true,
+  numeric_code: "478",
+  short_name: "Mauritania",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Mauritania",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "毛里塔尼亚",
+  region_in_native: "",
+
+  alphabetic_code: "MRU",
+  numeric_code_4217: "929",
+  minor_unit: 0,
+  currency: "Mauritanian ouguiya",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Mauritius = {
+  alpha2Code: "MU",
+  alpha3code: "MUS",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "480",
+  short_name: "Mauritius",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Mauritius",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "毛里求斯",
+  region_in_native: "",
+
+  alphabetic_code: "MUR",
+  numeric_code_4217: "480",
+  minor_unit: 2,
+  currency: "Mauritian rupee",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Laos = {
+  alpha2Code: "LA",
+  alpha3code: "LAO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "481",
+  short_name: "Lao People's Democratic Republic",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Laos",
+  calling_code: "856",
+
+  languages: "[]",
+
+  region_in_cn: "老挝",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Mexico = {
+  alpha2Code: "MX",
+  alpha3code: "MEX",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "484",
+  short_name: "Mexico",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Mexico",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "墨西哥",
+  region_in_native: "",
+
+  alphabetic_code: "MXN",
+  numeric_code_4217: "484",
+  minor_unit: 2,
+  currency: "Mexican peso",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const MidwayIslands = {
+  alpha2Code: "MI",
+  alpha3code: "MID",
+  alpha4code: "MIUM",
   independent: false,
-  numeric_code: "663",
-  short_name: "Saint Martin (French part)",
+  numeric_code: "488",
+  short_name: "Midway Islands",
 
-  period_of_validity: "",
+  period_of_validity: "1974–1986",
 
   alias: "[]",
-  common_name: "Saint Martin French part",
+  common_name: "Midway Islands",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "法属圣马丁",
+  region_in_cn: "中途岛",
   region_in_native: "",
 
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Sikkim = {
-  alpha2code: "SK",
-  alpha3code: "SKM",
-  alpha4code: "SKIN",
-  independent: true,
-  numeric_code: "698",
-  short_name: "Sikkim",
-
-  period_of_validity: "1974–1975",
-
-  alias: "[]",
-  common_name: "Sikkim",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "锡金",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Belgium = {
-  alpha2code: "BE",
-  alpha3code: "BEL",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "056",
-  short_name: "Belgium",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Belgium",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "比利时",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Austria = {
-  alpha2code: "AT",
-  alpha3code: "AUT",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "040",
-  short_name: "Austria",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Austria",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "奥地利",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
 
   currency_in_cn: "",
   currency_in_native: "",
 } as IEntity;
 
 const Monaco = {
-  alpha2code: "MC",
+  alpha2Code: "MC",
   alpha3code: "MCO",
   alpha4code: "",
   independent: true,
@@ -7535,8 +4259,64 @@ const Monaco = {
   currency_in_native: "",
 } as IEntity;
 
+const Mongolia = {
+  alpha2Code: "MN",
+  alpha3code: "MNG",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "496",
+  short_name: "Mongolia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Mongolia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "蒙古国",
+  region_in_native: "",
+
+  alphabetic_code: "MNT",
+  numeric_code_4217: "496",
+  minor_unit: 2,
+  currency: "Mongolian tögrög",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const MoldovaRepublicOf = {
+  alpha2Code: "MD",
+  alpha3code: "MDA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "498",
+  short_name: "Moldova (Republic of)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Moldova Republic Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "摩尔多瓦",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Montenegro = {
-  alpha2code: "ME",
+  alpha2Code: "ME",
   alpha3code: "MNE",
   alpha4code: "",
   independent: true,
@@ -7563,36 +4343,204 @@ const Montenegro = {
   currency_in_native: "",
 } as IEntity;
 
-const SanMarino = {
-  alpha2code: "SM",
-  alpha3code: "SMR",
+const Montserrat = {
+  alpha2Code: "MS",
+  alpha3code: "MSR",
   alpha4code: "",
-  independent: true,
-  numeric_code: "674",
-  short_name: "San Marino",
+  independent: false,
+  numeric_code: "500",
+  short_name: "Montserrat",
 
   period_of_validity: "",
 
   alias: "[]",
-  common_name: "San Marino",
+  common_name: "Montserrat",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "圣马力诺",
+  region_in_cn: "蒙特塞拉特",
   region_in_native: "",
 
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Morocco = {
+  alpha2Code: "MA",
+  alpha3code: "MAR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "504",
+  short_name: "Morocco",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Morocco",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "摩洛哥",
+  region_in_native: "",
+
+  alphabetic_code: "MAD",
+  numeric_code_4217: "504",
   minor_unit: 2,
-  currency: "Euro",
+  currency: "Moroccan dirham",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Mozambique = {
+  alpha2Code: "MZ",
+  alpha3code: "MOZ",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "508",
+  short_name: "Mozambique",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Mozambique",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "莫桑比克",
+  region_in_native: "",
+
+  alphabetic_code: "MZN",
+  numeric_code_4217: "943",
+  minor_unit: 2,
+  currency: "Mozambican metical",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Oman = {
+  alpha2Code: "OM",
+  alpha3code: "OMN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "512",
+  short_name: "Oman",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Oman",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "阿曼",
+  region_in_native: "",
+
+  alphabetic_code: "OMR",
+  numeric_code_4217: "512",
+  minor_unit: 3,
+  currency: "Omani rial",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Namibia = {
+  alpha2Code: "NA",
+  alpha3code: "NAM",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "516",
+  short_name: "Namibia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Namibia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "纳米比亚",
+  region_in_native: "",
+
+  alphabetic_code: "ZAR",
+  numeric_code_4217: "710",
+  minor_unit: 2,
+  currency: "South African rand",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Nauru = {
+  alpha2Code: "NR",
+  alpha3code: "NRU",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "520",
+  short_name: "Nauru",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Nauru",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "瑙鲁",
+  region_in_native: "",
+
+  alphabetic_code: "AUD",
+  numeric_code_4217: "036",
+  minor_unit: 2,
+  currency: "Australian dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Nepal = {
+  alpha2Code: "NP",
+  alpha3code: "NPL",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "524",
+  short_name: "Nepal",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Nepal",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "尼泊尔",
+  region_in_native: "",
+
+  alphabetic_code: "NPR",
+  numeric_code_4217: "524",
+  minor_unit: 2,
+  currency: "Nepalese rupee",
 
   currency_in_cn: "",
   currency_in_native: "",
 } as IEntity;
 
 const Netherlands = {
-  alpha2code: "NL",
+  alpha2Code: "NL",
   alpha3code: "NLD",
   alpha4code: "",
   independent: true,
@@ -7619,92 +4567,820 @@ const Netherlands = {
   currency_in_native: "",
 } as IEntity;
 
-const Andorra = {
-  alpha2code: "AD",
-  alpha3code: "AND",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "020",
-  short_name: "Andorra",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Andorra",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "安道尔",
-  region_in_native: "",
-
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
-  minor_unit: 2,
-  currency: "Euro",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const SaintPierreAndMiquelon = {
-  alpha2code: "PM",
-  alpha3code: "SPM",
+const Curacao = {
+  alpha2Code: "CW",
+  alpha3code: "CUW",
   alpha4code: "",
   independent: false,
-  numeric_code: "666",
-  short_name: "Saint Pierre and Miquelon",
+  numeric_code: "531",
+  short_name: "Curaçao",
 
   period_of_validity: "",
 
   alias: "[]",
-  common_name: "Saint Pierre And Miquelon",
+  common_name: "Curacao",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "圣皮埃尔和密克隆",
+  region_in_cn: "库拉索",
   region_in_native: "",
 
-  alphabetic_code: "EUR",
-  numeric_code_4217: "978",
+  alphabetic_code: "ANG",
+  numeric_code_4217: "532",
   minor_unit: 2,
-  currency: "Euro",
+  currency: "Netherlands Antillean guilder",
 
   currency_in_cn: "",
   currency_in_native: "",
 } as IEntity;
 
-const Ukraine = {
-  alpha2code: "UA",
-  alpha3code: "UKR",
+const Aruba = {
+  alpha2Code: "AW",
+  alpha3code: "ABW",
   alpha4code: "",
-  independent: true,
-  numeric_code: "804",
-  short_name: "Ukraine",
+  independent: false,
+  numeric_code: "533",
+  short_name: "Aruba",
 
   period_of_validity: "",
 
   alias: "[]",
-  common_name: "Ukraine",
+  common_name: "Aruba",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "乌克兰",
+  region_in_cn: "阿鲁巴",
   region_in_native: "",
 
-  alphabetic_code: "UAH",
-  numeric_code_4217: "980",
+  alphabetic_code: "AWG",
+  numeric_code_4217: "533",
   minor_unit: 2,
-  currency: "Ukrainian hryvnia",
+  currency: "Aruban florin",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SintMaartenDutchpart = {
+  alpha2Code: "SX",
+  alpha3code: "SXM",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "534",
+  short_name: "Sint Maarten (Dutch part)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Sint Maarten Dutch part",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "荷属圣马丁",
+  region_in_native: "",
+
+  alphabetic_code: "ANG",
+  numeric_code_4217: "532",
+  minor_unit: 2,
+  currency: "Netherlands Antillean guilder",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const BonaireSintEustatiusAndSaba = {
+  alpha2Code: "BQ",
+  alpha3code: "BES",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "535",
+  short_name: "Bonaire, Sint Eustatius and Saba",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Bonaire Sint Eustatius And Saba",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "荷兰加勒比区",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const NeutralZone = {
+  alpha2Code: "NT",
+  alpha3code: "NTZ",
+  alpha4code: "NTHH",
+  independent: false,
+  numeric_code: "536",
+  short_name: "Neutral Zone",
+
+  period_of_validity: "1974–1993",
+
+  alias: "[]",
+  common_name: "Neutral Zone",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "沙特阿拉伯－伊拉克中立区",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const NewCaledonia = {
+  alpha2Code: "NC",
+  alpha3code: "NCL",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "540",
+  short_name: "New Caledonia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "New Caledonia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "新喀里多尼亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const NewHebrides = {
+  alpha2Code: "NH",
+  alpha3code: "NHB",
+  alpha4code: "NHVU",
+  independent: false,
+  numeric_code: "548",
+  short_name: "New Hebrides",
+
+  period_of_validity: "1974–1980",
+
+  alias: "[]",
+  common_name: "New Hebrides",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "新赫布里底群岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Vanuatu = {
+  alpha2Code: "VU",
+  alpha3code: "VUT",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "548",
+  short_name: "Vanuatu",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Vanuatu",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "瓦努阿图",
+  region_in_native: "",
+
+  alphabetic_code: "VUV",
+  numeric_code_4217: "548",
+  minor_unit: 0,
+  currency: "Vanuatu vatu",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const NewZealand = {
+  alpha2Code: "NZ",
+  alpha3code: "NZL",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "554",
+  short_name: "New Zealand",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "New Zealand",
+  calling_code: "64",
+
+  languages: "[]",
+
+  region_in_cn: "新西兰",
+  region_in_native: "",
+
+  alphabetic_code: "NZD",
+  numeric_code_4217: "554",
+  minor_unit: 2,
+  currency: "New Zealand dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Nicaragua = {
+  alpha2Code: "NI",
+  alpha3code: "NIC",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "558",
+  short_name: "Nicaragua",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Nicaragua",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "尼加拉瓜",
+  region_in_native: "",
+
+  alphabetic_code: "NIO",
+  numeric_code_4217: "558",
+  minor_unit: 2,
+  currency: "Nicaraguan córdoba",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Niger = {
+  alpha2Code: "NE",
+  alpha3code: "NER",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "562",
+  short_name: "Niger",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Niger",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "尼日尔",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Nigeria = {
+  alpha2Code: "NG",
+  alpha3code: "NGA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "566",
+  short_name: "Nigeria",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Nigeria",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "尼日利亚",
+  region_in_native: "",
+
+  alphabetic_code: "NGN",
+  numeric_code_4217: "566",
+  minor_unit: 2,
+  currency: "Nigerian naira",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Niue = {
+  alpha2Code: "NU",
+  alpha3code: "NIU",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "570",
+  short_name: "Niue",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Niue",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "纽埃",
+  region_in_native: "",
+
+  alphabetic_code: "NZD",
+  numeric_code_4217: "554",
+  minor_unit: 2,
+  currency: "New Zealand dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const NorfolkIsland = {
+  alpha2Code: "NF",
+  alpha3code: "NFK",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "574",
+  short_name: "Norfolk Island",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Norfolk Island",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "诺福克岛",
+  region_in_native: "",
+
+  alphabetic_code: "AUD",
+  numeric_code_4217: "036",
+  minor_unit: 2,
+  currency: "Australian dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Norway = {
+  alpha2Code: "NO",
+  alpha3code: "NOR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "578",
+  short_name: "Norway",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Norway",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "挪威",
+  region_in_native: "",
+
+  alphabetic_code: "NOK",
+  numeric_code_4217: "578",
+  minor_unit: 2,
+  currency: "Norwegian krone",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const NorthernMarianaIslands = {
+  alpha2Code: "MP",
+  alpha3code: "MNP",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "580",
+  short_name: "Northern Mariana Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Northern Mariana Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "北马里亚纳群岛",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const UnitedStatesMinorOutlyingIslands = {
+  alpha2Code: "UM",
+  alpha3code: "UMI",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "581",
+  short_name: "United States Minor Outlying Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "United States Minor Outlying Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "美国本土外小岛屿",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const PacificIslandsTrustTerritoryOfthe = {
+  alpha2Code: "PC",
+  alpha3code: "PCI",
+  alpha4code: "PCHH",
+  independent: false,
+  numeric_code: "582",
+  short_name: "Pacific Islands, Trust Territory of the",
+
+  period_of_validity: "1974–1986",
+
+  alias: "[]",
+  common_name: "Pacific Islands Trust Territory Of the",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "太平洋群岛托管地",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const MicronesiaFederatedStatesOf = {
+  alpha2Code: "FM",
+  alpha3code: "FSM",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "583",
+  short_name: "Micronesia (Federated States of)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Micronesia Federated States Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "密克罗尼西亚联邦",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const MarshallIslands = {
+  alpha2Code: "MH",
+  alpha3code: "MHL",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "584",
+  short_name: "Marshall Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Marshall Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "马绍尔群岛",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Palau = {
+  alpha2Code: "PW",
+  alpha3code: "PLW",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "585",
+  short_name: "Palau",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Palau",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "帕劳",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Pakistan = {
+  alpha2Code: "PK",
+  alpha3code: "PAK",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "586",
+  short_name: "Pakistan",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Pakistan",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "巴基斯坦",
+  region_in_native: "",
+
+  alphabetic_code: "PKR",
+  numeric_code_4217: "586",
+  minor_unit: 2,
+  currency: "Pakistani rupee",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Panama = {
+  alpha2Code: "PA",
+  alpha3code: "PAN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "591",
+  short_name: "Panama",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Panama",
+  calling_code: "507",
+
+  languages: "[]",
+
+  region_in_cn: "巴拿马",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const PanamaCanalZone = {
+  alpha2Code: "PZ",
+  alpha3code: "PCZ",
+  alpha4code: "PZPA",
+  independent: false,
+  numeric_code: "594",
+  short_name: "Panama Canal Zone",
+
+  period_of_validity: "1974–1980",
+
+  alias: "[]",
+  common_name: "Panama Canal Zone",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "巴拿马运河区",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const PapuaNewGuinea = {
+  alpha2Code: "PG",
+  alpha3code: "PNG",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "598",
+  short_name: "Papua New Guinea",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Papua New Guinea",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "巴布亚新几内亚",
+  region_in_native: "",
+
+  alphabetic_code: "PGK",
+  numeric_code_4217: "598",
+  minor_unit: 2,
+  currency: "Papua New Guinean kina",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Paraguay = {
+  alpha2Code: "PY",
+  alpha3code: "PRY",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "600",
+  short_name: "Paraguay",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Paraguay",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "巴拉圭",
+  region_in_native: "",
+
+  alphabetic_code: "PYG",
+  numeric_code_4217: "600",
+  minor_unit: 0,
+  currency: "Paraguayan guaraní",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Peru = {
+  alpha2Code: "PE",
+  alpha3code: "PER",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "604",
+  short_name: "Peru",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Peru",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "秘鲁",
+  region_in_native: "",
+
+  alphabetic_code: "PEN",
+  numeric_code_4217: "604",
+  minor_unit: 2,
+  currency: "Peruvian sol",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Philippines = {
+  alpha2Code: "PH",
+  alpha3code: "PHL",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "608",
+  short_name: "Philippines",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Philippines",
+  calling_code: "63",
+
+  languages: "[]",
+
+  region_in_cn: "菲律宾",
+  region_in_native: "",
+
+  alphabetic_code: "PHP",
+  numeric_code_4217: "608",
+  minor_unit: 2,
+  currency: "Philippine peso",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Pitcairn = {
+  alpha2Code: "PN",
+  alpha3code: "PCN",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "612",
+  short_name: "Pitcairn",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Pitcairn",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "皮特凯恩群岛",
+  region_in_native: "",
+
+  alphabetic_code: "NZD",
+  numeric_code_4217: "554",
+  minor_unit: 2,
+  currency: "New Zealand dollar",
 
   currency_in_cn: "",
   currency_in_native: "",
 } as IEntity;
 
 const Poland = {
-  alpha2code: "PL",
+  alpha2Code: "PL",
   alpha3code: "POL",
   alpha4code: "",
   independent: true,
@@ -7731,57 +5407,2381 @@ const Poland = {
   currency_in_native: "",
 } as IEntity;
 
-const Brazil = {
-  alpha2code: "BR",
-  alpha3code: "BRA",
+const Portugal = {
+  alpha2Code: "PT",
+  alpha3code: "PRT",
   alpha4code: "",
   independent: true,
-  numeric_code: "076",
-  short_name: "Brazil",
+  numeric_code: "620",
+  short_name: "Portugal",
 
   period_of_validity: "",
 
   alias: "[]",
-  common_name: "Brazil",
-  calling_code: "55",
+  common_name: "Portugal",
+  calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "巴西",
+  region_in_cn: "葡萄牙",
   region_in_native: "",
 
-  alphabetic_code: "BRL",
-  numeric_code_4217: "986",
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
   minor_unit: 2,
-  currency: "Brazilian real",
+  currency: "Euro",
 
   currency_in_cn: "",
   currency_in_native: "",
 } as IEntity;
 
-const Chile = {
-  alpha2code: "CL",
-  alpha3code: "CHL",
+const Guinea_Bissau = {
+  alpha2Code: "GW",
+  alpha3code: "GNB",
   alpha4code: "",
   independent: true,
-  numeric_code: "152",
-  short_name: "Chile",
+  numeric_code: "624",
+  short_name: "Guinea-Bissau",
 
   period_of_validity: "",
 
   alias: "[]",
-  common_name: "Chile",
+  common_name: "Guinea_Bissau",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "智利",
+  region_in_cn: "几内亚比绍",
   region_in_native: "",
 
-  alphabetic_code: "CLF",
-  numeric_code_4217: "990",
-  minor_unit: 4,
-  currency: "Unidad de Fomento",
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Timor_Leste = {
+  alpha2Code: "TL",
+  alpha3code: "TLS",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "626",
+  short_name: "Timor-Leste",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Timor_Leste",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "东帝汶",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const EastTimor = {
+  alpha2Code: "TP",
+  alpha3code: "TMP",
+  alpha4code: "TPTL",
+  independent: false,
+  numeric_code: "626",
+  short_name: "East Timor",
+
+  period_of_validity: "1974–2002",
+
+  alias: "[]",
+  common_name: "East Timor",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "东帝汶",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const PuertoRico = {
+  alpha2Code: "PR",
+  alpha3code: "PRI",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "630",
+  short_name: "Puerto Rico",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Puerto Rico",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "波多黎各",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Qatar = {
+  alpha2Code: "QA",
+  alpha3code: "QAT",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "634",
+  short_name: "Qatar",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Qatar",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "卡塔尔",
+  region_in_native: "",
+
+  alphabetic_code: "QAR",
+  numeric_code_4217: "634",
+  minor_unit: 2,
+  currency: "Qatari riyal",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Reunion = {
+  alpha2Code: "RE",
+  alpha3code: "REU",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "638",
+  short_name: "Réunion",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Reunion",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "留尼汪",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Romania = {
+  alpha2Code: "RO",
+  alpha3code: "ROU",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "642",
+  short_name: "Romania",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Romania",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "罗马尼亚",
+  region_in_native: "",
+
+  alphabetic_code: "RON",
+  numeric_code_4217: "946",
+  minor_unit: 2,
+  currency: "Romanian leu",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Russia = {
+  alpha2Code: "RU",
+  alpha3code: "RUS",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "643",
+  short_name: "Russian Federation",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Russia",
+  calling_code: "7",
+
+  languages: "[]",
+
+  region_in_cn: "俄罗斯",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Rwanda = {
+  alpha2Code: "RW",
+  alpha3code: "RWA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "646",
+  short_name: "Rwanda",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Rwanda",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "卢旺达",
+  region_in_native: "",
+
+  alphabetic_code: "RWF",
+  numeric_code_4217: "646",
+  minor_unit: 0,
+  currency: "Rwandan franc",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintBarthelemy = {
+  alpha2Code: "BL",
+  alpha3code: "BLM",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "652",
+  short_name: "Saint Barthélemy",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Barthelemy",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣巴泰勒米",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintHelenaAscensionAndTristandaCunha = {
+  alpha2Code: "SH",
+  alpha3code: "SHN",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "654",
+  short_name: "Saint Helena, Ascension and Tristan da Cunha",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Helena Ascension And Tristan da Cunha",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣赫勒拿、阿森松和特里斯坦-达库尼亚",
+  region_in_native: "",
+
+  alphabetic_code: "GBP",
+  numeric_code_4217: "826",
+  minor_unit: 2,
+  currency: "Pound sterling",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintKittsAndNevis = {
+  alpha2Code: "KN",
+  alpha3code: "KNA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "659",
+  short_name: "Saint Kitts and Nevis",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Kitts And Nevis",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣基茨和尼维斯",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Anguilla = {
+  alpha2Code: "AI",
+  alpha3code: "AIA",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "660",
+  short_name: "Anguilla",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Anguilla",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "安圭拉",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintLucia = {
+  alpha2Code: "LC",
+  alpha3code: "LCA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "662",
+  short_name: "Saint Lucia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Lucia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣卢西亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintMartinFrenchpart = {
+  alpha2Code: "MF",
+  alpha3code: "MAF",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "663",
+  short_name: "Saint Martin (French part)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Martin French part",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "法属圣马丁",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintPierreAndMiquelon = {
+  alpha2Code: "PM",
+  alpha3code: "SPM",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "666",
+  short_name: "Saint Pierre and Miquelon",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Pierre And Miquelon",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣皮埃尔和密克隆",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintVincentAndTheGrenadines = {
+  alpha2Code: "VC",
+  alpha3code: "VCT",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "670",
+  short_name: "Saint Vincent and the Grenadines",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Vincent And The Grenadines",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣文森特和格林纳丁斯",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SanMarino = {
+  alpha2Code: "SM",
+  alpha3code: "SMR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "674",
+  short_name: "San Marino",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "San Marino",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣马力诺",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaoTomeAndPrincipe = {
+  alpha2Code: "ST",
+  alpha3code: "STP",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "678",
+  short_name: "Sao Tome and Principe",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Sao Tome And Principe",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣多美和普林西比",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaudiArabia = {
+  alpha2Code: "SA",
+  alpha3code: "SAU",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "682",
+  short_name: "Saudi Arabia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saudi Arabia",
+  calling_code: "966",
+
+  languages: "[]",
+
+  region_in_cn: "沙特阿拉伯",
+  region_in_native: "",
+
+  alphabetic_code: "SAR",
+  numeric_code_4217: "682",
+  minor_unit: 2,
+  currency: "Saudi riyal",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Senegal = {
+  alpha2Code: "SN",
+  alpha3code: "SEN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "686",
+  short_name: "Senegal",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Senegal",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "塞内加尔",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Serbia = {
+  alpha2Code: "RS",
+  alpha3code: "SRB",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "688",
+  short_name: "Serbia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Serbia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "塞尔维亚",
+  region_in_native: "",
+
+  alphabetic_code: "RSD",
+  numeric_code_4217: "941",
+  minor_unit: 2,
+  currency: "Serbian dinar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Seychelles = {
+  alpha2Code: "SC",
+  alpha3code: "SYC",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "690",
+  short_name: "Seychelles",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Seychelles",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "塞舌尔",
+  region_in_native: "",
+
+  alphabetic_code: "SCR",
+  numeric_code_4217: "690",
+  minor_unit: 2,
+  currency: "Seychelles rupee",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SierraLeone = {
+  alpha2Code: "SL",
+  alpha3code: "SLE",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "694",
+  short_name: "Sierra Leone",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Sierra Leone",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "塞拉利昂",
+  region_in_native: "",
+
+  alphabetic_code: "SLE",
+  numeric_code_4217: "925",
+  minor_unit: 2,
+  currency: "Sierra Leonean leone",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Singapore = {
+  alpha2Code: "SG",
+  alpha3code: "SGP",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "702",
+  short_name: "Singapore",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Singapore",
+  calling_code: "65",
+
+  languages: "[]",
+
+  region_in_cn: "新加坡",
+  region_in_native: "",
+
+  alphabetic_code: "SGD",
+  numeric_code_4217: "702",
+  minor_unit: 2,
+  currency: "Singapore dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Slovakia = {
+  alpha2Code: "SK",
+  alpha3code: "SVK",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "703",
+  short_name: "Slovakia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Slovakia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "斯洛伐克",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Viet_NamDemocraticRepublicOf = {
+  alpha2Code: "VD",
+  alpha3code: "VDR",
+  alpha4code: "VDVN",
+  independent: false,
+  numeric_code: "704",
+  short_name: "Viet-Nam, Democratic Republic of",
+
+  period_of_validity: "1974–1977",
+
+  alias: "[]",
+  common_name: "Viet_Nam Democratic Republic Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "越南民主共和国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const VietNam = {
+  alpha2Code: "VN",
+  alpha3code: "VNM",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "704",
+  short_name: "Viet Nam",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Viet Nam",
+  calling_code: "84",
+
+  languages: "[]",
+
+  region_in_cn: "越南",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Slovenia = {
+  alpha2Code: "SI",
+  alpha3code: "SVN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "705",
+  short_name: "Slovenia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Slovenia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "斯洛文尼亚",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Somalia = {
+  alpha2Code: "SO",
+  alpha3code: "SOM",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "706",
+  short_name: "Somalia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Somalia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "索马里",
+  region_in_native: "",
+
+  alphabetic_code: "SOS",
+  numeric_code_4217: "706",
+  minor_unit: 2,
+  currency: "Somalian shilling",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SouthAfrica = {
+  alpha2Code: "ZA",
+  alpha3code: "ZAF",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "710",
+  short_name: "South Africa",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "South Africa",
+  calling_code: "27",
+
+  languages: "[]",
+
+  region_in_cn: "南非",
+  region_in_native: "",
+
+  alphabetic_code: "ZAR",
+  numeric_code_4217: "710",
+  minor_unit: 2,
+  currency: "South African rand",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SouthernRhodesia = {
+  alpha2Code: "RH",
+  alpha3code: "RHO",
+  alpha4code: "RHZW",
+  independent: false,
+  numeric_code: "716",
+  short_name: "Southern Rhodesia",
+
+  period_of_validity: "1974–1980",
+
+  alias: "[]",
+  common_name: "Southern Rhodesia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "南罗德西亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Zimbabwe = {
+  alpha2Code: "ZW",
+  alpha3code: "ZWE",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "716",
+  short_name: "Zimbabwe",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Zimbabwe",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "津巴布韦",
+  region_in_native: "",
+
+  alphabetic_code: "ZWG",
+  numeric_code_4217: "924",
+  minor_unit: 2,
+  currency: "Zimbabwe Gold",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const YemenDemocratic = {
+  alpha2Code: "YD",
+  alpha3code: "YMD",
+  alpha4code: "YDYE",
+  independent: false,
+  numeric_code: "720",
+  short_name: "Yemen, Democratic",
+
+  period_of_validity: "1974–1990",
+
+  alias: "[]",
+  common_name: "Yemen Democratic",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "也门民主人民共和国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Spain = {
+  alpha2Code: "ES",
+  alpha3code: "ESP",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "724",
+  short_name: "Spain",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Spain",
+  calling_code: "34",
+
+  languages: "[]",
+
+  region_in_cn: "西班牙",
+  region_in_native: "",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "978",
+  minor_unit: 2,
+  currency: "Euro",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SouthSudan = {
+  alpha2Code: "SS",
+  alpha3code: "SSD",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "728",
+  short_name: "South Sudan",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "South Sudan",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "南苏丹",
+  region_in_native: "",
+
+  alphabetic_code: "SSP",
+  numeric_code_4217: "728",
+  minor_unit: 2,
+  currency: "South Sudanese pound",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Sudan = {
+  alpha2Code: "SD",
+  alpha3code: "SDN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "729",
+  short_name: "Sudan",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Sudan",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "苏丹",
+  region_in_native: "",
+
+  alphabetic_code: "SDG",
+  numeric_code_4217: "938",
+  minor_unit: 2,
+  currency: "Sudanese pound",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const WesternSahara = {
+  alpha2Code: "EH",
+  alpha3code: "ESH",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "732",
+  short_name: "Western Sahara",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Western Sahara",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "西撒哈拉",
+  region_in_native: "",
+
+  alphabetic_code: "MAD",
+  numeric_code_4217: "504",
+  minor_unit: 2,
+  currency: "Moroccan dirham",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Suriname = {
+  alpha2Code: "SR",
+  alpha3code: "SUR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "740",
+  short_name: "Suriname",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Suriname",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "苏里南",
+  region_in_native: "",
+
+  alphabetic_code: "SRD",
+  numeric_code_4217: "968",
+  minor_unit: 2,
+  currency: "Surinamese dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SvalbardAndJanMayen = {
+  alpha2Code: "SJ",
+  alpha3code: "SJM",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "744",
+  short_name: "Svalbard and Jan Mayen",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Svalbard And Jan Mayen",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "斯瓦尔巴和扬马延",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Eswatini = {
+  alpha2Code: "SZ",
+  alpha3code: "SWZ",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "748",
+  short_name: "Eswatini",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Eswatini",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "斯威士兰",
+  region_in_native: "",
+
+  alphabetic_code: "ZAR",
+  numeric_code_4217: "710",
+  minor_unit: 2,
+  currency: "South African rand",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Sweden = {
+  alpha2Code: "SE",
+  alpha3code: "SWE",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "752",
+  short_name: "Sweden",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Sweden",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "瑞典",
+  region_in_native: "",
+
+  alphabetic_code: "SEK",
+  numeric_code_4217: "752",
+  minor_unit: 2,
+  currency: "Swedish krona",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Switzerland = {
+  alpha2Code: "CH",
+  alpha3code: "CHE",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "756",
+  short_name: "Switzerland",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Switzerland",
+  calling_code: "41",
+
+  languages: "[]",
+
+  region_in_cn: "瑞士",
+  region_in_native: "",
+
+  alphabetic_code: "CHE",
+  numeric_code_4217: "947",
+  minor_unit: 2,
+  currency: "WIR",
+
+  currency_in_cn: "瑞士法郎",
+  currency_in_native: "Swiss franc",
+} as IEntity;
+
+const SyrianArabRepublic = {
+  alpha2Code: "SY",
+  alpha3code: "SYR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "760",
+  short_name: "Syrian Arab Republic",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Syrian Arab Republic",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "叙利亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Tajikistan = {
+  alpha2Code: "TJ",
+  alpha3code: "TJK",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "762",
+  short_name: "Tajikistan",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Tajikistan",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "塔吉克斯坦",
+  region_in_native: "",
+
+  alphabetic_code: "TJS",
+  numeric_code_4217: "972",
+  minor_unit: 2,
+  currency: "Tajikistani somoni",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Thailand = {
+  alpha2Code: "TH",
+  alpha3code: "THA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "764",
+  short_name: "Thailand",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Thailand",
+  calling_code: "66",
+
+  languages: "[]",
+
+  region_in_cn: "泰国",
+  region_in_native: "",
+
+  alphabetic_code: "THB",
+  numeric_code_4217: "764",
+  minor_unit: 2,
+  currency: "Thai baht",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Togo = {
+  alpha2Code: "TG",
+  alpha3code: "TGO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "768",
+  short_name: "Togo",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Togo",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "多哥",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Tokelau = {
+  alpha2Code: "TK",
+  alpha3code: "TKL",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "772",
+  short_name: "Tokelau",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Tokelau",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "托克劳",
+  region_in_native: "",
+
+  alphabetic_code: "NZD",
+  numeric_code_4217: "554",
+  minor_unit: 2,
+  currency: "New Zealand dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Tonga = {
+  alpha2Code: "TO",
+  alpha3code: "TON",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "776",
+  short_name: "Tonga",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Tonga",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "汤加",
+  region_in_native: "",
+
+  alphabetic_code: "TOP",
+  numeric_code_4217: "776",
+  minor_unit: 2,
+  currency: "Tongan paʻanga",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const TrinidadAndTobago = {
+  alpha2Code: "TT",
+  alpha3code: "TTO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "780",
+  short_name: "Trinidad and Tobago",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Trinidad And Tobago",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "特立尼达和多巴哥",
+  region_in_native: "",
+
+  alphabetic_code: "TTD",
+  numeric_code_4217: "780",
+  minor_unit: 2,
+  currency: "Trinidad and Tobago dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const UnitedArabEmirates = {
+  alpha2Code: "AE",
+  alpha3code: "ARE",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "784",
+  short_name: "United Arab Emirates",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "United Arab Emirates",
+  calling_code: "971",
+
+  languages: "[]",
+
+  region_in_cn: "阿联酋",
+  region_in_native: "",
+
+  alphabetic_code: "AED",
+  numeric_code_4217: "784",
+  minor_unit: 2,
+  currency: "United Arab Emirates dirham",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Tunisia = {
+  alpha2Code: "TN",
+  alpha3code: "TUN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "788",
+  short_name: "Tunisia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Tunisia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "突尼斯",
+  region_in_native: "",
+
+  alphabetic_code: "TND",
+  numeric_code_4217: "788",
+  minor_unit: 3,
+  currency: "Tunisian dinar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Turkey = {
+  alpha2Code: "TR",
+  alpha3code: "TUR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "792",
+  short_name: "Türkiye",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Turkey",
+  calling_code: "90",
+
+  languages: "[]",
+
+  region_in_cn: "土耳其",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Turkmenistan = {
+  alpha2Code: "TM",
+  alpha3code: "TKM",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "795",
+  short_name: "Turkmenistan",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Turkmenistan",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "土库曼斯坦",
+  region_in_native: "",
+
+  alphabetic_code: "TMT",
+  numeric_code_4217: "934",
+  minor_unit: 2,
+  currency: "Turkmenistan manat",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const TurksAndCaicosIslands = {
+  alpha2Code: "TC",
+  alpha3code: "TCA",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "796",
+  short_name: "Turks and Caicos Islands",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Turks And Caicos Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "特克斯和凯科斯群岛",
+  region_in_native: "",
+
+  alphabetic_code: "USD",
+  numeric_code_4217: "840",
+  minor_unit: 2,
+  currency: "United States dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Tuvalu = {
+  alpha2Code: "TV",
+  alpha3code: "TUV",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "798",
+  short_name: "Tuvalu",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Tuvalu",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "图瓦卢",
+  region_in_native: "",
+
+  alphabetic_code: "AUD",
+  numeric_code_4217: "036",
+  minor_unit: 2,
+  currency: "Australian dollar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Uganda = {
+  alpha2Code: "UG",
+  alpha3code: "UGA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "800",
+  short_name: "Uganda",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Uganda",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "乌干达",
+  region_in_native: "",
+
+  alphabetic_code: "UGX",
+  numeric_code_4217: "800",
+  minor_unit: 0,
+  currency: "Ugandan shilling",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Ukraine = {
+  alpha2Code: "UA",
+  alpha3code: "UKR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "804",
+  short_name: "Ukraine",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Ukraine",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "乌克兰",
+  region_in_native: "",
+
+  alphabetic_code: "UAH",
+  numeric_code_4217: "980",
+  minor_unit: 2,
+  currency: "Ukrainian hryvnia",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const NorthMacedonia = {
+  alpha2Code: "MK",
+  alpha3code: "MKD",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "807",
+  short_name: "North Macedonia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "North Macedonia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "北马其顿",
+  region_in_native: "",
+
+  alphabetic_code: "MKD",
+  numeric_code_4217: "807",
+  minor_unit: 2,
+  currency: "Macedonian denar",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SovietUnion = {
+  alpha2Code: "SU",
+  alpha3code: "SUN",
+  alpha4code: "SUHH",
+  independent: true,
+  numeric_code: "810",
+  short_name: "USSR",
+
+  period_of_validity: "1974–1992",
+
+  alias: "[]",
+  common_name: "Soviet Union",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "苏联",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Egypt = {
+  alpha2Code: "EG",
+  alpha3code: "EGY",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "818",
+  short_name: "Egypt",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Egypt",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "埃及",
+  region_in_native: "",
+
+  alphabetic_code: "EGP",
+  numeric_code_4217: "818",
+  minor_unit: 2,
+  currency: "Egyptian pound",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const UnitedKingdom = {
+  alpha2Code: "GB",
+  alpha3code: "GBR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "826",
+  short_name: "United Kingdom of Great Britain and Northern Ireland",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "United Kingdom",
+  calling_code: "44",
+
+  languages: "[]",
+
+  region_in_cn: "英国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "英镑",
+  currency_in_native: "Pound sterling",
+} as IEntity;
+
+const Guernsey = {
+  alpha2Code: "GG",
+  alpha3code: "GGY",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "831",
+  short_name: "Guernsey",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Guernsey",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "根西",
+  region_in_native: "",
+
+  alphabetic_code: "GBP",
+  numeric_code_4217: "826",
+  minor_unit: 2,
+  currency: "Pound sterling",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Jersey = {
+  alpha2Code: "JE",
+  alpha3code: "JEY",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "832",
+  short_name: "Jersey",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Jersey",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "泽西",
+  region_in_native: "",
+
+  alphabetic_code: "GBP",
+  numeric_code_4217: "826",
+  minor_unit: 2,
+  currency: "Pound sterling",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const IsleOfMan = {
+  alpha2Code: "IM",
+  alpha3code: "IMN",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "833",
+  short_name: "Isle of Man",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Isle Of Man",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "马恩岛",
+  region_in_native: "",
+
+  alphabetic_code: "GBP",
+  numeric_code_4217: "826",
+  minor_unit: 2,
+  currency: "Pound sterling",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const TanzaniaUnitedRepublicOf = {
+  alpha2Code: "TZ",
+  alpha3code: "TZA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "834",
+  short_name: "Tanzania, United Republic of",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Tanzania United Republic Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "坦桑尼亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const UnitedStates = {
+  alpha2Code: "US",
+  alpha3code: "USA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "840",
+  short_name: "United States of America",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "United States",
+  calling_code: "1",
+
+  languages: "[]",
+
+  region_in_cn: "美国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "美元",
+  currency_in_native: "United States dollar",
+} as IEntity;
+
+const USMiscellaneousPacificIslands = {
+  alpha2Code: "PU",
+  alpha3code: "PUS",
+  alpha4code: "PUUM",
+  independent: false,
+  numeric_code: "849",
+  short_name: "U.S. Miscellaneous Pacific Islands",
+
+  period_of_validity: "1974–1986",
+
+  alias: "[]",
+  common_name: "US Miscellaneous Pacific Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "美国其它太平洋岛屿",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const VirginIslandsUS = {
+  alpha2Code: "VI",
+  alpha3code: "VIR",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "850",
+  short_name: "Virgin Islands (U.S.)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Virgin Islands US",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "美属维尔京群岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const BurkinaFaso = {
+  alpha2Code: "BF",
+  alpha3code: "BFA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "854",
+  short_name: "Burkina Faso",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Burkina Faso",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "布基纳法索",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const UpperVolta = {
+  alpha2Code: "HV",
+  alpha3code: "HVO",
+  alpha4code: "HVBF",
+  independent: false,
+  numeric_code: "854",
+  short_name: "Upper Volta",
+
+  period_of_validity: "1974–1984",
+
+  alias: "[]",
+  common_name: "Upper Volta",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "上沃尔特",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Uruguay = {
+  alpha2Code: "UY",
+  alpha3code: "URY",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "858",
+  short_name: "Uruguay",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Uruguay",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "乌拉圭",
+  region_in_native: "",
+
+  alphabetic_code: "UYU",
+  numeric_code_4217: "858",
+  minor_unit: 2,
+  currency: "Uruguayan peso",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Uzbekistan = {
+  alpha2Code: "UZ",
+  alpha3code: "UZB",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "860",
+  short_name: "Uzbekistan",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Uzbekistan",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "乌兹别克斯坦",
+  region_in_native: "",
+
+  alphabetic_code: "UZS",
+  numeric_code_4217: "860",
+  minor_unit: 2,
+  currency: "Uzbekistani sum",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const VenezuelaBolivarianRepublicOf = {
+  alpha2Code: "VE",
+  alpha3code: "VEN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "862",
+  short_name: "Venezuela (Bolivarian Republic of)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Venezuela Bolivarian Republic Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "委内瑞拉",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const WakeIsland = {
+  alpha2Code: "WK",
+  alpha3code: "WAK",
+  alpha4code: "WKUM",
+  independent: false,
+  numeric_code: "872",
+  short_name: "Wake Island",
+
+  period_of_validity: "1974–1986",
+
+  alias: "[]",
+  common_name: "Wake Island",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "威克岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const WallisAndFutuna = {
+  alpha2Code: "WF",
+  alpha3code: "WLF",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "876",
+  short_name: "Wallis and Futuna",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Wallis And Futuna",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "瓦利斯和富图纳",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Samoa = {
+  alpha2Code: "WS",
+  alpha3code: "WSM",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "882",
+  short_name: "Samoa",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Samoa",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "萨摩亚",
+  region_in_native: "",
+
+  alphabetic_code: "WST",
+  numeric_code_4217: "882",
+  minor_unit: 2,
+  currency: "Samoan tala",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Yemen = {
+  alpha2Code: "YE",
+  alpha3code: "YEM",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "887",
+  short_name: "Yemen",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Yemen",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "也门",
+  region_in_native: "",
+
+  alphabetic_code: "YER",
+  numeric_code_4217: "886",
+  minor_unit: 2,
+  currency: "Yemeni rial",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SerbiaAndMontenegro = {
+  alpha2Code: "",
+  alpha3code: "SCG",
+  alpha4code: "CSXX",
+  independent: false,
+  numeric_code: "891",
+  short_name: "Serbia and Montenegro",
+
+  period_of_validity: "2003–2006",
+
+  alias: "[]",
+  common_name: "Serbia And Montenegro",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "塞尔维亚和黑山",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Yugoslavia = {
+  alpha2Code: "YU",
+  alpha3code: "YUG",
+  alpha4code: "YUCS",
+  independent: false,
+  numeric_code: "891",
+  short_name: "Yugoslavia",
+
+  period_of_validity: "1974–2003",
+
+  alias: "[]",
+  common_name: "Yugoslavia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "南斯拉夫",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Zambia = {
+  alpha2Code: "ZM",
+  alpha3code: "ZMB",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "894",
+  short_name: "Zambia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Zambia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "赞比亚",
+  region_in_native: "",
+
+  alphabetic_code: "ZMW",
+  numeric_code_4217: "967",
+  minor_unit: 2,
+  currency: "Zambian kwacha",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Korea = {
+  alpha2Code: "",
+  alpha3code: "XKO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "9991919",
+  short_name: "",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Korea",
+  calling_code: "",
+
+  languages: "["Hangul","Hanja","Korean"]",
+
+  region_in_cn: "朝鲜",
+  region_in_native: "한국",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const WestGermany = {
+  alpha2Code: "",
+  alpha3code: "XWG",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "9991949",
+  short_name: "Federal Republic of Germany",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "West Germany",
+  calling_code: "",
+
+  languages: "["German"]",
+
+  region_in_cn: "西德",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Kosovo = {
+  alpha2Code: "XK",
+  alpha3code: "XKX",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "9992008",
+  short_name: "Republic of Kosovo",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Kosovo",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "科索沃",
+  region_in_native: "Kosova",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
 
   currency_in_cn: "",
   currency_in_native: "",
@@ -7797,6 +7797,7 @@ export {
   AmericanSamoa,
   Andorra,
   Angola,
+  Anguilla,
   Antarctica,
   AntiguaAndBarbuda,
   Argentina,
@@ -7809,29 +7810,29 @@ export {
   Bahrain,
   Bangladesh,
   Barbados,
+  Belarus,
   Belgium,
   Belize,
   Benin,
   Bermuda,
   Bhutan,
   BoliviaPlurinationalStateOf,
-  Bosnia,
+  BonaireSintEustatiusAndSaba,
+  BosniaAndHerzegovina,
   Botswana,
   BouvetIsland,
   Brazil,
   BritishIndianOceanTerritory,
-  Brunei,
+  BruneiDarussalam,
   Bulgaria,
   BurkinaFaso,
   Burma,
   Burundi,
-  ByelorussianSSR,
   CaboVerde,
   Cambodia,
   Cameroon,
   Canada,
   CantonAndEnderburyIslands,
-  CaribbeanNetherlands,
   CaymanIslands,
   CentralAfricanRepublic,
   Chad,
@@ -7842,14 +7843,16 @@ export {
   Colombia,
   Comoros,
   Congo,
-  CongoKinshasa,
+  CongoDemocraticRepublicOfthe,
   CookIslands,
   CostaRica,
+  CotedIvoire,
   Croatia,
   Cuba,
   Curacao,
   Cyprus,
-  CzechRepublic,
+  Czechia,
+  Czechoslovakia,
   Dahomey,
   Denmark,
   Djibouti,
@@ -7872,17 +7875,16 @@ export {
   Finland,
   France,
   FranceMetropolitan,
-  FrenchAfarAndIssas,
   FrenchGuiana,
   FrenchPolynesia,
   FrenchSouthernAndAntarcticTerritories,
   FrenchSouthernTerritories,
   Gabon,
   Gambia,
+  Georgia,
   Germany,
   Ghana,
   Gibraltar,
-  GilbertAndElliceIslands,
   Greece,
   Greenland,
   Grenada,
@@ -7902,13 +7904,12 @@ export {
   Iceland,
   India,
   Indonesia,
-  Iran,
+  IranIslamicRepublicOf,
   Iraq,
   Ireland,
   IsleOfMan,
   Israel,
   Italy,
-  IvoryCoast,
   Jamaica,
   Japan,
   Jersey,
@@ -7957,7 +7958,6 @@ export {
   Nauru,
   Nepal,
   Netherlands,
-  NetherlandsAntilles,
   NeutralZone,
   NewCaledonia,
   NewHebrides,
@@ -7982,7 +7982,7 @@ export {
   Paraguay,
   Peru,
   Philippines,
-  PitcairnIslands,
+  Pitcairn,
   Poland,
   Portugal,
   PuertoRico,
@@ -8007,9 +8007,9 @@ export {
   SerbiaAndMontenegro,
   Seychelles,
   SierraLeone,
-  Sikkim,
   Singapore,
   SintMaartenDutchpart,
+  Slovakia,
   Slovenia,
   SolomonIslands,
   Somalia,
@@ -8029,7 +8029,7 @@ export {
   SyrianArabRepublic,
   Taiwan,
   Tajikistan,
-  Tanzania,
+  TanzaniaUnitedRepublicOf,
   Thailand,
   Timor_Leste,
   Togo,
@@ -8048,7 +8048,6 @@ export {
   UnitedKingdom,
   UnitedStates,
   UnitedStatesMinorOutlyingIslands,
-  UnitedStatesVirginIslands,
   UpperVolta,
   Uruguay,
   Uzbekistan,
@@ -8056,7 +8055,8 @@ export {
   VenezuelaBolivarianRepublicOf,
   VietNam,
   Viet_NamDemocraticRepublicOf,
-  VirginIslands,
+  VirginIslandsBritish,
+  VirginIslandsUS,
   WakeIsland,
   WallisAndFutuna,
   WestGermany,
@@ -8077,6 +8077,7 @@ export const Regions = [
   AmericanSamoa,
   Andorra,
   Angola,
+  Anguilla,
   Antarctica,
   AntiguaAndBarbuda,
   Argentina,
@@ -8089,29 +8090,29 @@ export const Regions = [
   Bahrain,
   Bangladesh,
   Barbados,
+  Belarus,
   Belgium,
   Belize,
   Benin,
   Bermuda,
   Bhutan,
   BoliviaPlurinationalStateOf,
-  Bosnia,
+  BonaireSintEustatiusAndSaba,
+  BosniaAndHerzegovina,
   Botswana,
   BouvetIsland,
   Brazil,
   BritishIndianOceanTerritory,
-  Brunei,
+  BruneiDarussalam,
   Bulgaria,
   BurkinaFaso,
   Burma,
   Burundi,
-  ByelorussianSSR,
   CaboVerde,
   Cambodia,
   Cameroon,
   Canada,
   CantonAndEnderburyIslands,
-  CaribbeanNetherlands,
   CaymanIslands,
   CentralAfricanRepublic,
   Chad,
@@ -8122,14 +8123,16 @@ export const Regions = [
   Colombia,
   Comoros,
   Congo,
-  CongoKinshasa,
+  CongoDemocraticRepublicOfthe,
   CookIslands,
   CostaRica,
+  CotedIvoire,
   Croatia,
   Cuba,
   Curacao,
   Cyprus,
-  CzechRepublic,
+  Czechia,
+  Czechoslovakia,
   Dahomey,
   Denmark,
   Djibouti,
@@ -8152,17 +8155,16 @@ export const Regions = [
   Finland,
   France,
   FranceMetropolitan,
-  FrenchAfarAndIssas,
   FrenchGuiana,
   FrenchPolynesia,
   FrenchSouthernAndAntarcticTerritories,
   FrenchSouthernTerritories,
   Gabon,
   Gambia,
+  Georgia,
   Germany,
   Ghana,
   Gibraltar,
-  GilbertAndElliceIslands,
   Greece,
   Greenland,
   Grenada,
@@ -8182,13 +8184,12 @@ export const Regions = [
   Iceland,
   India,
   Indonesia,
-  Iran,
+  IranIslamicRepublicOf,
   Iraq,
   Ireland,
   IsleOfMan,
   Israel,
   Italy,
-  IvoryCoast,
   Jamaica,
   Japan,
   Jersey,
@@ -8237,7 +8238,6 @@ export const Regions = [
   Nauru,
   Nepal,
   Netherlands,
-  NetherlandsAntilles,
   NeutralZone,
   NewCaledonia,
   NewHebrides,
@@ -8262,7 +8262,7 @@ export const Regions = [
   Paraguay,
   Peru,
   Philippines,
-  PitcairnIslands,
+  Pitcairn,
   Poland,
   Portugal,
   PuertoRico,
@@ -8287,9 +8287,9 @@ export const Regions = [
   SerbiaAndMontenegro,
   Seychelles,
   SierraLeone,
-  Sikkim,
   Singapore,
   SintMaartenDutchpart,
+  Slovakia,
   Slovenia,
   SolomonIslands,
   Somalia,
@@ -8309,7 +8309,7 @@ export const Regions = [
   SyrianArabRepublic,
   Taiwan,
   Tajikistan,
-  Tanzania,
+  TanzaniaUnitedRepublicOf,
   Thailand,
   Timor_Leste,
   Togo,
@@ -8328,7 +8328,6 @@ export const Regions = [
   UnitedKingdom,
   UnitedStates,
   UnitedStatesMinorOutlyingIslands,
-  UnitedStatesVirginIslands,
   UpperVolta,
   Uruguay,
   Uzbekistan,
@@ -8336,7 +8335,8 @@ export const Regions = [
   VenezuelaBolivarianRepublicOf,
   VietNam,
   Viet_NamDemocraticRepublicOf,
-  VirginIslands,
+  VirginIslandsBritish,
+  VirginIslandsUS,
   WakeIsland,
   WallisAndFutuna,
   WestGermany,
@@ -8350,595 +8350,588 @@ export const Regions = [
 ] as IEntity[];
 
 export const RegionsByCode = {
-		"CF": CentralAfricanRepublic,
-		"NC": NewCaledonia,
-		"XWG": WestGermany,
-		"CS": SerbiaAndMontenegro,
-		"CSXX": SerbiaAndMontenegro,
-		"AQ": Antarctica,
-		"YU": Yugoslavia,
-		"YUCS": Yugoslavia,
-		"WF": WallisAndFutuna,
-		"WK": WakeIsland,
-		"WKUM": WakeIsland,
-		"AG": AntiguaAndBarbuda,
-		"VE": VenezuelaBolivarianRepublicOf,
-		"TL": Timor_Leste,
-		"HV": UpperVolta,
-		"HVBF": UpperVolta,
-		"FQ": FrenchSouthernAndAntarcticTerritories,
-		"FQHH": FrenchSouthernAndAntarcticTerritories,
-		"TP": EastTimor,
-		"TPTL": EastTimor,
-		"PZ": PanamaCanalZone,
-		"PZPA": PanamaCanalZone,
-		"RU": Russia,
-		"XK": Kosovo,
-		"TD": Chad,
-		"BF": BurkinaFaso,
-		"KN": SaintKittsAndNevis,
-		"LC": SaintLucia,
-		"BO": BoliviaPlurinationalStateOf,
-		"VI": VirginIslands,
-		"NE": Niger,
-		"NH": NewHebrides,
-		"NHVU": NewHebrides,
-		"PU": USMiscellaneousPacificIslands,
-		"PUUM": USMiscellaneousPacificIslands,
-		"MD": MoldovaRepublicOf,
-		"US": UnitedStates,
-		"NT": NeutralZone,
-		"NTHH": NeutralZone,
-		"TZ": Tanzania,
-		"BN": Brunei,
-		"GB": UnitedKingdom,
-		"BU": Burma,
-		"BUMM": Burma,
-		"BQ": CaribbeanNetherlands,
-		"BQAQ": CaribbeanNetherlands,
-		"AN": NetherlandsAntilles,
-		"ANHH": NetherlandsAntilles,
-		"BY": ByelorussianSSR,
-		"BYAA": ByelorussianSSR,
-		"VC": SaintVincentAndTheGrenadines,
-		"CM": Cameroon,
-		"ST": SaoTomeAndPrincipe,
-		"CT": CantonAndEnderburyIslands,
-		"CTKI": CantonAndEnderburyIslands,
-		"CV": CaboVerde,
-		"MS": Montserrat,
-		"SU": SovietUnion,
-		"SUHH": SovietUnion,
-		"XKO": Korea,
-		"PC": PacificIslandsTrustTerritoryOfthe,
-		"PCHH": PacificIslandsTrustTerritoryOfthe,
-		"SN": Senegal,
-		"MI": MidwayIslands,
-		"MIUM": MidwayIslands,
-		"TW": Taiwan,
-		"LA": Laos,
-		"VN": VietNam,
-		"ML": Mali,
-		"VD": Viet_NamDemocraticRepublicOf,
-		"VDVN": Viet_NamDemocraticRepublicOf,
-		"TG": Togo,
-		"CG": Congo,
-		"ZR": Zaire,
-		"ZRCD": Zaire,
-		"CD": CongoKinshasa,
-		"MO": Macao,
-		"RH": SouthernRhodesia,
-		"RHZW": SouthernRhodesia,
-		"KR": SouthKorea,
-		"KP": NorthKorea,
-		"JT": JohnstonIsland,
-		"JTUM": JohnstonIsland,
-		"CZ": CzechRepublic,
-		"BJ": Benin,
-		"DY": Dahomey,
-		"DYBJ": Dahomey,
-		"CI": IvoryCoast,
-		"DM": Dominica,
-		"YD": YemenDemocratic,
-		"YDYE": YemenDemocratic,
-		"NQ": DronningMaudLand,
-		"NQAQ": DronningMaudLand,
-		"IR": Iran,
-		"TR": Turkey,
-		"GQ": EquatorialGuinea,
-		"SJ": SvalbardAndJanMayen,
-		"GD": Grenada,
-		"GE": GilbertAndElliceIslands,
-		"GEHH": GilbertAndElliceIslands,
-		"GW": Guinea_Bissau,
-		"FK": FalklandIslandsMalvinas,
-		"GS": SouthGeorgiaAndTheSouthSandwichIslands,
-		"SY": SyrianArabRepublic,
-		"DD": EastGermany,
-		"DDDE": EastGermany,
-		"PS": PalestineStateOf,
-		"FX": FranceMetropolitan,
-		"FXFR": FranceMetropolitan,
-		"GA": Gabon,
-		"AI": FrenchAfarAndIssas,
-		"AIDJ": FrenchAfarAndIssas,
-		"PF": FrenchPolynesia,
+		"AF": Afghanistan,
 		"AL": Albania,
+		"AQ": Antarctica,
 		"DZ": Algeria,
+		"AS": AmericanSamoa,
+		"AD": Andorra,
+		"AO": Angola,
+		"AG": AntiguaAndBarbuda,
+		"AZ": Azerbaijan,
 		"AR": Argentina,
-		"KI": Kiribati,
-		"NF": NorfolkIsland,
 		"AU": Australia,
-		"TV": Tuvalu,
-		"HM": HeardIslandAndMcDonaldIslands,
-		"NR": Nauru,
-		"CC": CocosKeelingIslands,
-		"CX": ChristmasIsland,
+		"AT": Austria,
 		"BS": Bahamas,
 		"BH": Bahrain,
 		"BD": Bangladesh,
 		"AM": Armenia,
 		"BB": Barbados,
+		"BE": Belgium,
 		"BM": Bermuda,
+		"BT": Bhutan,
+		"BO": BoliviaPlurinationalStateOf,
+		"BA": BosniaAndHerzegovina,
 		"BW": Botswana,
+		"BV": BouvetIsland,
+		"BR": Brazil,
 		"BZ": Belize,
+		"IO": BritishIndianOceanTerritory,
 		"SB": SolomonIslands,
+		"VG": VirginIslandsBritish,
+		"BN": BruneiDarussalam,
+		"BG": Bulgaria,
+		"BU": Burma,
+		"BUMM": Burma,
 		"MM": Myanmar,
 		"BI": Burundi,
+		"BY": Belarus,
 		"KH": Cambodia,
+		"CM": Cameroon,
 		"CA": Canada,
+		"CT": CantonAndEnderburyIslands,
+		"CTKI": CantonAndEnderburyIslands,
+		"CV": CaboVerde,
 		"KY": CaymanIslands,
+		"CF": CentralAfricanRepublic,
 		"LK": SriLanka,
+		"TD": Chad,
+		"CL": Chile,
 		"CN": China,
+		"TW": Taiwan,
+		"CX": ChristmasIsland,
+		"CC": CocosKeelingIslands,
 		"CO": Colombia,
 		"KM": Comoros,
+		"YT": Mayotte,
+		"CG": Congo,
+		"CD": CongoDemocraticRepublicOfthe,
+		"ZR": Zaire,
+		"ZRCD": Zaire,
+		"CK": CookIslands,
 		"CR": CostaRica,
+		"HR": Croatia,
 		"CU": Cuba,
+		"CY": Cyprus,
+		"CSHH": Czechoslovakia,
+		"CZ": Czechia,
+		"BJ": Benin,
+		"DY": Dahomey,
+		"DYBJ": Dahomey,
 		"DK": Denmark,
-		"GL": Greenland,
-		"FO": FaroeIslands,
+		"DM": Dominica,
 		"DO": DominicanRepublic,
+		"NQ": DronningMaudLand,
+		"NQAQ": DronningMaudLand,
+		"EC": Ecuador,
+		"SV": ElSalvador,
+		"GQ": EquatorialGuinea,
 		"ET": Ethiopia,
 		"ER": Eritrea,
+		"EE": Estonia,
+		"FO": FaroeIslands,
+		"FK": FalklandIslandsMalvinas,
+		"GS": SouthGeorgiaAndTheSouthSandwichIslands,
 		"FJ": Fiji,
+		"FI": Finland,
+		"AX": AlandIslands,
+		"FX": FranceMetropolitan,
+		"FXFR": FranceMetropolitan,
+		"FR": France,
+		"GF": FrenchGuiana,
+		"PF": FrenchPolynesia,
+		"FQ": FrenchSouthernAndAntarcticTerritories,
+		"FQHH": FrenchSouthernAndAntarcticTerritories,
+		"TF": FrenchSouthernTerritories,
 		"DJ": Djibouti,
+		"GA": Gabon,
+		"GE": Georgia,
 		"GM": Gambia,
+		"PS": PalestineStateOf,
+		"DE": Germany,
+		"DD": EastGermany,
+		"DDDE": EastGermany,
+		"GH": Ghana,
 		"GI": Gibraltar,
+		"KI": Kiribati,
+		"GR": Greece,
+		"GL": Greenland,
+		"GD": Grenada,
+		"GP": Guadeloupe,
+		"GU": Guam,
 		"GT": Guatemala,
 		"GN": Guinea,
 		"GY": Guyana,
 		"HT": Haiti,
+		"HM": HeardIslandAndMcDonaldIslands,
+		"VA": HolySee,
 		"HN": Honduras,
 		"HK": HongKong,
 		"HU": Hungary,
 		"IS": Iceland,
 		"IN": India,
-		"BT": Bhutan,
 		"ID": Indonesia,
+		"IR": IranIslamicRepublicOf,
 		"IQ": Iraq,
+		"IE": Ireland,
 		"IL": Israel,
+		"IT": Italy,
+		"CI": CotedIvoire,
 		"JM": Jamaica,
 		"JP": Japan,
+		"JT": JohnstonIsland,
+		"JTUM": JohnstonIsland,
 		"KZ": Kazakhstan,
 		"JO": Jordan,
 		"KE": Kenya,
+		"KP": NorthKorea,
+		"KR": SouthKorea,
 		"KW": Kuwait,
 		"KG": Kyrgyzstan,
 		"LB": Lebanon,
+		"LS": Lesotho,
+		"LV": Latvia,
 		"LR": Liberia,
 		"LY": Libya,
+		"LI": Liechtenstein,
+		"LT": Lithuania,
+		"LU": Luxembourg,
+		"MO": Macao,
+		"MG": Madagascar,
 		"MW": Malawi,
 		"MY": Malaysia,
 		"MV": Maldives,
+		"ML": Mali,
+		"MT": Malta,
+		"MQ": Martinique,
+		"MR": Mauritania,
 		"MU": Mauritius,
+		"LA": Laos,
 		"MX": Mexico,
+		"MI": MidwayIslands,
+		"MIUM": MidwayIslands,
+		"MC": Monaco,
 		"MN": Mongolia,
-		"EH": WesternSahara,
+		"MD": MoldovaRepublicOf,
+		"ME": Montenegro,
+		"MS": Montserrat,
 		"MA": Morocco,
+		"MZ": Mozambique,
 		"OM": Oman,
+		"NA": Namibia,
+		"NR": Nauru,
 		"NP": Nepal,
-		"SX": SintMaartenDutchpart,
+		"NL": Netherlands,
 		"CW": Curacao,
 		"AW": Aruba,
+		"SX": SintMaartenDutchpart,
+		"BQ": BonaireSintEustatiusAndSaba,
+		"NT": NeutralZone,
+		"NTHH": NeutralZone,
+		"NC": NewCaledonia,
+		"NH": NewHebrides,
+		"NHVU": NewHebrides,
 		"VU": Vanuatu,
-		"NU": Niue,
-		"CK": CookIslands,
-		"PN": PitcairnIslands,
-		"TK": Tokelau,
 		"NZ": NewZealand,
 		"NI": Nicaragua,
+		"NE": Niger,
 		"NG": Nigeria,
+		"NU": Niue,
+		"NF": NorfolkIsland,
 		"NO": Norway,
-		"BV": BouvetIsland,
+		"MP": NorthernMarianaIslands,
+		"UM": UnitedStatesMinorOutlyingIslands,
+		"PC": PacificIslandsTrustTerritoryOfthe,
+		"PCHH": PacificIslandsTrustTerritoryOfthe,
+		"FM": MicronesiaFederatedStatesOf,
+		"MH": MarshallIslands,
+		"PW": Palau,
 		"PK": Pakistan,
+		"PA": Panama,
+		"PZ": PanamaCanalZone,
+		"PZPA": PanamaCanalZone,
 		"PG": PapuaNewGuinea,
 		"PY": Paraguay,
 		"PE": Peru,
 		"PH": Philippines,
+		"PN": Pitcairn,
+		"PL": Poland,
+		"PT": Portugal,
+		"GW": Guinea_Bissau,
+		"TL": Timor_Leste,
+		"TP": EastTimor,
+		"TPTL": EastTimor,
+		"PR": PuertoRico,
 		"QA": Qatar,
+		"RE": Reunion,
+		"RO": Romania,
+		"RU": Russia,
 		"RW": Rwanda,
+		"BL": SaintBarthelemy,
+		"SH": SaintHelenaAscensionAndTristandaCunha,
+		"KN": SaintKittsAndNevis,
+		"AI": Anguilla,
+		"LC": SaintLucia,
+		"MF": SaintMartinFrenchpart,
+		"PM": SaintPierreAndMiquelon,
+		"VC": SaintVincentAndTheGrenadines,
+		"SM": SanMarino,
+		"ST": SaoTomeAndPrincipe,
 		"SA": SaudiArabia,
+		"SN": Senegal,
+		"RS": Serbia,
 		"SC": Seychelles,
+		"SL": SierraLeone,
 		"SG": Singapore,
+		"SK": Slovakia,
+		"VD": Viet_NamDemocraticRepublicOf,
+		"VDVN": Viet_NamDemocraticRepublicOf,
+		"VN": VietNam,
+		"SI": Slovenia,
 		"SO": Somalia,
-		"LS": Lesotho,
-		"SZ": Eswatini,
 		"ZA": SouthAfrica,
-		"NA": Namibia,
+		"RH": SouthernRhodesia,
+		"RHZW": SouthernRhodesia,
+		"ZW": Zimbabwe,
+		"YD": YemenDemocratic,
+		"YDYE": YemenDemocratic,
+		"ES": Spain,
 		"SS": SouthSudan,
+		"SD": Sudan,
+		"EH": WesternSahara,
+		"SR": Suriname,
+		"SJ": SvalbardAndJanMayen,
+		"SZ": Eswatini,
 		"SE": Sweden,
-		"LI": Liechtenstein,
+		"CH": Switzerland,
+		"SY": SyrianArabRepublic,
+		"TJ": Tajikistan,
 		"TH": Thailand,
+		"TG": Togo,
+		"TK": Tokelau,
 		"TO": Tonga,
 		"TT": TrinidadAndTobago,
 		"AE": UnitedArabEmirates,
 		"TN": Tunisia,
-		"UG": Uganda,
-		"MK": NorthMacedonia,
-		"EG": Egypt,
-		"SH": SaintHelenaAscensionAndTristandaCunha,
-		"GG": Guernsey,
-		"IM": IsleOfMan,
-		"JE": Jersey,
+		"TR": Turkey,
+		"TM": Turkmenistan,
 		"TC": TurksAndCaicosIslands,
-		"PR": PuertoRico,
-		"IO": BritishIndianOceanTerritory,
-		"PW": Palau,
-		"MH": MarshallIslands,
-		"AS": AmericanSamoa,
-		"FM": MicronesiaFederatedStatesOf,
-		"UM": UnitedStatesMinorOutlyingIslands,
-		"MP": NorthernMarianaIslands,
-		"VG": UnitedStatesVirginIslands,
-		"GU": Guam,
-		"EC": Ecuador,
-		"PA": Panama,
-		"SV": ElSalvador,
+		"TV": Tuvalu,
+		"UG": Uganda,
+		"UA": Ukraine,
+		"MK": NorthMacedonia,
+		"SU": SovietUnion,
+		"SUHH": SovietUnion,
+		"EG": Egypt,
+		"GB": UnitedKingdom,
+		"GG": Guernsey,
+		"JE": Jersey,
+		"IM": IsleOfMan,
+		"TZ": TanzaniaUnitedRepublicOf,
+		"US": UnitedStates,
+		"PU": USMiscellaneousPacificIslands,
+		"PUUM": USMiscellaneousPacificIslands,
+		"VI": VirginIslandsUS,
+		"BF": BurkinaFaso,
+		"HV": UpperVolta,
+		"HVBF": UpperVolta,
 		"UY": Uruguay,
 		"UZ": Uzbekistan,
+		"VE": VenezuelaBolivarianRepublicOf,
+		"WK": WakeIsland,
+		"WKUM": WakeIsland,
+		"WF": WallisAndFutuna,
 		"WS": Samoa,
 		"YE": Yemen,
-		"ZW": Zimbabwe,
-		"SL": SierraLeone,
-		"MR": Mauritania,
-		"TM": Turkmenistan,
-		"GH": Ghana,
-		"SD": Sudan,
-		"RS": Serbia,
-		"MZ": Mozambique,
-		"AZ": Azerbaijan,
-		"RO": Romania,
-		"CH": Switzerland,
+		"CSXX": SerbiaAndMontenegro,
+		"YU": Yugoslavia,
+		"YUCS": Yugoslavia,
 		"ZM": Zambia,
-		"SR": Suriname,
-		"MG": Madagascar,
-		"AF": Afghanistan,
-		"TJ": Tajikistan,
-		"AO": Angola,
-		"BG": Bulgaria,
-		"BA": Bosnia,
-		"GP": Guadeloupe,
-		"LV": Latvia,
-		"PT": Portugal,
-		"DE": Germany,
-		"TF": FrenchSouthernTerritories,
-		"GF": FrenchGuiana,
-		"FR": France,
-		"AX": AlandIslands,
-		"FI": Finland,
-		"EE": Estonia,
-		"VA": HolySee,
-		"IE": Ireland,
-		"ES": Spain,
-		"IT": Italy,
-		"CY": Cyprus,
-		"RE": Reunion,
-		"HR": Croatia,
-		"YT": Mayotte,
-		"BL": SaintBarthelemy,
-		"GR": Greece,
-		"LT": Lithuania,
-		"LU": Luxembourg,
-		"SI": Slovenia,
-		"MT": Malta,
-		"MQ": Martinique,
-		"MF": SaintMartinFrenchpart,
-		"SK": Sikkim,
-		"SKIN": Sikkim,
-		"BE": Belgium,
-		"AT": Austria,
-		"MC": Monaco,
-		"ME": Montenegro,
-		"SM": SanMarino,
-		"NL": Netherlands,
-		"AD": Andorra,
-		"PM": SaintPierreAndMiquelon,
-		"UA": Ukraine,
-		"PL": Poland,
-		"BR": Brazil,
-		"CL": Chile,
+		"XKO": Korea,
+		"XWG": WestGermany,
+		"XK": Kosovo,
 } as {
   [key: string]: IEntity;
 };
 
 export const RegionsFromCommonNameInAlphaNumeric = {
-		"CentralAfricanRepublic": CentralAfricanRepublic,
-		"NewCaledonia": NewCaledonia,
-		"WestGermany": WestGermany,
-		"SerbiaAndMontenegro": SerbiaAndMontenegro,
-		"Antarctica": Antarctica,
-		"Yugoslavia": Yugoslavia,
-		"WallisAndFutuna": WallisAndFutuna,
-		"WakeIsland": WakeIsland,
-		"AntiguaAndBarbuda": AntiguaAndBarbuda,
-		"VenezuelaBolivarianRepublicOf": VenezuelaBolivarianRepublicOf,
-		"Timor_Leste": Timor_Leste,
-		"UpperVolta": UpperVolta,
-		"FrenchSouthernAndAntarcticTerritories": FrenchSouthernAndAntarcticTerritories,
-		"EastTimor": EastTimor,
-		"PanamaCanalZone": PanamaCanalZone,
-		"Russia": Russia,
-		"Kosovo": Kosovo,
-		"Chad": Chad,
-		"BurkinaFaso": BurkinaFaso,
-		"SaintKittsAndNevis": SaintKittsAndNevis,
-		"SaintLucia": SaintLucia,
-		"BoliviaPlurinationalStateOf": BoliviaPlurinationalStateOf,
-		"VirginIslands": VirginIslands,
-		"Niger": Niger,
-		"NewHebrides": NewHebrides,
-		"USMiscellaneousPacificIslands": USMiscellaneousPacificIslands,
-		"MoldovaRepublicOf": MoldovaRepublicOf,
-		"UnitedStates": UnitedStates,
-		"NeutralZone": NeutralZone,
-		"Tanzania": Tanzania,
-		"Brunei": Brunei,
-		"UnitedKingdom": UnitedKingdom,
-		"Burma": Burma,
-		"CaribbeanNetherlands": CaribbeanNetherlands,
-		"NetherlandsAntilles": NetherlandsAntilles,
-		"ByelorussianSSR": ByelorussianSSR,
-		"SaintVincentAndTheGrenadines": SaintVincentAndTheGrenadines,
-		"Cameroon": Cameroon,
-		"SaoTomeAndPrincipe": SaoTomeAndPrincipe,
-		"CantonAndEnderburyIslands": CantonAndEnderburyIslands,
-		"CaboVerde": CaboVerde,
-		"Montserrat": Montserrat,
-		"SovietUnion": SovietUnion,
-		"Korea": Korea,
-		"PacificIslandsTrustTerritoryOfthe": PacificIslandsTrustTerritoryOfthe,
-		"Senegal": Senegal,
-		"MidwayIslands": MidwayIslands,
-		"Taiwan": Taiwan,
-		"Laos": Laos,
-		"VietNam": VietNam,
-		"Mali": Mali,
-		"Viet_NamDemocraticRepublicOf": Viet_NamDemocraticRepublicOf,
-		"Togo": Togo,
-		"Congo": Congo,
-		"Zaire": Zaire,
-		"CongoKinshasa": CongoKinshasa,
-		"Macao": Macao,
-		"SouthernRhodesia": SouthernRhodesia,
-		"SouthKorea": SouthKorea,
-		"NorthKorea": NorthKorea,
-		"JohnstonIsland": JohnstonIsland,
-		"CzechRepublic": CzechRepublic,
-		"Benin": Benin,
-		"Dahomey": Dahomey,
-		"IvoryCoast": IvoryCoast,
-		"Dominica": Dominica,
-		"YemenDemocratic": YemenDemocratic,
-		"DronningMaudLand": DronningMaudLand,
-		"Iran": Iran,
-		"Turkey": Turkey,
-		"EquatorialGuinea": EquatorialGuinea,
-		"SvalbardAndJanMayen": SvalbardAndJanMayen,
-		"Grenada": Grenada,
-		"GilbertAndElliceIslands": GilbertAndElliceIslands,
-		"Guinea_Bissau": Guinea_Bissau,
-		"FalklandIslandsMalvinas": FalklandIslandsMalvinas,
-		"SouthGeorgiaAndTheSouthSandwichIslands": SouthGeorgiaAndTheSouthSandwichIslands,
-		"SyrianArabRepublic": SyrianArabRepublic,
-		"EastGermany": EastGermany,
-		"PalestineStateOf": PalestineStateOf,
-		"FranceMetropolitan": FranceMetropolitan,
-		"Gabon": Gabon,
-		"FrenchAfarAndIssas": FrenchAfarAndIssas,
-		"FrenchPolynesia": FrenchPolynesia,
+		"Afghanistan": Afghanistan,
 		"Albania": Albania,
+		"Antarctica": Antarctica,
 		"Algeria": Algeria,
+		"AmericanSamoa": AmericanSamoa,
+		"Andorra": Andorra,
+		"Angola": Angola,
+		"AntiguaAndBarbuda": AntiguaAndBarbuda,
+		"Azerbaijan": Azerbaijan,
 		"Argentina": Argentina,
-		"Kiribati": Kiribati,
-		"NorfolkIsland": NorfolkIsland,
 		"Australia": Australia,
-		"Tuvalu": Tuvalu,
-		"HeardIslandAndMcDonaldIslands": HeardIslandAndMcDonaldIslands,
-		"Nauru": Nauru,
-		"CocosKeelingIslands": CocosKeelingIslands,
-		"ChristmasIsland": ChristmasIsland,
+		"Austria": Austria,
 		"Bahamas": Bahamas,
 		"Bahrain": Bahrain,
 		"Bangladesh": Bangladesh,
 		"Armenia": Armenia,
 		"Barbados": Barbados,
+		"Belgium": Belgium,
 		"Bermuda": Bermuda,
+		"Bhutan": Bhutan,
+		"BoliviaPlurinationalStateOf": BoliviaPlurinationalStateOf,
+		"BosniaAndHerzegovina": BosniaAndHerzegovina,
 		"Botswana": Botswana,
+		"BouvetIsland": BouvetIsland,
+		"Brazil": Brazil,
 		"Belize": Belize,
+		"BritishIndianOceanTerritory": BritishIndianOceanTerritory,
 		"SolomonIslands": SolomonIslands,
+		"VirginIslandsBritish": VirginIslandsBritish,
+		"BruneiDarussalam": BruneiDarussalam,
+		"Bulgaria": Bulgaria,
+		"Burma": Burma,
 		"Myanmar": Myanmar,
 		"Burundi": Burundi,
+		"Belarus": Belarus,
 		"Cambodia": Cambodia,
+		"Cameroon": Cameroon,
 		"Canada": Canada,
+		"CantonAndEnderburyIslands": CantonAndEnderburyIslands,
+		"CaboVerde": CaboVerde,
 		"CaymanIslands": CaymanIslands,
+		"CentralAfricanRepublic": CentralAfricanRepublic,
 		"SriLanka": SriLanka,
+		"Chad": Chad,
+		"Chile": Chile,
 		"China": China,
+		"Taiwan": Taiwan,
+		"ChristmasIsland": ChristmasIsland,
+		"CocosKeelingIslands": CocosKeelingIslands,
 		"Colombia": Colombia,
 		"Comoros": Comoros,
+		"Mayotte": Mayotte,
+		"Congo": Congo,
+		"CongoDemocraticRepublicOfthe": CongoDemocraticRepublicOfthe,
+		"Zaire": Zaire,
+		"CookIslands": CookIslands,
 		"CostaRica": CostaRica,
+		"Croatia": Croatia,
 		"Cuba": Cuba,
+		"Cyprus": Cyprus,
+		"Czechoslovakia": Czechoslovakia,
+		"Czechia": Czechia,
+		"Benin": Benin,
+		"Dahomey": Dahomey,
 		"Denmark": Denmark,
-		"Greenland": Greenland,
-		"FaroeIslands": FaroeIslands,
+		"Dominica": Dominica,
 		"DominicanRepublic": DominicanRepublic,
+		"DronningMaudLand": DronningMaudLand,
+		"Ecuador": Ecuador,
+		"ElSalvador": ElSalvador,
+		"EquatorialGuinea": EquatorialGuinea,
 		"Ethiopia": Ethiopia,
 		"Eritrea": Eritrea,
+		"Estonia": Estonia,
+		"FaroeIslands": FaroeIslands,
+		"FalklandIslandsMalvinas": FalklandIslandsMalvinas,
+		"SouthGeorgiaAndTheSouthSandwichIslands": SouthGeorgiaAndTheSouthSandwichIslands,
 		"Fiji": Fiji,
+		"Finland": Finland,
+		"AlandIslands": AlandIslands,
+		"FranceMetropolitan": FranceMetropolitan,
+		"France": France,
+		"FrenchGuiana": FrenchGuiana,
+		"FrenchPolynesia": FrenchPolynesia,
+		"FrenchSouthernAndAntarcticTerritories": FrenchSouthernAndAntarcticTerritories,
+		"FrenchSouthernTerritories": FrenchSouthernTerritories,
 		"Djibouti": Djibouti,
+		"Gabon": Gabon,
+		"Georgia": Georgia,
 		"Gambia": Gambia,
+		"PalestineStateOf": PalestineStateOf,
+		"Germany": Germany,
+		"EastGermany": EastGermany,
+		"Ghana": Ghana,
 		"Gibraltar": Gibraltar,
+		"Kiribati": Kiribati,
+		"Greece": Greece,
+		"Greenland": Greenland,
+		"Grenada": Grenada,
+		"Guadeloupe": Guadeloupe,
+		"Guam": Guam,
 		"Guatemala": Guatemala,
 		"Guinea": Guinea,
 		"Guyana": Guyana,
 		"Haiti": Haiti,
+		"HeardIslandAndMcDonaldIslands": HeardIslandAndMcDonaldIslands,
+		"HolySee": HolySee,
 		"Honduras": Honduras,
 		"HongKong": HongKong,
 		"Hungary": Hungary,
 		"Iceland": Iceland,
 		"India": India,
-		"Bhutan": Bhutan,
 		"Indonesia": Indonesia,
+		"IranIslamicRepublicOf": IranIslamicRepublicOf,
 		"Iraq": Iraq,
+		"Ireland": Ireland,
 		"Israel": Israel,
+		"Italy": Italy,
+		"CotedIvoire": CotedIvoire,
 		"Jamaica": Jamaica,
 		"Japan": Japan,
+		"JohnstonIsland": JohnstonIsland,
 		"Kazakhstan": Kazakhstan,
 		"Jordan": Jordan,
 		"Kenya": Kenya,
+		"NorthKorea": NorthKorea,
+		"SouthKorea": SouthKorea,
 		"Kuwait": Kuwait,
 		"Kyrgyzstan": Kyrgyzstan,
 		"Lebanon": Lebanon,
+		"Lesotho": Lesotho,
+		"Latvia": Latvia,
 		"Liberia": Liberia,
 		"Libya": Libya,
+		"Liechtenstein": Liechtenstein,
+		"Lithuania": Lithuania,
+		"Luxembourg": Luxembourg,
+		"Macao": Macao,
+		"Madagascar": Madagascar,
 		"Malawi": Malawi,
 		"Malaysia": Malaysia,
 		"Maldives": Maldives,
+		"Mali": Mali,
+		"Malta": Malta,
+		"Martinique": Martinique,
+		"Mauritania": Mauritania,
 		"Mauritius": Mauritius,
+		"Laos": Laos,
 		"Mexico": Mexico,
+		"MidwayIslands": MidwayIslands,
+		"Monaco": Monaco,
 		"Mongolia": Mongolia,
-		"WesternSahara": WesternSahara,
+		"MoldovaRepublicOf": MoldovaRepublicOf,
+		"Montenegro": Montenegro,
+		"Montserrat": Montserrat,
 		"Morocco": Morocco,
+		"Mozambique": Mozambique,
 		"Oman": Oman,
+		"Namibia": Namibia,
+		"Nauru": Nauru,
 		"Nepal": Nepal,
-		"SintMaartenDutchpart": SintMaartenDutchpart,
+		"Netherlands": Netherlands,
 		"Curacao": Curacao,
 		"Aruba": Aruba,
+		"SintMaartenDutchpart": SintMaartenDutchpart,
+		"BonaireSintEustatiusAndSaba": BonaireSintEustatiusAndSaba,
+		"NeutralZone": NeutralZone,
+		"NewCaledonia": NewCaledonia,
+		"NewHebrides": NewHebrides,
 		"Vanuatu": Vanuatu,
-		"Niue": Niue,
-		"CookIslands": CookIslands,
-		"PitcairnIslands": PitcairnIslands,
-		"Tokelau": Tokelau,
 		"NewZealand": NewZealand,
 		"Nicaragua": Nicaragua,
+		"Niger": Niger,
 		"Nigeria": Nigeria,
+		"Niue": Niue,
+		"NorfolkIsland": NorfolkIsland,
 		"Norway": Norway,
-		"BouvetIsland": BouvetIsland,
+		"NorthernMarianaIslands": NorthernMarianaIslands,
+		"UnitedStatesMinorOutlyingIslands": UnitedStatesMinorOutlyingIslands,
+		"PacificIslandsTrustTerritoryOfthe": PacificIslandsTrustTerritoryOfthe,
+		"MicronesiaFederatedStatesOf": MicronesiaFederatedStatesOf,
+		"MarshallIslands": MarshallIslands,
+		"Palau": Palau,
 		"Pakistan": Pakistan,
+		"Panama": Panama,
+		"PanamaCanalZone": PanamaCanalZone,
 		"PapuaNewGuinea": PapuaNewGuinea,
 		"Paraguay": Paraguay,
 		"Peru": Peru,
 		"Philippines": Philippines,
+		"Pitcairn": Pitcairn,
+		"Poland": Poland,
+		"Portugal": Portugal,
+		"Guinea_Bissau": Guinea_Bissau,
+		"Timor_Leste": Timor_Leste,
+		"EastTimor": EastTimor,
+		"PuertoRico": PuertoRico,
 		"Qatar": Qatar,
+		"Reunion": Reunion,
+		"Romania": Romania,
+		"Russia": Russia,
 		"Rwanda": Rwanda,
+		"SaintBarthelemy": SaintBarthelemy,
+		"SaintHelenaAscensionAndTristandaCunha": SaintHelenaAscensionAndTristandaCunha,
+		"SaintKittsAndNevis": SaintKittsAndNevis,
+		"Anguilla": Anguilla,
+		"SaintLucia": SaintLucia,
+		"SaintMartinFrenchpart": SaintMartinFrenchpart,
+		"SaintPierreAndMiquelon": SaintPierreAndMiquelon,
+		"SaintVincentAndTheGrenadines": SaintVincentAndTheGrenadines,
+		"SanMarino": SanMarino,
+		"SaoTomeAndPrincipe": SaoTomeAndPrincipe,
 		"SaudiArabia": SaudiArabia,
+		"Senegal": Senegal,
+		"Serbia": Serbia,
 		"Seychelles": Seychelles,
+		"SierraLeone": SierraLeone,
 		"Singapore": Singapore,
+		"Slovakia": Slovakia,
+		"Viet_NamDemocraticRepublicOf": Viet_NamDemocraticRepublicOf,
+		"VietNam": VietNam,
+		"Slovenia": Slovenia,
 		"Somalia": Somalia,
-		"Lesotho": Lesotho,
-		"Eswatini": Eswatini,
 		"SouthAfrica": SouthAfrica,
-		"Namibia": Namibia,
+		"SouthernRhodesia": SouthernRhodesia,
+		"Zimbabwe": Zimbabwe,
+		"YemenDemocratic": YemenDemocratic,
+		"Spain": Spain,
 		"SouthSudan": SouthSudan,
+		"Sudan": Sudan,
+		"WesternSahara": WesternSahara,
+		"Suriname": Suriname,
+		"SvalbardAndJanMayen": SvalbardAndJanMayen,
+		"Eswatini": Eswatini,
 		"Sweden": Sweden,
-		"Liechtenstein": Liechtenstein,
+		"Switzerland": Switzerland,
+		"SyrianArabRepublic": SyrianArabRepublic,
+		"Tajikistan": Tajikistan,
 		"Thailand": Thailand,
+		"Togo": Togo,
+		"Tokelau": Tokelau,
 		"Tonga": Tonga,
 		"TrinidadAndTobago": TrinidadAndTobago,
 		"UnitedArabEmirates": UnitedArabEmirates,
 		"Tunisia": Tunisia,
-		"Uganda": Uganda,
-		"NorthMacedonia": NorthMacedonia,
-		"Egypt": Egypt,
-		"SaintHelenaAscensionAndTristandaCunha": SaintHelenaAscensionAndTristandaCunha,
-		"Guernsey": Guernsey,
-		"IsleOfMan": IsleOfMan,
-		"Jersey": Jersey,
+		"Turkey": Turkey,
+		"Turkmenistan": Turkmenistan,
 		"TurksAndCaicosIslands": TurksAndCaicosIslands,
-		"PuertoRico": PuertoRico,
-		"BritishIndianOceanTerritory": BritishIndianOceanTerritory,
-		"Palau": Palau,
-		"MarshallIslands": MarshallIslands,
-		"AmericanSamoa": AmericanSamoa,
-		"MicronesiaFederatedStatesOf": MicronesiaFederatedStatesOf,
-		"UnitedStatesMinorOutlyingIslands": UnitedStatesMinorOutlyingIslands,
-		"NorthernMarianaIslands": NorthernMarianaIslands,
-		"UnitedStatesVirginIslands": UnitedStatesVirginIslands,
-		"Guam": Guam,
-		"Ecuador": Ecuador,
-		"Panama": Panama,
-		"ElSalvador": ElSalvador,
+		"Tuvalu": Tuvalu,
+		"Uganda": Uganda,
+		"Ukraine": Ukraine,
+		"NorthMacedonia": NorthMacedonia,
+		"SovietUnion": SovietUnion,
+		"Egypt": Egypt,
+		"UnitedKingdom": UnitedKingdom,
+		"Guernsey": Guernsey,
+		"Jersey": Jersey,
+		"IsleOfMan": IsleOfMan,
+		"TanzaniaUnitedRepublicOf": TanzaniaUnitedRepublicOf,
+		"UnitedStates": UnitedStates,
+		"USMiscellaneousPacificIslands": USMiscellaneousPacificIslands,
+		"VirginIslandsUS": VirginIslandsUS,
+		"BurkinaFaso": BurkinaFaso,
+		"UpperVolta": UpperVolta,
 		"Uruguay": Uruguay,
 		"Uzbekistan": Uzbekistan,
+		"VenezuelaBolivarianRepublicOf": VenezuelaBolivarianRepublicOf,
+		"WakeIsland": WakeIsland,
+		"WallisAndFutuna": WallisAndFutuna,
 		"Samoa": Samoa,
 		"Yemen": Yemen,
-		"Zimbabwe": Zimbabwe,
-		"SierraLeone": SierraLeone,
-		"Mauritania": Mauritania,
-		"Turkmenistan": Turkmenistan,
-		"Ghana": Ghana,
-		"Sudan": Sudan,
-		"Serbia": Serbia,
-		"Mozambique": Mozambique,
-		"Azerbaijan": Azerbaijan,
-		"Romania": Romania,
-		"Switzerland": Switzerland,
+		"SerbiaAndMontenegro": SerbiaAndMontenegro,
+		"Yugoslavia": Yugoslavia,
 		"Zambia": Zambia,
-		"Suriname": Suriname,
-		"Madagascar": Madagascar,
-		"Afghanistan": Afghanistan,
-		"Tajikistan": Tajikistan,
-		"Angola": Angola,
-		"Bulgaria": Bulgaria,
-		"Bosnia": Bosnia,
-		"Guadeloupe": Guadeloupe,
-		"Latvia": Latvia,
-		"Portugal": Portugal,
-		"Germany": Germany,
-		"FrenchSouthernTerritories": FrenchSouthernTerritories,
-		"FrenchGuiana": FrenchGuiana,
-		"France": France,
-		"AlandIslands": AlandIslands,
-		"Finland": Finland,
-		"Estonia": Estonia,
-		"HolySee": HolySee,
-		"Ireland": Ireland,
-		"Spain": Spain,
-		"Italy": Italy,
-		"Cyprus": Cyprus,
-		"Reunion": Reunion,
-		"Croatia": Croatia,
-		"Mayotte": Mayotte,
-		"SaintBarthelemy": SaintBarthelemy,
-		"Greece": Greece,
-		"Lithuania": Lithuania,
-		"Luxembourg": Luxembourg,
-		"Slovenia": Slovenia,
-		"Malta": Malta,
-		"Martinique": Martinique,
-		"SaintMartinFrenchpart": SaintMartinFrenchpart,
-		"Sikkim": Sikkim,
-		"Belgium": Belgium,
-		"Austria": Austria,
-		"Monaco": Monaco,
-		"Montenegro": Montenegro,
-		"SanMarino": SanMarino,
-		"Netherlands": Netherlands,
-		"Andorra": Andorra,
-		"SaintPierreAndMiquelon": SaintPierreAndMiquelon,
-		"Ukraine": Ukraine,
-		"Poland": Poland,
-		"Brazil": Brazil,
-		"Chile": Chile,
+		"Korea": Korea,
+		"WestGermany": WestGermany,
+		"Kosovo": Kosovo,
 } as {
   [key: string]: IEntity;
 };
@@ -8950,8 +8943,8 @@ export { ReservedRegionCodeUnderline };
 // Return alpha code by priority, user assigned one is the high priority, then 2 > 3 > 4.
 export function GetCode(region: IEntity): string {
   let code = "";
-  if (region.alpha2code !== "") {
-    code = region.alpha2code!;
+  if (region.alpha2Code !== "") {
+    code = region.alpha2Code!;
   } else if (region.alpha3code !== "") {
     code = region.alpha3code!;
   } else if (region.alpha4code !== "") {

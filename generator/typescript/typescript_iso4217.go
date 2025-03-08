@@ -5,9 +5,11 @@ import (
 	"fmt"
 	"html/template"
 	"io"
+	"sort"
 	"strings"
 
 	"github.com/giant-stone/go/gslice"
+	"github.com/giant-stone/iso3166/iso"
 )
 
 const fileTemplateIso4217 = `export interface IEntity {
@@ -67,6 +69,9 @@ func (g *Generator) bytesIso4217(fmtPretty bool) (rs []byte, err error) {
 	rw := bytes.NewBuffer([]byte(``))
 
 	listEntity := g.Table.List()
+	// Make sure it is sorted.
+	sort.Sort(iso.SortByIso4217Fields(listEntity))
+
 	for _, v := range listEntity {
 		alphabeticCode := v.GetAlphabeticCode()
 		if alphabeticCode == "" {

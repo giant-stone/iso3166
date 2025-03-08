@@ -5,6 +5,7 @@ import (
 	"errors"
 	"os"
 	"path"
+	"sort"
 
 	"github.com/giant-stone/iso3166/generator"
 	"github.com/giant-stone/iso3166/iso"
@@ -40,11 +41,15 @@ func (g *Generator) WriteTo(saveTo string, perm os.FileMode, fmtPretty bool) err
 // Bytes implements generator.IGenerator.
 func (g *Generator) Bytes(fmtPretty bool) ([]byte, error) {
 	uniq := map[string]struct{}{}
-	listEntity := make([]iso.IEntity, 0)
+	entities := make([]iso.IEntity, 0)
 
 	groupBy := g.Table.GetGroupBy()
 
-	for _, v := range g.Table.List() {
+	listEntity := g.Table.List()
+	// Make sure it is sorted.
+	sort.Sort(iso.SortByIso3166Fields(listEntity))
+
+	for _, v := range listEntity {
 		var uniqKey string
 		if groupBy == iso.GroupByIso3166CodeOrVariantName {
 			uniqKey = v.Code()
@@ -59,12 +64,12 @@ func (g *Generator) Bytes(fmtPretty bool) ([]byte, error) {
 		}
 
 		uniq[uniqKey] = struct{}{}
-		listEntity = append(listEntity, v)
+		entities = append(entities, v)
 	}
 
 	if fmtPretty {
-		return json.MarshalIndent(listEntity, "", "  ")
+		return json.MarshalIndent(entities, "", "  ")
 	} else {
-		return json.Marshal(listEntity)
+		return json.Marshal(entities)
 	}
 }

@@ -58,7 +58,7 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (rs iso.ITable, err error) {
 		}
 
 		shortName := ParseShortName(htmlquery.InnerText(nodesTd[0]))
-		alpha2code := strings.TrimSpace(htmlquery.InnerText(nodesTd[1]))
+		alpha2Code := strings.TrimSpace(htmlquery.InnerText(nodesTd[1]))
 		alpha3code := strings.TrimSpace(htmlquery.InnerText(nodesTd[2]))
 		numericCode := strings.TrimSpace(htmlquery.InnerText(nodesTd[3]))
 		// link2iso3166_2 := strings.TrimSpace(htmlquery.InnerText(nodesTd[4]))
@@ -78,22 +78,22 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (rs iso.ITable, err error) {
 
 		entity := iso.NewEntity()
 		entity.SetShortName(shortName)
-		entity.SetAlpha2Code(alpha2code)
+		entity.SetAlpha2Code(alpha2Code)
 		entity.SetAlpha3Code(alpha3code)
 		entity.SetNumericCode(numericCode)
 		entity.SetIndependent(independent)
 
-		if alpha2code != "" {
-			entity.SetCommonName(HardCodedMapCode2CommonName[alpha2code])
+		if alpha2Code != "" {
+			entity.SetCommonName(HardCodedMapCode2CommonName[alpha2Code])
 		}
 
 		entity.SetRegionInCN(simplifiedChinese)
 
-		if _, dup := m[alpha2code]; dup {
+		if _, dup := m[alpha2Code]; dup {
 			continue
 		}
 
-		m[alpha2code] = entity
+		m[alpha2Code] = entity
 	}
 
 	return i.Table.Load(m), nil

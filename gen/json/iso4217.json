@@ -494,9 +494,7 @@
     "NumericCode4217": "096",
     "MinorUnit": 2,
     "Currency": "Brunei dollar",
-    "Entities": [
-      "BN"
-    ],
+    "Entities": [],
     "CurrencyInCN": "",
     "CurrencyInNative": ""
   },
@@ -926,9 +924,7 @@
     "NumericCode4217": "203",
     "MinorUnit": 2,
     "Currency": "Czech koruna",
-    "Entities": [
-      "CZ"
-    ],
+    "Entities": [],
     "CurrencyInCN": "",
     "CurrencyInNative": ""
   },
@@ -1578,9 +1574,7 @@
     "NumericCode4217": "364",
     "MinorUnit": 2,
     "Currency": "Iranian rial",
-    "Entities": [
-      "IR"
-    ],
+    "Entities": [],
     "CurrencyInCN": "",
     "CurrencyInNative": ""
   },
@@ -3631,9 +3625,7 @@
     "NumericCode4217": "834",
     "MinorUnit": 2,
     "Currency": "Tanzanian shilling",
-    "Entities": [
-      "TZ"
-    ],
+    "Entities": [],
     "CurrencyInCN": "",
     "CurrencyInNative": ""
   },

@@ -5,13 +5,15 @@ import (
 	"fmt"
 	"html/template"
 	"io"
+	"sort"
 	"strings"
 
 	"github.com/giant-stone/go/gslice"
+	"github.com/giant-stone/iso3166/iso"
 )
 
 const fileTemplateIso3166 = `export interface IEntity {
-  alpha2code: string;
+  alpha2Code: string;
   short_name: string;
   alpha3code: string;
   alpha4code: string;
@@ -72,8 +74,8 @@ export { ReservedRegionCodeUnderline };
 // Return alpha code by priority, user assigned one is the high priority, then 2 > 3 > 4.
 export function GetCode(region: IEntity): string {
   let code = "";
-  if (region.alpha2code !== "") {
-    code = region.alpha2code!;
+  if (region.alpha2Code !== "") {
+    code = region.alpha2Code!;
   } else if (region.alpha3code !== "") {
     code = region.alpha3code!;
   } else if (region.alpha4code !== "") {
@@ -93,7 +95,7 @@ export function stripAlphaCode(s:string) :string {
 `
 
 const lineTemplateIso3166 = `const {{.CommonNameInAlphaNumeric}} = {
-  alpha2code: "{{.Alpha2Code}}",
+  alpha2Code: "{{.Alpha2Code}}",
   alpha3code: "{{.Alpha3code}}",
   alpha4code: "{{.Alpha4code}}",
   independent: {{.Independent}},
@@ -143,6 +145,9 @@ func (g *Generator) bytesIso3166(fmtPretty bool) ([]byte, error) {
 	rw := bytes.NewBuffer([]byte(``))
 
 	listRegions := g.Table.List()
+	// Make sure it is sorted.
+	sort.Sort(iso.SortByIso3166Fields(listRegions))
+
 	for _, v := range listRegions {
 		commonNameInAlphaNumeric := v.GetCommonNameInAlphaNumeric()
 		alpha2Code := v.GetAlpha2Code()
