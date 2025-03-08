@@ -40,7 +40,7 @@ const fileTemplateIso3166 = `export interface IEntity {
   currency: string;
 
   currency_in_cn: string; // This field is not a part of official ISO 4217. E.g. "瑞士法郎" for CHF.
-	currency_in_native: string;
+  currency_in_native: string;
 }
 
 {{.Regions}}
@@ -117,7 +117,7 @@ const lineTemplateIso3166 = `const {{.CommonNameInAlphaNumeric}} = {
   currency: "{{.Currency}}",
 
   currency_in_cn: "{{.CurrencyInCN}}",
-	currency_in_native: "{{.CurrencyInNative}}",
+  currency_in_native: "{{.CurrencyInNative}}",
 } as IEntity;
 
 `

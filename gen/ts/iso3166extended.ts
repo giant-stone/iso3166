@@ -28,7 +28,7 @@ export interface IEntity {
   currency: string;
 
   currency_in_cn: string; // This field is not a part of official ISO 4217. E.g. "瑞士法郎" for CHF.
-	currency_in_native: string;
+  currency_in_native: string;
 }
 
 const CentralAfricanRepublic = {
@@ -56,7 +56,7 @@ const CentralAfricanRepublic = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NewCaledonia = {
@@ -84,7 +84,7 @@ const NewCaledonia = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const WestGermany = {
@@ -112,63 +112,7 @@ const WestGermany = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Yugoslavia = {
-  alpha2code: "YU",
-  alpha3code: "YUG",
-  alpha4code: "YUCS",
-  independent: false,
-  numeric_code: "891",
-  short_name: "Yugoslavia",
-
-  period_of_validity: "1974–2003",
-
-  alias: "[]",
-  common_name: "Yugoslavia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "南斯拉夫",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Antarctica = {
-  alpha2code: "AQ",
-  alpha3code: "ATA",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "010",
-  short_name: "Antarctica",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Antarctica",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "南极洲",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SerbiaAndMontenegro = {
@@ -196,7 +140,63 @@ const SerbiaAndMontenegro = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Antarctica = {
+  alpha2code: "AQ",
+  alpha3code: "ATA",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "010",
+  short_name: "Antarctica",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Antarctica",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "南极洲",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Yugoslavia = {
+  alpha2code: "YU",
+  alpha3code: "YUG",
+  alpha4code: "YUCS",
+  independent: false,
+  numeric_code: "891",
+  short_name: "Yugoslavia",
+
+  period_of_validity: "1974–2003",
+
+  alias: "[]",
+  common_name: "Yugoslavia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "南斯拉夫",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const WallisAndFutuna = {
@@ -224,7 +224,7 @@ const WallisAndFutuna = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const WakeIsland = {
@@ -252,7 +252,7 @@ const WakeIsland = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AntiguaAndBarbuda = {
@@ -280,7 +280,7 @@ const AntiguaAndBarbuda = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const VenezuelaBolivarianRepublicOf = {
@@ -308,91 +308,7 @@ const VenezuelaBolivarianRepublicOf = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const EastTimor = {
-  alpha2code: "TP",
-  alpha3code: "TMP",
-  alpha4code: "TPTL",
-  independent: false,
-  numeric_code: "626",
-  short_name: "East Timor",
-
-  period_of_validity: "1974–2002",
-
-  alias: "[]",
-  common_name: "East Timor",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "东帝汶省",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const UpperVolta = {
-  alpha2code: "HV",
-  alpha3code: "HVO",
-  alpha4code: "HVBF",
-  independent: false,
-  numeric_code: "854",
-  short_name: "Upper Volta",
-
-  period_of_validity: "1974–1984",
-
-  alias: "[]",
-  common_name: "Upper Volta",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "上沃尔特",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Togo = {
-  alpha2code: "TG",
-  alpha3code: "TGO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "768",
-  short_name: "Togo",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Togo",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "多哥",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Timor_Leste = {
@@ -420,726 +336,26 @@ const Timor_Leste = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
-const PanamaCanalZone = {
-  alpha2code: "PZ",
-  alpha3code: "PCZ",
-  alpha4code: "PZPA",
+const UpperVolta = {
+  alpha2code: "HV",
+  alpha3code: "HVO",
+  alpha4code: "HVBF",
   independent: false,
-  numeric_code: "594",
-  short_name: "Panama Canal Zone",
-
-  period_of_validity: "1974–1980",
-
-  alias: "[]",
-  common_name: "Panama Canal Zone",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "巴拿马运河区",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Russia = {
-  alpha2code: "RU",
-  alpha3code: "RUS",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "643",
-  short_name: "Russian Federation",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Russia",
-  calling_code: "7",
-
-  languages: "[]",
-
-  region_in_cn: "俄罗斯",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Korea = {
-  alpha2code: "",
-  alpha3code: "XKO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "",
-  short_name: "",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Korea",
-  calling_code: "",
-
-  languages: "["Hangul","Hanja","Korean"]",
-
-  region_in_cn: "朝鲜",
-  region_in_native: "한국",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Chad = {
-  alpha2code: "TD",
-  alpha3code: "TCD",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "148",
-  short_name: "Chad",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Chad",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "乍得",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const BurkinaFaso = {
-  alpha2code: "BF",
-  alpha3code: "BFA",
-  alpha4code: "",
-  independent: true,
   numeric_code: "854",
-  short_name: "Burkina Faso",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Burkina Faso",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "布基纳法索",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const SaintKittsAndNevis = {
-  alpha2code: "KN",
-  alpha3code: "KNA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "659",
-  short_name: "Saint Kitts and Nevis",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Saint Kitts And Nevis",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣基茨和尼维斯",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const SaintLucia = {
-  alpha2code: "LC",
-  alpha3code: "LCA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "662",
-  short_name: "Saint Lucia",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Saint Lucia",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣卢西亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const BoliviaPlurinationalStateOf = {
-  alpha2code: "BO",
-  alpha3code: "BOL",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "068",
-  short_name: "Bolivia (Plurinational State of)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Bolivia Plurinational State Of",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "玻利维亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const VirginIslands = {
-  alpha2code: "VI",
-  alpha3code: "VIR",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "850",
-  short_name: "Virgin Islands (U.S.)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Virgin Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "美属维尔京群岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Niger = {
-  alpha2code: "NE",
-  alpha3code: "NER",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "562",
-  short_name: "Niger",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Niger",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "尼日尔",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const NewHebrides = {
-  alpha2code: "NH",
-  alpha3code: "NHB",
-  alpha4code: "NHVU",
-  independent: false,
-  numeric_code: "548",
-  short_name: "New Hebrides",
-
-  period_of_validity: "1974–1980",
-
-  alias: "[]",
-  common_name: "New Hebrides",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "新赫布里底群岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const USMiscellaneousPacificIslands = {
-  alpha2code: "PU",
-  alpha3code: "PUS",
-  alpha4code: "PUUM",
-  independent: false,
-  numeric_code: "849",
-  short_name: "U.S. Miscellaneous Pacific Islands",
-
-  period_of_validity: "1974–1986",
-
-  alias: "[]",
-  common_name: "US Miscellaneous Pacific Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "美国其它太平洋岛屿",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const MoldovaRepublicOf = {
-  alpha2code: "MD",
-  alpha3code: "MDA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "498",
-  short_name: "Moldova (Republic of)",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Moldova Republic Of",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "摩尔多瓦",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const UnitedStates = {
-  alpha2code: "US",
-  alpha3code: "USA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "840",
-  short_name: "United States of America",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "United States",
-  calling_code: "1",
-
-  languages: "[]",
-
-  region_in_cn: "美国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "美元",
-	currency_in_native: "United States dollar",
-} as IEntity;
-
-const NeutralZone = {
-  alpha2code: "NT",
-  alpha3code: "NTZ",
-  alpha4code: "NTHH",
-  independent: false,
-  numeric_code: "536",
-  short_name: "Neutral Zone",
-
-  period_of_validity: "1974–1993",
-
-  alias: "[]",
-  common_name: "Neutral Zone",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "沙特阿拉伯－伊拉克中立区",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Tanzania = {
-  alpha2code: "TZ",
-  alpha3code: "TZA",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "834",
-  short_name: "Tanzania, United Republic of",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Tanzania",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "坦桑尼亚",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Brunei = {
-  alpha2code: "BN",
-  alpha3code: "BRN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "096",
-  short_name: "Brunei Darussalam",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Brunei",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "文莱",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const UnitedKingdom = {
-  alpha2code: "GB",
-  alpha3code: "GBR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "826",
-  short_name: "United Kingdom of Great Britain and Northern Ireland",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "United Kingdom",
-  calling_code: "44",
-
-  languages: "[]",
-
-  region_in_cn: "英国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "英镑",
-	currency_in_native: "Pound sterling",
-} as IEntity;
-
-const Burma = {
-  alpha2code: "BU",
-  alpha3code: "BUR",
-  alpha4code: "BUMM",
-  independent: true,
-  numeric_code: "104",
-  short_name: "Burma",
-
-  period_of_validity: "1974–1989",
-
-  alias: "[]",
-  common_name: "Burma",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "前缅甸",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const CaribbeanNetherlands = {
-  alpha2code: "BQ",
-  alpha3code: "ATB",
-  alpha4code: "BQAQ",
-  independent: false,
-  numeric_code: "535",
-  short_name: "British Antarctic Territory",
-
-  period_of_validity: "1974–1979",
-
-  alias: "[]",
-  common_name: "Caribbean Netherlands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "英属南极领地",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const NetherlandsAntilles = {
-  alpha2code: "AN",
-  alpha3code: "ANT",
-  alpha4code: "ANHH",
-  independent: false,
-  numeric_code: "530",
-  short_name: "Netherlands Antilles",
-
-  period_of_validity: "1974–2010",
-
-  alias: "[]",
-  common_name: "Netherlands Antilles",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "荷属安的列斯",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const ByelorussianSSR = {
-  alpha2code: "BY",
-  alpha3code: "BYS",
-  alpha4code: "BYAA",
-  independent: true,
-  numeric_code: "112",
-  short_name: "Byelorussian SSR",
-
-  period_of_validity: "1974–1992",
-
-  alias: "[]",
-  common_name: "Byelorussian SSR",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "白俄罗斯苏维埃社会主义共和国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const SaintVincentAndTheGrenadines = {
-  alpha2code: "VC",
-  alpha3code: "VCT",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "670",
-  short_name: "Saint Vincent and the Grenadines",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Saint Vincent And The Grenadines",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣文森特和格林纳丁斯",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Cameroon = {
-  alpha2code: "CM",
-  alpha3code: "CMR",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "120",
-  short_name: "Cameroon",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Cameroon",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "喀麦隆",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const SaoTomeAndPrincipe = {
-  alpha2code: "ST",
-  alpha3code: "STP",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "678",
-  short_name: "Sao Tome and Principe",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Sao Tome And Principe",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "圣多美和普林西比",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const CantonAndEnderburyIslands = {
-  alpha2code: "CT",
-  alpha3code: "CTE",
-  alpha4code: "CTKI",
-  independent: false,
-  numeric_code: "128",
-  short_name: "Canton and Enderbury Islands",
+  short_name: "Upper Volta",
 
   period_of_validity: "1974–1984",
 
   alias: "[]",
-  common_name: "Canton And Enderbury Islands",
+  common_name: "Upper Volta",
   calling_code: "",
 
   languages: "[]",
 
-  region_in_cn: "坎顿及恩德伯里群岛",
+  region_in_cn: "上沃尔特",
   region_in_native: "",
 
   alphabetic_code: "",
@@ -1148,343 +364,7 @@ const CantonAndEnderburyIslands = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const CaboVerde = {
-  alpha2code: "CV",
-  alpha3code: "CPV",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "132",
-  short_name: "Cabo Verde",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Cabo Verde",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "佛得角",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Montserrat = {
-  alpha2code: "MS",
-  alpha3code: "MSR",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "500",
-  short_name: "Montserrat",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Montserrat",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "蒙特塞拉特",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const SovietUnion = {
-  alpha2code: "SU",
-  alpha3code: "SUN",
-  alpha4code: "SUHH",
-  independent: true,
-  numeric_code: "810",
-  short_name: "USSR",
-
-  period_of_validity: "1974–1992",
-
-  alias: "[]",
-  common_name: "Soviet Union",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "苏联",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Kosovo = {
-  alpha2code: "XK",
-  alpha3code: "XKV",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "",
-  short_name: "Republic of Kosovo",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Kosovo",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "科索沃",
-  region_in_native: "Kosova",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const PacificIslandsTrustTerritoryOfthe = {
-  alpha2code: "PC",
-  alpha3code: "PCI",
-  alpha4code: "PCHH",
-  independent: false,
-  numeric_code: "582",
-  short_name: "Pacific Islands, Trust Territory of the",
-
-  period_of_validity: "1974–1986",
-
-  alias: "[]",
-  common_name: "Pacific Islands Trust Territory Of the",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "太平洋群岛托管地",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Senegal = {
-  alpha2code: "SN",
-  alpha3code: "SEN",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "686",
-  short_name: "Senegal",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Senegal",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "塞内加尔",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const MidwayIslands = {
-  alpha2code: "MI",
-  alpha3code: "MID",
-  alpha4code: "MIUM",
-  independent: false,
-  numeric_code: "488",
-  short_name: "Midway Islands",
-
-  period_of_validity: "1974–1986",
-
-  alias: "[]",
-  common_name: "Midway Islands",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "中途岛",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Taiwan = {
-  alpha2code: "TW",
-  alpha3code: "TWN",
-  alpha4code: "",
-  independent: false,
-  numeric_code: "158",
-  short_name: "Taiwan, Province of China",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Taiwan",
-  calling_code: "886",
-
-  languages: "["Chinese"]",
-
-  region_in_cn: "中国台湾",
-  region_in_native: "臺灣",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "新台币",
-	currency_in_native: "新臺幣",
-} as IEntity;
-
-const Laos = {
-  alpha2code: "LA",
-  alpha3code: "LAO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "481",
-  short_name: "Lao People's Democratic Republic",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Laos",
-  calling_code: "856",
-
-  languages: "[]",
-
-  region_in_cn: "老挝",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const VietNam = {
-  alpha2code: "VN",
-  alpha3code: "VNM",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "704",
-  short_name: "Viet Nam",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Viet Nam",
-  calling_code: "84",
-
-  languages: "[]",
-
-  region_in_cn: "越南",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Mali = {
-  alpha2code: "ML",
-  alpha3code: "MLI",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "466",
-  short_name: "Mali",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Mali",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "马里",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Viet_NamDemocraticRepublicOf = {
-  alpha2code: "VD",
-  alpha3code: "VDR",
-  alpha4code: "VDVN",
-  independent: false,
-  numeric_code: "704",
-  short_name: "Viet-Nam, Democratic Republic of",
-
-  period_of_validity: "1974–1977",
-
-  alias: "[]",
-  common_name: "Viet_Nam Democratic Republic Of",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "越南民主共和国",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const FrenchSouthernAndAntarcticTerritories = {
@@ -1512,7 +392,1127 @@ const FrenchSouthernAndAntarcticTerritories = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
+} as IEntity;
+
+const EastTimor = {
+  alpha2code: "TP",
+  alpha3code: "TMP",
+  alpha4code: "TPTL",
+  independent: false,
+  numeric_code: "626",
+  short_name: "East Timor",
+
+  period_of_validity: "1974–2002",
+
+  alias: "[]",
+  common_name: "East Timor",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "东帝汶省",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const PanamaCanalZone = {
+  alpha2code: "PZ",
+  alpha3code: "PCZ",
+  alpha4code: "PZPA",
+  independent: false,
+  numeric_code: "594",
+  short_name: "Panama Canal Zone",
+
+  period_of_validity: "1974–1980",
+
+  alias: "[]",
+  common_name: "Panama Canal Zone",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "巴拿马运河区",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Russia = {
+  alpha2code: "RU",
+  alpha3code: "RUS",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "643",
+  short_name: "Russian Federation",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Russia",
+  calling_code: "7",
+
+  languages: "[]",
+
+  region_in_cn: "俄罗斯",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Kosovo = {
+  alpha2code: "XK",
+  alpha3code: "XKV",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "",
+  short_name: "Republic of Kosovo",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Kosovo",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "科索沃",
+  region_in_native: "Kosova",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Chad = {
+  alpha2code: "TD",
+  alpha3code: "TCD",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "148",
+  short_name: "Chad",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Chad",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "乍得",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const BurkinaFaso = {
+  alpha2code: "BF",
+  alpha3code: "BFA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "854",
+  short_name: "Burkina Faso",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Burkina Faso",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "布基纳法索",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintKittsAndNevis = {
+  alpha2code: "KN",
+  alpha3code: "KNA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "659",
+  short_name: "Saint Kitts and Nevis",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Kitts And Nevis",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣基茨和尼维斯",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintLucia = {
+  alpha2code: "LC",
+  alpha3code: "LCA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "662",
+  short_name: "Saint Lucia",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Lucia",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣卢西亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const BoliviaPlurinationalStateOf = {
+  alpha2code: "BO",
+  alpha3code: "BOL",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "068",
+  short_name: "Bolivia (Plurinational State of)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Bolivia Plurinational State Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "玻利维亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const VirginIslands = {
+  alpha2code: "VI",
+  alpha3code: "VIR",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "850",
+  short_name: "Virgin Islands (U.S.)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Virgin Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "美属维尔京群岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Niger = {
+  alpha2code: "NE",
+  alpha3code: "NER",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "562",
+  short_name: "Niger",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Niger",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "尼日尔",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const NewHebrides = {
+  alpha2code: "NH",
+  alpha3code: "NHB",
+  alpha4code: "NHVU",
+  independent: false,
+  numeric_code: "548",
+  short_name: "New Hebrides",
+
+  period_of_validity: "1974–1980",
+
+  alias: "[]",
+  common_name: "New Hebrides",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "新赫布里底群岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const USMiscellaneousPacificIslands = {
+  alpha2code: "PU",
+  alpha3code: "PUS",
+  alpha4code: "PUUM",
+  independent: false,
+  numeric_code: "849",
+  short_name: "U.S. Miscellaneous Pacific Islands",
+
+  period_of_validity: "1974–1986",
+
+  alias: "[]",
+  common_name: "US Miscellaneous Pacific Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "美国其它太平洋岛屿",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const MoldovaRepublicOf = {
+  alpha2code: "MD",
+  alpha3code: "MDA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "498",
+  short_name: "Moldova (Republic of)",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Moldova Republic Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "摩尔多瓦",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const UnitedStates = {
+  alpha2code: "US",
+  alpha3code: "USA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "840",
+  short_name: "United States of America",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "United States",
+  calling_code: "1",
+
+  languages: "[]",
+
+  region_in_cn: "美国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "美元",
+  currency_in_native: "United States dollar",
+} as IEntity;
+
+const NeutralZone = {
+  alpha2code: "NT",
+  alpha3code: "NTZ",
+  alpha4code: "NTHH",
+  independent: false,
+  numeric_code: "536",
+  short_name: "Neutral Zone",
+
+  period_of_validity: "1974–1993",
+
+  alias: "[]",
+  common_name: "Neutral Zone",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "沙特阿拉伯－伊拉克中立区",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Tanzania = {
+  alpha2code: "TZ",
+  alpha3code: "TZA",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "834",
+  short_name: "Tanzania, United Republic of",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Tanzania",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "坦桑尼亚",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Brunei = {
+  alpha2code: "BN",
+  alpha3code: "BRN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "096",
+  short_name: "Brunei Darussalam",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Brunei",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "文莱",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const UnitedKingdom = {
+  alpha2code: "GB",
+  alpha3code: "GBR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "826",
+  short_name: "United Kingdom of Great Britain and Northern Ireland",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "United Kingdom",
+  calling_code: "44",
+
+  languages: "[]",
+
+  region_in_cn: "英国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "英镑",
+  currency_in_native: "Pound sterling",
+} as IEntity;
+
+const Burma = {
+  alpha2code: "BU",
+  alpha3code: "BUR",
+  alpha4code: "BUMM",
+  independent: true,
+  numeric_code: "104",
+  short_name: "Burma",
+
+  period_of_validity: "1974–1989",
+
+  alias: "[]",
+  common_name: "Burma",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "前缅甸",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const CaribbeanNetherlands = {
+  alpha2code: "BQ",
+  alpha3code: "ATB",
+  alpha4code: "BQAQ",
+  independent: false,
+  numeric_code: "535",
+  short_name: "British Antarctic Territory",
+
+  period_of_validity: "1974–1979",
+
+  alias: "[]",
+  common_name: "Caribbean Netherlands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "英属南极领地",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const NetherlandsAntilles = {
+  alpha2code: "AN",
+  alpha3code: "ANT",
+  alpha4code: "ANHH",
+  independent: false,
+  numeric_code: "530",
+  short_name: "Netherlands Antilles",
+
+  period_of_validity: "1974–2010",
+
+  alias: "[]",
+  common_name: "Netherlands Antilles",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "荷属安的列斯",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const ByelorussianSSR = {
+  alpha2code: "BY",
+  alpha3code: "BYS",
+  alpha4code: "BYAA",
+  independent: true,
+  numeric_code: "112",
+  short_name: "Byelorussian SSR",
+
+  period_of_validity: "1974–1992",
+
+  alias: "[]",
+  common_name: "Byelorussian SSR",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "白俄罗斯苏维埃社会主义共和国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaintVincentAndTheGrenadines = {
+  alpha2code: "VC",
+  alpha3code: "VCT",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "670",
+  short_name: "Saint Vincent and the Grenadines",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Saint Vincent And The Grenadines",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣文森特和格林纳丁斯",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Cameroon = {
+  alpha2code: "CM",
+  alpha3code: "CMR",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "120",
+  short_name: "Cameroon",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Cameroon",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "喀麦隆",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SaoTomeAndPrincipe = {
+  alpha2code: "ST",
+  alpha3code: "STP",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "678",
+  short_name: "Sao Tome and Principe",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Sao Tome And Principe",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "圣多美和普林西比",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const CantonAndEnderburyIslands = {
+  alpha2code: "CT",
+  alpha3code: "CTE",
+  alpha4code: "CTKI",
+  independent: false,
+  numeric_code: "128",
+  short_name: "Canton and Enderbury Islands",
+
+  period_of_validity: "1974–1984",
+
+  alias: "[]",
+  common_name: "Canton And Enderbury Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "坎顿及恩德伯里群岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const CaboVerde = {
+  alpha2code: "CV",
+  alpha3code: "CPV",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "132",
+  short_name: "Cabo Verde",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Cabo Verde",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "佛得角",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Montserrat = {
+  alpha2code: "MS",
+  alpha3code: "MSR",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "500",
+  short_name: "Montserrat",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Montserrat",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "蒙特塞拉特",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const SovietUnion = {
+  alpha2code: "SU",
+  alpha3code: "SUN",
+  alpha4code: "SUHH",
+  independent: true,
+  numeric_code: "810",
+  short_name: "USSR",
+
+  period_of_validity: "1974–1992",
+
+  alias: "[]",
+  common_name: "Soviet Union",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "苏联",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Korea = {
+  alpha2code: "",
+  alpha3code: "XKO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "",
+  short_name: "",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Korea",
+  calling_code: "",
+
+  languages: "["Hangul","Hanja","Korean"]",
+
+  region_in_cn: "朝鲜",
+  region_in_native: "한국",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const PacificIslandsTrustTerritoryOfthe = {
+  alpha2code: "PC",
+  alpha3code: "PCI",
+  alpha4code: "PCHH",
+  independent: false,
+  numeric_code: "582",
+  short_name: "Pacific Islands, Trust Territory of the",
+
+  period_of_validity: "1974–1986",
+
+  alias: "[]",
+  common_name: "Pacific Islands Trust Territory Of the",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "太平洋群岛托管地",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Senegal = {
+  alpha2code: "SN",
+  alpha3code: "SEN",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "686",
+  short_name: "Senegal",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Senegal",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "塞内加尔",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const MidwayIslands = {
+  alpha2code: "MI",
+  alpha3code: "MID",
+  alpha4code: "MIUM",
+  independent: false,
+  numeric_code: "488",
+  short_name: "Midway Islands",
+
+  period_of_validity: "1974–1986",
+
+  alias: "[]",
+  common_name: "Midway Islands",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "中途岛",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Taiwan = {
+  alpha2code: "TW",
+  alpha3code: "TWN",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "158",
+  short_name: "Taiwan, Province of China",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Taiwan",
+  calling_code: "886",
+
+  languages: "["Chinese"]",
+
+  region_in_cn: "中国台湾",
+  region_in_native: "臺灣",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "新台币",
+  currency_in_native: "新臺幣",
+} as IEntity;
+
+const Laos = {
+  alpha2code: "LA",
+  alpha3code: "LAO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "481",
+  short_name: "Lao People's Democratic Republic",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Laos",
+  calling_code: "856",
+
+  languages: "[]",
+
+  region_in_cn: "老挝",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const VietNam = {
+  alpha2code: "VN",
+  alpha3code: "VNM",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "704",
+  short_name: "Viet Nam",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Viet Nam",
+  calling_code: "84",
+
+  languages: "[]",
+
+  region_in_cn: "越南",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Mali = {
+  alpha2code: "ML",
+  alpha3code: "MLI",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "466",
+  short_name: "Mali",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Mali",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "马里",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Viet_NamDemocraticRepublicOf = {
+  alpha2code: "VD",
+  alpha3code: "VDR",
+  alpha4code: "VDVN",
+  independent: false,
+  numeric_code: "704",
+  short_name: "Viet-Nam, Democratic Republic of",
+
+  period_of_validity: "1974–1977",
+
+  alias: "[]",
+  common_name: "Viet_Nam Democratic Republic Of",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "越南民主共和国",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Togo = {
+  alpha2code: "TG",
+  alpha3code: "TGO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "768",
+  short_name: "Togo",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Togo",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "多哥",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Congo = {
@@ -1540,7 +1540,7 @@ const Congo = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Zaire = {
@@ -1568,7 +1568,7 @@ const Zaire = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CongoKinshasa = {
@@ -1596,7 +1596,7 @@ const CongoKinshasa = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Macao = {
@@ -1624,7 +1624,7 @@ const Macao = {
   currency: "",
 
   currency_in_cn: "澳门元",
-	currency_in_native: "澳門元",
+  currency_in_native: "澳門元",
 } as IEntity;
 
 const SouthernRhodesia = {
@@ -1652,7 +1652,7 @@ const SouthernRhodesia = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SouthKorea = {
@@ -1680,7 +1680,7 @@ const SouthKorea = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NorthKorea = {
@@ -1708,7 +1708,7 @@ const NorthKorea = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const JohnstonIsland = {
@@ -1736,7 +1736,7 @@ const JohnstonIsland = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CzechRepublic = {
@@ -1764,7 +1764,7 @@ const CzechRepublic = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Benin = {
@@ -1792,7 +1792,7 @@ const Benin = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Dahomey = {
@@ -1820,7 +1820,7 @@ const Dahomey = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const IvoryCoast = {
@@ -1848,7 +1848,7 @@ const IvoryCoast = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Dominica = {
@@ -1876,7 +1876,7 @@ const Dominica = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const YemenDemocratic = {
@@ -1904,7 +1904,7 @@ const YemenDemocratic = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const DronningMaudLand = {
@@ -1932,7 +1932,7 @@ const DronningMaudLand = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Iran = {
@@ -1960,7 +1960,7 @@ const Iran = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Turkey = {
@@ -1988,7 +1988,7 @@ const Turkey = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const EquatorialGuinea = {
@@ -2016,7 +2016,7 @@ const EquatorialGuinea = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SvalbardAndJanMayen = {
@@ -2044,7 +2044,7 @@ const SvalbardAndJanMayen = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Grenada = {
@@ -2072,35 +2072,7 @@ const Grenada = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
-} as IEntity;
-
-const Guinea_Bissau = {
-  alpha2code: "GW",
-  alpha3code: "GNB",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "624",
-  short_name: "Guinea-Bissau",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Guinea_Bissau",
-  calling_code: "",
-
-  languages: "[]",
-
-  region_in_cn: "几内亚比绍",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const GilbertAndElliceIslands = {
@@ -2128,7 +2100,35 @@ const GilbertAndElliceIslands = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
+} as IEntity;
+
+const Guinea_Bissau = {
+  alpha2code: "GW",
+  alpha3code: "GNB",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "624",
+  short_name: "Guinea-Bissau",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "Guinea_Bissau",
+  calling_code: "",
+
+  languages: "[]",
+
+  region_in_cn: "几内亚比绍",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const FalklandIslandsMalvinas = {
@@ -2156,7 +2156,7 @@ const FalklandIslandsMalvinas = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SouthGeorgiaAndTheSouthSandwichIslands = {
@@ -2184,7 +2184,7 @@ const SouthGeorgiaAndTheSouthSandwichIslands = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SyrianArabRepublic = {
@@ -2212,7 +2212,7 @@ const SyrianArabRepublic = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const EastGermany = {
@@ -2240,7 +2240,7 @@ const EastGermany = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PalestineStateOf = {
@@ -2268,7 +2268,7 @@ const PalestineStateOf = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const FranceMetropolitan = {
@@ -2296,7 +2296,7 @@ const FranceMetropolitan = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Gabon = {
@@ -2324,7 +2324,7 @@ const Gabon = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const FrenchAfarAndIssas = {
@@ -2352,7 +2352,7 @@ const FrenchAfarAndIssas = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const FrenchPolynesia = {
@@ -2380,7 +2380,7 @@ const FrenchPolynesia = {
   currency: "",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Albania = {
@@ -2408,7 +2408,7 @@ const Albania = {
   currency: "Albanian lek",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Algeria = {
@@ -2436,7 +2436,7 @@ const Algeria = {
   currency: "Algerian dinar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Argentina = {
@@ -2464,7 +2464,7 @@ const Argentina = {
   currency: "Argentine peso",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Kiribati = {
@@ -2492,7 +2492,7 @@ const Kiribati = {
   currency: "Australian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NorfolkIsland = {
@@ -2520,7 +2520,7 @@ const NorfolkIsland = {
   currency: "Australian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Australia = {
@@ -2548,7 +2548,7 @@ const Australia = {
   currency: "Australian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Tuvalu = {
@@ -2576,7 +2576,7 @@ const Tuvalu = {
   currency: "Australian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const HeardIslandAndMcDonaldIslands = {
@@ -2604,7 +2604,7 @@ const HeardIslandAndMcDonaldIslands = {
   currency: "Australian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Nauru = {
@@ -2632,7 +2632,7 @@ const Nauru = {
   currency: "Australian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CocosKeelingIslands = {
@@ -2660,7 +2660,7 @@ const CocosKeelingIslands = {
   currency: "Australian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ChristmasIsland = {
@@ -2688,7 +2688,7 @@ const ChristmasIsland = {
   currency: "Australian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Bahamas = {
@@ -2716,7 +2716,7 @@ const Bahamas = {
   currency: "Bahamian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Bahrain = {
@@ -2744,7 +2744,7 @@ const Bahrain = {
   currency: "Bahraini dinar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Bangladesh = {
@@ -2772,7 +2772,7 @@ const Bangladesh = {
   currency: "Bangladeshi taka",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Armenia = {
@@ -2800,7 +2800,7 @@ const Armenia = {
   currency: "Armenian dram",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Barbados = {
@@ -2828,7 +2828,7 @@ const Barbados = {
   currency: "Barbados dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Bermuda = {
@@ -2856,7 +2856,7 @@ const Bermuda = {
   currency: "Bermudian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Botswana = {
@@ -2884,7 +2884,7 @@ const Botswana = {
   currency: "Botswana pula",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Belize = {
@@ -2912,7 +2912,7 @@ const Belize = {
   currency: "Belize dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SolomonIslands = {
@@ -2940,7 +2940,7 @@ const SolomonIslands = {
   currency: "Solomon Islands dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Myanmar = {
@@ -2968,7 +2968,7 @@ const Myanmar = {
   currency: "Myanmar kyat",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Burundi = {
@@ -2996,7 +2996,7 @@ const Burundi = {
   currency: "Burundian franc",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Cambodia = {
@@ -3024,7 +3024,7 @@ const Cambodia = {
   currency: "Cambodian riel",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Canada = {
@@ -3052,7 +3052,7 @@ const Canada = {
   currency: "Canadian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CaymanIslands = {
@@ -3080,7 +3080,7 @@ const CaymanIslands = {
   currency: "Cayman Islands dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SriLanka = {
@@ -3108,7 +3108,7 @@ const SriLanka = {
   currency: "Sri Lankan rupee",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const China = {
@@ -3136,7 +3136,7 @@ const China = {
   currency: "Renminbi",
 
   currency_in_cn: "人民币",
-	currency_in_native: "人民币",
+  currency_in_native: "人民币",
 } as IEntity;
 
 const Colombia = {
@@ -3164,7 +3164,7 @@ const Colombia = {
   currency: "Colombian peso",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Comoros = {
@@ -3192,7 +3192,7 @@ const Comoros = {
   currency: "Comoro franc",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CostaRica = {
@@ -3220,7 +3220,7 @@ const CostaRica = {
   currency: "Costa Rican colon",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Cuba = {
@@ -3248,7 +3248,7 @@ const Cuba = {
   currency: "Cuban peso",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Denmark = {
@@ -3276,7 +3276,7 @@ const Denmark = {
   currency: "Danish krone",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Greenland = {
@@ -3304,7 +3304,7 @@ const Greenland = {
   currency: "Danish krone",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const FaroeIslands = {
@@ -3332,7 +3332,7 @@ const FaroeIslands = {
   currency: "Danish krone",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const DominicanRepublic = {
@@ -3360,7 +3360,7 @@ const DominicanRepublic = {
   currency: "Dominican peso",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Ethiopia = {
@@ -3388,7 +3388,7 @@ const Ethiopia = {
   currency: "Ethiopian birr",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Eritrea = {
@@ -3416,7 +3416,7 @@ const Eritrea = {
   currency: "Eritrean nakfa",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Fiji = {
@@ -3444,7 +3444,7 @@ const Fiji = {
   currency: "Fiji dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Djibouti = {
@@ -3472,7 +3472,7 @@ const Djibouti = {
   currency: "Djiboutian franc",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Gambia = {
@@ -3500,7 +3500,7 @@ const Gambia = {
   currency: "Gambian dalasi",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Gibraltar = {
@@ -3528,7 +3528,7 @@ const Gibraltar = {
   currency: "Gibraltar pound",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Guatemala = {
@@ -3556,7 +3556,7 @@ const Guatemala = {
   currency: "Guatemalan quetzal",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Guinea = {
@@ -3584,7 +3584,7 @@ const Guinea = {
   currency: "Guinean franc",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Guyana = {
@@ -3612,7 +3612,7 @@ const Guyana = {
   currency: "Guyanese dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Haiti = {
@@ -3640,7 +3640,7 @@ const Haiti = {
   currency: "Haitian gourde",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Honduras = {
@@ -3668,7 +3668,7 @@ const Honduras = {
   currency: "Honduran lempira",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const HongKong = {
@@ -3696,7 +3696,7 @@ const HongKong = {
   currency: "Hong Kong dollar",
 
   currency_in_cn: "港元",
-	currency_in_native: "港幣",
+  currency_in_native: "港幣",
 } as IEntity;
 
 const Hungary = {
@@ -3724,7 +3724,7 @@ const Hungary = {
   currency: "Hungarian forint",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Iceland = {
@@ -3752,7 +3752,7 @@ const Iceland = {
   currency: "Icelandic króna",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const India = {
@@ -3780,7 +3780,7 @@ const India = {
   currency: "Indian rupee",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Bhutan = {
@@ -3808,7 +3808,7 @@ const Bhutan = {
   currency: "Indian rupee",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Indonesia = {
@@ -3836,7 +3836,7 @@ const Indonesia = {
   currency: "Indonesian rupiah",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Iraq = {
@@ -3864,7 +3864,7 @@ const Iraq = {
   currency: "Iraqi dinar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Israel = {
@@ -3892,7 +3892,7 @@ const Israel = {
   currency: "Israeli new shekel",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Jamaica = {
@@ -3920,7 +3920,7 @@ const Jamaica = {
   currency: "Jamaican dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Japan = {
@@ -3948,7 +3948,7 @@ const Japan = {
   currency: "Japanese yen",
 
   currency_in_cn: "日元",
-	currency_in_native: "日本円",
+  currency_in_native: "日本円",
 } as IEntity;
 
 const Kazakhstan = {
@@ -3976,7 +3976,7 @@ const Kazakhstan = {
   currency: "Kazakhstani tenge",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Jordan = {
@@ -4004,7 +4004,7 @@ const Jordan = {
   currency: "Jordanian dinar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Kenya = {
@@ -4032,7 +4032,7 @@ const Kenya = {
   currency: "Kenyan shilling",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Kuwait = {
@@ -4060,7 +4060,7 @@ const Kuwait = {
   currency: "Kuwaiti dinar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Kyrgyzstan = {
@@ -4088,7 +4088,7 @@ const Kyrgyzstan = {
   currency: "Kyrgyzstani som",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Lebanon = {
@@ -4116,7 +4116,7 @@ const Lebanon = {
   currency: "Lebanese pound",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Liberia = {
@@ -4144,7 +4144,7 @@ const Liberia = {
   currency: "Liberian dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Libya = {
@@ -4172,7 +4172,7 @@ const Libya = {
   currency: "Libyan dinar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Malawi = {
@@ -4200,7 +4200,7 @@ const Malawi = {
   currency: "Malawian kwacha",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Malaysia = {
@@ -4228,7 +4228,7 @@ const Malaysia = {
   currency: "Malaysian ringgit",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Maldives = {
@@ -4256,7 +4256,7 @@ const Maldives = {
   currency: "Maldivian rufiyaa",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Mauritius = {
@@ -4284,7 +4284,7 @@ const Mauritius = {
   currency: "Mauritian rupee",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Mexico = {
@@ -4312,7 +4312,7 @@ const Mexico = {
   currency: "Mexican peso",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Mongolia = {
@@ -4340,7 +4340,7 @@ const Mongolia = {
   currency: "Mongolian tögrög",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const WesternSahara = {
@@ -4368,7 +4368,7 @@ const WesternSahara = {
   currency: "Moroccan dirham",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Morocco = {
@@ -4396,7 +4396,7 @@ const Morocco = {
   currency: "Moroccan dirham",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Oman = {
@@ -4424,7 +4424,7 @@ const Oman = {
   currency: "Omani rial",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Nepal = {
@@ -4452,7 +4452,7 @@ const Nepal = {
   currency: "Nepalese rupee",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SintMaartenDutchpart = {
@@ -4480,7 +4480,7 @@ const SintMaartenDutchpart = {
   currency: "Netherlands Antillean guilder",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Curacao = {
@@ -4508,7 +4508,7 @@ const Curacao = {
   currency: "Netherlands Antillean guilder",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Aruba = {
@@ -4536,7 +4536,7 @@ const Aruba = {
   currency: "Aruban florin",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Vanuatu = {
@@ -4564,7 +4564,7 @@ const Vanuatu = {
   currency: "Vanuatu vatu",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Niue = {
@@ -4592,7 +4592,7 @@ const Niue = {
   currency: "New Zealand dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CookIslands = {
@@ -4620,7 +4620,7 @@ const CookIslands = {
   currency: "New Zealand dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PitcairnIslands = {
@@ -4648,7 +4648,7 @@ const PitcairnIslands = {
   currency: "New Zealand dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Tokelau = {
@@ -4676,7 +4676,7 @@ const Tokelau = {
   currency: "New Zealand dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NewZealand = {
@@ -4704,7 +4704,7 @@ const NewZealand = {
   currency: "New Zealand dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Nicaragua = {
@@ -4732,7 +4732,7 @@ const Nicaragua = {
   currency: "Nicaraguan córdoba",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Nigeria = {
@@ -4760,7 +4760,7 @@ const Nigeria = {
   currency: "Nigerian naira",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Norway = {
@@ -4788,7 +4788,7 @@ const Norway = {
   currency: "Norwegian krone",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BouvetIsland = {
@@ -4816,7 +4816,7 @@ const BouvetIsland = {
   currency: "Norwegian krone",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Pakistan = {
@@ -4844,7 +4844,7 @@ const Pakistan = {
   currency: "Pakistani rupee",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PapuaNewGuinea = {
@@ -4872,7 +4872,7 @@ const PapuaNewGuinea = {
   currency: "Papua New Guinean kina",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Paraguay = {
@@ -4900,7 +4900,7 @@ const Paraguay = {
   currency: "Paraguayan guaraní",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Peru = {
@@ -4928,7 +4928,7 @@ const Peru = {
   currency: "Peruvian sol",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Philippines = {
@@ -4956,7 +4956,7 @@ const Philippines = {
   currency: "Philippine peso",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Qatar = {
@@ -4984,7 +4984,7 @@ const Qatar = {
   currency: "Qatari riyal",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Rwanda = {
@@ -5012,7 +5012,7 @@ const Rwanda = {
   currency: "Rwandan franc",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SaudiArabia = {
@@ -5040,7 +5040,7 @@ const SaudiArabia = {
   currency: "Saudi riyal",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Seychelles = {
@@ -5068,7 +5068,7 @@ const Seychelles = {
   currency: "Seychelles rupee",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Singapore = {
@@ -5096,7 +5096,7 @@ const Singapore = {
   currency: "Singapore dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Somalia = {
@@ -5124,7 +5124,7 @@ const Somalia = {
   currency: "Somalian shilling",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Lesotho = {
@@ -5152,7 +5152,7 @@ const Lesotho = {
   currency: "South African rand",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Eswatini = {
@@ -5180,7 +5180,7 @@ const Eswatini = {
   currency: "South African rand",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SouthAfrica = {
@@ -5208,7 +5208,7 @@ const SouthAfrica = {
   currency: "South African rand",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Namibia = {
@@ -5236,7 +5236,7 @@ const Namibia = {
   currency: "South African rand",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SouthSudan = {
@@ -5264,7 +5264,7 @@ const SouthSudan = {
   currency: "South Sudanese pound",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Sweden = {
@@ -5292,7 +5292,7 @@ const Sweden = {
   currency: "Swedish krona",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Liechtenstein = {
@@ -5320,7 +5320,7 @@ const Liechtenstein = {
   currency: "Swiss franc",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Thailand = {
@@ -5348,7 +5348,7 @@ const Thailand = {
   currency: "Thai baht",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Tonga = {
@@ -5376,7 +5376,7 @@ const Tonga = {
   currency: "Tongan paʻanga",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TrinidadAndTobago = {
@@ -5404,7 +5404,7 @@ const TrinidadAndTobago = {
   currency: "Trinidad and Tobago dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const UnitedArabEmirates = {
@@ -5432,7 +5432,7 @@ const UnitedArabEmirates = {
   currency: "United Arab Emirates dirham",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Tunisia = {
@@ -5460,7 +5460,7 @@ const Tunisia = {
   currency: "Tunisian dinar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Uganda = {
@@ -5488,7 +5488,7 @@ const Uganda = {
   currency: "Ugandan shilling",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NorthMacedonia = {
@@ -5516,7 +5516,7 @@ const NorthMacedonia = {
   currency: "Macedonian denar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Egypt = {
@@ -5544,7 +5544,7 @@ const Egypt = {
   currency: "Egyptian pound",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SaintHelenaAscensionAndTristandaCunha = {
@@ -5572,7 +5572,7 @@ const SaintHelenaAscensionAndTristandaCunha = {
   currency: "Pound sterling",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Guernsey = {
@@ -5600,7 +5600,7 @@ const Guernsey = {
   currency: "Pound sterling",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const IsleOfMan = {
@@ -5628,7 +5628,7 @@ const IsleOfMan = {
   currency: "Pound sterling",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Jersey = {
@@ -5656,7 +5656,7 @@ const Jersey = {
   currency: "Pound sterling",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TurksAndCaicosIslands = {
@@ -5684,7 +5684,7 @@ const TurksAndCaicosIslands = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PuertoRico = {
@@ -5712,7 +5712,7 @@ const PuertoRico = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BritishIndianOceanTerritory = {
@@ -5740,7 +5740,7 @@ const BritishIndianOceanTerritory = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Palau = {
@@ -5768,7 +5768,7 @@ const Palau = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MarshallIslands = {
@@ -5796,7 +5796,7 @@ const MarshallIslands = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AmericanSamoa = {
@@ -5824,7 +5824,7 @@ const AmericanSamoa = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MicronesiaFederatedStatesOf = {
@@ -5852,7 +5852,7 @@ const MicronesiaFederatedStatesOf = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const UnitedStatesMinorOutlyingIslands = {
@@ -5880,7 +5880,7 @@ const UnitedStatesMinorOutlyingIslands = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NorthernMarianaIslands = {
@@ -5908,7 +5908,7 @@ const NorthernMarianaIslands = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const UnitedStatesVirginIslands = {
@@ -5936,7 +5936,7 @@ const UnitedStatesVirginIslands = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Guam = {
@@ -5964,7 +5964,7 @@ const Guam = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Ecuador = {
@@ -5992,7 +5992,7 @@ const Ecuador = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Panama = {
@@ -6020,7 +6020,7 @@ const Panama = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ElSalvador = {
@@ -6048,7 +6048,7 @@ const ElSalvador = {
   currency: "United States dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Uruguay = {
@@ -6076,7 +6076,7 @@ const Uruguay = {
   currency: "Uruguayan peso",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Uzbekistan = {
@@ -6104,7 +6104,7 @@ const Uzbekistan = {
   currency: "Uzbekistani sum",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Samoa = {
@@ -6132,7 +6132,7 @@ const Samoa = {
   currency: "Samoan tala",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Yemen = {
@@ -6160,7 +6160,7 @@ const Yemen = {
   currency: "Yemeni rial",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Zimbabwe = {
@@ -6188,7 +6188,7 @@ const Zimbabwe = {
   currency: "Zimbabwe Gold",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SierraLeone = {
@@ -6216,7 +6216,7 @@ const SierraLeone = {
   currency: "Sierra Leonean leone",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Mauritania = {
@@ -6244,7 +6244,7 @@ const Mauritania = {
   currency: "Mauritanian ouguiya",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Turkmenistan = {
@@ -6272,7 +6272,7 @@ const Turkmenistan = {
   currency: "Turkmenistan manat",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Ghana = {
@@ -6300,7 +6300,7 @@ const Ghana = {
   currency: "Ghanaian cedi",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Sudan = {
@@ -6328,7 +6328,7 @@ const Sudan = {
   currency: "Sudanese pound",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Serbia = {
@@ -6356,7 +6356,7 @@ const Serbia = {
   currency: "Serbian dinar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Mozambique = {
@@ -6384,7 +6384,7 @@ const Mozambique = {
   currency: "Mozambican metical",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Azerbaijan = {
@@ -6412,7 +6412,7 @@ const Azerbaijan = {
   currency: "Azerbaijani manat",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Romania = {
@@ -6440,7 +6440,7 @@ const Romania = {
   currency: "Romanian leu",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Switzerland = {
@@ -6468,7 +6468,7 @@ const Switzerland = {
   currency: "WIR",
 
   currency_in_cn: "瑞士法郎",
-	currency_in_native: "Swiss franc",
+  currency_in_native: "Swiss franc",
 } as IEntity;
 
 const Zambia = {
@@ -6496,7 +6496,7 @@ const Zambia = {
   currency: "Zambian kwacha",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Suriname = {
@@ -6524,7 +6524,7 @@ const Suriname = {
   currency: "Surinamese dollar",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Madagascar = {
@@ -6552,7 +6552,7 @@ const Madagascar = {
   currency: "Malagasy ariary",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Afghanistan = {
@@ -6580,7 +6580,7 @@ const Afghanistan = {
   currency: "Afghan afghani",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Tajikistan = {
@@ -6608,7 +6608,7 @@ const Tajikistan = {
   currency: "Tajikistani somoni",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Angola = {
@@ -6636,7 +6636,7 @@ const Angola = {
   currency: "Angolan kwanza",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Bulgaria = {
@@ -6664,7 +6664,7 @@ const Bulgaria = {
   currency: "Bulgarian lev",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Bosnia = {
@@ -6692,7 +6692,7 @@ const Bosnia = {
   currency: "Bosnia and Herzegovina convertible mark",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Guadeloupe = {
@@ -6720,7 +6720,7 @@ const Guadeloupe = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Latvia = {
@@ -6748,7 +6748,7 @@ const Latvia = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Portugal = {
@@ -6776,7 +6776,7 @@ const Portugal = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Germany = {
@@ -6804,7 +6804,7 @@ const Germany = {
   currency: "Euro",
 
   currency_in_cn: "欧元",
-	currency_in_native: "Euro",
+  currency_in_native: "Euro",
 } as IEntity;
 
 const FrenchSouthernTerritories = {
@@ -6832,7 +6832,7 @@ const FrenchSouthernTerritories = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const FrenchGuiana = {
@@ -6860,7 +6860,7 @@ const FrenchGuiana = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const France = {
@@ -6888,7 +6888,7 @@ const France = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AlandIslands = {
@@ -6916,7 +6916,7 @@ const AlandIslands = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Finland = {
@@ -6944,7 +6944,7 @@ const Finland = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Estonia = {
@@ -6972,7 +6972,7 @@ const Estonia = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const HolySee = {
@@ -7000,7 +7000,7 @@ const HolySee = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Ireland = {
@@ -7028,7 +7028,7 @@ const Ireland = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Spain = {
@@ -7056,7 +7056,7 @@ const Spain = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Italy = {
@@ -7084,7 +7084,7 @@ const Italy = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Cyprus = {
@@ -7112,7 +7112,7 @@ const Cyprus = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Reunion = {
@@ -7140,7 +7140,7 @@ const Reunion = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Croatia = {
@@ -7168,7 +7168,7 @@ const Croatia = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Mayotte = {
@@ -7196,7 +7196,7 @@ const Mayotte = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SaintBarthelemy = {
@@ -7224,7 +7224,7 @@ const SaintBarthelemy = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Greece = {
@@ -7252,7 +7252,7 @@ const Greece = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Lithuania = {
@@ -7280,7 +7280,7 @@ const Lithuania = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Luxembourg = {
@@ -7308,7 +7308,7 @@ const Luxembourg = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Slovenia = {
@@ -7336,7 +7336,7 @@ const Slovenia = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Malta = {
@@ -7364,7 +7364,7 @@ const Malta = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Martinique = {
@@ -7392,7 +7392,7 @@ const Martinique = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SaintMartinFrenchpart = {
@@ -7420,7 +7420,7 @@ const SaintMartinFrenchpart = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Sikkim = {
@@ -7448,7 +7448,7 @@ const Sikkim = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Belgium = {
@@ -7476,7 +7476,7 @@ const Belgium = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Austria = {
@@ -7504,7 +7504,7 @@ const Austria = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Monaco = {
@@ -7532,7 +7532,7 @@ const Monaco = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Montenegro = {
@@ -7560,7 +7560,7 @@ const Montenegro = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SanMarino = {
@@ -7588,7 +7588,7 @@ const SanMarino = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Netherlands = {
@@ -7616,7 +7616,7 @@ const Netherlands = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Andorra = {
@@ -7644,7 +7644,7 @@ const Andorra = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SaintPierreAndMiquelon = {
@@ -7672,7 +7672,7 @@ const SaintPierreAndMiquelon = {
   currency: "Euro",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Ukraine = {
@@ -7700,7 +7700,7 @@ const Ukraine = {
   currency: "Ukrainian hryvnia",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Poland = {
@@ -7728,7 +7728,7 @@ const Poland = {
   currency: "Polish złoty",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Brazil = {
@@ -7756,7 +7756,7 @@ const Brazil = {
   currency: "Brazilian real",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Chile = {
@@ -7784,7 +7784,7 @@ const Chile = {
   currency: "Unidad de Fomento",
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 
@@ -8353,26 +8353,27 @@ export const RegionsByCode = {
 		"CF": CentralAfricanRepublic,
 		"NC": NewCaledonia,
 		"XWG": WestGermany,
-		"YU": Yugoslavia,
-		"YUCS": Yugoslavia,
-		"AQ": Antarctica,
 		"CS": SerbiaAndMontenegro,
 		"CSXX": SerbiaAndMontenegro,
+		"AQ": Antarctica,
+		"YU": Yugoslavia,
+		"YUCS": Yugoslavia,
 		"WF": WallisAndFutuna,
 		"WK": WakeIsland,
 		"WKUM": WakeIsland,
 		"AG": AntiguaAndBarbuda,
 		"VE": VenezuelaBolivarianRepublicOf,
-		"TP": EastTimor,
-		"TPTL": EastTimor,
+		"TL": Timor_Leste,
 		"HV": UpperVolta,
 		"HVBF": UpperVolta,
-		"TG": Togo,
-		"TL": Timor_Leste,
+		"FQ": FrenchSouthernAndAntarcticTerritories,
+		"FQHH": FrenchSouthernAndAntarcticTerritories,
+		"TP": EastTimor,
+		"TPTL": EastTimor,
 		"PZ": PanamaCanalZone,
 		"PZPA": PanamaCanalZone,
 		"RU": Russia,
-		"XKO": Korea,
+		"XK": Kosovo,
 		"TD": Chad,
 		"BF": BurkinaFaso,
 		"KN": SaintKittsAndNevis,
@@ -8408,7 +8409,7 @@ export const RegionsByCode = {
 		"MS": Montserrat,
 		"SU": SovietUnion,
 		"SUHH": SovietUnion,
-		"XK": Kosovo,
+		"XKO": Korea,
 		"PC": PacificIslandsTrustTerritoryOfthe,
 		"PCHH": PacificIslandsTrustTerritoryOfthe,
 		"SN": Senegal,
@@ -8420,8 +8421,7 @@ export const RegionsByCode = {
 		"ML": Mali,
 		"VD": Viet_NamDemocraticRepublicOf,
 		"VDVN": Viet_NamDemocraticRepublicOf,
-		"FQ": FrenchSouthernAndAntarcticTerritories,
-		"FQHH": FrenchSouthernAndAntarcticTerritories,
+		"TG": Togo,
 		"CG": Congo,
 		"ZR": Zaire,
 		"ZRCD": Zaire,
@@ -8448,9 +8448,9 @@ export const RegionsByCode = {
 		"GQ": EquatorialGuinea,
 		"SJ": SvalbardAndJanMayen,
 		"GD": Grenada,
-		"GW": Guinea_Bissau,
 		"GE": GilbertAndElliceIslands,
 		"GEHH": GilbertAndElliceIslands,
+		"GW": Guinea_Bissau,
 		"FK": FalklandIslandsMalvinas,
 		"GS": SouthGeorgiaAndTheSouthSandwichIslands,
 		"SY": SyrianArabRepublic,
@@ -8665,20 +8665,20 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"CentralAfricanRepublic": CentralAfricanRepublic,
 		"NewCaledonia": NewCaledonia,
 		"WestGermany": WestGermany,
-		"Yugoslavia": Yugoslavia,
-		"Antarctica": Antarctica,
 		"SerbiaAndMontenegro": SerbiaAndMontenegro,
+		"Antarctica": Antarctica,
+		"Yugoslavia": Yugoslavia,
 		"WallisAndFutuna": WallisAndFutuna,
 		"WakeIsland": WakeIsland,
 		"AntiguaAndBarbuda": AntiguaAndBarbuda,
 		"VenezuelaBolivarianRepublicOf": VenezuelaBolivarianRepublicOf,
-		"EastTimor": EastTimor,
-		"UpperVolta": UpperVolta,
-		"Togo": Togo,
 		"Timor_Leste": Timor_Leste,
+		"UpperVolta": UpperVolta,
+		"FrenchSouthernAndAntarcticTerritories": FrenchSouthernAndAntarcticTerritories,
+		"EastTimor": EastTimor,
 		"PanamaCanalZone": PanamaCanalZone,
 		"Russia": Russia,
-		"Korea": Korea,
+		"Kosovo": Kosovo,
 		"Chad": Chad,
 		"BurkinaFaso": BurkinaFaso,
 		"SaintKittsAndNevis": SaintKittsAndNevis,
@@ -8705,7 +8705,7 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"CaboVerde": CaboVerde,
 		"Montserrat": Montserrat,
 		"SovietUnion": SovietUnion,
-		"Kosovo": Kosovo,
+		"Korea": Korea,
 		"PacificIslandsTrustTerritoryOfthe": PacificIslandsTrustTerritoryOfthe,
 		"Senegal": Senegal,
 		"MidwayIslands": MidwayIslands,
@@ -8714,7 +8714,7 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"VietNam": VietNam,
 		"Mali": Mali,
 		"Viet_NamDemocraticRepublicOf": Viet_NamDemocraticRepublicOf,
-		"FrenchSouthernAndAntarcticTerritories": FrenchSouthernAndAntarcticTerritories,
+		"Togo": Togo,
 		"Congo": Congo,
 		"Zaire": Zaire,
 		"CongoKinshasa": CongoKinshasa,
@@ -8735,8 +8735,8 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"EquatorialGuinea": EquatorialGuinea,
 		"SvalbardAndJanMayen": SvalbardAndJanMayen,
 		"Grenada": Grenada,
-		"Guinea_Bissau": Guinea_Bissau,
 		"GilbertAndElliceIslands": GilbertAndElliceIslands,
+		"Guinea_Bissau": Guinea_Bissau,
 		"FalklandIslandsMalvinas": FalklandIslandsMalvinas,
 		"SouthGeorgiaAndTheSouthSandwichIslands": SouthGeorgiaAndTheSouthSandwichIslands,
 		"SyrianArabRepublic": SyrianArabRepublic,

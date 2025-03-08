@@ -3,10 +3,10 @@ export interface IEntity {
   numeric_code: string;
   minor_unit: number;
   currency: string;
-	entities: string[];
+  entities: string[];
 
   currency_in_cn: string;
-	currency_in_native: string;
+  currency_in_native: string;
 }
 
 const ALL = {
@@ -15,10 +15,10 @@ const ALL = {
   minor_unit: 2,
   currency: "Albanian lek",
 
-	entities: ["AL"],
+  entities: ["AL"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const DZD = {
@@ -27,10 +27,10 @@ const DZD = {
   minor_unit: 2,
   currency: "Algerian dinar",
 
-	entities: ["DZ"],
+  entities: ["DZ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ARS = {
@@ -39,10 +39,10 @@ const ARS = {
   minor_unit: 2,
   currency: "Argentine peso",
 
-	entities: ["AR"],
+  entities: ["AR"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AUD = {
@@ -51,10 +51,10 @@ const AUD = {
   minor_unit: 2,
   currency: "Australian dollar",
 
-	entities: ["AU","CC","CX","HM","KI","NF","NR","TV"],
+  entities: ["AU","CC","CX","HM","KI","NF","NR","TV"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BSD = {
@@ -63,10 +63,10 @@ const BSD = {
   minor_unit: 2,
   currency: "Bahamian dollar",
 
-	entities: ["BS"],
+  entities: ["BS"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BHD = {
@@ -75,10 +75,10 @@ const BHD = {
   minor_unit: 3,
   currency: "Bahraini dinar",
 
-	entities: ["BH"],
+  entities: ["BH"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BDT = {
@@ -87,10 +87,10 @@ const BDT = {
   minor_unit: 2,
   currency: "Bangladeshi taka",
 
-	entities: ["BD"],
+  entities: ["BD"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AMD = {
@@ -99,10 +99,10 @@ const AMD = {
   minor_unit: 2,
   currency: "Armenian dram",
 
-	entities: ["AM"],
+  entities: ["AM"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BBD = {
@@ -111,10 +111,10 @@ const BBD = {
   minor_unit: 2,
   currency: "Barbados dollar",
 
-	entities: ["BB"],
+  entities: ["BB"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BMD = {
@@ -123,10 +123,10 @@ const BMD = {
   minor_unit: 2,
   currency: "Bermudian dollar",
 
-	entities: ["BM"],
+  entities: ["BM"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BTN = {
@@ -135,10 +135,10 @@ const BTN = {
   minor_unit: 2,
   currency: "Bhutanese ngultrum",
 
-	entities: ["BT"],
+  entities: ["BT"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BOB = {
@@ -147,10 +147,10 @@ const BOB = {
   minor_unit: 2,
   currency: "Boliviano",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BWP = {
@@ -159,10 +159,10 @@ const BWP = {
   minor_unit: 2,
   currency: "Botswana pula",
 
-	entities: ["BW"],
+  entities: ["BW"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BZD = {
@@ -171,10 +171,10 @@ const BZD = {
   minor_unit: 2,
   currency: "Belize dollar",
 
-	entities: ["BZ"],
+  entities: ["BZ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SBD = {
@@ -183,10 +183,10 @@ const SBD = {
   minor_unit: 2,
   currency: "Solomon Islands dollar",
 
-	entities: ["SB"],
+  entities: ["SB"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BND = {
@@ -195,10 +195,10 @@ const BND = {
   minor_unit: 2,
   currency: "Brunei dollar",
 
-	entities: ["BN"],
+  entities: ["BN"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MMK = {
@@ -207,10 +207,10 @@ const MMK = {
   minor_unit: 2,
   currency: "Myanmar kyat",
 
-	entities: ["MM"],
+  entities: ["MM"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BIF = {
@@ -219,10 +219,10 @@ const BIF = {
   minor_unit: 0,
   currency: "Burundian franc",
 
-	entities: ["BI"],
+  entities: ["BI"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const KHR = {
@@ -231,10 +231,10 @@ const KHR = {
   minor_unit: 2,
   currency: "Cambodian riel",
 
-	entities: ["KH"],
+  entities: ["KH"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CAD = {
@@ -243,10 +243,10 @@ const CAD = {
   minor_unit: 2,
   currency: "Canadian dollar",
 
-	entities: ["CA"],
+  entities: ["CA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CVE = {
@@ -255,10 +255,10 @@ const CVE = {
   minor_unit: 2,
   currency: "Cape Verdean escudo",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const KYD = {
@@ -267,10 +267,10 @@ const KYD = {
   minor_unit: 2,
   currency: "Cayman Islands dollar",
 
-	entities: ["KY"],
+  entities: ["KY"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const LKR = {
@@ -279,10 +279,10 @@ const LKR = {
   minor_unit: 2,
   currency: "Sri Lankan rupee",
 
-	entities: ["LK"],
+  entities: ["LK"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CLP = {
@@ -291,10 +291,10 @@ const CLP = {
   minor_unit: 0,
   currency: "Chilean peso",
 
-	entities: ["CL"],
+  entities: ["CL"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CNY = {
@@ -303,10 +303,10 @@ const CNY = {
   minor_unit: 2,
   currency: "Renminbi",
 
-	entities: ["CN"],
+  entities: ["CN"],
 
   currency_in_cn: "人民币",
-	currency_in_native: "人民币",
+  currency_in_native: "人民币",
 } as IEntity;
 
 const COP = {
@@ -315,10 +315,10 @@ const COP = {
   minor_unit: 2,
   currency: "Colombian peso",
 
-	entities: ["CO"],
+  entities: ["CO"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const KMF = {
@@ -327,10 +327,10 @@ const KMF = {
   minor_unit: 0,
   currency: "Comoro franc",
 
-	entities: ["KM"],
+  entities: ["KM"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CRC = {
@@ -339,10 +339,10 @@ const CRC = {
   minor_unit: 2,
   currency: "Costa Rican colon",
 
-	entities: ["CR"],
+  entities: ["CR"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CUP = {
@@ -351,10 +351,10 @@ const CUP = {
   minor_unit: 2,
   currency: "Cuban peso",
 
-	entities: ["CU"],
+  entities: ["CU"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CZK = {
@@ -363,10 +363,10 @@ const CZK = {
   minor_unit: 2,
   currency: "Czech koruna",
 
-	entities: ["CZ"],
+  entities: ["CZ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const DKK = {
@@ -375,10 +375,10 @@ const DKK = {
   minor_unit: 2,
   currency: "Danish krone",
 
-	entities: ["DK","FO","GL"],
+  entities: ["DK","FO","GL"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const DOP = {
@@ -387,10 +387,10 @@ const DOP = {
   minor_unit: 2,
   currency: "Dominican peso",
 
-	entities: ["DO"],
+  entities: ["DO"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SVC = {
@@ -399,10 +399,10 @@ const SVC = {
   minor_unit: 2,
   currency: "Salvadoran colón",
 
-	entities: ["SV"],
+  entities: ["SV"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ETB = {
@@ -411,10 +411,10 @@ const ETB = {
   minor_unit: 2,
   currency: "Ethiopian birr",
 
-	entities: ["ET"],
+  entities: ["ET"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ERN = {
@@ -423,10 +423,10 @@ const ERN = {
   minor_unit: 2,
   currency: "Eritrean nakfa",
 
-	entities: ["ER"],
+  entities: ["ER"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const FKP = {
@@ -435,10 +435,10 @@ const FKP = {
   minor_unit: 2,
   currency: "Falkland Islands pound",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const FJD = {
@@ -447,10 +447,10 @@ const FJD = {
   minor_unit: 2,
   currency: "Fiji dollar",
 
-	entities: ["FJ"],
+  entities: ["FJ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const DJF = {
@@ -459,10 +459,10 @@ const DJF = {
   minor_unit: 0,
   currency: "Djiboutian franc",
 
-	entities: ["DJ"],
+  entities: ["DJ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const GMD = {
@@ -471,10 +471,10 @@ const GMD = {
   minor_unit: 2,
   currency: "Gambian dalasi",
 
-	entities: ["GM"],
+  entities: ["GM"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const GIP = {
@@ -483,10 +483,10 @@ const GIP = {
   minor_unit: 2,
   currency: "Gibraltar pound",
 
-	entities: ["GI"],
+  entities: ["GI"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const GTQ = {
@@ -495,10 +495,10 @@ const GTQ = {
   minor_unit: 2,
   currency: "Guatemalan quetzal",
 
-	entities: ["GT"],
+  entities: ["GT"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const GNF = {
@@ -507,10 +507,10 @@ const GNF = {
   minor_unit: 0,
   currency: "Guinean franc",
 
-	entities: ["GN"],
+  entities: ["GN"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const GYD = {
@@ -519,10 +519,10 @@ const GYD = {
   minor_unit: 2,
   currency: "Guyanese dollar",
 
-	entities: ["GY"],
+  entities: ["GY"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const HTG = {
@@ -531,10 +531,10 @@ const HTG = {
   minor_unit: 2,
   currency: "Haitian gourde",
 
-	entities: ["HT"],
+  entities: ["HT"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const HNL = {
@@ -543,10 +543,10 @@ const HNL = {
   minor_unit: 2,
   currency: "Honduran lempira",
 
-	entities: ["HN"],
+  entities: ["HN"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const HKD = {
@@ -555,10 +555,10 @@ const HKD = {
   minor_unit: 2,
   currency: "Hong Kong dollar",
 
-	entities: ["HK"],
+  entities: ["HK"],
 
   currency_in_cn: "港元",
-	currency_in_native: "港幣",
+  currency_in_native: "港幣",
 } as IEntity;
 
 const HUF = {
@@ -567,10 +567,10 @@ const HUF = {
   minor_unit: 2,
   currency: "Hungarian forint",
 
-	entities: ["HU"],
+  entities: ["HU"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ISK = {
@@ -579,10 +579,10 @@ const ISK = {
   minor_unit: 0,
   currency: "Icelandic króna",
 
-	entities: ["IS"],
+  entities: ["IS"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const INR = {
@@ -591,10 +591,10 @@ const INR = {
   minor_unit: 2,
   currency: "Indian rupee",
 
-	entities: ["BT","IN"],
+  entities: ["BT","IN"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const IDR = {
@@ -603,10 +603,10 @@ const IDR = {
   minor_unit: 2,
   currency: "Indonesian rupiah",
 
-	entities: ["ID"],
+  entities: ["ID"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const IRR = {
@@ -615,10 +615,10 @@ const IRR = {
   minor_unit: 2,
   currency: "Iranian rial",
 
-	entities: ["IR"],
+  entities: ["IR"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const IQD = {
@@ -627,10 +627,10 @@ const IQD = {
   minor_unit: 3,
   currency: "Iraqi dinar",
 
-	entities: ["IQ"],
+  entities: ["IQ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ILS = {
@@ -639,10 +639,10 @@ const ILS = {
   minor_unit: 2,
   currency: "Israeli new shekel",
 
-	entities: ["IL"],
+  entities: ["IL"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const JMD = {
@@ -651,10 +651,10 @@ const JMD = {
   minor_unit: 2,
   currency: "Jamaican dollar",
 
-	entities: ["JM"],
+  entities: ["JM"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const JPY = {
@@ -663,10 +663,10 @@ const JPY = {
   minor_unit: 0,
   currency: "Japanese yen",
 
-	entities: ["JP"],
+  entities: ["JP"],
 
   currency_in_cn: "日元",
-	currency_in_native: "日本円",
+  currency_in_native: "日本円",
 } as IEntity;
 
 const KZT = {
@@ -675,10 +675,10 @@ const KZT = {
   minor_unit: 2,
   currency: "Kazakhstani tenge",
 
-	entities: ["KZ"],
+  entities: ["KZ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const JOD = {
@@ -687,10 +687,10 @@ const JOD = {
   minor_unit: 3,
   currency: "Jordanian dinar",
 
-	entities: ["JO"],
+  entities: ["JO"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const KES = {
@@ -699,10 +699,10 @@ const KES = {
   minor_unit: 2,
   currency: "Kenyan shilling",
 
-	entities: ["KE"],
+  entities: ["KE"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const KPW = {
@@ -711,10 +711,10 @@ const KPW = {
   minor_unit: 2,
   currency: "North Korean won",
 
-	entities: ["KP"],
+  entities: ["KP"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const KRW = {
@@ -723,10 +723,10 @@ const KRW = {
   minor_unit: 0,
   currency: "South Korean won",
 
-	entities: ["KR"],
+  entities: ["KR"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const KWD = {
@@ -735,10 +735,10 @@ const KWD = {
   minor_unit: 3,
   currency: "Kuwaiti dinar",
 
-	entities: ["KW"],
+  entities: ["KW"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const KGS = {
@@ -747,10 +747,10 @@ const KGS = {
   minor_unit: 2,
   currency: "Kyrgyzstani som",
 
-	entities: ["KG"],
+  entities: ["KG"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const LAK = {
@@ -759,10 +759,10 @@ const LAK = {
   minor_unit: 2,
   currency: "Lao kip",
 
-	entities: ["LA"],
+  entities: ["LA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const LBP = {
@@ -771,10 +771,10 @@ const LBP = {
   minor_unit: 2,
   currency: "Lebanese pound",
 
-	entities: ["LB"],
+  entities: ["LB"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const LSL = {
@@ -783,10 +783,10 @@ const LSL = {
   minor_unit: 2,
   currency: "Lesotho loti",
 
-	entities: ["LS"],
+  entities: ["LS"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const LRD = {
@@ -795,10 +795,10 @@ const LRD = {
   minor_unit: 2,
   currency: "Liberian dollar",
 
-	entities: ["LR"],
+  entities: ["LR"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const LYD = {
@@ -807,10 +807,10 @@ const LYD = {
   minor_unit: 3,
   currency: "Libyan dinar",
 
-	entities: ["LY"],
+  entities: ["LY"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MOP = {
@@ -819,10 +819,10 @@ const MOP = {
   minor_unit: 2,
   currency: "Macanese pataca",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MWK = {
@@ -831,10 +831,10 @@ const MWK = {
   minor_unit: 2,
   currency: "Malawian kwacha",
 
-	entities: ["MW"],
+  entities: ["MW"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MYR = {
@@ -843,10 +843,10 @@ const MYR = {
   minor_unit: 2,
   currency: "Malaysian ringgit",
 
-	entities: ["MY"],
+  entities: ["MY"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MVR = {
@@ -855,10 +855,10 @@ const MVR = {
   minor_unit: 2,
   currency: "Maldivian rufiyaa",
 
-	entities: ["MV"],
+  entities: ["MV"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MUR = {
@@ -867,10 +867,10 @@ const MUR = {
   minor_unit: 2,
   currency: "Mauritian rupee",
 
-	entities: ["MU"],
+  entities: ["MU"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MXN = {
@@ -879,10 +879,10 @@ const MXN = {
   minor_unit: 2,
   currency: "Mexican peso",
 
-	entities: ["MX"],
+  entities: ["MX"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MNT = {
@@ -891,10 +891,10 @@ const MNT = {
   minor_unit: 2,
   currency: "Mongolian tögrög",
 
-	entities: ["MN"],
+  entities: ["MN"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MDL = {
@@ -903,10 +903,10 @@ const MDL = {
   minor_unit: 2,
   currency: "Moldovan leu",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MAD = {
@@ -915,10 +915,10 @@ const MAD = {
   minor_unit: 2,
   currency: "Moroccan dirham",
 
-	entities: ["EH","MA"],
+  entities: ["EH","MA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const OMR = {
@@ -927,10 +927,10 @@ const OMR = {
   minor_unit: 3,
   currency: "Omani rial",
 
-	entities: ["OM"],
+  entities: ["OM"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NAD = {
@@ -939,10 +939,10 @@ const NAD = {
   minor_unit: 2,
   currency: "Namibian dollar",
 
-	entities: ["NA"],
+  entities: ["NA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NPR = {
@@ -951,10 +951,10 @@ const NPR = {
   minor_unit: 2,
   currency: "Nepalese rupee",
 
-	entities: ["NP"],
+  entities: ["NP"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ANG = {
@@ -963,10 +963,10 @@ const ANG = {
   minor_unit: 2,
   currency: "Netherlands Antillean guilder",
 
-	entities: ["CW","SX"],
+  entities: ["CW","SX"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AWG = {
@@ -975,10 +975,10 @@ const AWG = {
   minor_unit: 2,
   currency: "Aruban florin",
 
-	entities: ["AW"],
+  entities: ["AW"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const VUV = {
@@ -987,10 +987,10 @@ const VUV = {
   minor_unit: 0,
   currency: "Vanuatu vatu",
 
-	entities: ["VU"],
+  entities: ["VU"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NZD = {
@@ -999,10 +999,10 @@ const NZD = {
   minor_unit: 2,
   currency: "New Zealand dollar",
 
-	entities: ["CK","NU","NZ","PN","TK"],
+  entities: ["CK","NU","NZ","PN","TK"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NIO = {
@@ -1011,10 +1011,10 @@ const NIO = {
   minor_unit: 2,
   currency: "Nicaraguan córdoba",
 
-	entities: ["NI"],
+  entities: ["NI"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NGN = {
@@ -1023,10 +1023,10 @@ const NGN = {
   minor_unit: 2,
   currency: "Nigerian naira",
 
-	entities: ["NG"],
+  entities: ["NG"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const NOK = {
@@ -1035,10 +1035,10 @@ const NOK = {
   minor_unit: 2,
   currency: "Norwegian krone",
 
-	entities: ["BV","NO"],
+  entities: ["BV","NO"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PKR = {
@@ -1047,10 +1047,10 @@ const PKR = {
   minor_unit: 2,
   currency: "Pakistani rupee",
 
-	entities: ["PK"],
+  entities: ["PK"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PAB = {
@@ -1059,10 +1059,10 @@ const PAB = {
   minor_unit: 2,
   currency: "Panamanian balboa",
 
-	entities: ["PA"],
+  entities: ["PA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PGK = {
@@ -1071,10 +1071,10 @@ const PGK = {
   minor_unit: 2,
   currency: "Papua New Guinean kina",
 
-	entities: ["PG"],
+  entities: ["PG"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PYG = {
@@ -1083,10 +1083,10 @@ const PYG = {
   minor_unit: 0,
   currency: "Paraguayan guaraní",
 
-	entities: ["PY"],
+  entities: ["PY"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PEN = {
@@ -1095,10 +1095,10 @@ const PEN = {
   minor_unit: 2,
   currency: "Peruvian sol",
 
-	entities: ["PE"],
+  entities: ["PE"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PHP = {
@@ -1107,10 +1107,10 @@ const PHP = {
   minor_unit: 2,
   currency: "Philippine peso",
 
-	entities: ["PH"],
+  entities: ["PH"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const QAR = {
@@ -1119,10 +1119,10 @@ const QAR = {
   minor_unit: 2,
   currency: "Qatari riyal",
 
-	entities: ["QA"],
+  entities: ["QA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const RUB = {
@@ -1131,10 +1131,10 @@ const RUB = {
   minor_unit: 2,
   currency: "Russian ruble",
 
-	entities: ["RU"],
+  entities: ["RU"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const RWF = {
@@ -1143,10 +1143,10 @@ const RWF = {
   minor_unit: 0,
   currency: "Rwandan franc",
 
-	entities: ["RW"],
+  entities: ["RW"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SHP = {
@@ -1155,10 +1155,10 @@ const SHP = {
   minor_unit: 2,
   currency: "Saint Helena pound",
 
-	entities: ["SH"],
+  entities: ["SH"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SAR = {
@@ -1167,10 +1167,10 @@ const SAR = {
   minor_unit: 2,
   currency: "Saudi riyal",
 
-	entities: ["SA"],
+  entities: ["SA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SCR = {
@@ -1179,10 +1179,10 @@ const SCR = {
   minor_unit: 2,
   currency: "Seychelles rupee",
 
-	entities: ["SC"],
+  entities: ["SC"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SGD = {
@@ -1191,10 +1191,10 @@ const SGD = {
   minor_unit: 2,
   currency: "Singapore dollar",
 
-	entities: ["SG"],
+  entities: ["SG"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const VND = {
@@ -1203,10 +1203,10 @@ const VND = {
   minor_unit: 0,
   currency: "Vietnamese đồng",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SOS = {
@@ -1215,10 +1215,10 @@ const SOS = {
   minor_unit: 2,
   currency: "Somalian shilling",
 
-	entities: ["SO"],
+  entities: ["SO"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ZAR = {
@@ -1227,10 +1227,10 @@ const ZAR = {
   minor_unit: 2,
   currency: "South African rand",
 
-	entities: ["LS","NA","SZ","ZA"],
+  entities: ["LS","NA","SZ","ZA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SSP = {
@@ -1239,10 +1239,10 @@ const SSP = {
   minor_unit: 2,
   currency: "South Sudanese pound",
 
-	entities: ["SS"],
+  entities: ["SS"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SZL = {
@@ -1251,10 +1251,10 @@ const SZL = {
   minor_unit: 2,
   currency: "Swazi lilangeni",
 
-	entities: ["SZ"],
+  entities: ["SZ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SEK = {
@@ -1263,10 +1263,10 @@ const SEK = {
   minor_unit: 2,
   currency: "Swedish krona",
 
-	entities: ["SE"],
+  entities: ["SE"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CHF = {
@@ -1275,10 +1275,10 @@ const CHF = {
   minor_unit: 2,
   currency: "Swiss franc",
 
-	entities: ["LI","CH"],
+  entities: ["LI","CH"],
 
   currency_in_cn: "瑞士法郎",
-	currency_in_native: "Swiss franc",
+  currency_in_native: "Swiss franc",
 } as IEntity;
 
 const SYP = {
@@ -1287,10 +1287,10 @@ const SYP = {
   minor_unit: 2,
   currency: "Syrian pound",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const THB = {
@@ -1299,10 +1299,10 @@ const THB = {
   minor_unit: 2,
   currency: "Thai baht",
 
-	entities: ["TH"],
+  entities: ["TH"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TOP = {
@@ -1311,10 +1311,10 @@ const TOP = {
   minor_unit: 2,
   currency: "Tongan paʻanga",
 
-	entities: ["TO"],
+  entities: ["TO"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TTD = {
@@ -1323,10 +1323,10 @@ const TTD = {
   minor_unit: 2,
   currency: "Trinidad and Tobago dollar",
 
-	entities: ["TT"],
+  entities: ["TT"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AED = {
@@ -1335,10 +1335,10 @@ const AED = {
   minor_unit: 2,
   currency: "United Arab Emirates dirham",
 
-	entities: ["AE"],
+  entities: ["AE"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TND = {
@@ -1347,10 +1347,10 @@ const TND = {
   minor_unit: 3,
   currency: "Tunisian dinar",
 
-	entities: ["TN"],
+  entities: ["TN"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const UGX = {
@@ -1359,10 +1359,10 @@ const UGX = {
   minor_unit: 0,
   currency: "Ugandan shilling",
 
-	entities: ["UG"],
+  entities: ["UG"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MKD = {
@@ -1371,10 +1371,10 @@ const MKD = {
   minor_unit: 2,
   currency: "Macedonian denar",
 
-	entities: ["MK"],
+  entities: ["MK"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const EGP = {
@@ -1383,10 +1383,10 @@ const EGP = {
   minor_unit: 2,
   currency: "Egyptian pound",
 
-	entities: ["EG"],
+  entities: ["EG"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const GBP = {
@@ -1395,10 +1395,10 @@ const GBP = {
   minor_unit: 2,
   currency: "Pound sterling",
 
-	entities: ["GG","IM","JE","SH","GB"],
+  entities: ["GG","IM","JE","SH","GB"],
 
   currency_in_cn: "英镑",
-	currency_in_native: "Pound sterling",
+  currency_in_native: "Pound sterling",
 } as IEntity;
 
 const TZS = {
@@ -1407,10 +1407,10 @@ const TZS = {
   minor_unit: 2,
   currency: "Tanzanian shilling",
 
-	entities: ["TZ"],
+  entities: ["TZ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const USD = {
@@ -1419,10 +1419,10 @@ const USD = {
   minor_unit: 2,
   currency: "United States dollar",
 
-	entities: ["AS","EC","FM","GU","IO","MH","MP","PA","PR","PW","SV","TC","UM","US","VG"],
+  entities: ["AS","EC","FM","GU","IO","MH","MP","PA","PR","PW","SV","TC","UM","US","VG"],
 
   currency_in_cn: "美元",
-	currency_in_native: "United States dollar",
+  currency_in_native: "United States dollar",
 } as IEntity;
 
 const UYU = {
@@ -1431,10 +1431,10 @@ const UYU = {
   minor_unit: 2,
   currency: "Uruguayan peso",
 
-	entities: ["UY"],
+  entities: ["UY"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const UZS = {
@@ -1443,10 +1443,10 @@ const UZS = {
   minor_unit: 2,
   currency: "Uzbekistani sum",
 
-	entities: ["UZ"],
+  entities: ["UZ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const WST = {
@@ -1455,10 +1455,10 @@ const WST = {
   minor_unit: 2,
   currency: "Samoan tala",
 
-	entities: ["WS"],
+  entities: ["WS"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const YER = {
@@ -1467,10 +1467,10 @@ const YER = {
   minor_unit: 2,
   currency: "Yemeni rial",
 
-	entities: ["YE"],
+  entities: ["YE"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TWD = {
@@ -1479,10 +1479,10 @@ const TWD = {
   minor_unit: 2,
   currency: "New Taiwan dollar",
 
-	entities: ["TW"],
+  entities: ["TW"],
 
   currency_in_cn: "新台币",
-	currency_in_native: "新臺幣",
+  currency_in_native: "新臺幣",
 } as IEntity;
 
 const ZWG = {
@@ -1491,10 +1491,10 @@ const ZWG = {
   minor_unit: 2,
   currency: "Zimbabwe Gold",
 
-	entities: ["ZW"],
+  entities: ["ZW"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SLE = {
@@ -1503,10 +1503,10 @@ const SLE = {
   minor_unit: 2,
   currency: "Sierra Leonean leone",
 
-	entities: ["SL"],
+  entities: ["SL"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const VED = {
@@ -1515,10 +1515,10 @@ const VED = {
   minor_unit: 2,
   currency: "Venezuelan digital bolívar",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const VES = {
@@ -1527,10 +1527,10 @@ const VES = {
   minor_unit: 2,
   currency: "Venezuelan sovereign bolívar",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MRU = {
@@ -1539,10 +1539,10 @@ const MRU = {
   minor_unit: 0,
   currency: "Mauritanian ouguiya",
 
-	entities: ["MR"],
+  entities: ["MR"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const STN = {
@@ -1551,10 +1551,10 @@ const STN = {
   minor_unit: 0,
   currency: "São Tomé and Príncipe dobra",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BYN = {
@@ -1563,10 +1563,10 @@ const BYN = {
   minor_unit: 2,
   currency: "Belarusian ruble",
 
-	entities: ["BY"],
+  entities: ["BY"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TMT = {
@@ -1575,10 +1575,10 @@ const TMT = {
   minor_unit: 2,
   currency: "Turkmenistan manat",
 
-	entities: ["TM"],
+  entities: ["TM"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const GHS = {
@@ -1587,10 +1587,10 @@ const GHS = {
   minor_unit: 2,
   currency: "Ghanaian cedi",
 
-	entities: ["GH"],
+  entities: ["GH"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SDG = {
@@ -1599,10 +1599,10 @@ const SDG = {
   minor_unit: 2,
   currency: "Sudanese pound",
 
-	entities: ["SD"],
+  entities: ["SD"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const RSD = {
@@ -1611,10 +1611,10 @@ const RSD = {
   minor_unit: 2,
   currency: "Serbian dinar",
 
-	entities: ["RS"],
+  entities: ["RS"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MZN = {
@@ -1623,10 +1623,10 @@ const MZN = {
   minor_unit: 2,
   currency: "Mozambican metical",
 
-	entities: ["MZ"],
+  entities: ["MZ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AZN = {
@@ -1635,10 +1635,10 @@ const AZN = {
   minor_unit: 2,
   currency: "Azerbaijani manat",
 
-	entities: ["AZ"],
+  entities: ["AZ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const RON = {
@@ -1647,10 +1647,10 @@ const RON = {
   minor_unit: 2,
   currency: "Romanian leu",
 
-	entities: ["RO"],
+  entities: ["RO"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CHE = {
@@ -1659,10 +1659,10 @@ const CHE = {
   minor_unit: 2,
   currency: "WIR",
 
-	entities: ["CH"],
+  entities: ["CH"],
 
   currency_in_cn: "瑞士法郎",
-	currency_in_native: "Swiss franc",
+  currency_in_native: "Swiss franc",
 } as IEntity;
 
 const CHW = {
@@ -1671,10 +1671,10 @@ const CHW = {
   minor_unit: 2,
   currency: "WIR",
 
-	entities: ["CH"],
+  entities: ["CH"],
 
   currency_in_cn: "瑞士法郎",
-	currency_in_native: "Swiss franc",
+  currency_in_native: "Swiss franc",
 } as IEntity;
 
 const TRY = {
@@ -1683,10 +1683,10 @@ const TRY = {
   minor_unit: 2,
   currency: "Turkish lira",
 
-	entities: ["TR"],
+  entities: ["TR"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const ZMW = {
@@ -1695,10 +1695,10 @@ const ZMW = {
   minor_unit: 2,
   currency: "Zambian kwacha",
 
-	entities: ["ZM"],
+  entities: ["ZM"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SRD = {
@@ -1707,10 +1707,10 @@ const SRD = {
   minor_unit: 2,
   currency: "Surinamese dollar",
 
-	entities: ["SR"],
+  entities: ["SR"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const MGA = {
@@ -1719,10 +1719,10 @@ const MGA = {
   minor_unit: 0,
   currency: "Malagasy ariary",
 
-	entities: ["MG"],
+  entities: ["MG"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AFN = {
@@ -1731,10 +1731,10 @@ const AFN = {
   minor_unit: 2,
   currency: "Afghan afghani",
 
-	entities: ["AF"],
+  entities: ["AF"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TJS = {
@@ -1743,10 +1743,10 @@ const TJS = {
   minor_unit: 2,
   currency: "Tajikistani somoni",
 
-	entities: ["TJ"],
+  entities: ["TJ"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const AOA = {
@@ -1755,10 +1755,10 @@ const AOA = {
   minor_unit: 2,
   currency: "Angolan kwanza",
 
-	entities: ["AO"],
+  entities: ["AO"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BGN = {
@@ -1767,10 +1767,10 @@ const BGN = {
   minor_unit: 2,
   currency: "Bulgarian lev",
 
-	entities: ["BG"],
+  entities: ["BG"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CDF = {
@@ -1779,10 +1779,10 @@ const CDF = {
   minor_unit: 2,
   currency: "Congolese franc",
 
-	entities: [],
+  entities: [],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BAM = {
@@ -1791,10 +1791,10 @@ const BAM = {
   minor_unit: 2,
   currency: "Bosnia and Herzegovina convertible mark",
 
-	entities: ["BA"],
+  entities: ["BA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const EUR = {
@@ -1803,10 +1803,10 @@ const EUR = {
   minor_unit: 2,
   currency: "Euro",
 
-	entities: ["AD","AT","AX","BE","BL","CY","DE","EE","ES","EU","FI","FR","GF","GP","GR","HR","IE","IT","LT","LU","LV","MC","ME","MF","MQ","MT","NL","PM","PT","RE","SI","SK","SM","TF","VA","XK","YT"],
+  entities: ["AD","AT","AX","BE","BL","CY","DE","EE","ES","EU","FI","FR","GF","GP","GR","HR","IE","IT","LT","LU","LV","MC","ME","MF","MQ","MT","NL","PM","PT","RE","SI","SK","SM","TF","VA","XK","YT"],
 
   currency_in_cn: "欧元",
-	currency_in_native: "Euro",
+  currency_in_native: "Euro",
 } as IEntity;
 
 const MXV = {
@@ -1815,10 +1815,10 @@ const MXV = {
   minor_unit: 2,
   currency: "Mexican Unidad de Inversion",
 
-	entities: ["MX"],
+  entities: ["MX"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const UAH = {
@@ -1827,10 +1827,10 @@ const UAH = {
   minor_unit: 2,
   currency: "Ukrainian hryvnia",
 
-	entities: ["UA"],
+  entities: ["UA"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const GEL = {
@@ -1839,10 +1839,10 @@ const GEL = {
   minor_unit: 2,
   currency: "Georgian lari",
 
-	entities: ["GE"],
+  entities: ["GE"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const PLN = {
@@ -1851,10 +1851,10 @@ const PLN = {
   minor_unit: 2,
   currency: "Polish złoty",
 
-	entities: ["PL"],
+  entities: ["PL"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const BRL = {
@@ -1863,10 +1863,10 @@ const BRL = {
   minor_unit: 2,
   currency: "Brazilian real",
 
-	entities: ["BR"],
+  entities: ["BR"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CLF = {
@@ -1875,10 +1875,10 @@ const CLF = {
   minor_unit: 4,
   currency: "Unidad de Fomento",
 
-	entities: ["CL"],
+  entities: ["CL"],
 
   currency_in_cn: "",
-	currency_in_native: "",
+  currency_in_native: "",
 } as IEntity;
 
 

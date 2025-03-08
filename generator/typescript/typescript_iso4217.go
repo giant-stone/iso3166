@@ -15,10 +15,10 @@ const fileTemplateIso4217 = `export interface IEntity {
   numeric_code: string;
   minor_unit: number;
   currency: string;
-	entities: string[];
+  entities: string[];
 
   currency_in_cn: string;
-	currency_in_native: string;
+  currency_in_native: string;
 }
 
 {{.Currencies}}
@@ -45,10 +45,10 @@ const lineTemplateIso4217 = `const {{.AlphabeticCode}} = {
   minor_unit: {{.MinorUnit}},
   currency: "{{.Currency}}",
 
-	entities: {{.Entities}},
+  entities: {{.Entities}},
 
   currency_in_cn: "{{.CurrencyInCN}}",
-	currency_in_native: "{{.CurrencyInNative}}",
+  currency_in_native: "{{.CurrencyInNative}}",
 } as IEntity;
 
 `

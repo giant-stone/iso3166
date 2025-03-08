@@ -60,24 +60,24 @@ var (
 		CurrencyInNative: "",
 	}
 
-	Kosovo = &iso.Entity{
-		Alpha2Code:  "XK",
-		Alpha3Code:  "XKV",
+	WestGermany = &iso.Entity{
+		Alpha2Code:  "",
+		Alpha3Code:  "XWG",
 		Alpha4Code:  "",
 		Independent: true,
 		NumericCode: "",
-		ShortName:   "Republic of Kosovo",
+		ShortName:   "Federal Republic of Germany",
 
 		PeriodOfValidity: "",
 
 		Alias:                    []string{},
-		CommonName:               "Kosovo",
-		CommonNameInAlphaNumeric: "Kosovo",
+		CommonName:               "West Germany",
+		CommonNameInAlphaNumeric: "WestGermany",
 		CallingCode:              "",
-		Languages:                []string{},
+		Languages:                []string{"German"},
 
-		RegionInCN:     "科索沃",
-		RegionInNative: "Kosova",
+		RegionInCN:     "西德",
+		RegionInNative: "",
 
 		AlphabeticCode:  "",
 		NumericCode4217: "",
@@ -312,23 +312,23 @@ var (
 		CurrencyInNative: "",
 	}
 
-	BurkinaFaso = &iso.Entity{
-		Alpha2Code:  "BF",
-		Alpha3Code:  "BFA",
-		Alpha4Code:  "",
-		Independent: true,
+	UpperVolta = &iso.Entity{
+		Alpha2Code:  "HV",
+		Alpha3Code:  "HVO",
+		Alpha4Code:  "HVBF",
+		Independent: false,
 		NumericCode: "854",
-		ShortName:   "Burkina Faso",
+		ShortName:   "Upper Volta",
 
-		PeriodOfValidity: "",
+		PeriodOfValidity: "1974–1984",
 
 		Alias:                    []string{},
-		CommonName:               "Burkina Faso",
-		CommonNameInAlphaNumeric: "BurkinaFaso",
+		CommonName:               "Upper Volta",
+		CommonNameInAlphaNumeric: "UpperVolta",
 		CallingCode:              "",
 		Languages:                []string{},
 
-		RegionInCN:     "布基纳法索",
+		RegionInCN:     "上沃尔特",
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
@@ -452,24 +452,24 @@ var (
 		CurrencyInNative: "",
 	}
 
-	WestGermany = &iso.Entity{
-		Alpha2Code:  "",
-		Alpha3Code:  "XWG",
+	Kosovo = &iso.Entity{
+		Alpha2Code:  "XK",
+		Alpha3Code:  "XKV",
 		Alpha4Code:  "",
 		Independent: true,
 		NumericCode: "",
-		ShortName:   "Federal Republic of Germany",
+		ShortName:   "Republic of Kosovo",
 
 		PeriodOfValidity: "",
 
 		Alias:                    []string{},
-		CommonName:               "West Germany",
-		CommonNameInAlphaNumeric: "WestGermany",
+		CommonName:               "Kosovo",
+		CommonNameInAlphaNumeric: "Kosovo",
 		CallingCode:              "",
-		Languages:                []string{"German"},
+		Languages:                []string{},
 
-		RegionInCN:     "西德",
-		RegionInNative: "",
+		RegionInCN:     "科索沃",
+		RegionInNative: "Kosova",
 
 		AlphabeticCode:  "",
 		NumericCode4217: "",
@@ -508,23 +508,23 @@ var (
 		CurrencyInNative: "",
 	}
 
-	UpperVolta = &iso.Entity{
-		Alpha2Code:  "HV",
-		Alpha3Code:  "HVO",
-		Alpha4Code:  "HVBF",
-		Independent: false,
+	BurkinaFaso = &iso.Entity{
+		Alpha2Code:  "BF",
+		Alpha3Code:  "BFA",
+		Alpha4Code:  "",
+		Independent: true,
 		NumericCode: "854",
-		ShortName:   "Upper Volta",
+		ShortName:   "Burkina Faso",
 
-		PeriodOfValidity: "1974–1984",
+		PeriodOfValidity: "",
 
 		Alias:                    []string{},
-		CommonName:               "Upper Volta",
-		CommonNameInAlphaNumeric: "UpperVolta",
+		CommonName:               "Burkina Faso",
+		CommonNameInAlphaNumeric: "BurkinaFaso",
 		CallingCode:              "",
 		Languages:                []string{},
 
-		RegionInCN:     "上沃尔特",
+		RegionInCN:     "布基纳法索",
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
@@ -900,34 +900,6 @@ var (
 		CurrencyInNative: "Pound sterling",
 	}
 
-	Burma = &iso.Entity{
-		Alpha2Code:  "BU",
-		Alpha3Code:  "BUR",
-		Alpha4Code:  "BUMM",
-		Independent: true,
-		NumericCode: "104",
-		ShortName:   "Burma",
-
-		PeriodOfValidity: "1974–1989",
-
-		Alias:                    []string{},
-		CommonName:               "Burma",
-		CommonNameInAlphaNumeric: "Burma",
-		CallingCode:              "",
-		Languages:                []string{},
-
-		RegionInCN:     "前缅甸",
-		RegionInNative: "",
-
-		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
-		Currency:        "",
-
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
-	}
-
 	CaribbeanNetherlands = &iso.Entity{
 		Alpha2Code:  "BQ",
 		Alpha3Code:  "ATB",
@@ -945,6 +917,34 @@ var (
 		Languages:                []string{},
 
 		RegionInCN:     "英属南极领地",
+		RegionInNative: "",
+
+		AlphabeticCode:  "",
+		NumericCode4217: "",
+		MinorUnit:       0,
+		Currency:        "",
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
+	Burma = &iso.Entity{
+		Alpha2Code:  "BU",
+		Alpha3Code:  "BUR",
+		Alpha4Code:  "BUMM",
+		Independent: true,
+		NumericCode: "104",
+		ShortName:   "Burma",
+
+		PeriodOfValidity: "1974–1989",
+
+		Alias:                    []string{},
+		CommonName:               "Burma",
+		CommonNameInAlphaNumeric: "Burma",
+		CallingCode:              "",
+		Languages:                []string{},
+
+		RegionInCN:     "前缅甸",
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
@@ -1376,23 +1376,23 @@ var (
 		CurrencyInNative: "",
 	}
 
-	Viet_NamDemocraticRepublicOf = &iso.Entity{
-		Alpha2Code:  "VD",
-		Alpha3Code:  "VDR",
-		Alpha4Code:  "VDVN",
-		Independent: false,
+	VietNam = &iso.Entity{
+		Alpha2Code:  "VN",
+		Alpha3Code:  "VNM",
+		Alpha4Code:  "",
+		Independent: true,
 		NumericCode: "704",
-		ShortName:   "Viet-Nam, Democratic Republic of",
+		ShortName:   "Viet Nam",
 
-		PeriodOfValidity: "1974–1977",
+		PeriodOfValidity: "",
 
 		Alias:                    []string{},
-		CommonName:               "Viet_Nam Democratic Republic Of",
-		CommonNameInAlphaNumeric: "Viet_NamDemocraticRepublicOf",
-		CallingCode:              "",
+		CommonName:               "Viet Nam",
+		CommonNameInAlphaNumeric: "VietNam",
+		CallingCode:              "84",
 		Languages:                []string{},
 
-		RegionInCN:     "越南民主共和国",
+		RegionInCN:     "越南",
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
@@ -1432,23 +1432,23 @@ var (
 		CurrencyInNative: "",
 	}
 
-	VietNam = &iso.Entity{
-		Alpha2Code:  "VN",
-		Alpha3Code:  "VNM",
-		Alpha4Code:  "",
-		Independent: true,
+	Viet_NamDemocraticRepublicOf = &iso.Entity{
+		Alpha2Code:  "VD",
+		Alpha3Code:  "VDR",
+		Alpha4Code:  "VDVN",
+		Independent: false,
 		NumericCode: "704",
-		ShortName:   "Viet Nam",
+		ShortName:   "Viet-Nam, Democratic Republic of",
 
-		PeriodOfValidity: "",
+		PeriodOfValidity: "1974–1977",
 
 		Alias:                    []string{},
-		CommonName:               "Viet Nam",
-		CommonNameInAlphaNumeric: "VietNam",
-		CallingCode:              "84",
+		CommonName:               "Viet_Nam Democratic Republic Of",
+		CommonNameInAlphaNumeric: "Viet_NamDemocraticRepublicOf",
+		CallingCode:              "",
 		Languages:                []string{},
 
-		RegionInCN:     "越南",
+		RegionInCN:     "越南民主共和国",
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
@@ -1740,34 +1740,6 @@ var (
 		CurrencyInNative: "",
 	}
 
-	Dahomey = &iso.Entity{
-		Alpha2Code:  "DY",
-		Alpha3Code:  "DHY",
-		Alpha4Code:  "DYBJ",
-		Independent: false,
-		NumericCode: "204",
-		ShortName:   "Dahomey",
-
-		PeriodOfValidity: "1974–1977",
-
-		Alias:                    []string{},
-		CommonName:               "Dahomey",
-		CommonNameInAlphaNumeric: "Dahomey",
-		CallingCode:              "",
-		Languages:                []string{},
-
-		RegionInCN:     "达荷美",
-		RegionInNative: "",
-
-		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
-		Currency:        "",
-
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
-	}
-
 	Benin = &iso.Entity{
 		Alpha2Code:  "BJ",
 		Alpha3Code:  "BEN",
@@ -1785,6 +1757,34 @@ var (
 		Languages:                []string{},
 
 		RegionInCN:     "贝宁",
+		RegionInNative: "",
+
+		AlphabeticCode:  "",
+		NumericCode4217: "",
+		MinorUnit:       0,
+		Currency:        "",
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
+	Dahomey = &iso.Entity{
+		Alpha2Code:  "DY",
+		Alpha3Code:  "DHY",
+		Alpha4Code:  "DYBJ",
+		Independent: false,
+		NumericCode: "204",
+		ShortName:   "Dahomey",
+
+		PeriodOfValidity: "1974–1977",
+
+		Alias:                    []string{},
+		CommonName:               "Dahomey",
+		CommonNameInAlphaNumeric: "Dahomey",
+		CallingCode:              "",
+		Languages:                []string{},
+
+		RegionInCN:     "达荷美",
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
@@ -2468,51 +2468,23 @@ var (
 		CurrencyInNative: "",
 	}
 
-	CocosKeelingIslands = &iso.Entity{
-		Alpha2Code:  "CC",
-		Alpha3Code:  "CCK",
+	NorfolkIsland = &iso.Entity{
+		Alpha2Code:  "NF",
+		Alpha3Code:  "NFK",
 		Alpha4Code:  "",
 		Independent: false,
-		NumericCode: "166",
-		ShortName:   "Cocos (Keeling) Islands",
+		NumericCode: "574",
+		ShortName:   "Norfolk Island",
 
 		PeriodOfValidity: "",
 
 		Alias:                    []string{},
-		CommonName:               "Cocos Keeling Islands",
-		CommonNameInAlphaNumeric: "CocosKeelingIslands",
+		CommonName:               "Norfolk Island",
+		CommonNameInAlphaNumeric: "NorfolkIsland",
 		CallingCode:              "",
 		Languages:                []string{},
 
-		RegionInCN:     "科科斯（基林）群岛",
-		RegionInNative: "",
-
-		AlphabeticCode:  "AUD",
-		NumericCode4217: "036",
-		MinorUnit:       2,
-		Currency:        "Australian dollar",
-
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
-	}
-
-	Nauru = &iso.Entity{
-		Alpha2Code:  "NR",
-		Alpha3Code:  "NRU",
-		Alpha4Code:  "",
-		Independent: true,
-		NumericCode: "520",
-		ShortName:   "Nauru",
-
-		PeriodOfValidity: "",
-
-		Alias:                    []string{},
-		CommonName:               "Nauru",
-		CommonNameInAlphaNumeric: "Nauru",
-		CallingCode:              "",
-		Languages:                []string{},
-
-		RegionInCN:     "瑙鲁",
+		RegionInCN:     "诺福克岛",
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
@@ -2608,23 +2580,51 @@ var (
 		CurrencyInNative: "",
 	}
 
-	NorfolkIsland = &iso.Entity{
-		Alpha2Code:  "NF",
-		Alpha3Code:  "NFK",
+	Nauru = &iso.Entity{
+		Alpha2Code:  "NR",
+		Alpha3Code:  "NRU",
 		Alpha4Code:  "",
-		Independent: false,
-		NumericCode: "574",
-		ShortName:   "Norfolk Island",
+		Independent: true,
+		NumericCode: "520",
+		ShortName:   "Nauru",
 
 		PeriodOfValidity: "",
 
 		Alias:                    []string{},
-		CommonName:               "Norfolk Island",
-		CommonNameInAlphaNumeric: "NorfolkIsland",
+		CommonName:               "Nauru",
+		CommonNameInAlphaNumeric: "Nauru",
 		CallingCode:              "",
 		Languages:                []string{},
 
-		RegionInCN:     "诺福克岛",
+		RegionInCN:     "瑙鲁",
+		RegionInNative: "",
+
+		AlphabeticCode:  "AUD",
+		NumericCode4217: "036",
+		MinorUnit:       2,
+		Currency:        "Australian dollar",
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
+	CocosKeelingIslands = &iso.Entity{
+		Alpha2Code:  "CC",
+		Alpha3Code:  "CCK",
+		Alpha4Code:  "",
+		Independent: false,
+		NumericCode: "166",
+		ShortName:   "Cocos (Keeling) Islands",
+
+		PeriodOfValidity: "",
+
+		Alias:                    []string{},
+		CommonName:               "Cocos Keeling Islands",
+		CommonNameInAlphaNumeric: "CocosKeelingIslands",
+		CallingCode:              "",
+		Languages:                []string{},
+
+		RegionInCN:     "科科斯（基林）群岛",
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
@@ -4316,34 +4316,6 @@ var (
 		CurrencyInNative: "",
 	}
 
-	Morocco = &iso.Entity{
-		Alpha2Code:  "MA",
-		Alpha3Code:  "MAR",
-		Alpha4Code:  "",
-		Independent: true,
-		NumericCode: "504",
-		ShortName:   "Morocco",
-
-		PeriodOfValidity: "",
-
-		Alias:                    []string{},
-		CommonName:               "Morocco",
-		CommonNameInAlphaNumeric: "Morocco",
-		CallingCode:              "",
-		Languages:                []string{},
-
-		RegionInCN:     "摩洛哥",
-		RegionInNative: "",
-
-		AlphabeticCode:  "MAD",
-		NumericCode4217: "504",
-		MinorUnit:       2,
-		Currency:        "Moroccan dirham",
-
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
-	}
-
 	WesternSahara = &iso.Entity{
 		Alpha2Code:  "EH",
 		Alpha3Code:  "ESH",
@@ -4361,6 +4333,34 @@ var (
 		Languages:                []string{},
 
 		RegionInCN:     "西撒哈拉",
+		RegionInNative: "",
+
+		AlphabeticCode:  "MAD",
+		NumericCode4217: "504",
+		MinorUnit:       2,
+		Currency:        "Moroccan dirham",
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
+	Morocco = &iso.Entity{
+		Alpha2Code:  "MA",
+		Alpha3Code:  "MAR",
+		Alpha4Code:  "",
+		Independent: true,
+		NumericCode: "504",
+		ShortName:   "Morocco",
+
+		PeriodOfValidity: "",
+
+		Alias:                    []string{},
+		CommonName:               "Morocco",
+		CommonNameInAlphaNumeric: "Morocco",
+		CallingCode:              "",
+		Languages:                []string{},
+
+		RegionInCN:     "摩洛哥",
 		RegionInNative: "",
 
 		AlphabeticCode:  "MAD",
@@ -4428,34 +4428,6 @@ var (
 		CurrencyInNative: "",
 	}
 
-	Curacao = &iso.Entity{
-		Alpha2Code:  "CW",
-		Alpha3Code:  "CUW",
-		Alpha4Code:  "",
-		Independent: false,
-		NumericCode: "531",
-		ShortName:   "Curaçao",
-
-		PeriodOfValidity: "",
-
-		Alias:                    []string{},
-		CommonName:               "Curacao",
-		CommonNameInAlphaNumeric: "Curacao",
-		CallingCode:              "",
-		Languages:                []string{},
-
-		RegionInCN:     "库拉索",
-		RegionInNative: "",
-
-		AlphabeticCode:  "ANG",
-		NumericCode4217: "532",
-		MinorUnit:       2,
-		Currency:        "Netherlands Antillean guilder",
-
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
-	}
-
 	SintMaartenDutchpart = &iso.Entity{
 		Alpha2Code:  "SX",
 		Alpha3Code:  "SXM",
@@ -4473,6 +4445,34 @@ var (
 		Languages:                []string{},
 
 		RegionInCN:     "荷属圣马丁",
+		RegionInNative: "",
+
+		AlphabeticCode:  "ANG",
+		NumericCode4217: "532",
+		MinorUnit:       2,
+		Currency:        "Netherlands Antillean guilder",
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
+	Curacao = &iso.Entity{
+		Alpha2Code:  "CW",
+		Alpha3Code:  "CUW",
+		Alpha4Code:  "",
+		Independent: false,
+		NumericCode: "531",
+		ShortName:   "Curaçao",
+
+		PeriodOfValidity: "",
+
+		Alias:                    []string{},
+		CommonName:               "Curacao",
+		CommonNameInAlphaNumeric: "Curacao",
+		CallingCode:              "",
+		Languages:                []string{},
+
+		RegionInCN:     "库拉索",
 		RegionInNative: "",
 
 		AlphabeticCode:  "ANG",
@@ -5156,34 +5156,6 @@ var (
 		CurrencyInNative: "",
 	}
 
-	Namibia = &iso.Entity{
-		Alpha2Code:  "NA",
-		Alpha3Code:  "NAM",
-		Alpha4Code:  "",
-		Independent: true,
-		NumericCode: "516",
-		ShortName:   "Namibia",
-
-		PeriodOfValidity: "",
-
-		Alias:                    []string{},
-		CommonName:               "Namibia",
-		CommonNameInAlphaNumeric: "Namibia",
-		CallingCode:              "",
-		Languages:                []string{},
-
-		RegionInCN:     "纳米比亚",
-		RegionInNative: "",
-
-		AlphabeticCode:  "ZAR",
-		NumericCode4217: "710",
-		MinorUnit:       2,
-		Currency:        "South African rand",
-
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
-	}
-
 	SouthAfrica = &iso.Entity{
 		Alpha2Code:  "ZA",
 		Alpha3Code:  "ZAF",
@@ -5201,6 +5173,34 @@ var (
 		Languages:                []string{},
 
 		RegionInCN:     "南非",
+		RegionInNative: "",
+
+		AlphabeticCode:  "ZAR",
+		NumericCode4217: "710",
+		MinorUnit:       2,
+		Currency:        "South African rand",
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
+	Namibia = &iso.Entity{
+		Alpha2Code:  "NA",
+		Alpha3Code:  "NAM",
+		Alpha4Code:  "",
+		Independent: true,
+		NumericCode: "516",
+		ShortName:   "Namibia",
+
+		PeriodOfValidity: "",
+
+		Alias:                    []string{},
+		CommonName:               "Namibia",
+		CommonNameInAlphaNumeric: "Namibia",
+		CallingCode:              "",
+		Languages:                []string{},
+
+		RegionInCN:     "纳米比亚",
 		RegionInNative: "",
 
 		AlphabeticCode:  "ZAR",
@@ -5632,6 +5632,62 @@ var (
 		CurrencyInNative: "",
 	}
 
+	UnitedStatesMinorOutlyingIslands = &iso.Entity{
+		Alpha2Code:  "UM",
+		Alpha3Code:  "UMI",
+		Alpha4Code:  "",
+		Independent: false,
+		NumericCode: "581",
+		ShortName:   "United States Minor Outlying Islands",
+
+		PeriodOfValidity: "",
+
+		Alias:                    []string{},
+		CommonName:               "United States Minor Outlying Islands",
+		CommonNameInAlphaNumeric: "UnitedStatesMinorOutlyingIslands",
+		CallingCode:              "",
+		Languages:                []string{},
+
+		RegionInCN:     "美国本土外小岛屿",
+		RegionInNative: "",
+
+		AlphabeticCode:  "USD",
+		NumericCode4217: "840",
+		MinorUnit:       2,
+		Currency:        "United States dollar",
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
+	Panama = &iso.Entity{
+		Alpha2Code:  "PA",
+		Alpha3Code:  "PAN",
+		Alpha4Code:  "",
+		Independent: true,
+		NumericCode: "591",
+		ShortName:   "Panama",
+
+		PeriodOfValidity: "",
+
+		Alias:                    []string{},
+		CommonName:               "Panama",
+		CommonNameInAlphaNumeric: "Panama",
+		CallingCode:              "507",
+		Languages:                []string{},
+
+		RegionInCN:     "巴拿马",
+		RegionInNative: "",
+
+		AlphabeticCode:  "USD",
+		NumericCode4217: "840",
+		MinorUnit:       2,
+		Currency:        "United States dollar",
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
 	TurksAndCaicosIslands = &iso.Entity{
 		Alpha2Code:  "TC",
 		Alpha3Code:  "TCA",
@@ -5649,62 +5705,6 @@ var (
 		Languages:                []string{},
 
 		RegionInCN:     "特克斯和凯科斯群岛",
-		RegionInNative: "",
-
-		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
-		Currency:        "United States dollar",
-
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
-	}
-
-	PuertoRico = &iso.Entity{
-		Alpha2Code:  "PR",
-		Alpha3Code:  "PRI",
-		Alpha4Code:  "",
-		Independent: false,
-		NumericCode: "630",
-		ShortName:   "Puerto Rico",
-
-		PeriodOfValidity: "",
-
-		Alias:                    []string{},
-		CommonName:               "Puerto Rico",
-		CommonNameInAlphaNumeric: "PuertoRico",
-		CallingCode:              "",
-		Languages:                []string{},
-
-		RegionInCN:     "波多黎各",
-		RegionInNative: "",
-
-		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
-		Currency:        "United States dollar",
-
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
-	}
-
-	BritishIndianOceanTerritory = &iso.Entity{
-		Alpha2Code:  "IO",
-		Alpha3Code:  "IOT",
-		Alpha4Code:  "",
-		Independent: false,
-		NumericCode: "086",
-		ShortName:   "British Indian Ocean Territory",
-
-		PeriodOfValidity: "",
-
-		Alias:                    []string{},
-		CommonName:               "British Indian Ocean Territory",
-		CommonNameInAlphaNumeric: "BritishIndianOceanTerritory",
-		CallingCode:              "",
-		Languages:                []string{},
-
-		RegionInCN:     "英属印度洋领地",
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
@@ -5828,23 +5828,23 @@ var (
 		CurrencyInNative: "",
 	}
 
-	UnitedStatesMinorOutlyingIslands = &iso.Entity{
-		Alpha2Code:  "UM",
-		Alpha3Code:  "UMI",
+	BritishIndianOceanTerritory = &iso.Entity{
+		Alpha2Code:  "IO",
+		Alpha3Code:  "IOT",
 		Alpha4Code:  "",
 		Independent: false,
-		NumericCode: "581",
-		ShortName:   "United States Minor Outlying Islands",
+		NumericCode: "086",
+		ShortName:   "British Indian Ocean Territory",
 
 		PeriodOfValidity: "",
 
 		Alias:                    []string{},
-		CommonName:               "United States Minor Outlying Islands",
-		CommonNameInAlphaNumeric: "UnitedStatesMinorOutlyingIslands",
+		CommonName:               "British Indian Ocean Territory",
+		CommonNameInAlphaNumeric: "BritishIndianOceanTerritory",
 		CallingCode:              "",
 		Languages:                []string{},
 
-		RegionInCN:     "美国本土外小岛屿",
+		RegionInCN:     "英属印度洋领地",
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
@@ -5968,23 +5968,23 @@ var (
 		CurrencyInNative: "",
 	}
 
-	Panama = &iso.Entity{
-		Alpha2Code:  "PA",
-		Alpha3Code:  "PAN",
+	PuertoRico = &iso.Entity{
+		Alpha2Code:  "PR",
+		Alpha3Code:  "PRI",
 		Alpha4Code:  "",
-		Independent: true,
-		NumericCode: "591",
-		ShortName:   "Panama",
+		Independent: false,
+		NumericCode: "630",
+		ShortName:   "Puerto Rico",
 
 		PeriodOfValidity: "",
 
 		Alias:                    []string{},
-		CommonName:               "Panama",
-		CommonNameInAlphaNumeric: "Panama",
-		CallingCode:              "507",
+		CommonName:               "Puerto Rico",
+		CommonNameInAlphaNumeric: "PuertoRico",
+		CallingCode:              "",
 		Languages:                []string{},
 
-		RegionInCN:     "巴拿马",
+		RegionInCN:     "波多黎各",
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
@@ -7765,7 +7765,7 @@ var (
 	FromCode = map[string]iso.IEntity{
 		"CF":   CentralAfricanRepublic,
 		"NC":   NewCaledonia,
-		"XK":   Kosovo,
+		"XWG":  WestGermany,
 		"CS":   SerbiaAndMontenegro,
 		"CSXX": SerbiaAndMontenegro,
 		"AQ":   Antarctica,
@@ -7778,16 +7778,16 @@ var (
 		"VE":   VenezuelaBolivarianRepublicOf,
 		"TP":   EastTimor,
 		"TPTL": EastTimor,
-		"BF":   BurkinaFaso,
+		"HV":   UpperVolta,
+		"HVBF": UpperVolta,
 		"TG":   Togo,
 		"TL":   Timor_Leste,
 		"PZ":   PanamaCanalZone,
 		"PZPA": PanamaCanalZone,
 		"RU":   Russia,
-		"XWG":  WestGermany,
+		"XK":   Kosovo,
 		"TD":   Chad,
-		"HV":   UpperVolta,
-		"HVBF": UpperVolta,
+		"BF":   BurkinaFaso,
 		"KN":   SaintKittsAndNevis,
 		"LC":   SaintLucia,
 		"BO":   BoliviaPlurinationalStateOf,
@@ -7804,10 +7804,10 @@ var (
 		"TZ":   Tanzania,
 		"BN":   Brunei,
 		"GB":   UnitedKingdom,
-		"BU":   Burma,
-		"BUMM": Burma,
 		"BQ":   CaribbeanNetherlands,
 		"BQAQ": CaribbeanNetherlands,
+		"BU":   Burma,
+		"BUMM": Burma,
 		"AN":   NetherlandsAntilles,
 		"ANHH": NetherlandsAntilles,
 		"BY":   ByelorussianSSR,
@@ -7829,10 +7829,10 @@ var (
 		"MIUM": MidwayIslands,
 		"TW":   Taiwan,
 		"LA":   Laos,
+		"VN":   VietNam,
+		"ML":   Mali,
 		"VD":   Viet_NamDemocraticRepublicOf,
 		"VDVN": Viet_NamDemocraticRepublicOf,
-		"ML":   Mali,
-		"VN":   VietNam,
 		"FQ":   FrenchSouthernAndAntarcticTerritories,
 		"FQHH": FrenchSouthernAndAntarcticTerritories,
 		"CG":   Congo,
@@ -7847,9 +7847,9 @@ var (
 		"JT":   JohnstonIsland,
 		"JTUM": JohnstonIsland,
 		"CZ":   CzechRepublic,
+		"BJ":   Benin,
 		"DY":   Dahomey,
 		"DYBJ": Dahomey,
-		"BJ":   Benin,
 		"CI":   IvoryCoast,
 		"DM":   Dominica,
 		"YD":   YemenDemocratic,
@@ -7880,12 +7880,12 @@ var (
 		"DZ":   Algeria,
 		"AR":   Argentina,
 		"KI":   Kiribati,
-		"CC":   CocosKeelingIslands,
-		"NR":   Nauru,
+		"NF":   NorfolkIsland,
 		"AU":   Australia,
 		"TV":   Tuvalu,
 		"HM":   HeardIslandAndMcDonaldIslands,
-		"NF":   NorfolkIsland,
+		"NR":   Nauru,
+		"CC":   CocosKeelingIslands,
 		"CX":   ChristmasIsland,
 		"BS":   Bahamas,
 		"BH":   Bahrain,
@@ -7946,12 +7946,12 @@ var (
 		"MU":   Mauritius,
 		"MX":   Mexico,
 		"MN":   Mongolia,
-		"MA":   Morocco,
 		"EH":   WesternSahara,
+		"MA":   Morocco,
 		"OM":   Oman,
 		"NP":   Nepal,
-		"CW":   Curacao,
 		"SX":   SintMaartenDutchpart,
+		"CW":   Curacao,
 		"AW":   Aruba,
 		"VU":   Vanuatu,
 		"NU":   Niue,
@@ -7976,8 +7976,8 @@ var (
 		"SO":   Somalia,
 		"LS":   Lesotho,
 		"SZ":   Eswatini,
-		"NA":   Namibia,
 		"ZA":   SouthAfrica,
+		"NA":   Namibia,
 		"SS":   SouthSudan,
 		"SE":   Sweden,
 		"LI":   Liechtenstein,
@@ -7993,19 +7993,19 @@ var (
 		"GG":   Guernsey,
 		"IM":   IsleOfMan,
 		"JE":   Jersey,
+		"UM":   UnitedStatesMinorOutlyingIslands,
+		"PA":   Panama,
 		"TC":   TurksAndCaicosIslands,
-		"PR":   PuertoRico,
-		"IO":   BritishIndianOceanTerritory,
 		"PW":   Palau,
 		"MH":   MarshallIslands,
 		"AS":   AmericanSamoa,
 		"FM":   MicronesiaFederatedStatesOf,
-		"UM":   UnitedStatesMinorOutlyingIslands,
+		"IO":   BritishIndianOceanTerritory,
 		"MP":   NorthernMarianaIslands,
 		"VG":   UnitedStatesVirginIslands,
 		"GU":   Guam,
 		"EC":   Ecuador,
-		"PA":   Panama,
+		"PR":   PuertoRico,
 		"SV":   ElSalvador,
 		"UY":   Uruguay,
 		"UZ":   Uzbekistan,
@@ -8077,7 +8077,7 @@ var (
 	FromRegionInCN = map[string]iso.IEntity{
 		"中非":           CentralAfricanRepublic,
 		"新喀里多尼亚":       NewCaledonia,
-		"科索沃":          Kosovo,
+		"西德":           WestGermany,
 		"塞尔维亚和黑山":      SerbiaAndMontenegro,
 		"南极洲":          Antarctica,
 		"南斯拉夫":         Yugoslavia,
@@ -8086,14 +8086,14 @@ var (
 		"安提瓜和巴布达":      AntiguaAndBarbuda,
 		"委内瑞拉":         VenezuelaBolivarianRepublicOf,
 		"东帝汶省":         EastTimor,
-		"布基纳法索":        BurkinaFaso,
+		"上沃尔特":         UpperVolta,
 		"多哥":           Togo,
 		"东帝汶":          Timor_Leste,
 		"巴拿马运河区":       PanamaCanalZone,
 		"俄罗斯":          Russia,
-		"西德":           WestGermany,
+		"科索沃":          Kosovo,
 		"乍得":           Chad,
-		"上沃尔特":         UpperVolta,
+		"布基纳法索":        BurkinaFaso,
 		"圣基茨和尼维斯":      SaintKittsAndNevis,
 		"圣卢西亚":         SaintLucia,
 		"玻利维亚":         BoliviaPlurinationalStateOf,
@@ -8107,8 +8107,8 @@ var (
 		"坦桑尼亚":         Tanzania,
 		"文莱":           Brunei,
 		"英国":           UnitedKingdom,
-		"前缅甸":          Burma,
 		"英属南极领地":       CaribbeanNetherlands,
+		"前缅甸":          Burma,
 		"荷属安的列斯":       NetherlandsAntilles,
 		"白俄罗斯苏维埃社会主义共和国": ByelorussianSSR,
 		"圣文森特和格林纳丁斯":     SaintVincentAndTheGrenadines,
@@ -8124,9 +8124,9 @@ var (
 		"中途岛":            MidwayIslands,
 		"中国台湾":           Taiwan,
 		"老挝":             Laos,
-		"越南民主共和国":        Viet_NamDemocraticRepublicOf,
-		"马里":             Mali,
 		"越南":             VietNam,
+		"马里":             Mali,
+		"越南民主共和国":        Viet_NamDemocraticRepublicOf,
 		"前法属南部和南极领地":     FrenchSouthernAndAntarcticTerritories,
 		"刚果共和国":          Congo,
 		"扎伊尔":            Zaire,
@@ -8137,8 +8137,8 @@ var (
 		"北韩":             NorthKorea,
 		"约翰斯顿环礁":         JohnstonIsland,
 		"捷克":             CzechRepublic,
-		"达荷美":            Dahomey,
 		"贝宁":             Benin,
+		"达荷美":            Dahomey,
 		"科特迪瓦":           IvoryCoast,
 		"多米尼克":           Dominica,
 		"也门民主人民共和国":      YemenDemocratic,
@@ -8163,12 +8163,12 @@ var (
 		"阿尔及利亚":          Algeria,
 		"阿根廷":            Argentina,
 		"基里巴斯":           Kiribati,
-		"科科斯（基林）群岛":      CocosKeelingIslands,
-		"瑙鲁":             Nauru,
+		"诺福克岛":           NorfolkIsland,
 		"澳大利亚":           Australia,
 		"图瓦卢":            Tuvalu,
 		"赫德岛和麦克唐纳群岛":     HeardIslandAndMcDonaldIslands,
-		"诺福克岛":           NorfolkIsland,
+		"瑙鲁":             Nauru,
+		"科科斯（基林）群岛":      CocosKeelingIslands,
 		"圣诞岛":            ChristmasIsland,
 		"巴哈马":            Bahamas,
 		"巴林":             Bahrain,
@@ -8229,12 +8229,12 @@ var (
 		"毛里求斯":           Mauritius,
 		"墨西哥":            Mexico,
 		"蒙古国":            Mongolia,
-		"摩洛哥":            Morocco,
 		"西撒哈拉":           WesternSahara,
+		"摩洛哥":            Morocco,
 		"阿曼":             Oman,
 		"尼泊尔":            Nepal,
-		"库拉索":            Curacao,
 		"荷属圣马丁":          SintMaartenDutchpart,
+		"库拉索":            Curacao,
 		"阿鲁巴":            Aruba,
 		"瓦努阿图":           Vanuatu,
 		"纽埃":             Niue,
@@ -8259,8 +8259,8 @@ var (
 		"索马里":            Somalia,
 		"莱索托":            Lesotho,
 		"斯威士兰":           Eswatini,
-		"纳米比亚":           Namibia,
 		"南非":             SouthAfrica,
+		"纳米比亚":           Namibia,
 		"南苏丹":            SouthSudan,
 		"瑞典":             Sweden,
 		"列支敦士登":          Liechtenstein,
@@ -8276,19 +8276,19 @@ var (
 		"根西":        Guernsey,
 		"马恩岛":       IsleOfMan,
 		"泽西":        Jersey,
+		"美国本土外小岛屿":  UnitedStatesMinorOutlyingIslands,
+		"巴拿马":       Panama,
 		"特克斯和凯科斯群岛": TurksAndCaicosIslands,
-		"波多黎各":      PuertoRico,
-		"英属印度洋领地":   BritishIndianOceanTerritory,
 		"帕劳":        Palau,
 		"马绍尔群岛":     MarshallIslands,
 		"美属萨摩亚":     AmericanSamoa,
 		"密克罗尼西亚联邦":  MicronesiaFederatedStatesOf,
-		"美国本土外小岛屿":  UnitedStatesMinorOutlyingIslands,
+		"英属印度洋领地":   BritishIndianOceanTerritory,
 		"北马里亚纳群岛":   NorthernMarianaIslands,
 		"英属维尔京群岛":   UnitedStatesVirginIslands,
 		"关岛":        Guam,
 		"厄瓜多尔":      Ecuador,
-		"巴拿马":       Panama,
+		"波多黎各":      PuertoRico,
 		"萨尔瓦多":      ElSalvador,
 		"乌拉圭":       Uruguay,
 		"乌兹别克斯坦":    Uzbekistan,
@@ -8359,7 +8359,7 @@ var (
 	FromCommonNameInAlphaNumeric = map[string]iso.IEntity{
 		"CentralAfricanRepublic":                 CentralAfricanRepublic,
 		"NewCaledonia":                           NewCaledonia,
-		"Kosovo":                                 Kosovo,
+		"WestGermany":                            WestGermany,
 		"SerbiaAndMontenegro":                    SerbiaAndMontenegro,
 		"Antarctica":                             Antarctica,
 		"Yugoslavia":                             Yugoslavia,
@@ -8368,14 +8368,14 @@ var (
 		"AntiguaAndBarbuda":                      AntiguaAndBarbuda,
 		"VenezuelaBolivarianRepublicOf":          VenezuelaBolivarianRepublicOf,
 		"EastTimor":                              EastTimor,
-		"BurkinaFaso":                            BurkinaFaso,
+		"UpperVolta":                             UpperVolta,
 		"Togo":                                   Togo,
 		"Timor_Leste":                            Timor_Leste,
 		"PanamaCanalZone":                        PanamaCanalZone,
 		"Russia":                                 Russia,
-		"WestGermany":                            WestGermany,
+		"Kosovo":                                 Kosovo,
 		"Chad":                                   Chad,
-		"UpperVolta":                             UpperVolta,
+		"BurkinaFaso":                            BurkinaFaso,
 		"SaintKittsAndNevis":                     SaintKittsAndNevis,
 		"SaintLucia":                             SaintLucia,
 		"BoliviaPlurinationalStateOf":            BoliviaPlurinationalStateOf,
@@ -8389,8 +8389,8 @@ var (
 		"Tanzania":                               Tanzania,
 		"Brunei":                                 Brunei,
 		"UnitedKingdom":                          UnitedKingdom,
-		"Burma":                                  Burma,
 		"CaribbeanNetherlands":                   CaribbeanNetherlands,
+		"Burma":                                  Burma,
 		"NetherlandsAntilles":                    NetherlandsAntilles,
 		"ByelorussianSSR":                        ByelorussianSSR,
 		"SaintVincentAndTheGrenadines":           SaintVincentAndTheGrenadines,
@@ -8406,9 +8406,9 @@ var (
 		"MidwayIslands":                          MidwayIslands,
 		"Taiwan":                                 Taiwan,
 		"Laos":                                   Laos,
-		"Viet_NamDemocraticRepublicOf":           Viet_NamDemocraticRepublicOf,
-		"Mali":                                   Mali,
 		"VietNam":                                VietNam,
+		"Mali":                                   Mali,
+		"Viet_NamDemocraticRepublicOf":           Viet_NamDemocraticRepublicOf,
 		"FrenchSouthernAndAntarcticTerritories":  FrenchSouthernAndAntarcticTerritories,
 		"Congo":                                  Congo,
 		"Zaire":                                  Zaire,
@@ -8419,8 +8419,8 @@ var (
 		"NorthKorea":                             NorthKorea,
 		"JohnstonIsland":                         JohnstonIsland,
 		"CzechRepublic":                          CzechRepublic,
-		"Dahomey":                                Dahomey,
 		"Benin":                                  Benin,
+		"Dahomey":                                Dahomey,
 		"IvoryCoast":                             IvoryCoast,
 		"Dominica":                               Dominica,
 		"YemenDemocratic":                        YemenDemocratic,
@@ -8445,12 +8445,12 @@ var (
 		"Algeria":                                Algeria,
 		"Argentina":                              Argentina,
 		"Kiribati":                               Kiribati,
-		"CocosKeelingIslands":                    CocosKeelingIslands,
-		"Nauru":                                  Nauru,
+		"NorfolkIsland":                          NorfolkIsland,
 		"Australia":                              Australia,
 		"Tuvalu":                                 Tuvalu,
 		"HeardIslandAndMcDonaldIslands":          HeardIslandAndMcDonaldIslands,
-		"NorfolkIsland":                          NorfolkIsland,
+		"Nauru":                                  Nauru,
+		"CocosKeelingIslands":                    CocosKeelingIslands,
 		"ChristmasIsland":                        ChristmasIsland,
 		"Bahamas":                                Bahamas,
 		"Bahrain":                                Bahrain,
@@ -8511,12 +8511,12 @@ var (
 		"Mauritius":                              Mauritius,
 		"Mexico":                                 Mexico,
 		"Mongolia":                               Mongolia,
-		"Morocco":                                Morocco,
 		"WesternSahara":                          WesternSahara,
+		"Morocco":                                Morocco,
 		"Oman":                                   Oman,
 		"Nepal":                                  Nepal,
-		"Curacao":                                Curacao,
 		"SintMaartenDutchpart":                   SintMaartenDutchpart,
+		"Curacao":                                Curacao,
 		"Aruba":                                  Aruba,
 		"Vanuatu":                                Vanuatu,
 		"Niue":                                   Niue,
@@ -8541,8 +8541,8 @@ var (
 		"Somalia":                                Somalia,
 		"Lesotho":                                Lesotho,
 		"Eswatini":                               Eswatini,
-		"Namibia":                                Namibia,
 		"SouthAfrica":                            SouthAfrica,
+		"Namibia":                                Namibia,
 		"SouthSudan":                             SouthSudan,
 		"Sweden":                                 Sweden,
 		"Liechtenstein":                          Liechtenstein,
@@ -8558,19 +8558,19 @@ var (
 		"Guernsey":                               Guernsey,
 		"IsleOfMan":                              IsleOfMan,
 		"Jersey":                                 Jersey,
+		"UnitedStatesMinorOutlyingIslands":       UnitedStatesMinorOutlyingIslands,
+		"Panama":                                 Panama,
 		"TurksAndCaicosIslands":                  TurksAndCaicosIslands,
-		"PuertoRico":                             PuertoRico,
-		"BritishIndianOceanTerritory":            BritishIndianOceanTerritory,
 		"Palau":                                  Palau,
 		"MarshallIslands":                        MarshallIslands,
 		"AmericanSamoa":                          AmericanSamoa,
 		"MicronesiaFederatedStatesOf":            MicronesiaFederatedStatesOf,
-		"UnitedStatesMinorOutlyingIslands":       UnitedStatesMinorOutlyingIslands,
+		"BritishIndianOceanTerritory":            BritishIndianOceanTerritory,
 		"NorthernMarianaIslands":                 NorthernMarianaIslands,
 		"UnitedStatesVirginIslands":              UnitedStatesVirginIslands,
 		"Guam":                                   Guam,
 		"Ecuador":                                Ecuador,
-		"Panama":                                 Panama,
+		"PuertoRico":                             PuertoRico,
 		"ElSalvador":                             ElSalvador,
 		"Uruguay":                                Uruguay,
 		"Uzbekistan":                             Uzbekistan,
