@@ -18,6 +18,7 @@ const fileTemplateIso4217 = `export interface IEntity {
 	entities: string[];
 
   currency_in_cn: string;
+	currency_in_native: string;
 }
 
 {{.Currencies}}
@@ -47,6 +48,7 @@ const lineTemplateIso4217 = `const {{.AlphabeticCode}} = {
 	entities: {{.Entities}},
 
   currency_in_cn: "{{.CurrencyInCN}}",
+	currency_in_native: "{{.CurrencyInNative}}",
 } as IEntity;
 
 `
@@ -88,7 +90,8 @@ func (g *Generator) bytesIso4217(fmtPretty bool) (rs []byte, err error) {
 
 			"Entities": template.HTML(serializeSliceStringForTsCode(v.GetEntities())),
 
-			"CurrencyInCN": v.GetCurrencyInCN(),
+			"CurrencyInCN":     v.GetCurrencyInCN(),
+			"CurrencyInNative": v.GetCurrencyInNative(),
 		})
 		if err != nil {
 			return nil, err

@@ -33,6 +33,7 @@ const lineTemplateIso4217 = `	{{.AlphabeticCode}} = &iso.Entity{
 		Entities: []string{ {{.Entities}} },
 		
 		CurrencyInCN: "{{.CurrencyInCN}}",
+		CurrencyInNative: "{{.CurrencyInNative}}",
 	}
 
 `
@@ -69,7 +70,8 @@ func (g *Generator) bytesIso4217(fmtPretty bool) (rs []byte, err error) {
 
 			"Entities": template.HTML(serializeSliceStringForGoCode(v.GetEntities())),
 
-			"CurrencyInCN": v.GetCurrencyInCN(),
+			"CurrencyInCN":     v.GetCurrencyInCN(),
+			"CurrencyInNative": v.GetCurrencyInNative(),
 		})
 		if err != nil {
 			return nil, err

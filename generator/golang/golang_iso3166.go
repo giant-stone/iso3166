@@ -62,6 +62,7 @@ const lineTemplateIso3166 = `	{{.CommonNameInAlphaNumeric}} = &iso.Entity{
 		Currency: "{{.Currency}}",
 		
 		CurrencyInCN: "{{.CurrencyInCN}}",
+		CurrencyInNative: "{{.CurrencyInNative}}",
 	}
 
 `
@@ -151,7 +152,8 @@ func (g *Generator) bytesIso3166(fmtPretty bool) (rs []byte, err error) {
 			"MinorUnit":       v.GetMinorUnit(),
 			"Currency":        v.GetCurrency(),
 
-			"CurrencyInCN": v.GetCurrencyInCN(),
+			"CurrencyInCN":     v.GetCurrencyInCN(),
+			"CurrencyInNative": v.GetCurrencyInNative(),
 		})
 		if err != nil {
 			return nil, err

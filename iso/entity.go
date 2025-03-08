@@ -86,7 +86,18 @@ type Entity struct {
 	//
 
 	// The currency (entity) in Simplified Chinese.
-	CurrencyInCN string
+	CurrencyInCN     string
+	CurrencyInNative string
+}
+
+// GetCurrencyInNative implements IEntity.
+func (it *Entity) GetCurrencyInNative() string {
+	return it.CurrencyInNative
+}
+
+// SetCurrencyInNative implements IEntity.
+func (it *Entity) SetCurrencyInNative(v string) {
+	it.CurrencyInNative = v
 }
 
 // GetEntities implements IEntity.
@@ -109,11 +120,12 @@ func (it *Entity) Clone() IEntity {
 
 // String implements IEntity.
 func (it *Entity) String() string {
-	return fmt.Sprintf("<Entity Alpha2Code=%s Alpha3Code=%s Alpha3Code=%s CommonName=%s>",
+	return fmt.Sprintf("<Entity Alpha2Code=%s Alpha3Code=%s Alpha4Code=%s CommonName=%s AlphabeticCode=%s >",
 		it.Alpha2Code,
 		it.Alpha3Code,
 		it.Alpha4Code,
 		it.CommonName,
+		it.AlphabeticCode,
 	)
 }
 

@@ -266,7 +266,7 @@ func (i *Table) List() []IEntity {
 			rs = append(rs, v)
 		}
 
-		sort.Sort(SortByCommonName(rs))
+		sort.Sort(SortByNumericCode(rs))
 
 	} else if i.GroupBy == GroupByIso4217AlphabeticCode {
 		for _, v := range i.MapKeyIsIso4217AlphabeticCode {
@@ -279,6 +279,8 @@ func (i *Table) List() []IEntity {
 			rs = append(rs, v)
 		}
 	}
+
+	sort.Sort(SortByNumericCode4217(rs))
 
 	return rs
 }
@@ -364,15 +366,33 @@ func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, a
 
 		for _, commonNameOrCode := range entitiesUseThisCurrency {
 			if _, dup := uniq[commonNameOrCode]; !dup {
+
+				var entity IEntity
+
 				if IsAlpha2Code(commonNameOrCode) {
 					uniq[commonNameOrCode] = struct{}{}
 					alpha2codesUseThisCurrency = append(alpha2codesUseThisCurrency, commonNameOrCode)
+
+					entity = t.GetByAlpha2Code(commonNameOrCode)
+
 				} else {
+					entity = t.GetByVariantName(commonNameOrCode)
+
 					if entity := t.GetByVariantName(commonNameOrCode); entity != nil {
 						if code := entity.GetAlpha2Code(); code != "" {
 							uniq[commonNameOrCode] = struct{}{}
 							alpha2codesUseThisCurrency = append(alpha2codesUseThisCurrency, code)
 						}
+					}
+				}
+
+				if entity != nil {
+					if currencyInCN := entity.GetCurrencyInCN(); currencyInCN != "" && destItem.GetCurrencyInCN() == "" {
+						destItem.SetCurrencyInCN(currencyInCN)
+					}
+
+					if currencyInNative := entity.GetCurrencyInNative(); currencyInNative != "" && destItem.GetCurrencyInNative() == "" {
+						destItem.SetCurrencyInNative(currencyInNative)
 					}
 				}
 			}
@@ -497,6 +517,11 @@ func (i *Table) mergeGroupByIso3166CodeOrVariantName(srcItems map[string]IEntity
 					destItem.SetCurrencyInCN(srcItem.GetCurrencyInCN())
 				}
 
+				currencyInNative := srcItem.GetCurrencyInNative()
+				if currencyInNative != "" {
+					destItem.SetCurrencyInNative(currencyInNative)
+				}
+
 				i.Put(destItem)
 
 			} else if action == MergeActionFillWithIso4217 {
@@ -505,7 +530,16 @@ func (i *Table) mergeGroupByIso3166CodeOrVariantName(srcItems map[string]IEntity
 				destItem.SetNumericCode4217(srcItem.GetNumericCode4217())
 				destItem.SetMinorUnit(srcItem.GetMinorUnit())
 				destItem.SetCurrency(srcItem.GetCurrency())
-				destItem.SetCurrencyInCN(srcItem.GetCurrencyInCN())
+
+				currencyInCN := srcItem.GetCurrencyInCN()
+				if currencyInCN != "" {
+					destItem.SetCurrencyInCN(srcItem.GetCurrencyInCN())
+				}
+
+				currencyInNative := srcItem.GetCurrencyInNative()
+				if currencyInNative != "" {
+					destItem.SetCurrencyInNative(currencyInNative)
+				}
 
 			} else if action == MergeActionOnlyOverwriteCapitalsAndLangs {
 
@@ -565,6 +599,22 @@ func (items SortByCommonName) Len() int      { return len(items) }
 func (items SortByCommonName) Swap(i, j int) { items[i], items[j] = items[j], items[i] }
 func (items SortByCommonName) Less(i, j int) bool {
 	return items[i].GetCommonName() < items[j].GetCommonName()
+}
+
+type SortByNumericCode []IEntity
+
+func (items SortByNumericCode) Len() int      { return len(items) }
+func (items SortByNumericCode) Swap(i, j int) { items[i], items[j] = items[j], items[i] }
+func (items SortByNumericCode) Less(i, j int) bool {
+	return items[i].GetNumericCode() < items[j].GetNumericCode()
+}
+
+type SortByNumericCode4217 []IEntity
+
+func (items SortByNumericCode4217) Len() int      { return len(items) }
+func (items SortByNumericCode4217) Swap(i, j int) { items[i], items[j] = items[j], items[i] }
+func (items SortByNumericCode4217) Less(i, j int) bool {
+	return items[i].GetNumericCode4217() < items[j].GetNumericCode4217()
 }
 
 func AutoFillCommonNamesFromShortName(entity IEntity) {

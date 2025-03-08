@@ -27,7 +27,12 @@ func TestTable_MergeActionMerge(t *testing.T) {
 			name: "override the CommonName field value",
 			fields: fields{
 				MapEntities: map[string]iso.IEntity{
-					"CN": &iso.Entity{Alpha2Code: "CN", CommonName: "China"},
+					"CN": &iso.Entity{
+						Alpha2Code: "CN", CommonName: "China",
+
+						CurrencyInCN:     "人民币",
+						CurrencyInNative: "人民币",
+					},
 					"JP": &iso.Entity{Alpha2Code: "JP", CommonName: "Japan"},
 					"KR": &iso.Entity{Alpha2Code: "KR", CommonName: "Korea (Republic of)"},
 				},
@@ -40,7 +45,12 @@ func TestTable_MergeActionMerge(t *testing.T) {
 			},
 
 			wantEntities: map[string]iso.IEntity{
-				"CN": &iso.Entity{Alpha2Code: "CN", CommonName: "China", CommonNameInAlphaNumeric: "China"},
+				"CN": &iso.Entity{
+					Alpha2Code: "CN", CommonName: "China", CommonNameInAlphaNumeric: "China",
+
+					CurrencyInCN:     "人民币",
+					CurrencyInNative: "人民币",
+				},
 				"JP": &iso.Entity{Alpha2Code: "JP", CommonName: "Japan", CommonNameInAlphaNumeric: "Japan"},
 				"KR": &iso.Entity{Alpha2Code: "KR", CommonName: "South Korea", CommonNameInAlphaNumeric: "SouthKorea"},
 			},
@@ -52,12 +62,21 @@ func TestTable_MergeActionMerge(t *testing.T) {
 				MapEntities: map[string]iso.IEntity{
 					"CN": &iso.Entity{Alpha2Code: "CN", CommonName: "China"},
 					"JP": &iso.Entity{Alpha2Code: "JP", CommonName: "Japan"},
-					"KR": &iso.Entity{Alpha2Code: "KR", CommonName: "South Korea"},
+					"KR": &iso.Entity{
+						Alpha2Code: "KR", CommonName: "South Korea",
+
+						CurrencyInCN:     "韩圆",
+						CurrencyInNative: "대한민국 원",
+					},
 				},
 			},
 			args: args{
 				srcItems: map[string]iso.IEntity{
-					"South Korea": &iso.Entity{Alpha2Code: "", CommonName: "South Korea"},
+					"South Korea": &iso.Entity{Alpha2Code: "", CommonName: "South Korea",
+
+						CurrencyInCN:     "韩圆",
+						CurrencyInNative: "대한민국 원",
+					},
 				},
 				action: iso.MergeActionMerge,
 			},
@@ -65,7 +84,12 @@ func TestTable_MergeActionMerge(t *testing.T) {
 			wantEntities: map[string]iso.IEntity{
 				"CN": &iso.Entity{Alpha2Code: "CN", CommonName: "China", CommonNameInAlphaNumeric: "China"},
 				"JP": &iso.Entity{Alpha2Code: "JP", CommonName: "Japan", CommonNameInAlphaNumeric: "Japan"},
-				"KR": &iso.Entity{Alpha2Code: "KR", CommonName: "South Korea", CommonNameInAlphaNumeric: "SouthKorea"},
+				"KR": &iso.Entity{
+					Alpha2Code: "KR", CommonName: "South Korea", CommonNameInAlphaNumeric: "SouthKorea",
+
+					CurrencyInCN:     "韩圆",
+					CurrencyInNative: "대한민국 원",
+				},
 			},
 		},
 	}

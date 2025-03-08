@@ -99,7 +99,9 @@
     "RegionInNative": "中国",
     "Languages": [
       "Mandarin Chinese"
-    ]
+    ],
+    "CurrencyInCN": "人民币",
+    "CurrencyInNative": "人民币"
   },
   {
     "Alpha2Code": "TW",
@@ -110,7 +112,9 @@
     "RegionInNative": "臺灣",
     "Languages": [
       "Chinese"
-    ]
+    ],
+    "CurrencyInCN": "新台币",
+    "CurrencyInNative": "新臺幣"
   },
   {
     "Alpha2Code": "CD",
@@ -138,7 +142,9 @@
     "Alpha2Code": "DE",
     "CallingCode": "49",
     "NumericCode": "276",
-    "CommonName": "Germany"
+    "CommonName": "Germany",
+    "CurrencyInCN": "欧元",
+    "CurrencyInNative": "Euro"
   },
   {
     "_comment": "7 October 1949 ~ 3 October 1990, https://en.wikipedia.org/wiki/East_Germany",
@@ -173,7 +179,9 @@
     "Languages": [
       "English",
       "Cantonese"
-    ]
+    ],
+    "CurrencyInCN": "港元",
+    "CurrencyInNative": "港幣"
   },
   {
     "Alpha2Code": "ID",
@@ -201,7 +209,9 @@
     "Alpha2Code": "JP",
     "CallingCode": "81",
     "NumericCode": "392",
-    "CommonName": "Japan"
+    "CommonName": "Japan",
+    "CurrencyInCN": "日元",
+    "CurrencyInNative": "日本円"
   },
   {
     "Alpha2Code": "KP",
@@ -222,7 +232,9 @@
     "NumericCode": "446",
     "CommonName": "Macao",
     "RegionInCN": "中国澳门",
-    "RegionInNative": "中國澳門"
+    "RegionInNative": "中國澳門",
+    "CurrencyInCN": "澳门元",
+    "CurrencyInNative": "澳門元"
   },
   {
     "Alpha2Code": "MG",
@@ -318,16 +330,18 @@
     "CommonName": "Spain"
   },
   {
+    "Alpha2Code": "CH",
+    "CallingCode": "41",
+    "NumericCode": "756",
+    "CommonName": "Switzerland",
+    "CurrencyInCN": "瑞士法郎",
+    "CurrencyInNative": "Swiss franc"
+  },
+  {
     "Alpha2Code": "TH",
     "CallingCode": "66",
     "NumericCode": "764",
     "CommonName": "Thailand"
-  },
-  {
-    "Alpha2Code": "AE",
-    "CallingCode": "971",
-    "NumericCode": "784",
-    "CommonName": "United Arab Emirates"
   },
   {
     "Alpha2Code": "TR",
@@ -349,7 +363,9 @@
     "Alpha2Code": "GB",
     "CallingCode": "44",
     "NumericCode": "826",
-    "CommonName": "United Kingdom"
+    "CommonName": "United Kingdom",
+    "CurrencyInCN": "英镑",
+    "CurrencyInNative": "Pound sterling"
   },
   {
     "Alpha2Code": "TZ",
@@ -360,11 +376,19 @@
     "Alpha2Code": "US",
     "CallingCode": "1",
     "NumericCode": "840",
-    "CommonName": "United States"
+    "CommonName": "United States",
+    "CurrencyInCN": "美元",
+    "CurrencyInNative": "United States dollar"
   },
   {
     "Alpha2Code": "VI",
     "NumericCode": "850",
     "CommonName": "Virgin Islands"
+  },
+  {
+    "Alpha2Code": "AE",
+    "CallingCode": "971",
+    "NumericCode": "784",
+    "CommonName": "United Arab Emirates"
   }
 ]

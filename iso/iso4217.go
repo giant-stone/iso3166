@@ -21,4 +21,7 @@ type ICurrencyCode interface {
 type IIso4217Extended interface {
 	GetCurrencyInCN() string
 	SetCurrencyInCN(v string)
+
+	GetCurrencyInNative() string
+	SetCurrencyInNative(v string)
 }
