@@ -39,6 +39,8 @@ export const CurrencyFromAlphabeticCode = {
   [key: string]: IEntity;
 };
 
+export type CurrencyAlphabeticCode = keyof typeof CurrencyFromAlphabeticCode;
+
 `
 
 const lineTemplateIso4217 = `const {{.AlphabeticCode}} = {
@@ -83,7 +85,7 @@ func (g *Generator) bytesIso4217(fmtPretty bool) (rs []byte, err error) {
 		}
 		uniq[alphabeticCode] = struct{}{}
 
-		listEntityFromAlphabeticCode = append(listEntityFromAlphabeticCode, fmt.Sprintf(`		"%s": %s,`, alphabeticCode, alphabeticCode))
+		listEntityFromAlphabeticCode = append(listEntityFromAlphabeticCode, fmt.Sprintf(`  "%s": %s,`, alphabeticCode, alphabeticCode))
 
 		CurrencyNames[alphabeticCode] = struct{}{}
 

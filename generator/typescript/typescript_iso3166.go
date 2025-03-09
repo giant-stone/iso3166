@@ -104,11 +104,11 @@ const lineTemplateIso3166 = `const {{.CommonNameInAlphaNumeric}} = {
 
   period_of_validity: "{{.PeriodOfValidity}}",
 
-  alias: "{{.Alias}}",
+  alias: {{.Alias}},
   common_name: "{{.CommonName}}",
   calling_code: "{{.CallingCode}}",
 
-  languages: "{{.Languages}}",
+  languages: {{.Languages}},
 
   region_in_cn: "{{.RegionInCN}}",
   region_in_native: "{{.RegionInNative}}",
