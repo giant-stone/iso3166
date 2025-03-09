@@ -105,6 +105,20 @@ func TestNewFromAlphabeticCode(t *testing.T) {
 				CurrencyInNative: "Euro",
 			},
 		},
+
+		{
+			name: "KWD",
+			args: args{s: "KWD"},
+			want: &iso.Entity{
+				AlphabeticCode: "KWD", NumericCode4217: "414", Currency: "Kuwaiti dinar", MinorUnit: 3,
+				Entities: []string{
+					"KW",
+				},
+
+				CurrencyInCN:     "",
+				CurrencyInNative: "",
+			},
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
