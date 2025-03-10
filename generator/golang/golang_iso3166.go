@@ -60,10 +60,11 @@ const lineTemplateIso3166 = `	{{.CommonNameInAlphaNumeric}} = &iso.Entity{
 		RegionInNative: "{{.RegionInNative}}",
 
 		AlphabeticCode: "{{.AlphabeticCode}}",
-		NumericCode4217: "{{.NumericCode4217}}",
-		MinorUnit: {{.MinorUnit}},
 		Currency: "{{.Currency}}",
-		
+		Entities: []string{ {{.Entities}} },
+		MinorUnit: {{.MinorUnit}},
+		NumericCode4217: "{{.NumericCode4217}}",
+
 		CurrencyInCN: "{{.CurrencyInCN}}",
 		CurrencyInNative: "{{.CurrencyInNative}}",
 	}
@@ -157,6 +158,7 @@ func (g *Generator) bytesIso3166(fmtPretty bool) (rs []byte, err error) {
 			"NumericCode4217": v.GetNumericCode4217(),
 			"MinorUnit":       v.GetMinorUnit(),
 			"Currency":        v.GetCurrency(),
+			"Entities":        template.HTML(serializeSliceStringForGoCode(v.GetEntities())),
 
 			"CurrencyInCN":     v.GetCurrencyInCN(),
 			"CurrencyInNative": v.GetCurrencyInNative(),

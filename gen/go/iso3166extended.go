@@ -24,9 +24,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AFN",
-		NumericCode4217: "971",
-		MinorUnit:       2,
 		Currency:        "Afghan afghani",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "971",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -52,9 +53,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ALL",
-		NumericCode4217: "008",
-		MinorUnit:       2,
 		Currency:        "Albanian lek",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "008",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -80,9 +82,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -108,9 +111,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "DZD",
-		NumericCode4217: "012",
-		MinorUnit:       2,
 		Currency:        "Algerian dinar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "012",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -136,9 +140,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -164,9 +169,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -192,9 +198,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AOA",
-		NumericCode4217: "973",
-		MinorUnit:       2,
 		Currency:        "Angolan kwanza",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "973",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -220,9 +227,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -248,9 +256,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AZN",
-		NumericCode4217: "944",
-		MinorUnit:       2,
 		Currency:        "Azerbaijani manat",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "944",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -276,9 +285,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ARS",
-		NumericCode4217: "032",
-		MinorUnit:       2,
 		Currency:        "Argentine peso",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "032",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -304,9 +314,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
-		NumericCode4217: "036",
-		MinorUnit:       2,
 		Currency:        "Australian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "036",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -332,9 +343,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -360,9 +372,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BSD",
-		NumericCode4217: "044",
-		MinorUnit:       2,
 		Currency:        "Bahamian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "044",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -388,9 +401,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BHD",
-		NumericCode4217: "048",
-		MinorUnit:       3,
 		Currency:        "Bahraini dinar",
+		Entities:        []string{},
+		MinorUnit:       3,
+		NumericCode4217: "048",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -416,9 +430,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BDT",
-		NumericCode4217: "050",
-		MinorUnit:       2,
 		Currency:        "Bangladeshi taka",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "050",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -444,9 +459,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AMD",
-		NumericCode4217: "051",
-		MinorUnit:       2,
 		Currency:        "Armenian dram",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "051",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -472,9 +488,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BBD",
-		NumericCode4217: "052",
-		MinorUnit:       2,
 		Currency:        "Barbados dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "052",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -500,9 +517,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -528,9 +546,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BMD",
-		NumericCode4217: "060",
-		MinorUnit:       2,
 		Currency:        "Bermudian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "060",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -556,9 +575,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "INR",
-		NumericCode4217: "356",
-		MinorUnit:       2,
 		Currency:        "Indian rupee",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "356",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -584,9 +604,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -612,9 +633,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BAM",
-		NumericCode4217: "977",
-		MinorUnit:       2,
 		Currency:        "Bosnia and Herzegovina convertible mark",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "977",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -640,9 +662,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BWP",
-		NumericCode4217: "072",
-		MinorUnit:       2,
 		Currency:        "Botswana pula",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "072",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -668,9 +691,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NOK",
-		NumericCode4217: "578",
-		MinorUnit:       2,
 		Currency:        "Norwegian krone",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "578",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -696,9 +720,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BRL",
-		NumericCode4217: "986",
-		MinorUnit:       2,
 		Currency:        "Brazilian real",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "986",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -724,9 +749,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BZD",
-		NumericCode4217: "084",
-		MinorUnit:       2,
 		Currency:        "Belize dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "084",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -752,9 +778,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -780,9 +807,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SBD",
-		NumericCode4217: "090",
-		MinorUnit:       2,
 		Currency:        "Solomon Islands dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "090",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -808,9 +836,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -836,9 +865,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -864,9 +894,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BGN",
-		NumericCode4217: "975",
-		MinorUnit:       2,
 		Currency:        "Bulgarian lev",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "975",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -892,9 +923,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -920,9 +952,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MMK",
-		NumericCode4217: "104",
-		MinorUnit:       2,
 		Currency:        "Myanmar kyat",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "104",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -948,9 +981,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BIF",
-		NumericCode4217: "108",
-		MinorUnit:       0,
 		Currency:        "Burundian franc",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "108",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -976,9 +1010,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "BYN",
-		NumericCode4217: "933",
-		MinorUnit:       2,
 		Currency:        "Belarusian ruble",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "933",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1004,9 +1039,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "KHR",
-		NumericCode4217: "116",
-		MinorUnit:       2,
 		Currency:        "Cambodian riel",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "116",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1032,9 +1068,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1060,9 +1097,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "CAD",
-		NumericCode4217: "124",
-		MinorUnit:       2,
 		Currency:        "Canadian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "124",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1088,9 +1126,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1116,9 +1155,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1144,9 +1184,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "KYD",
-		NumericCode4217: "136",
-		MinorUnit:       2,
 		Currency:        "Cayman Islands dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "136",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1172,9 +1213,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1200,9 +1242,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "LKR",
-		NumericCode4217: "144",
-		MinorUnit:       2,
 		Currency:        "Sri Lankan rupee",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "144",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1228,9 +1271,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1256,9 +1300,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "CLF",
-		NumericCode4217: "990",
-		MinorUnit:       4,
 		Currency:        "Unidad de Fomento",
+		Entities:        []string{},
+		MinorUnit:       4,
+		NumericCode4217: "990",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1284,9 +1329,10 @@ var (
 		RegionInNative: "中国",
 
 		AlphabeticCode:  "CNY",
-		NumericCode4217: "156",
-		MinorUnit:       2,
 		Currency:        "Renminbi",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "156",
 
 		CurrencyInCN:     "人民币",
 		CurrencyInNative: "人民币",
@@ -1312,9 +1358,10 @@ var (
 		RegionInNative: "臺灣",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "新台币",
 		CurrencyInNative: "新臺幣",
@@ -1340,9 +1387,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
-		NumericCode4217: "036",
-		MinorUnit:       2,
 		Currency:        "Australian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "036",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1368,9 +1416,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
-		NumericCode4217: "036",
-		MinorUnit:       2,
 		Currency:        "Australian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "036",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1396,9 +1445,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "COP",
-		NumericCode4217: "170",
-		MinorUnit:       2,
 		Currency:        "Colombian peso",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "170",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1424,9 +1474,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "KMF",
-		NumericCode4217: "174",
-		MinorUnit:       0,
 		Currency:        "Comoro franc",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "174",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1452,9 +1503,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1480,9 +1532,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1508,9 +1561,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1536,9 +1590,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1564,9 +1619,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NZD",
-		NumericCode4217: "554",
-		MinorUnit:       2,
 		Currency:        "New Zealand dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "554",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1592,9 +1648,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "CRC",
-		NumericCode4217: "188",
-		MinorUnit:       2,
 		Currency:        "Costa Rican colon",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "188",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1620,9 +1677,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1648,9 +1706,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "CUP",
-		NumericCode4217: "192",
-		MinorUnit:       2,
 		Currency:        "Cuban peso",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "192",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1676,9 +1735,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1704,9 +1764,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1732,9 +1793,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1760,9 +1822,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1788,9 +1851,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1816,9 +1880,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "DKK",
-		NumericCode4217: "208",
-		MinorUnit:       2,
 		Currency:        "Danish krone",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "208",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1844,9 +1909,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1872,9 +1938,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "DOP",
-		NumericCode4217: "214",
-		MinorUnit:       2,
 		Currency:        "Dominican peso",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "214",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1900,9 +1967,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1928,9 +1996,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1956,9 +2025,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -1984,9 +2054,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2012,9 +2083,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ETB",
-		NumericCode4217: "230",
-		MinorUnit:       2,
 		Currency:        "Ethiopian birr",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "230",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2040,9 +2112,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ERN",
-		NumericCode4217: "232",
-		MinorUnit:       2,
 		Currency:        "Eritrean nakfa",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "232",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2068,9 +2141,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2096,9 +2170,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "DKK",
-		NumericCode4217: "208",
-		MinorUnit:       2,
 		Currency:        "Danish krone",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "208",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2124,9 +2199,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2152,9 +2228,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2180,9 +2257,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "FJD",
-		NumericCode4217: "242",
-		MinorUnit:       2,
 		Currency:        "Fiji dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "242",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2208,9 +2286,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2236,9 +2315,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2264,9 +2344,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2292,9 +2373,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2320,9 +2402,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2348,9 +2431,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2376,9 +2460,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2404,9 +2489,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2432,9 +2518,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "DJF",
-		NumericCode4217: "262",
-		MinorUnit:       0,
 		Currency:        "Djiboutian franc",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "262",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2460,9 +2547,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2488,9 +2576,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GEL",
-		NumericCode4217: "981",
-		MinorUnit:       2,
 		Currency:        "Georgian lari",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "981",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2516,9 +2605,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GMD",
-		NumericCode4217: "270",
-		MinorUnit:       2,
 		Currency:        "Gambian dalasi",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "270",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2544,9 +2634,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2572,9 +2663,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "欧元",
 		CurrencyInNative: "Euro",
@@ -2600,9 +2692,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2628,9 +2721,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GHS",
-		NumericCode4217: "936",
-		MinorUnit:       2,
 		Currency:        "Ghanaian cedi",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "936",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2656,9 +2750,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GIP",
-		NumericCode4217: "292",
-		MinorUnit:       2,
 		Currency:        "Gibraltar pound",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "292",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2684,9 +2779,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
-		NumericCode4217: "036",
-		MinorUnit:       2,
 		Currency:        "Australian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "036",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2712,9 +2808,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2740,9 +2837,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "DKK",
-		NumericCode4217: "208",
-		MinorUnit:       2,
 		Currency:        "Danish krone",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "208",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2768,9 +2866,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2796,9 +2895,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2824,9 +2924,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2852,9 +2953,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GTQ",
-		NumericCode4217: "320",
-		MinorUnit:       2,
 		Currency:        "Guatemalan quetzal",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "320",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2880,9 +2982,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GNF",
-		NumericCode4217: "324",
-		MinorUnit:       0,
 		Currency:        "Guinean franc",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "324",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2908,9 +3011,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GYD",
-		NumericCode4217: "328",
-		MinorUnit:       2,
 		Currency:        "Guyanese dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "328",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2936,9 +3040,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "HTG",
-		NumericCode4217: "332",
-		MinorUnit:       2,
 		Currency:        "Haitian gourde",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "332",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2964,9 +3069,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
-		NumericCode4217: "036",
-		MinorUnit:       2,
 		Currency:        "Australian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "036",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -2992,9 +3098,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3020,9 +3127,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "HNL",
-		NumericCode4217: "340",
-		MinorUnit:       2,
 		Currency:        "Honduran lempira",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "340",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3048,9 +3156,10 @@ var (
 		RegionInNative: "香港",
 
 		AlphabeticCode:  "HKD",
-		NumericCode4217: "344",
-		MinorUnit:       2,
 		Currency:        "Hong Kong dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "344",
 
 		CurrencyInCN:     "港元",
 		CurrencyInNative: "港幣",
@@ -3076,9 +3185,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "HUF",
-		NumericCode4217: "348",
-		MinorUnit:       2,
 		Currency:        "Hungarian forint",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "348",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3104,9 +3214,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ISK",
-		NumericCode4217: "352",
-		MinorUnit:       0,
 		Currency:        "Icelandic króna",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "352",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3132,9 +3243,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "INR",
-		NumericCode4217: "356",
-		MinorUnit:       2,
 		Currency:        "Indian rupee",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "356",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3160,9 +3272,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "IDR",
-		NumericCode4217: "360",
-		MinorUnit:       2,
 		Currency:        "Indonesian rupiah",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "360",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3188,9 +3301,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3216,9 +3330,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "IQD",
-		NumericCode4217: "368",
-		MinorUnit:       3,
 		Currency:        "Iraqi dinar",
+		Entities:        []string{},
+		MinorUnit:       3,
+		NumericCode4217: "368",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3244,9 +3359,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3272,9 +3388,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ILS",
-		NumericCode4217: "376",
-		MinorUnit:       2,
 		Currency:        "Israeli new shekel",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "376",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3300,9 +3417,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3328,9 +3446,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3356,9 +3475,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "JMD",
-		NumericCode4217: "388",
-		MinorUnit:       2,
 		Currency:        "Jamaican dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "388",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3384,9 +3504,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "JPY",
-		NumericCode4217: "392",
-		MinorUnit:       0,
 		Currency:        "Japanese yen",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "392",
 
 		CurrencyInCN:     "日元",
 		CurrencyInNative: "日本円",
@@ -3412,9 +3533,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3440,9 +3562,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "KZT",
-		NumericCode4217: "398",
-		MinorUnit:       2,
 		Currency:        "Kazakhstani tenge",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "398",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3468,9 +3591,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "JOD",
-		NumericCode4217: "400",
-		MinorUnit:       3,
 		Currency:        "Jordanian dinar",
+		Entities:        []string{},
+		MinorUnit:       3,
+		NumericCode4217: "400",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3496,9 +3620,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "KES",
-		NumericCode4217: "404",
-		MinorUnit:       2,
 		Currency:        "Kenyan shilling",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "404",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3524,9 +3649,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3552,9 +3678,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3580,9 +3707,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "KWD",
-		NumericCode4217: "414",
-		MinorUnit:       3,
 		Currency:        "Kuwaiti dinar",
+		Entities:        []string{},
+		MinorUnit:       3,
+		NumericCode4217: "414",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3608,9 +3736,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "KGS",
-		NumericCode4217: "417",
-		MinorUnit:       2,
 		Currency:        "Kyrgyzstani som",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "417",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3636,9 +3765,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "LBP",
-		NumericCode4217: "422",
-		MinorUnit:       2,
 		Currency:        "Lebanese pound",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "422",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3664,9 +3794,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ZAR",
-		NumericCode4217: "710",
-		MinorUnit:       2,
 		Currency:        "South African rand",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "710",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3692,9 +3823,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3720,9 +3852,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "LRD",
-		NumericCode4217: "430",
-		MinorUnit:       2,
 		Currency:        "Liberian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "430",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3748,9 +3881,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "LYD",
-		NumericCode4217: "434",
-		MinorUnit:       3,
 		Currency:        "Libyan dinar",
+		Entities:        []string{},
+		MinorUnit:       3,
+		NumericCode4217: "434",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3776,9 +3910,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "CHF",
-		NumericCode4217: "756",
-		MinorUnit:       2,
 		Currency:        "Swiss franc",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "756",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3804,9 +3939,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3832,9 +3968,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3860,9 +3997,10 @@ var (
 		RegionInNative: "中國澳門",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "澳门元",
 		CurrencyInNative: "澳門元",
@@ -3888,9 +4026,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MGA",
-		NumericCode4217: "969",
-		MinorUnit:       0,
 		Currency:        "Malagasy ariary",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "969",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3916,9 +4055,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MWK",
-		NumericCode4217: "454",
-		MinorUnit:       2,
 		Currency:        "Malawian kwacha",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "454",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3944,9 +4084,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MYR",
-		NumericCode4217: "458",
-		MinorUnit:       2,
 		Currency:        "Malaysian ringgit",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "458",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -3972,9 +4113,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MVR",
-		NumericCode4217: "462",
-		MinorUnit:       2,
 		Currency:        "Maldivian rufiyaa",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "462",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4000,9 +4142,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4028,9 +4171,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4056,9 +4200,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4084,9 +4229,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MRU",
-		NumericCode4217: "929",
-		MinorUnit:       0,
 		Currency:        "Mauritanian ouguiya",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "929",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4112,9 +4258,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MUR",
-		NumericCode4217: "480",
-		MinorUnit:       2,
 		Currency:        "Mauritian rupee",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "480",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4140,9 +4287,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4168,9 +4316,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MXN",
-		NumericCode4217: "484",
-		MinorUnit:       2,
 		Currency:        "Mexican peso",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "484",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4196,9 +4345,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4224,9 +4374,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4252,9 +4403,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MNT",
-		NumericCode4217: "496",
-		MinorUnit:       2,
 		Currency:        "Mongolian tögrög",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "496",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4280,9 +4432,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4308,9 +4461,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4336,9 +4490,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4364,9 +4519,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MAD",
-		NumericCode4217: "504",
-		MinorUnit:       2,
 		Currency:        "Moroccan dirham",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "504",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4392,9 +4548,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MZN",
-		NumericCode4217: "943",
-		MinorUnit:       2,
 		Currency:        "Mozambican metical",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "943",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4420,9 +4577,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "OMR",
-		NumericCode4217: "512",
-		MinorUnit:       3,
 		Currency:        "Omani rial",
+		Entities:        []string{},
+		MinorUnit:       3,
+		NumericCode4217: "512",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4448,9 +4606,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ZAR",
-		NumericCode4217: "710",
-		MinorUnit:       2,
 		Currency:        "South African rand",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "710",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4476,9 +4635,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
-		NumericCode4217: "036",
-		MinorUnit:       2,
 		Currency:        "Australian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "036",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4504,9 +4664,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NPR",
-		NumericCode4217: "524",
-		MinorUnit:       2,
 		Currency:        "Nepalese rupee",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "524",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4532,9 +4693,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4560,9 +4722,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ANG",
-		NumericCode4217: "532",
-		MinorUnit:       2,
 		Currency:        "Netherlands Antillean guilder",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "532",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4588,9 +4751,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AWG",
-		NumericCode4217: "533",
-		MinorUnit:       2,
 		Currency:        "Aruban florin",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "533",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4616,9 +4780,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ANG",
-		NumericCode4217: "532",
-		MinorUnit:       2,
 		Currency:        "Netherlands Antillean guilder",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "532",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4644,9 +4809,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4672,9 +4838,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4700,9 +4867,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4728,9 +4896,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4756,9 +4925,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "VUV",
-		NumericCode4217: "548",
-		MinorUnit:       0,
 		Currency:        "Vanuatu vatu",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "548",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4784,9 +4954,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NZD",
-		NumericCode4217: "554",
-		MinorUnit:       2,
 		Currency:        "New Zealand dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "554",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4812,9 +4983,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NIO",
-		NumericCode4217: "558",
-		MinorUnit:       2,
 		Currency:        "Nicaraguan córdoba",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "558",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4840,9 +5012,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4868,9 +5041,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NGN",
-		NumericCode4217: "566",
-		MinorUnit:       2,
 		Currency:        "Nigerian naira",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "566",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4896,9 +5070,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NZD",
-		NumericCode4217: "554",
-		MinorUnit:       2,
 		Currency:        "New Zealand dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "554",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4924,9 +5099,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
-		NumericCode4217: "036",
-		MinorUnit:       2,
 		Currency:        "Australian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "036",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4952,9 +5128,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NOK",
-		NumericCode4217: "578",
-		MinorUnit:       2,
 		Currency:        "Norwegian krone",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "578",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4980,9 +5157,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5008,9 +5186,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5036,9 +5215,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5064,9 +5244,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5092,9 +5273,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5120,9 +5302,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5148,9 +5331,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "PKR",
-		NumericCode4217: "586",
-		MinorUnit:       2,
 		Currency:        "Pakistani rupee",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "586",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5176,9 +5360,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5204,9 +5389,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5232,9 +5418,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "PGK",
-		NumericCode4217: "598",
-		MinorUnit:       2,
 		Currency:        "Papua New Guinean kina",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "598",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5260,9 +5447,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "PYG",
-		NumericCode4217: "600",
-		MinorUnit:       0,
 		Currency:        "Paraguayan guaraní",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "600",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5288,9 +5476,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "PEN",
-		NumericCode4217: "604",
-		MinorUnit:       2,
 		Currency:        "Peruvian sol",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "604",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5316,9 +5505,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "PHP",
-		NumericCode4217: "608",
-		MinorUnit:       2,
 		Currency:        "Philippine peso",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "608",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5344,9 +5534,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NZD",
-		NumericCode4217: "554",
-		MinorUnit:       2,
 		Currency:        "New Zealand dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "554",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5372,9 +5563,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "PLN",
-		NumericCode4217: "985",
-		MinorUnit:       2,
 		Currency:        "Polish złoty",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "985",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5400,9 +5592,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5428,9 +5621,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5456,9 +5650,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5484,9 +5679,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5512,9 +5708,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5540,9 +5737,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "QAR",
-		NumericCode4217: "634",
-		MinorUnit:       2,
 		Currency:        "Qatari riyal",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "634",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5568,9 +5766,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5596,9 +5795,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "RON",
-		NumericCode4217: "946",
-		MinorUnit:       2,
 		Currency:        "Romanian leu",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "946",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5624,9 +5824,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5652,9 +5853,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "RWF",
-		NumericCode4217: "646",
-		MinorUnit:       0,
 		Currency:        "Rwandan franc",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "646",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5680,9 +5882,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5708,9 +5911,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GBP",
-		NumericCode4217: "826",
-		MinorUnit:       2,
 		Currency:        "Pound sterling",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "826",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5736,9 +5940,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5764,9 +5969,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5792,9 +5998,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5820,9 +6027,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5848,9 +6056,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5876,9 +6085,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5904,9 +6114,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5932,9 +6143,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5960,9 +6172,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SAR",
-		NumericCode4217: "682",
-		MinorUnit:       2,
 		Currency:        "Saudi riyal",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "682",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -5988,9 +6201,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6016,9 +6230,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "RSD",
-		NumericCode4217: "941",
-		MinorUnit:       2,
 		Currency:        "Serbian dinar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "941",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6044,9 +6259,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SCR",
-		NumericCode4217: "690",
-		MinorUnit:       2,
 		Currency:        "Seychelles rupee",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "690",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6072,9 +6288,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SLE",
-		NumericCode4217: "925",
-		MinorUnit:       2,
 		Currency:        "Sierra Leonean leone",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "925",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6100,9 +6317,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SGD",
-		NumericCode4217: "702",
-		MinorUnit:       2,
 		Currency:        "Singapore dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "702",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6128,9 +6346,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6156,9 +6375,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6184,9 +6404,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6212,9 +6433,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6240,9 +6462,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SOS",
-		NumericCode4217: "706",
-		MinorUnit:       2,
 		Currency:        "Somalian shilling",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "706",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6268,9 +6491,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ZAR",
-		NumericCode4217: "710",
-		MinorUnit:       2,
 		Currency:        "South African rand",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "710",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6296,9 +6520,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6324,9 +6549,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ZWG",
-		NumericCode4217: "924",
-		MinorUnit:       2,
 		Currency:        "Zimbabwe Gold",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "924",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6352,9 +6578,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6380,9 +6607,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EUR",
-		NumericCode4217: "978",
-		MinorUnit:       2,
 		Currency:        "Euro",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "978",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6408,9 +6636,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SSP",
-		NumericCode4217: "728",
-		MinorUnit:       2,
 		Currency:        "South Sudanese pound",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "728",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6436,9 +6665,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SDG",
-		NumericCode4217: "938",
-		MinorUnit:       2,
 		Currency:        "Sudanese pound",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "938",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6464,9 +6694,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MAD",
-		NumericCode4217: "504",
-		MinorUnit:       2,
 		Currency:        "Moroccan dirham",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "504",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6492,9 +6723,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SRD",
-		NumericCode4217: "968",
-		MinorUnit:       2,
 		Currency:        "Surinamese dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "968",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6520,9 +6752,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6548,9 +6781,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ZAR",
-		NumericCode4217: "710",
-		MinorUnit:       2,
 		Currency:        "South African rand",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "710",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6576,9 +6810,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "SEK",
-		NumericCode4217: "752",
-		MinorUnit:       2,
 		Currency:        "Swedish krona",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "752",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6604,9 +6839,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "CHE",
-		NumericCode4217: "947",
-		MinorUnit:       2,
 		Currency:        "WIR",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "947",
 
 		CurrencyInCN:     "瑞士法郎",
 		CurrencyInNative: "Swiss franc",
@@ -6632,9 +6868,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6660,9 +6897,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "TJS",
-		NumericCode4217: "972",
-		MinorUnit:       2,
 		Currency:        "Tajikistani somoni",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "972",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6688,9 +6926,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "THB",
-		NumericCode4217: "764",
-		MinorUnit:       2,
 		Currency:        "Thai baht",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "764",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6716,9 +6955,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6744,9 +6984,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "NZD",
-		NumericCode4217: "554",
-		MinorUnit:       2,
 		Currency:        "New Zealand dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "554",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6772,9 +7013,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "TOP",
-		NumericCode4217: "776",
-		MinorUnit:       2,
 		Currency:        "Tongan paʻanga",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "776",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6800,9 +7042,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "TTD",
-		NumericCode4217: "780",
-		MinorUnit:       2,
 		Currency:        "Trinidad and Tobago dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "780",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6828,9 +7071,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AED",
-		NumericCode4217: "784",
-		MinorUnit:       2,
 		Currency:        "United Arab Emirates dirham",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "784",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6856,9 +7100,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "TND",
-		NumericCode4217: "788",
-		MinorUnit:       3,
 		Currency:        "Tunisian dinar",
+		Entities:        []string{},
+		MinorUnit:       3,
+		NumericCode4217: "788",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6884,9 +7129,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6912,9 +7158,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "TMT",
-		NumericCode4217: "934",
-		MinorUnit:       2,
 		Currency:        "Turkmenistan manat",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "934",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6940,9 +7187,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "USD",
-		NumericCode4217: "840",
-		MinorUnit:       2,
 		Currency:        "United States dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "840",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6968,9 +7216,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "AUD",
-		NumericCode4217: "036",
-		MinorUnit:       2,
 		Currency:        "Australian dollar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "036",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6996,9 +7245,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "UGX",
-		NumericCode4217: "800",
-		MinorUnit:       0,
 		Currency:        "Ugandan shilling",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "800",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7024,9 +7274,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "UAH",
-		NumericCode4217: "980",
-		MinorUnit:       2,
 		Currency:        "Ukrainian hryvnia",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "980",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7052,9 +7303,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "MKD",
-		NumericCode4217: "807",
-		MinorUnit:       2,
 		Currency:        "Macedonian denar",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "807",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7080,9 +7332,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7108,9 +7361,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "EGP",
-		NumericCode4217: "818",
-		MinorUnit:       2,
 		Currency:        "Egyptian pound",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "818",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7136,9 +7390,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "英镑",
 		CurrencyInNative: "Pound sterling",
@@ -7164,9 +7419,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GBP",
-		NumericCode4217: "826",
-		MinorUnit:       2,
 		Currency:        "Pound sterling",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "826",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7192,9 +7448,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GBP",
-		NumericCode4217: "826",
-		MinorUnit:       2,
 		Currency:        "Pound sterling",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "826",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7220,9 +7477,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "GBP",
-		NumericCode4217: "826",
-		MinorUnit:       2,
 		Currency:        "Pound sterling",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "826",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7248,9 +7506,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7276,9 +7535,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "美元",
 		CurrencyInNative: "United States dollar",
@@ -7304,9 +7564,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7332,9 +7593,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7360,9 +7622,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7388,9 +7651,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7416,9 +7680,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "UYU",
-		NumericCode4217: "858",
-		MinorUnit:       2,
 		Currency:        "Uruguayan peso",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "858",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7444,9 +7709,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "UZS",
-		NumericCode4217: "860",
-		MinorUnit:       2,
 		Currency:        "Uzbekistani sum",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "860",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7472,9 +7738,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7500,9 +7767,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7528,9 +7796,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7556,9 +7825,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "WST",
-		NumericCode4217: "882",
-		MinorUnit:       2,
 		Currency:        "Samoan tala",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "882",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7584,9 +7854,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "YER",
-		NumericCode4217: "886",
-		MinorUnit:       2,
 		Currency:        "Yemeni rial",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "886",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7612,9 +7883,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7640,9 +7912,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7668,9 +7941,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "ZMW",
-		NumericCode4217: "967",
-		MinorUnit:       2,
 		Currency:        "Zambian kwacha",
+		Entities:        []string{},
+		MinorUnit:       2,
+		NumericCode4217: "967",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7696,9 +7970,10 @@ var (
 		RegionInNative: "한국",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7724,9 +7999,10 @@ var (
 		RegionInNative: "",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -7752,9 +8028,10 @@ var (
 		RegionInNative: "Kosova",
 
 		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
 		Currency:        "",
+		Entities:        []string{},
+		MinorUnit:       0,
+		NumericCode4217: "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
