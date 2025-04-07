@@ -1,13 +1,14 @@
 module github.com/giant-stone/iso3166
 
 go 1.21.1
+toolchain go1.24.1
 
 require (
 	github.com/antchfx/htmlquery v1.3.0
 	github.com/emvi/iso-639-1 v1.1.0
 	github.com/giant-stone/go v0.0.16
 	github.com/stretchr/testify v1.9.0
-	golang.org/x/text v0.21.0
+	golang.org/x/text v0.24.0
 )
 
 require (
