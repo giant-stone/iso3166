@@ -109,7 +109,7 @@ func main() {
 	flag.StringVar(&logLevel, "l", "debug", "The logging level, its value is one of {debug,info,warn,error}.")
 	flag.Parse()
 
-	glogging.Init([]string{"stderr"}, glogging.Loglevel(logLevel))
+	glogging.Install([]string{"stderr"}, glogging.Loglevel(logLevel), "")
 
 	if syncSource {
 		doSyncSource()
