@@ -21,7 +21,7 @@ NOTICE：`iso/lang/` is based on [emvi/iso-639-1](https://github.com/emvi/iso-63
 
 ## Update ISO data file
 
-Build dependencies: Go 1.22.x+
+Build requirement: Go 1.20
 
 (OPTIONAL) Fetch the source data file from the wikipedia website:
 
@@ -120,7 +120,7 @@ import * as isoData from "./gen/ts/iso_data";
 
 [isoData.RegionsFromCommonNameInAlphaNumeric["HongKong"], isoData.RegionsByCode["HK"], isoData.HongKong].forEach((entity) => {
   console.log(JSON.stringify(entity, undefined, "  "));
-  console.log(entity.alpha2code == isoData.HongKong.alpha2code);
+  console.log(entity.alpha2Code == isoData.HongKong.alpha2Code);
 });
 ```
 
