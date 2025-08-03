@@ -21,7 +21,7 @@ NOTICE：`iso/lang/` is based on [emvi/iso-639-1](https://github.com/emvi/iso-63
 
 ## Update ISO data file
 
-Build dependencies: Go 1.22.x+
+Build requirement: Go 1.20
 
 (OPTIONAL) Fetch the source data file from the wikipedia website:
 
@@ -32,11 +32,11 @@ Build dependencies: Go 1.22.x+
 
 Generate Go code from the source data file:
 
-    go run main.go -gen go:go/go/iso.go
+    go run cmd/iso/main.go -langs go:gen/go/
 
 Generate JSON, Go and TypeScript codes from the source data file, and then merge it with the `patch.json` file:
 
-    go run main.go -gen json:gen/json/iso_data.json,go:gen/go/iso_data.go,ts:gen/ts/iso_data.ts -patch patch.json
+    go run cmd/iso/main.go -langs json:gen/json/,go:gen/go/,ts:gen/ts/ -patch patch.json
 
 You could customize the patch JSON file to specify which fields you want to override, based on the field definitions in `iso/entity.go` under `IEntity`. The only required field is `Alpha2Code`.
 
@@ -92,21 +92,17 @@ Output：
   "CallingCode": "852",
   "Capital": "",
   "CapitalInNative": "",
-  "Languages": [
-    "English",
-    "Cantonese"
-  ],
+  "Languages": ["English", "Cantonese"],
   "RegionInCN": "中国香港",
   "RegionInNative": "香港",
   "AlphabeticCode": "HKD",
   "NumericCode4217": "344",
   "MinorUnit": 2,
   "Currency": "Hong Kong dollar",
-  "CurrencyInCN": ""
+  "Entities": null,
+  "CurrencyInCN": "港元",
+  "CurrencyInNative": "港幣"
 }
-true
-
-...
 ```
 
 See also iso_helper/region/region_test.go
@@ -120,7 +116,7 @@ import * as isoData from "./gen/ts/iso_data";
 
 [isoData.RegionsFromCommonNameInAlphaNumeric["HongKong"], isoData.RegionsByCode["HK"], isoData.HongKong].forEach((entity) => {
   console.log(JSON.stringify(entity, undefined, "  "));
-  console.log(entity.alpha2code == isoData.HongKong.alpha2code);
+  console.log(entity.alpha2Code == isoData.HongKong.alpha2Code);
 });
 ```
 
@@ -128,24 +124,24 @@ Output:
 
 ```json
 {
-  "alpha2code": "HK",
+  "alpha2Code": "HK",
   "alpha3code": "HKG",
   "alpha4code": "",
   "independent": false,
   "numeric_code": "344",
   "short_name": "Hong Kong",
   "period_of_validity": "",
+  "alias": "[]",
   "common_name": "Hong Kong",
   "calling_code": "852",
+  "languages": ["English", "Cantonese"],
   "region_in_cn": "中国香港",
   "region_in_native": "香港",
-  "alphabetic_code": "HKD",
-  "numeric_code_4217": "344",
-  "minor_unit": 2,
-  "currency": "Hong Kong dollar",
-  "currency_in_cn": ""
+  "alphabetic_code": "",
+  "numeric_code_4217": "",
+  "minor_unit": 0,
+  "currency": "",
+  "currency_in_cn": "港元",
+  "currency_in_native": "港幣"
 }
-true
-
-...
 ```
