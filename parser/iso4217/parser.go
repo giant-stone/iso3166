@@ -169,13 +169,13 @@ func ExtractEntityMapFromHtml(node *html.Node) (rs map[string]iso.IEntity) {
 
 const (
 	// process case `Cocos (Keeling) Islands (CC)`
-	patternRegionNameAndAlpha2Code = `^(?<shortName>[A-ZÅ][a-zA-Zôüéç\(\) ]+) \((?P<alpha2Code>[A-Z]{2}).*\)$`
+	patternRegionNameAndAlpha2Code = `^(<shortName>[A-ZÅ][a-zA-Zôüéç\(\) ]+) \((?P<alpha2Code>[A-Z]{2}).*\)$`
 
 	// process case `United Arab Emirates`
-	patternRegionName = `^(?<shortName>[A-ZÅ][a-z][a-zA-Zôüéç ]+)$`
+	patternRegionName = `^(<shortName>[A-ZÅ][a-z][a-zA-Zôüéç ]+)$`
 
 	// process case `Falkland Islands (pegged to GBP 1:1)`
-	patternRegionNameWithParenthesesNote = `^(?<shortName>[A-ZÅ][a-z][a-zA-Zôüéç ]+)\([^A-Z].*\)$`
+	patternRegionNameWithParenthesesNote = `^(<shortName>[A-ZÅ][a-z][a-zA-Zôüéç ]+)\([^A-Z].*\)$`
 )
 
 var (
