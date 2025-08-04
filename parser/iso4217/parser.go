@@ -169,13 +169,13 @@ func ExtractEntityMapFromHtml(node *html.Node) (rs map[string]iso.IEntity) {
 
 const (
 	// process case `Cocos (Keeling) Islands (CC)`
-	patternRegionNameAndAlpha2Code = `^(<shortName>[A-ZÅ][a-zA-Zôüéç\(\) ]+) \((?P<alpha2Code>[A-Z]{2}).*\)$`
+	patternRegionNameAndAlpha2Code = `^(?P<shortName>[A-ZÅ][a-zA-Zôüéç\(\) ]+) \((?P<alpha2Code>[A-Z]{2}).*\)$`
 
 	// process case `United Arab Emirates`
-	patternRegionName = `^(<shortName>[A-ZÅ][a-z][a-zA-Zôüéç ]+)$`
+	patternRegionName = `^(?P<shortName>[A-ZÅ][a-z][a-zA-Zôüéç ]+)$`
 
 	// process case `Falkland Islands (pegged to GBP 1:1)`
-	patternRegionNameWithParenthesesNote = `^(<shortName>[A-ZÅ][a-z][a-zA-Zôüéç ]+)\([^A-Z].*\)$`
+	patternRegionNameWithParenthesesNote = `^(?P<shortName>[A-ZÅ][a-z][a-zA-Zôüéç ]+)\([^A-Z].*\)$`
 )
 
 var (
@@ -199,17 +199,19 @@ func ParseRegionNameOrCodeFromString(s string) (shortName, alpha2Code string) {
 		reRegionName,
 		reRegionNameWithParenthesesNote,
 	} {
-		matched := re.FindAllStringSubmatch(s, -1)
+		matched := re.FindStringSubmatch(s)
 		if len(matched) > 0 {
-			if len(matched[0]) > 2 {
-				shortName = matched[0][1]
-				alpha2Code = matched[0][2]
-			} else if len(matched[0]) == 2 {
-				shortName = matched[0][1]
+			names := re.SubexpNames()
+			for i, name := range names {
+				if i > 0 && i < len(matched) {
+					switch name {
+					case "shortName":
+						shortName = strings.TrimSpace(matched[i])
+					case "alpha2Code":
+						alpha2Code = strings.TrimSpace(matched[i])
+					}
+				}
 			}
-
-			shortName = strings.TrimSpace(shortName)
-			alpha2Code = strings.TrimSpace(alpha2Code)
 
 			if shortName != "" {
 				return shortName, alpha2Code
@@ -217,10 +219,7 @@ func ParseRegionNameOrCodeFromString(s string) (shortName, alpha2Code string) {
 		}
 	}
 
-	shortName = strings.TrimSpace(shortName)
-	alpha2Code = strings.TrimSpace(alpha2Code)
-
-	return shortName, alpha2Code
+	return "", ""
 }
 
 func ExtractInnerTextFromHtml(node *html.Node) string {

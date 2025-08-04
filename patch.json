@@ -284,7 +284,9 @@
     "Alpha2Code": "AE",
     "CallingCode": "971",
     "NumericCode": "784",
-    "CommonName": "United Arab Emirates"
+    "CommonName": "United Arab Emirates",
+    "CurrencyInCN": "阿联酋迪拉姆",
+    "CurrencyInNative": "درهم إماراتي"    
   },
   {
     "_comment": "1 March 1919 ~ 15 August 1948, https://en.wikipedia.org/wiki/Korea",

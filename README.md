@@ -36,7 +36,7 @@ Generate Go code from the source data file:
 
 Generate JSON, Go and TypeScript codes from the source data file, and then merge it with the `patch.json` file:
 
-    go run cmd/iso/main.go -langs json:gen/json/,go:gen/go/,ts:gen/ts/ -patch patch.json
+    go run cmd/iso/main.go -langs json:gen/json/,go:gen/go/,ts:gen/ts/ -patch patch.json -fmt
 
 You could customize the patch JSON file to specify which fields you want to override, based on the field definitions in `iso/entity.go` under `IEntity`. The only required field is `Alpha2Code`.
 
@@ -92,7 +92,10 @@ Output：
   "CallingCode": "852",
   "Capital": "",
   "CapitalInNative": "",
-  "Languages": ["English", "Cantonese"],
+  "Languages": [
+    "English",
+    "Cantonese"
+  ],
   "RegionInCN": "中国香港",
   "RegionInNative": "香港",
   "AlphabeticCode": "HKD",
@@ -134,13 +137,16 @@ Output:
   "alias": "[]",
   "common_name": "Hong Kong",
   "calling_code": "852",
-  "languages": ["English", "Cantonese"],
+  "languages": [
+    "English",
+    "Cantonese"
+  ],
   "region_in_cn": "中国香港",
   "region_in_native": "香港",
-  "alphabetic_code": "",
-  "numeric_code_4217": "",
-  "minor_unit": 0,
-  "currency": "",
+  "alphabetic_code": "HKD",
+  "numeric_code_4217": "344",
+  "minor_unit": 2,
+  "currency": "Hong Kong dollar",
   "currency_in_cn": "港元",
   "currency_in_native": "港幣"
 }

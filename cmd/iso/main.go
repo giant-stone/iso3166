@@ -251,6 +251,10 @@ func genIso4217Extended(mapLangToSaveTo map[string]string, pathPatch string, ove
 
 	tableIso4217.MergeTable(tableMerge, iso.MergeActionFillWithIso4217)
 
+	if pathPatch != "" {
+		tableIso4217.MergeFromJson(pathPatch, iso.MergeActionMerge)
+	}
+
 	mapLangToGenerator := map[string]FuncNewGenerator{
 		LANG_JSON: generator_json.New,
 		LANG_GO:   generator_golang.New,

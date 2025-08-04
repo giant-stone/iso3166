@@ -21,6 +21,17 @@ func TestNewFromAlphabeticCode(t *testing.T) {
 		want iso.IEntity
 	}{
 		{
+			name: "AED",
+			args: args{s: "AED"},
+			want: &iso.Entity{
+				AlphabeticCode: "AED", NumericCode4217: "784", Currency: "United Arab Emirates dirham", MinorUnit: 2, Entities: []string{"AE"},
+
+				CurrencyInCN:     "阿联酋迪拉姆",
+				CurrencyInNative: "درهم إماراتي",
+			},
+		},
+
+		{
 			name: "CNY",
 			args: args{s: "CNY"},
 			want: &iso.Entity{
