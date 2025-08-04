@@ -5,6 +5,7 @@ Generate ISO 3166-1, ISO 3166-3 and ISO 4217 data in JSON, Go and TypeScript.
 [![Go](https://github.com/giant-stone/iso3166/actions/workflows/go.yml/badge.svg)](https://github.com/giant-stone/iso3166/actions/workflows/go.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/giant-stone/iso3166)](https://goreportcard.com/report/github.com/giant-stone/iso3166)
 [![LICENSE](https://img.shields.io/github/license/giant-stone/iso3166.svg?style=flat-square)](https://github.com/giant-stone/go/blob/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/giant-stone/iso3166?status.svg)](https://godoc.org/github.com/giant-stone/iso3166)
 
 
 Source code folder description
