@@ -211,5 +211,5 @@ func serializeSliceStringForGoCode(items []string) string {
 	for _, item := range items {
 		rs = append(rs, fmt.Sprintf("%+q", item))
 	}
-	return strings.Join(rs, ",")
+	return strings.Join(rs, ", ")
 }

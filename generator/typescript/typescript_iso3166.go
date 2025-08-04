@@ -108,7 +108,7 @@ const lineTemplateIso3166 = `const {{.CommonNameInAlphaNumeric}} = {
   common_name: "{{.CommonName}}",
   calling_code: "{{.CallingCode}}",
 
-  languages: "{{.Languages}}",
+  languages: {{.Languages}},
 
   region_in_cn: "{{.RegionInCN}}",
   region_in_native: "{{.RegionInNative}}",

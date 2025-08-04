@@ -45,7 +45,7 @@ const Afghanistan = {
   common_name: "Afghanistan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "阿富汗",
   region_in_native: "",
@@ -73,7 +73,7 @@ const Albania = {
   common_name: "Albania",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "阿尔巴尼亚",
   region_in_native: "",
@@ -101,7 +101,7 @@ const Antarctica = {
   common_name: "Antarctica",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "南极洲",
   region_in_native: "",
@@ -129,7 +129,7 @@ const Algeria = {
   common_name: "Algeria",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "阿尔及利亚",
   region_in_native: "",
@@ -157,7 +157,7 @@ const AmericanSamoa = {
   common_name: "American Samoa",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "美属萨摩亚",
   region_in_native: "",
@@ -185,7 +185,7 @@ const Andorra = {
   common_name: "Andorra",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "安道尔",
   region_in_native: "",
@@ -213,7 +213,7 @@ const Angola = {
   common_name: "Angola",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "安哥拉",
   region_in_native: "",
@@ -241,7 +241,7 @@ const AntiguaAndBarbuda = {
   common_name: "Antigua And Barbuda",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "安提瓜和巴布达",
   region_in_native: "",
@@ -269,7 +269,7 @@ const Azerbaijan = {
   common_name: "Azerbaijan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "阿塞拜疆",
   region_in_native: "",
@@ -297,7 +297,7 @@ const Argentina = {
   common_name: "Argentina",
   calling_code: "54",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "阿根廷",
   region_in_native: "",
@@ -325,7 +325,7 @@ const Australia = {
   common_name: "Australia",
   calling_code: "61",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "澳大利亚",
   region_in_native: "",
@@ -353,7 +353,7 @@ const Austria = {
   common_name: "Austria",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "奥地利",
   region_in_native: "",
@@ -381,7 +381,7 @@ const Bahamas = {
   common_name: "Bahamas",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴哈马",
   region_in_native: "",
@@ -409,7 +409,7 @@ const Bahrain = {
   common_name: "Bahrain",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴林",
   region_in_native: "",
@@ -437,7 +437,7 @@ const Bangladesh = {
   common_name: "Bangladesh",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "孟加拉国",
   region_in_native: "",
@@ -465,7 +465,7 @@ const Armenia = {
   common_name: "Armenia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "亚美尼亚",
   region_in_native: "",
@@ -493,7 +493,7 @@ const Barbados = {
   common_name: "Barbados",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴巴多斯",
   region_in_native: "",
@@ -521,7 +521,7 @@ const Belgium = {
   common_name: "Belgium",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "比利时",
   region_in_native: "",
@@ -549,7 +549,7 @@ const Bermuda = {
   common_name: "Bermuda",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "百慕大",
   region_in_native: "",
@@ -577,7 +577,7 @@ const Bhutan = {
   common_name: "Bhutan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "不丹",
   region_in_native: "",
@@ -605,7 +605,7 @@ const BoliviaPlurinationalStateOf = {
   common_name: "Bolivia Plurinational State Of",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "玻利维亚",
   region_in_native: "",
@@ -633,7 +633,7 @@ const BosniaAndHerzegovina = {
   common_name: "Bosnia And Herzegovina",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "波黑",
   region_in_native: "",
@@ -661,7 +661,7 @@ const Botswana = {
   common_name: "Botswana",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "博茨瓦纳",
   region_in_native: "",
@@ -689,7 +689,7 @@ const BouvetIsland = {
   common_name: "Bouvet Island",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "布韦岛",
   region_in_native: "",
@@ -717,7 +717,7 @@ const Brazil = {
   common_name: "Brazil",
   calling_code: "55",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴西",
   region_in_native: "",
@@ -745,7 +745,7 @@ const Belize = {
   common_name: "Belize",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "伯利兹",
   region_in_native: "",
@@ -773,7 +773,7 @@ const BritishIndianOceanTerritory = {
   common_name: "British Indian Ocean Territory",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "英属印度洋领地",
   region_in_native: "",
@@ -801,7 +801,7 @@ const SolomonIslands = {
   common_name: "Solomon Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "所罗门群岛",
   region_in_native: "",
@@ -829,7 +829,7 @@ const VirginIslandsBritish = {
   common_name: "Virgin Islands British",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "英属维尔京群岛",
   region_in_native: "",
@@ -857,7 +857,7 @@ const BruneiDarussalam = {
   common_name: "Brunei Darussalam",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "文莱",
   region_in_native: "",
@@ -885,7 +885,7 @@ const Bulgaria = {
   common_name: "Bulgaria",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "保加利亚",
   region_in_native: "",
@@ -913,7 +913,7 @@ const Burma = {
   common_name: "Burma",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "前缅甸",
   region_in_native: "",
@@ -941,7 +941,7 @@ const Myanmar = {
   common_name: "Myanmar",
   calling_code: "95",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "缅甸",
   region_in_native: "",
@@ -969,7 +969,7 @@ const Burundi = {
   common_name: "Burundi",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "布隆迪",
   region_in_native: "",
@@ -997,7 +997,7 @@ const Belarus = {
   common_name: "Belarus",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "白俄罗斯",
   region_in_native: "",
@@ -1025,7 +1025,7 @@ const Cambodia = {
   common_name: "Cambodia",
   calling_code: "855",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "柬埔寨",
   region_in_native: "",
@@ -1053,7 +1053,7 @@ const Cameroon = {
   common_name: "Cameroon",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "喀麦隆",
   region_in_native: "",
@@ -1081,7 +1081,7 @@ const Canada = {
   common_name: "Canada",
   calling_code: "1",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "加拿大",
   region_in_native: "",
@@ -1109,7 +1109,7 @@ const CantonAndEnderburyIslands = {
   common_name: "Canton And Enderbury Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "坎顿及恩德伯里群岛",
   region_in_native: "",
@@ -1137,7 +1137,7 @@ const CaboVerde = {
   common_name: "Cabo Verde",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "佛得角",
   region_in_native: "",
@@ -1165,7 +1165,7 @@ const CaymanIslands = {
   common_name: "Cayman Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "开曼群岛",
   region_in_native: "",
@@ -1193,7 +1193,7 @@ const CentralAfricanRepublic = {
   common_name: "Central African Republic",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "中非",
   region_in_native: "",
@@ -1221,7 +1221,7 @@ const SriLanka = {
   common_name: "Sri Lanka",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "斯里兰卡",
   region_in_native: "",
@@ -1249,7 +1249,7 @@ const Chad = {
   common_name: "Chad",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "乍得",
   region_in_native: "",
@@ -1277,7 +1277,7 @@ const Chile = {
   common_name: "Chile",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "智利",
   region_in_native: "",
@@ -1305,7 +1305,7 @@ const China = {
   common_name: "China",
   calling_code: "86",
 
-  languages: "["Mandarin Chinese"]",
+  languages: ["Mandarin Chinese"],
 
   region_in_cn: "中国大陆",
   region_in_native: "中国",
@@ -1333,7 +1333,7 @@ const Taiwan = {
   common_name: "Taiwan",
   calling_code: "886",
 
-  languages: "["Chinese"]",
+  languages: ["Chinese"],
 
   region_in_cn: "中国台湾",
   region_in_native: "臺灣",
@@ -1361,7 +1361,7 @@ const ChristmasIsland = {
   common_name: "Christmas Island",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圣诞岛",
   region_in_native: "",
@@ -1389,7 +1389,7 @@ const CocosKeelingIslands = {
   common_name: "Cocos Keeling Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "科科斯（基林）群岛",
   region_in_native: "",
@@ -1417,7 +1417,7 @@ const Colombia = {
   common_name: "Colombia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "哥伦比亚",
   region_in_native: "",
@@ -1445,7 +1445,7 @@ const Comoros = {
   common_name: "Comoros",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "科摩罗",
   region_in_native: "",
@@ -1473,7 +1473,7 @@ const Mayotte = {
   common_name: "Mayotte",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马约特",
   region_in_native: "",
@@ -1501,7 +1501,7 @@ const Congo = {
   common_name: "Congo",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "刚果共和国",
   region_in_native: "",
@@ -1529,7 +1529,7 @@ const CongoDemocraticRepublicOfthe = {
   common_name: "Congo Democratic Republic Of the",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "刚果民主共和国",
   region_in_native: "",
@@ -1557,7 +1557,7 @@ const Zaire = {
   common_name: "Zaire",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "扎伊尔",
   region_in_native: "",
@@ -1585,7 +1585,7 @@ const CookIslands = {
   common_name: "Cook Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "库克群岛",
   region_in_native: "",
@@ -1613,7 +1613,7 @@ const CostaRica = {
   common_name: "Costa Rica",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "哥斯达黎加",
   region_in_native: "",
@@ -1641,7 +1641,7 @@ const Croatia = {
   common_name: "Croatia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "克罗地亚",
   region_in_native: "",
@@ -1669,7 +1669,7 @@ const Cuba = {
   common_name: "Cuba",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "古巴",
   region_in_native: "",
@@ -1697,7 +1697,7 @@ const Cyprus = {
   common_name: "Cyprus",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "塞浦路斯",
   region_in_native: "",
@@ -1725,7 +1725,7 @@ const Czechoslovakia = {
   common_name: "Czechoslovakia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "捷克斯洛伐克",
   region_in_native: "",
@@ -1753,7 +1753,7 @@ const Czechia = {
   common_name: "Czechia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "捷克",
   region_in_native: "",
@@ -1781,7 +1781,7 @@ const Benin = {
   common_name: "Benin",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "贝宁",
   region_in_native: "",
@@ -1809,7 +1809,7 @@ const Dahomey = {
   common_name: "Dahomey",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "达荷美",
   region_in_native: "",
@@ -1837,7 +1837,7 @@ const Denmark = {
   common_name: "Denmark",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "丹麦",
   region_in_native: "",
@@ -1865,7 +1865,7 @@ const Dominica = {
   common_name: "Dominica",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "多米尼克",
   region_in_native: "",
@@ -1893,7 +1893,7 @@ const DominicanRepublic = {
   common_name: "Dominican Republic",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "多米尼加",
   region_in_native: "",
@@ -1921,7 +1921,7 @@ const DronningMaudLand = {
   common_name: "Dronning Maud Land",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "毛德皇后地",
   region_in_native: "",
@@ -1949,7 +1949,7 @@ const Ecuador = {
   common_name: "Ecuador",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "厄瓜多尔",
   region_in_native: "",
@@ -1977,7 +1977,7 @@ const ElSalvador = {
   common_name: "El Salvador",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "萨尔瓦多",
   region_in_native: "",
@@ -2005,7 +2005,7 @@ const EquatorialGuinea = {
   common_name: "Equatorial Guinea",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "赤道几内亚",
   region_in_native: "",
@@ -2033,7 +2033,7 @@ const Ethiopia = {
   common_name: "Ethiopia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "埃塞俄比亚",
   region_in_native: "",
@@ -2061,7 +2061,7 @@ const Eritrea = {
   common_name: "Eritrea",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "厄立特里亚",
   region_in_native: "",
@@ -2089,7 +2089,7 @@ const Estonia = {
   common_name: "Estonia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "爱沙尼亚",
   region_in_native: "",
@@ -2117,7 +2117,7 @@ const FaroeIslands = {
   common_name: "Faroe Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "法罗群岛",
   region_in_native: "",
@@ -2145,7 +2145,7 @@ const FalklandIslandsMalvinas = {
   common_name: "Falkland Islands Malvinas",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "福克兰群岛",
   region_in_native: "",
@@ -2173,7 +2173,7 @@ const SouthGeorgiaAndTheSouthSandwichIslands = {
   common_name: "South Georgia And The South Sandwich Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "南乔治亚和南桑威奇群岛",
   region_in_native: "",
@@ -2201,7 +2201,7 @@ const Fiji = {
   common_name: "Fiji",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "斐济",
   region_in_native: "",
@@ -2229,7 +2229,7 @@ const Finland = {
   common_name: "Finland",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "芬兰",
   region_in_native: "",
@@ -2257,7 +2257,7 @@ const AlandIslands = {
   common_name: "Aland Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "奥兰",
   region_in_native: "",
@@ -2285,7 +2285,7 @@ const FranceMetropolitan = {
   common_name: "France Metropolitan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "法国本土",
   region_in_native: "",
@@ -2313,7 +2313,7 @@ const France = {
   common_name: "France",
   calling_code: "33",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "法国",
   region_in_native: "",
@@ -2341,7 +2341,7 @@ const FrenchGuiana = {
   common_name: "French Guiana",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "法属圭亚那",
   region_in_native: "",
@@ -2369,7 +2369,7 @@ const FrenchPolynesia = {
   common_name: "French Polynesia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "法属波利尼西亚",
   region_in_native: "",
@@ -2397,7 +2397,7 @@ const FrenchSouthernAndAntarcticTerritories = {
   common_name: "French Southern And Antarctic Territories",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "法属南部和南极领地",
   region_in_native: "",
@@ -2425,7 +2425,7 @@ const FrenchSouthernTerritories = {
   common_name: "French Southern Territories",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "法属南部和南极领地",
   region_in_native: "",
@@ -2453,7 +2453,7 @@ const Djibouti = {
   common_name: "Djibouti",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "吉布提",
   region_in_native: "",
@@ -2481,7 +2481,7 @@ const Gabon = {
   common_name: "Gabon",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "加蓬",
   region_in_native: "",
@@ -2509,7 +2509,7 @@ const Georgia = {
   common_name: "Georgia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "格鲁吉亚",
   region_in_native: "",
@@ -2537,7 +2537,7 @@ const Gambia = {
   common_name: "Gambia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "冈比亚",
   region_in_native: "",
@@ -2565,7 +2565,7 @@ const PalestineStateOf = {
   common_name: "Palestine State Of",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴勒斯坦",
   region_in_native: "",
@@ -2593,7 +2593,7 @@ const Germany = {
   common_name: "Germany",
   calling_code: "49",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "德国",
   region_in_native: "",
@@ -2621,7 +2621,7 @@ const EastGermany = {
   common_name: "East Germany",
   calling_code: "",
 
-  languages: "["German"]",
+  languages: ["German"],
 
   region_in_cn: "东德",
   region_in_native: "",
@@ -2649,7 +2649,7 @@ const Ghana = {
   common_name: "Ghana",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "加纳",
   region_in_native: "",
@@ -2677,7 +2677,7 @@ const Gibraltar = {
   common_name: "Gibraltar",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "直布罗陀",
   region_in_native: "",
@@ -2705,7 +2705,7 @@ const Kiribati = {
   common_name: "Kiribati",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "基里巴斯",
   region_in_native: "",
@@ -2733,7 +2733,7 @@ const Greece = {
   common_name: "Greece",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "希腊",
   region_in_native: "",
@@ -2761,7 +2761,7 @@ const Greenland = {
   common_name: "Greenland",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "格陵兰",
   region_in_native: "",
@@ -2789,7 +2789,7 @@ const Grenada = {
   common_name: "Grenada",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "格林纳达",
   region_in_native: "",
@@ -2817,7 +2817,7 @@ const Guadeloupe = {
   common_name: "Guadeloupe",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "瓜德罗普",
   region_in_native: "",
@@ -2845,7 +2845,7 @@ const Guam = {
   common_name: "Guam",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "关岛",
   region_in_native: "",
@@ -2873,7 +2873,7 @@ const Guatemala = {
   common_name: "Guatemala",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "危地马拉",
   region_in_native: "",
@@ -2901,7 +2901,7 @@ const Guinea = {
   common_name: "Guinea",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "几内亚",
   region_in_native: "",
@@ -2929,7 +2929,7 @@ const Guyana = {
   common_name: "Guyana",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圭亚那",
   region_in_native: "",
@@ -2957,7 +2957,7 @@ const Haiti = {
   common_name: "Haiti",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "海地",
   region_in_native: "",
@@ -2985,7 +2985,7 @@ const HeardIslandAndMcDonaldIslands = {
   common_name: "Heard Island And McDonald Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "赫德岛和麦克唐纳群岛",
   region_in_native: "",
@@ -3013,7 +3013,7 @@ const HolySee = {
   common_name: "Holy See",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "梵蒂冈",
   region_in_native: "",
@@ -3041,7 +3041,7 @@ const Honduras = {
   common_name: "Honduras",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "洪都拉斯",
   region_in_native: "",
@@ -3069,7 +3069,7 @@ const HongKong = {
   common_name: "Hong Kong",
   calling_code: "852",
 
-  languages: "["English","Cantonese"]",
+  languages: ["English","Cantonese"],
 
   region_in_cn: "中国香港",
   region_in_native: "香港",
@@ -3097,7 +3097,7 @@ const Hungary = {
   common_name: "Hungary",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "匈牙利",
   region_in_native: "",
@@ -3125,7 +3125,7 @@ const Iceland = {
   common_name: "Iceland",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "冰岛",
   region_in_native: "",
@@ -3153,7 +3153,7 @@ const India = {
   common_name: "India",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "印度",
   region_in_native: "",
@@ -3181,7 +3181,7 @@ const Indonesia = {
   common_name: "Indonesia",
   calling_code: "62",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "印度尼西亚",
   region_in_native: "",
@@ -3209,7 +3209,7 @@ const IranIslamicRepublicOf = {
   common_name: "Iran Islamic Republic Of",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "伊朗",
   region_in_native: "",
@@ -3237,7 +3237,7 @@ const Iraq = {
   common_name: "Iraq",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "伊拉克",
   region_in_native: "",
@@ -3265,7 +3265,7 @@ const Ireland = {
   common_name: "Ireland",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "爱尔兰",
   region_in_native: "",
@@ -3293,7 +3293,7 @@ const Israel = {
   common_name: "Israel",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "以色列",
   region_in_native: "",
@@ -3321,7 +3321,7 @@ const Italy = {
   common_name: "Italy",
   calling_code: "39",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "意大利",
   region_in_native: "",
@@ -3349,7 +3349,7 @@ const CotedIvoire = {
   common_name: "Cote dIvoire",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "科特迪瓦",
   region_in_native: "",
@@ -3377,7 +3377,7 @@ const Jamaica = {
   common_name: "Jamaica",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "牙买加",
   region_in_native: "",
@@ -3405,7 +3405,7 @@ const Japan = {
   common_name: "Japan",
   calling_code: "81",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "日本",
   region_in_native: "",
@@ -3433,7 +3433,7 @@ const JohnstonIsland = {
   common_name: "Johnston Island",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "约翰斯顿环礁",
   region_in_native: "",
@@ -3461,7 +3461,7 @@ const Kazakhstan = {
   common_name: "Kazakhstan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "哈萨克斯坦",
   region_in_native: "",
@@ -3489,7 +3489,7 @@ const Jordan = {
   common_name: "Jordan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "约旦",
   region_in_native: "",
@@ -3517,7 +3517,7 @@ const Kenya = {
   common_name: "Kenya",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "肯尼亚",
   region_in_native: "",
@@ -3545,7 +3545,7 @@ const NorthKorea = {
   common_name: "North Korea",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "北韩",
   region_in_native: "",
@@ -3573,7 +3573,7 @@ const SouthKorea = {
   common_name: "South Korea",
   calling_code: "82",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "南韩",
   region_in_native: "",
@@ -3601,7 +3601,7 @@ const Kuwait = {
   common_name: "Kuwait",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "科威特",
   region_in_native: "",
@@ -3629,7 +3629,7 @@ const Kyrgyzstan = {
   common_name: "Kyrgyzstan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "吉尔吉斯斯坦",
   region_in_native: "",
@@ -3657,7 +3657,7 @@ const Lebanon = {
   common_name: "Lebanon",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "黎巴嫩",
   region_in_native: "",
@@ -3685,7 +3685,7 @@ const Lesotho = {
   common_name: "Lesotho",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "莱索托",
   region_in_native: "",
@@ -3713,7 +3713,7 @@ const Latvia = {
   common_name: "Latvia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "拉脱维亚",
   region_in_native: "",
@@ -3741,7 +3741,7 @@ const Liberia = {
   common_name: "Liberia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "利比里亚",
   region_in_native: "",
@@ -3769,7 +3769,7 @@ const Libya = {
   common_name: "Libya",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "利比亚",
   region_in_native: "",
@@ -3797,7 +3797,7 @@ const Liechtenstein = {
   common_name: "Liechtenstein",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "列支敦士登",
   region_in_native: "",
@@ -3825,7 +3825,7 @@ const Lithuania = {
   common_name: "Lithuania",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "立陶宛",
   region_in_native: "",
@@ -3853,7 +3853,7 @@ const Luxembourg = {
   common_name: "Luxembourg",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "卢森堡",
   region_in_native: "",
@@ -3881,7 +3881,7 @@ const Macao = {
   common_name: "Macao",
   calling_code: "853",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "中国澳门",
   region_in_native: "中國澳門",
@@ -3909,7 +3909,7 @@ const Madagascar = {
   common_name: "Madagascar",
   calling_code: "261",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马达加斯加",
   region_in_native: "",
@@ -3937,7 +3937,7 @@ const Malawi = {
   common_name: "Malawi",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马拉维",
   region_in_native: "",
@@ -3965,7 +3965,7 @@ const Malaysia = {
   common_name: "Malaysia",
   calling_code: "60",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马来西亚",
   region_in_native: "",
@@ -3993,7 +3993,7 @@ const Maldives = {
   common_name: "Maldives",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马尔代夫",
   region_in_native: "",
@@ -4021,7 +4021,7 @@ const Mali = {
   common_name: "Mali",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马里",
   region_in_native: "",
@@ -4049,7 +4049,7 @@ const Malta = {
   common_name: "Malta",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马耳他",
   region_in_native: "",
@@ -4077,7 +4077,7 @@ const Martinique = {
   common_name: "Martinique",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马提尼克",
   region_in_native: "",
@@ -4105,7 +4105,7 @@ const Mauritania = {
   common_name: "Mauritania",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "毛里塔尼亚",
   region_in_native: "",
@@ -4133,7 +4133,7 @@ const Mauritius = {
   common_name: "Mauritius",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "毛里求斯",
   region_in_native: "",
@@ -4161,7 +4161,7 @@ const Laos = {
   common_name: "Laos",
   calling_code: "856",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "老挝",
   region_in_native: "",
@@ -4189,7 +4189,7 @@ const Mexico = {
   common_name: "Mexico",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "墨西哥",
   region_in_native: "",
@@ -4217,7 +4217,7 @@ const MidwayIslands = {
   common_name: "Midway Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "中途岛",
   region_in_native: "",
@@ -4245,7 +4245,7 @@ const Monaco = {
   common_name: "Monaco",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "摩纳哥",
   region_in_native: "",
@@ -4273,7 +4273,7 @@ const Mongolia = {
   common_name: "Mongolia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "蒙古国",
   region_in_native: "",
@@ -4301,7 +4301,7 @@ const MoldovaRepublicOf = {
   common_name: "Moldova Republic Of",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "摩尔多瓦",
   region_in_native: "",
@@ -4329,7 +4329,7 @@ const Montenegro = {
   common_name: "Montenegro",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "黑山",
   region_in_native: "",
@@ -4357,7 +4357,7 @@ const Montserrat = {
   common_name: "Montserrat",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "蒙特塞拉特",
   region_in_native: "",
@@ -4385,7 +4385,7 @@ const Morocco = {
   common_name: "Morocco",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "摩洛哥",
   region_in_native: "",
@@ -4413,7 +4413,7 @@ const Mozambique = {
   common_name: "Mozambique",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "莫桑比克",
   region_in_native: "",
@@ -4441,7 +4441,7 @@ const Oman = {
   common_name: "Oman",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "阿曼",
   region_in_native: "",
@@ -4469,7 +4469,7 @@ const Namibia = {
   common_name: "Namibia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "纳米比亚",
   region_in_native: "",
@@ -4497,7 +4497,7 @@ const Nauru = {
   common_name: "Nauru",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "瑙鲁",
   region_in_native: "",
@@ -4525,7 +4525,7 @@ const Nepal = {
   common_name: "Nepal",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "尼泊尔",
   region_in_native: "",
@@ -4553,7 +4553,7 @@ const Netherlands = {
   common_name: "Netherlands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "荷兰",
   region_in_native: "",
@@ -4581,7 +4581,7 @@ const Curacao = {
   common_name: "Curacao",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "库拉索",
   region_in_native: "",
@@ -4609,7 +4609,7 @@ const Aruba = {
   common_name: "Aruba",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "阿鲁巴",
   region_in_native: "",
@@ -4637,7 +4637,7 @@ const SintMaartenDutchpart = {
   common_name: "Sint Maarten Dutch part",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "荷属圣马丁",
   region_in_native: "",
@@ -4665,7 +4665,7 @@ const BonaireSintEustatiusAndSaba = {
   common_name: "Bonaire Sint Eustatius And Saba",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "荷兰加勒比区",
   region_in_native: "",
@@ -4693,7 +4693,7 @@ const NeutralZone = {
   common_name: "Neutral Zone",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "沙特阿拉伯－伊拉克中立区",
   region_in_native: "",
@@ -4721,7 +4721,7 @@ const NewCaledonia = {
   common_name: "New Caledonia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "新喀里多尼亚",
   region_in_native: "",
@@ -4749,7 +4749,7 @@ const NewHebrides = {
   common_name: "New Hebrides",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "新赫布里底群岛",
   region_in_native: "",
@@ -4777,7 +4777,7 @@ const Vanuatu = {
   common_name: "Vanuatu",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "瓦努阿图",
   region_in_native: "",
@@ -4805,7 +4805,7 @@ const NewZealand = {
   common_name: "New Zealand",
   calling_code: "64",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "新西兰",
   region_in_native: "",
@@ -4833,7 +4833,7 @@ const Nicaragua = {
   common_name: "Nicaragua",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "尼加拉瓜",
   region_in_native: "",
@@ -4861,7 +4861,7 @@ const Niger = {
   common_name: "Niger",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "尼日尔",
   region_in_native: "",
@@ -4889,7 +4889,7 @@ const Nigeria = {
   common_name: "Nigeria",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "尼日利亚",
   region_in_native: "",
@@ -4917,7 +4917,7 @@ const Niue = {
   common_name: "Niue",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "纽埃",
   region_in_native: "",
@@ -4945,7 +4945,7 @@ const NorfolkIsland = {
   common_name: "Norfolk Island",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "诺福克岛",
   region_in_native: "",
@@ -4973,7 +4973,7 @@ const Norway = {
   common_name: "Norway",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "挪威",
   region_in_native: "",
@@ -5001,7 +5001,7 @@ const NorthernMarianaIslands = {
   common_name: "Northern Mariana Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "北马里亚纳群岛",
   region_in_native: "",
@@ -5029,7 +5029,7 @@ const UnitedStatesMinorOutlyingIslands = {
   common_name: "United States Minor Outlying Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "美国本土外小岛屿",
   region_in_native: "",
@@ -5057,7 +5057,7 @@ const PacificIslandsTrustTerritoryOfthe = {
   common_name: "Pacific Islands Trust Territory Of the",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "太平洋群岛托管地",
   region_in_native: "",
@@ -5085,7 +5085,7 @@ const MicronesiaFederatedStatesOf = {
   common_name: "Micronesia Federated States Of",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "密克罗尼西亚联邦",
   region_in_native: "",
@@ -5113,7 +5113,7 @@ const MarshallIslands = {
   common_name: "Marshall Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马绍尔群岛",
   region_in_native: "",
@@ -5141,7 +5141,7 @@ const Palau = {
   common_name: "Palau",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "帕劳",
   region_in_native: "",
@@ -5169,7 +5169,7 @@ const Pakistan = {
   common_name: "Pakistan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴基斯坦",
   region_in_native: "",
@@ -5197,7 +5197,7 @@ const Panama = {
   common_name: "Panama",
   calling_code: "507",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴拿马",
   region_in_native: "",
@@ -5225,7 +5225,7 @@ const PanamaCanalZone = {
   common_name: "Panama Canal Zone",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴拿马运河区",
   region_in_native: "",
@@ -5253,7 +5253,7 @@ const PapuaNewGuinea = {
   common_name: "Papua New Guinea",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴布亚新几内亚",
   region_in_native: "",
@@ -5281,7 +5281,7 @@ const Paraguay = {
   common_name: "Paraguay",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "巴拉圭",
   region_in_native: "",
@@ -5309,7 +5309,7 @@ const Peru = {
   common_name: "Peru",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "秘鲁",
   region_in_native: "",
@@ -5337,7 +5337,7 @@ const Philippines = {
   common_name: "Philippines",
   calling_code: "63",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "菲律宾",
   region_in_native: "",
@@ -5365,7 +5365,7 @@ const Pitcairn = {
   common_name: "Pitcairn",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "皮特凯恩群岛",
   region_in_native: "",
@@ -5393,7 +5393,7 @@ const Poland = {
   common_name: "Poland",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "波兰",
   region_in_native: "",
@@ -5421,7 +5421,7 @@ const Portugal = {
   common_name: "Portugal",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "葡萄牙",
   region_in_native: "",
@@ -5449,7 +5449,7 @@ const Guinea_Bissau = {
   common_name: "Guinea_Bissau",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "几内亚比绍",
   region_in_native: "",
@@ -5477,7 +5477,7 @@ const Timor_Leste = {
   common_name: "Timor_Leste",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "东帝汶",
   region_in_native: "",
@@ -5505,7 +5505,7 @@ const EastTimor = {
   common_name: "East Timor",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "东帝汶",
   region_in_native: "",
@@ -5533,7 +5533,7 @@ const PuertoRico = {
   common_name: "Puerto Rico",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "波多黎各",
   region_in_native: "",
@@ -5561,7 +5561,7 @@ const Qatar = {
   common_name: "Qatar",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "卡塔尔",
   region_in_native: "",
@@ -5589,7 +5589,7 @@ const Reunion = {
   common_name: "Reunion",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "留尼汪",
   region_in_native: "",
@@ -5617,7 +5617,7 @@ const Romania = {
   common_name: "Romania",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "罗马尼亚",
   region_in_native: "",
@@ -5645,7 +5645,7 @@ const Russia = {
   common_name: "Russia",
   calling_code: "7",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "俄罗斯",
   region_in_native: "",
@@ -5673,7 +5673,7 @@ const Rwanda = {
   common_name: "Rwanda",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "卢旺达",
   region_in_native: "",
@@ -5701,7 +5701,7 @@ const SaintBarthelemy = {
   common_name: "Saint Barthelemy",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圣巴泰勒米",
   region_in_native: "",
@@ -5729,7 +5729,7 @@ const SaintHelenaAscensionAndTristandaCunha = {
   common_name: "Saint Helena Ascension And Tristan da Cunha",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圣赫勒拿、阿森松和特里斯坦-达库尼亚",
   region_in_native: "",
@@ -5757,7 +5757,7 @@ const SaintKittsAndNevis = {
   common_name: "Saint Kitts And Nevis",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圣基茨和尼维斯",
   region_in_native: "",
@@ -5785,7 +5785,7 @@ const Anguilla = {
   common_name: "Anguilla",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "安圭拉",
   region_in_native: "",
@@ -5813,7 +5813,7 @@ const SaintLucia = {
   common_name: "Saint Lucia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圣卢西亚",
   region_in_native: "",
@@ -5841,7 +5841,7 @@ const SaintMartinFrenchpart = {
   common_name: "Saint Martin French part",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "法属圣马丁",
   region_in_native: "",
@@ -5869,7 +5869,7 @@ const SaintPierreAndMiquelon = {
   common_name: "Saint Pierre And Miquelon",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圣皮埃尔和密克隆",
   region_in_native: "",
@@ -5897,7 +5897,7 @@ const SaintVincentAndTheGrenadines = {
   common_name: "Saint Vincent And The Grenadines",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圣文森特和格林纳丁斯",
   region_in_native: "",
@@ -5925,7 +5925,7 @@ const SanMarino = {
   common_name: "San Marino",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圣马力诺",
   region_in_native: "",
@@ -5953,7 +5953,7 @@ const SaoTomeAndPrincipe = {
   common_name: "Sao Tome And Principe",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "圣多美和普林西比",
   region_in_native: "",
@@ -5981,7 +5981,7 @@ const SaudiArabia = {
   common_name: "Saudi Arabia",
   calling_code: "966",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "沙特阿拉伯",
   region_in_native: "",
@@ -6009,7 +6009,7 @@ const Senegal = {
   common_name: "Senegal",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "塞内加尔",
   region_in_native: "",
@@ -6037,7 +6037,7 @@ const Serbia = {
   common_name: "Serbia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "塞尔维亚",
   region_in_native: "",
@@ -6065,7 +6065,7 @@ const Seychelles = {
   common_name: "Seychelles",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "塞舌尔",
   region_in_native: "",
@@ -6093,7 +6093,7 @@ const SierraLeone = {
   common_name: "Sierra Leone",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "塞拉利昂",
   region_in_native: "",
@@ -6121,7 +6121,7 @@ const Singapore = {
   common_name: "Singapore",
   calling_code: "65",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "新加坡",
   region_in_native: "",
@@ -6149,7 +6149,7 @@ const Slovakia = {
   common_name: "Slovakia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "斯洛伐克",
   region_in_native: "",
@@ -6177,7 +6177,7 @@ const Viet_NamDemocraticRepublicOf = {
   common_name: "Viet_Nam Democratic Republic Of",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "越南民主共和国",
   region_in_native: "",
@@ -6205,7 +6205,7 @@ const VietNam = {
   common_name: "Viet Nam",
   calling_code: "84",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "越南",
   region_in_native: "",
@@ -6233,7 +6233,7 @@ const Slovenia = {
   common_name: "Slovenia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "斯洛文尼亚",
   region_in_native: "",
@@ -6261,7 +6261,7 @@ const Somalia = {
   common_name: "Somalia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "索马里",
   region_in_native: "",
@@ -6289,7 +6289,7 @@ const SouthAfrica = {
   common_name: "South Africa",
   calling_code: "27",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "南非",
   region_in_native: "",
@@ -6317,7 +6317,7 @@ const SouthernRhodesia = {
   common_name: "Southern Rhodesia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "南罗德西亚",
   region_in_native: "",
@@ -6345,7 +6345,7 @@ const Zimbabwe = {
   common_name: "Zimbabwe",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "津巴布韦",
   region_in_native: "",
@@ -6373,7 +6373,7 @@ const YemenDemocratic = {
   common_name: "Yemen Democratic",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "也门民主人民共和国",
   region_in_native: "",
@@ -6401,7 +6401,7 @@ const Spain = {
   common_name: "Spain",
   calling_code: "34",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "西班牙",
   region_in_native: "",
@@ -6429,7 +6429,7 @@ const SouthSudan = {
   common_name: "South Sudan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "南苏丹",
   region_in_native: "",
@@ -6457,7 +6457,7 @@ const Sudan = {
   common_name: "Sudan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "苏丹",
   region_in_native: "",
@@ -6485,7 +6485,7 @@ const WesternSahara = {
   common_name: "Western Sahara",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "西撒哈拉",
   region_in_native: "",
@@ -6513,7 +6513,7 @@ const Suriname = {
   common_name: "Suriname",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "苏里南",
   region_in_native: "",
@@ -6541,7 +6541,7 @@ const SvalbardAndJanMayen = {
   common_name: "Svalbard And Jan Mayen",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "斯瓦尔巴和扬马延",
   region_in_native: "",
@@ -6569,7 +6569,7 @@ const Eswatini = {
   common_name: "Eswatini",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "斯威士兰",
   region_in_native: "",
@@ -6597,7 +6597,7 @@ const Sweden = {
   common_name: "Sweden",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "瑞典",
   region_in_native: "",
@@ -6625,7 +6625,7 @@ const Switzerland = {
   common_name: "Switzerland",
   calling_code: "41",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "瑞士",
   region_in_native: "",
@@ -6653,7 +6653,7 @@ const SyrianArabRepublic = {
   common_name: "Syrian Arab Republic",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "叙利亚",
   region_in_native: "",
@@ -6681,7 +6681,7 @@ const Tajikistan = {
   common_name: "Tajikistan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "塔吉克斯坦",
   region_in_native: "",
@@ -6709,7 +6709,7 @@ const Thailand = {
   common_name: "Thailand",
   calling_code: "66",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "泰国",
   region_in_native: "",
@@ -6737,7 +6737,7 @@ const Togo = {
   common_name: "Togo",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "多哥",
   region_in_native: "",
@@ -6765,7 +6765,7 @@ const Tokelau = {
   common_name: "Tokelau",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "托克劳",
   region_in_native: "",
@@ -6793,7 +6793,7 @@ const Tonga = {
   common_name: "Tonga",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "汤加",
   region_in_native: "",
@@ -6821,7 +6821,7 @@ const TrinidadAndTobago = {
   common_name: "Trinidad And Tobago",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "特立尼达和多巴哥",
   region_in_native: "",
@@ -6849,7 +6849,7 @@ const UnitedArabEmirates = {
   common_name: "United Arab Emirates",
   calling_code: "971",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "阿联酋",
   region_in_native: "",
@@ -6859,8 +6859,8 @@ const UnitedArabEmirates = {
   minor_unit: 2,
   currency: "United Arab Emirates dirham",
 
-  currency_in_cn: "",
-  currency_in_native: "",
+  currency_in_cn: "阿联酋迪拉姆",
+  currency_in_native: "درهم إماراتي",
 } as IEntity;
 
 const Tunisia = {
@@ -6877,7 +6877,7 @@ const Tunisia = {
   common_name: "Tunisia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "突尼斯",
   region_in_native: "",
@@ -6905,7 +6905,7 @@ const Turkey = {
   common_name: "Turkey",
   calling_code: "90",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "土耳其",
   region_in_native: "",
@@ -6933,7 +6933,7 @@ const Turkmenistan = {
   common_name: "Turkmenistan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "土库曼斯坦",
   region_in_native: "",
@@ -6961,7 +6961,7 @@ const TurksAndCaicosIslands = {
   common_name: "Turks And Caicos Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "特克斯和凯科斯群岛",
   region_in_native: "",
@@ -6989,7 +6989,7 @@ const Tuvalu = {
   common_name: "Tuvalu",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "图瓦卢",
   region_in_native: "",
@@ -7017,7 +7017,7 @@ const Uganda = {
   common_name: "Uganda",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "乌干达",
   region_in_native: "",
@@ -7045,7 +7045,7 @@ const Ukraine = {
   common_name: "Ukraine",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "乌克兰",
   region_in_native: "",
@@ -7073,7 +7073,7 @@ const NorthMacedonia = {
   common_name: "North Macedonia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "北马其顿",
   region_in_native: "",
@@ -7101,7 +7101,7 @@ const SovietUnion = {
   common_name: "Soviet Union",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "苏联",
   region_in_native: "",
@@ -7129,7 +7129,7 @@ const Egypt = {
   common_name: "Egypt",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "埃及",
   region_in_native: "",
@@ -7157,7 +7157,7 @@ const UnitedKingdom = {
   common_name: "United Kingdom",
   calling_code: "44",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "英国",
   region_in_native: "",
@@ -7185,7 +7185,7 @@ const Guernsey = {
   common_name: "Guernsey",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "根西",
   region_in_native: "",
@@ -7213,7 +7213,7 @@ const Jersey = {
   common_name: "Jersey",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "泽西",
   region_in_native: "",
@@ -7241,7 +7241,7 @@ const IsleOfMan = {
   common_name: "Isle Of Man",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "马恩岛",
   region_in_native: "",
@@ -7269,7 +7269,7 @@ const TanzaniaUnitedRepublicOf = {
   common_name: "Tanzania United Republic Of",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "坦桑尼亚",
   region_in_native: "",
@@ -7297,7 +7297,7 @@ const UnitedStates = {
   common_name: "United States",
   calling_code: "1",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "美国",
   region_in_native: "",
@@ -7325,7 +7325,7 @@ const USMiscellaneousPacificIslands = {
   common_name: "US Miscellaneous Pacific Islands",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "美国其它太平洋岛屿",
   region_in_native: "",
@@ -7353,7 +7353,7 @@ const VirginIslandsUS = {
   common_name: "Virgin Islands US",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "美属维尔京群岛",
   region_in_native: "",
@@ -7381,7 +7381,7 @@ const BurkinaFaso = {
   common_name: "Burkina Faso",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "布基纳法索",
   region_in_native: "",
@@ -7409,7 +7409,7 @@ const UpperVolta = {
   common_name: "Upper Volta",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "上沃尔特",
   region_in_native: "",
@@ -7437,7 +7437,7 @@ const Uruguay = {
   common_name: "Uruguay",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "乌拉圭",
   region_in_native: "",
@@ -7465,7 +7465,7 @@ const Uzbekistan = {
   common_name: "Uzbekistan",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "乌兹别克斯坦",
   region_in_native: "",
@@ -7493,7 +7493,7 @@ const VenezuelaBolivarianRepublicOf = {
   common_name: "Venezuela Bolivarian Republic Of",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "委内瑞拉",
   region_in_native: "",
@@ -7521,7 +7521,7 @@ const WakeIsland = {
   common_name: "Wake Island",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "威克岛",
   region_in_native: "",
@@ -7549,7 +7549,7 @@ const WallisAndFutuna = {
   common_name: "Wallis And Futuna",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "瓦利斯和富图纳",
   region_in_native: "",
@@ -7577,7 +7577,7 @@ const Samoa = {
   common_name: "Samoa",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "萨摩亚",
   region_in_native: "",
@@ -7605,7 +7605,7 @@ const Yemen = {
   common_name: "Yemen",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "也门",
   region_in_native: "",
@@ -7633,7 +7633,7 @@ const SerbiaAndMontenegro = {
   common_name: "Serbia And Montenegro",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "塞尔维亚和黑山",
   region_in_native: "",
@@ -7661,7 +7661,7 @@ const Yugoslavia = {
   common_name: "Yugoslavia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "南斯拉夫",
   region_in_native: "",
@@ -7689,7 +7689,7 @@ const Zambia = {
   common_name: "Zambia",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "赞比亚",
   region_in_native: "",
@@ -7717,7 +7717,7 @@ const Korea = {
   common_name: "Korea",
   calling_code: "",
 
-  languages: "["Hangul","Hanja","Korean"]",
+  languages: ["Hangul","Hanja","Korean"],
 
   region_in_cn: "朝鲜",
   region_in_native: "한국",
@@ -7745,7 +7745,7 @@ const WestGermany = {
   common_name: "West Germany",
   calling_code: "",
 
-  languages: "["German"]",
+  languages: ["German"],
 
   region_in_cn: "西德",
   region_in_native: "",
@@ -7773,7 +7773,7 @@ const Kosovo = {
   common_name: "Kosovo",
   calling_code: "",
 
-  languages: "[]",
+  languages: [],
 
   region_in_cn: "科索沃",
   region_in_native: "Kosova",
