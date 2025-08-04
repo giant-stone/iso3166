@@ -109,7 +109,7 @@ func main() {
 	flag.StringVar(&logLevel, "l", "debug", "The logging level, its value is one of {debug,info,warn,error}.")
 	flag.Parse()
 
-	glogging.Init([]string{"stderr"}, glogging.Loglevel(logLevel))
+	glogging.Install([]string{"stderr"}, glogging.Loglevel(logLevel), "")
 
 	if syncSource {
 		doSyncSource()
@@ -250,6 +250,10 @@ func genIso4217Extended(mapLangToSaveTo map[string]string, pathPatch string, ove
 	gutil.ExitOnErr(err)
 
 	tableIso4217.MergeTable(tableMerge, iso.MergeActionFillWithIso4217)
+
+	if pathPatch != "" {
+		tableIso4217.MergeFromJson(pathPatch, iso.MergeActionMerge)
+	}
 
 	mapLangToGenerator := map[string]FuncNewGenerator{
 		LANG_JSON: generator_json.New,

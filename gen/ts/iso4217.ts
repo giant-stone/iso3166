@@ -1337,8 +1337,8 @@ const AED = {
 
   entities: ["AE"],
 
-  currency_in_cn: "",
-  currency_in_native: "",
+  currency_in_cn: "阿联酋迪拉姆",
+  currency_in_native: "درهم إماراتي",
 } as IEntity;
 
 const TND = {
