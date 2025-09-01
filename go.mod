@@ -6,7 +6,7 @@ require (
 	github.com/antchfx/htmlquery v1.3.4
 	github.com/emvi/iso-639-1 v1.1.0
 	github.com/giant-stone/go v1.0.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	golang.org/x/net v0.35.0
 	golang.org/x/text v0.22.0
 )
