@@ -18,6 +18,7 @@ import (
 	"github.com/giant-stone/iso3166/generator"
 	generator_golang "github.com/giant-stone/iso3166/generator/golang"
 	generator_json "github.com/giant-stone/iso3166/generator/json"
+	generator_swift "github.com/giant-stone/iso3166/generator/swift"
 	generator_typescript "github.com/giant-stone/iso3166/generator/typescript"
 	"github.com/giant-stone/iso3166/iso"
 	"github.com/giant-stone/iso3166/parser"
@@ -49,9 +50,10 @@ const (
 )
 
 const (
-	LANG_JSON = "json"
-	LANG_GO   = "go"
-	LANG_TS   = "ts"
+	LANG_JSON  = "json"
+	LANG_GO    = "go"
+	LANG_TS    = "ts"
+	LANG_SWIFT = "swift"
 )
 
 var stdsSupported = map[string]struct{}{
@@ -76,9 +78,10 @@ var (
 
 var (
 	defaultMapLangToSaveTo = map[string]string{
-		LANG_JSON: "gen/json",
-		LANG_GO:   "gen/go",
-		LANG_TS:   "gen/ts",
+		LANG_JSON:  "gen/json",
+		LANG_GO:    "gen/go",
+		LANG_TS:    "gen/ts",
+		LANG_SWIFT: "gen/swift",
 	}
 )
 
@@ -182,15 +185,17 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 	}
 
 	mapLangToGenerator := map[string]FuncNewGenerator{
-		LANG_JSON: generator_json.New,
-		LANG_GO:   generator_golang.New,
-		LANG_TS:   generator_typescript.New,
+		LANG_JSON:  generator_json.New,
+		LANG_GO:    generator_golang.New,
+		LANG_TS:    generator_typescript.New,
+		LANG_SWIFT: generator_swift.New,
 	}
 
 	mapLangToFilenameTemplate := map[string]string{
-		LANG_JSON: "%s.json",
-		LANG_GO:   "%s.go",
-		LANG_TS:   "%s.ts",
+		LANG_JSON:  "%s.json",
+		LANG_GO:    "%s.go",
+		LANG_TS:    "%s.ts",
+		LANG_SWIFT: "%s.swift",
 	}
 
 	for lang := range mapLangToSaveTo {
@@ -256,15 +261,17 @@ func genIso4217Extended(mapLangToSaveTo map[string]string, pathPatch string, ove
 	}
 
 	mapLangToGenerator := map[string]FuncNewGenerator{
-		LANG_JSON: generator_json.New,
-		LANG_GO:   generator_golang.New,
-		LANG_TS:   generator_typescript.New,
+		LANG_JSON:  generator_json.New,
+		LANG_GO:    generator_golang.New,
+		LANG_TS:    generator_typescript.New,
+		LANG_SWIFT: generator_swift.New,
 	}
 
 	mapLangToFilenameTemplate := map[string]string{
-		LANG_JSON: "%s.json",
-		LANG_GO:   "%s.go",
-		LANG_TS:   "%s.ts",
+		LANG_JSON:  "%s.json",
+		LANG_GO:    "%s.go",
+		LANG_TS:    "%s.ts",
+		LANG_SWIFT: "%s.swift",
 	}
 
 	for lang := range mapLangToSaveTo {
