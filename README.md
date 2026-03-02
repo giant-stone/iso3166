@@ -41,8 +41,10 @@ Generate Go code from the source data file: `go run cmd/iso/main.go -langs go:ge
 Generate JSON, Go, TypeScript and Swift codes from the source data file, and then merge it with the `patch.json` file:
 
 ```shell
-go run cmd/iso/main.go -langs json:gen/json/,go:gen/go/,ts:gen/ts/,swift:gen/swift/ -patch patch.json -fmt
+go run cmd/iso/main.go -langs json:gen/json/,go:gen/go/,ts:gen/ts/,swift:gen/swift/ -patch patch.json
 ```
+
+Use `-compact` if you want minified output instead of the default pretty formatting.
 
 You could customize the patch JSON file to specify which fields you want to override, based on the field definitions in `iso/entity.go` under `IEntity`. The only required field is `Alpha2Code`.
 

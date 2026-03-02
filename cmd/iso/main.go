@@ -38,9 +38,9 @@ var (
 	genStds   string
 	genLangs  string
 
-	syncSource bool
-	fmtPretty  bool
-	override   bool
+	syncSource    bool
+	compactOutput bool
+	override      bool
 )
 
 const (
@@ -101,15 +101,7 @@ func main() {
 		chunks = append(chunks, strings.Join([]string{lang, saveTo}, ":"))
 	}
 
-	flag.BoolVar(&syncSource, "sync", false, "Synchronize the source data file from the Wikipedia website.")
-	flag.BoolVar(&fmtPretty, "fmt", false, "Format the generated file in pretty.")
-	flag.BoolVar(&override, "o", false, "Override file if it already exists.")
-
-	flag.StringVar(&genLangs, "langs", strings.Join(chunks, ","), "Generate ISO standards in JSON/Go/TypeScript, format in `<langA>:<path/to/data/file/A>,<langB>:<path/to/data/file/B>` .")
-	flag.StringVar(&genStds, "stds", strings.Join(gslice.UniqMapToSlice(stdsSupported), ","), "Generate which ISO standards")
-	flag.StringVar(&pathPatch, "patch", "patch.json", "The full path to the patch JSON file.")
-
-	flag.StringVar(&logLevel, "l", "debug", "The logging level, its value is one of {debug,info,warn,error}.")
+	initFlags(flag.CommandLine, chunks)
 	flag.Parse()
 
 	glogging.Install([]string{"stderr"}, glogging.Loglevel(logLevel), "")
@@ -146,6 +138,18 @@ func main() {
 	if _, ok := doGenStds[parser_iso4217.STANDARD_ISO_4217]; ok {
 		genIso4217Extended(mapLangToSaveTo, pathPatch, override)
 	}
+}
+
+func initFlags(fs *flag.FlagSet, chunks []string) {
+	fs.BoolVar(&syncSource, "sync", false, "Synchronize the source data file from the Wikipedia website.")
+	fs.BoolVar(&compactOutput, "compact", false, "Write generated files in compact format (pretty is default).")
+	fs.BoolVar(&override, "o", false, "Override file if it already exists.")
+
+	fs.StringVar(&genLangs, "langs", strings.Join(chunks, ","), "Generate ISO standards in JSON/Go/TypeScript, format in `<langA>:<path/to/data/file/A>,<langB>:<path/to/data/file/B>` .")
+	fs.StringVar(&genStds, "stds", strings.Join(gslice.UniqMapToSlice(stdsSupported), ","), "Generate which ISO standards")
+	fs.StringVar(&pathPatch, "patch", "patch.json", "The full path to the patch JSON file.")
+
+	fs.StringVar(&logLevel, "l", "debug", "The logging level, its value is one of {debug,info,warn,error}.")
 }
 
 func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[string]string, override bool) {
@@ -216,7 +220,7 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 		}
 
 		if shouldWriteIt {
-			err := g.WriteTo(fullPath, 0755, fmtPretty)
+			err := g.WriteTo(fullPath, 0755, !compactOutput)
 			if err != nil {
 				glogging.Sugared.Fatalf("WriteTo %v, %s", err, fullPath)
 			}
@@ -292,7 +296,7 @@ func genIso4217Extended(mapLangToSaveTo map[string]string, pathPatch string, ove
 		}
 
 		if shouldWriteIt {
-			err = g.WriteTo(fullPath, 0755, fmtPretty)
+			err = g.WriteTo(fullPath, 0755, !compactOutput)
 			if err != nil {
 				glogging.Sugared.Fatalf("WriteTo %v, %s", err, fullPath)
 			}
