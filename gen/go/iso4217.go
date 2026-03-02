@@ -4,6 +4,17 @@ package iso_data
 import "github.com/giant-stone/iso3166/iso"
 
 var (
+	CNH = &iso.Entity{
+		AlphabeticCode:  "CNH",
+		NumericCode4217: "",
+		MinorUnit:       2,
+		Currency:        "Renminbi (offshore)",
+		Entities:        []string{"HK"},
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
 	ALL = &iso.Entity{
 		AlphabeticCode:  "ALL",
 		NumericCode4217: "008",
@@ -605,8 +616,8 @@ var (
 		Currency:        "Japanese yen",
 		Entities:        []string{"JP"},
 
-		CurrencyInCN:     "日元",
-		CurrencyInNative: "日本円",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	KZT = &iso.Entity{
@@ -1166,8 +1177,8 @@ var (
 		Currency:        "Swiss franc",
 		Entities:        []string{"LI", "CH"},
 
-		CurrencyInCN:     "瑞士法郎",
-		CurrencyInNative: "Swiss franc",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	SYP = &iso.Entity{
@@ -1221,8 +1232,8 @@ var (
 		Currency:        "United Arab Emirates dirham",
 		Entities:        []string{"AE"},
 
-		CurrencyInCN:     "阿联酋迪拉姆",
-		CurrencyInNative: "درهم إماراتي",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	TND = &iso.Entity{
@@ -1518,8 +1529,8 @@ var (
 		Currency:        "WIR",
 		Entities:        []string{"CH"},
 
-		CurrencyInCN:     "瑞士法郎",
-		CurrencyInNative: "Swiss franc",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	CHW = &iso.Entity{
@@ -1529,8 +1540,8 @@ var (
 		Currency:        "WIR",
 		Entities:        []string{"CH"},
 
-		CurrencyInCN:     "瑞士法郎",
-		CurrencyInNative: "Swiss franc",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	TRY = &iso.Entity{
@@ -1650,8 +1661,8 @@ var (
 		Currency:        "Euro",
 		Entities:        []string{"AD", "AT", "AX", "BE", "BL", "CY", "DE", "EE", "ES", "EU", "FI", "FR", "GF", "GP", "GR", "HR", "IE", "IT", "LT", "LU", "LV", "MC", "ME", "MF", "MQ", "MT", "NL", "PM", "PT", "RE", "SI", "SK", "SM", "TF", "VA", "XK", "YT"},
 
-		CurrencyInCN:     "欧元",
-		CurrencyInNative: "Euro",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	MXV = &iso.Entity{
@@ -1723,6 +1734,7 @@ var (
 
 var (
 	FromAlphabeticCode = map[string]iso.IEntity{
+		"CNH": CNH,
 		"ALL": ALL,
 		"DZD": DZD,
 		"ARS": ARS,

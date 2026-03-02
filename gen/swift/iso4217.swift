@@ -12,6 +12,17 @@ public struct Entity4217: Codable, Equatable, Sendable {
     public let currencyInNative: String
 }
 
+public let CNH = Entity4217(
+    alphabeticCode: "CNH",
+    numericCode4217: "",
+    minorUnit: 2,
+    currency: "Renminbi (offshore)",
+    entities: ["HK"],
+
+    currencyInCN: "",
+    currencyInNative: ""
+)
+
 public let ALL = Entity4217(
     alphabeticCode: "ALL",
     numericCode4217: "008",
@@ -613,8 +624,8 @@ public let JPY = Entity4217(
     currency: "Japanese yen",
     entities: ["JP"],
 
-    currencyInCN: "日元",
-    currencyInNative: "日本円"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let KZT = Entity4217(
@@ -1174,8 +1185,8 @@ public let CHF = Entity4217(
     currency: "Swiss franc",
     entities: ["LI", "CH"],
 
-    currencyInCN: "瑞士法郎",
-    currencyInNative: "Swiss franc"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let SYP = Entity4217(
@@ -1229,8 +1240,8 @@ public let AED = Entity4217(
     currency: "United Arab Emirates dirham",
     entities: ["AE"],
 
-    currencyInCN: "阿联酋迪拉姆",
-    currencyInNative: "درهم إماراتي"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let TND = Entity4217(
@@ -1526,8 +1537,8 @@ public let CHE = Entity4217(
     currency: "WIR",
     entities: ["CH"],
 
-    currencyInCN: "瑞士法郎",
-    currencyInNative: "Swiss franc"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let CHW = Entity4217(
@@ -1537,8 +1548,8 @@ public let CHW = Entity4217(
     currency: "WIR",
     entities: ["CH"],
 
-    currencyInCN: "瑞士法郎",
-    currencyInNative: "Swiss franc"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let TRY = Entity4217(
@@ -1658,8 +1669,8 @@ public let EUR = Entity4217(
     currency: "Euro",
     entities: ["AD", "AT", "AX", "BE", "BL", "CY", "DE", "EE", "ES", "EU", "FI", "FR", "GF", "GP", "GR", "HR", "IE", "IT", "LT", "LU", "LV", "MC", "ME", "MF", "MQ", "MT", "NL", "PM", "PT", "RE", "SI", "SK", "SM", "TF", "VA", "XK", "YT"],
 
-    currencyInCN: "欧元",
-    currencyInNative: "Euro"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let MXV = Entity4217(
@@ -1731,6 +1742,7 @@ public let CLF = Entity4217(
 
 
 public let FromAlphabeticCode: [String: Entity4217] = [
+    "CNH": CNH,
     "ALL": ALL,
     "DZD": DZD,
     "ARS": ARS,

@@ -94,6 +94,16 @@
     "CurrencyInNative": "澳門元"
   },
   {
+    "Alpha2Code": "LA",
+    "Alias": [
+      "Laos"
+    ]
+  },
+  {
+    "Alpha2Code": "RU",
+    "CommonName": "Russia"
+  },
+  {
     "Alpha2Code": "TR",
     "NumericCode": "792",
     "CommonName": "Turkey",

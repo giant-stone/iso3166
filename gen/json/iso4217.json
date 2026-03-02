@@ -20,6 +20,37 @@
     "Languages": null,
     "RegionInCN": "",
     "RegionInNative": "",
+    "AlphabeticCode": "CNH",
+    "NumericCode4217": "",
+    "MinorUnit": 2,
+    "Currency": "Renminbi (offshore)",
+    "Entities": [
+      "HK"
+    ],
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
+  },
+  {
+    "Alpha2Code": "",
+    "ShortName": "",
+    "ShortNameLowerCase": "",
+    "FullName": "",
+    "Alpha3Code": "",
+    "NumericCode": "",
+    "Remarks": null,
+    "Independent": false,
+    "Status": "",
+    "Alpha4Code": "",
+    "PeriodOfValidity": "",
+    "Alias": null,
+    "CommonName": "",
+    "CommonNameInAlphaNumeric": "",
+    "CallingCode": "",
+    "Capital": "",
+    "CapitalInNative": "",
+    "Languages": null,
+    "RegionInCN": "",
+    "RegionInNative": "",
     "AlphabeticCode": "ALL",
     "NumericCode4217": "008",
     "MinorUnit": 2,
@@ -1701,8 +1732,8 @@
     "Entities": [
       "JP"
     ],
-    "CurrencyInCN": "日元",
-    "CurrencyInNative": "日本円"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "",
@@ -3287,8 +3318,8 @@
       "LI",
       "CH"
     ],
-    "CurrencyInCN": "瑞士法郎",
-    "CurrencyInNative": "Swiss franc"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "",
@@ -3440,8 +3471,8 @@
     "Entities": [
       "AE"
     ],
-    "CurrencyInCN": "阿联酋迪拉姆",
-    "CurrencyInNative": "درهم إماراتي"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "",
@@ -4287,8 +4318,8 @@
     "Entities": [
       "CH"
     ],
-    "CurrencyInCN": "瑞士法郎",
-    "CurrencyInNative": "Swiss franc"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "",
@@ -4318,8 +4349,8 @@
     "Entities": [
       "CH"
     ],
-    "CurrencyInCN": "瑞士法郎",
-    "CurrencyInNative": "Swiss franc"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "",
@@ -4693,8 +4724,8 @@
       "XK",
       "YT"
     ],
-    "CurrencyInCN": "欧元",
-    "CurrencyInNative": "Euro"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "",

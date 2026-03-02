@@ -2576,8 +2576,8 @@ var (
 		MinorUnit:       2,
 		Currency:        "Euro",
 
-		CurrencyInCN:     "欧元",
-		CurrencyInNative: "Euro",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	EastGermany = &iso.Entity{
@@ -3388,8 +3388,8 @@ var (
 		MinorUnit:       0,
 		Currency:        "Japanese yen",
 
-		CurrencyInCN:     "日元",
-		CurrencyInNative: "日本円",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	JohnstonIsland = &iso.Entity{
@@ -3611,6 +3611,34 @@ var (
 		NumericCode4217: "417",
 		MinorUnit:       2,
 		Currency:        "Kyrgyzstani som",
+
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
+	}
+
+	LaoPeoplesDemocraticRepublic = &iso.Entity{
+		Alpha2Code:  "LA",
+		Alpha3Code:  "LAO",
+		Alpha4Code:  "",
+		Independent: true,
+		NumericCode: "418",
+		ShortName:   "Lao People's Democratic Republic",
+
+		PeriodOfValidity: "",
+
+		Alias:                    []string{"Laos"},
+		CommonName:               "Lao Peoples Democratic Republic",
+		CommonNameInAlphaNumeric: "LaoPeoplesDemocraticRepublic",
+		CallingCode:              "856",
+		Languages:                []string{},
+
+		RegionInCN:     "老挝",
+		RegionInNative: "",
+
+		AlphabeticCode:  "",
+		NumericCode4217: "",
+		MinorUnit:       0,
+		Currency:        "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -4115,34 +4143,6 @@ var (
 		NumericCode4217: "480",
 		MinorUnit:       2,
 		Currency:        "Mauritian rupee",
-
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
-	}
-
-	Laos = &iso.Entity{
-		Alpha2Code:  "LA",
-		Alpha3Code:  "LAO",
-		Alpha4Code:  "",
-		Independent: true,
-		NumericCode: "481",
-		ShortName:   "Lao People's Democratic Republic",
-
-		PeriodOfValidity: "",
-
-		Alias:                    []string{},
-		CommonName:               "Laos",
-		CommonNameInAlphaNumeric: "Laos",
-		CallingCode:              "856",
-		Languages:                []string{},
-
-		RegionInCN:     "老挝",
-		RegionInNative: "",
-
-		AlphabeticCode:  "",
-		NumericCode4217: "",
-		MinorUnit:       0,
-		Currency:        "",
 
 		CurrencyInCN:     "",
 		CurrencyInNative: "",
@@ -6608,8 +6608,8 @@ var (
 		MinorUnit:       2,
 		Currency:        "WIR",
 
-		CurrencyInCN:     "瑞士法郎",
-		CurrencyInNative: "Swiss franc",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	SyrianArabRepublic = &iso.Entity{
@@ -6832,8 +6832,8 @@ var (
 		MinorUnit:       2,
 		Currency:        "United Arab Emirates dirham",
 
-		CurrencyInCN:     "阿联酋迪拉姆",
-		CurrencyInNative: "درهم إماراتي",
+		CurrencyInCN:     "",
+		CurrencyInNative: "",
 	}
 
 	Tunisia = &iso.Entity{
@@ -6874,7 +6874,7 @@ var (
 
 		PeriodOfValidity: "",
 
-		Alias:                    []string{},
+		Alias:                    []string{"T\u00fcrkiye"},
 		CommonName:               "Turkey",
 		CommonNameInAlphaNumeric: "Turkey",
 		CallingCode:              "90",
@@ -7901,6 +7901,7 @@ var (
 		"KR":   SouthKorea,
 		"KW":   Kuwait,
 		"KG":   Kyrgyzstan,
+		"LA":   LaoPeoplesDemocraticRepublic,
 		"LB":   Lebanon,
 		"LS":   Lesotho,
 		"LV":   Latvia,
@@ -7919,7 +7920,6 @@ var (
 		"MQ":   Martinique,
 		"MR":   Mauritania,
 		"MU":   Mauritius,
-		"LA":   Laos,
 		"MX":   Mexico,
 		"MI":   MidwayIslands,
 		"MIUM": MidwayIslands,
@@ -8196,6 +8196,7 @@ var (
 		"南韩":           SouthKorea,
 		"科威特":          Kuwait,
 		"吉尔吉斯斯坦":       Kyrgyzstan,
+		"老挝":           LaoPeoplesDemocraticRepublic,
 		"黎巴嫩":          Lebanon,
 		"莱索托":          Lesotho,
 		"拉脱维亚":         Latvia,
@@ -8214,7 +8215,6 @@ var (
 		"马提尼克":         Martinique,
 		"毛里塔尼亚":        Mauritania,
 		"毛里求斯":         Mauritius,
-		"老挝":           Laos,
 		"墨西哥":          Mexico,
 		"中途岛":          MidwayIslands,
 		"摩纳哥":          Monaco,
@@ -8477,6 +8477,7 @@ var (
 		"SouthKorea":                             SouthKorea,
 		"Kuwait":                                 Kuwait,
 		"Kyrgyzstan":                             Kyrgyzstan,
+		"LaoPeoplesDemocraticRepublic":           LaoPeoplesDemocraticRepublic,
 		"Lebanon":                                Lebanon,
 		"Lesotho":                                Lesotho,
 		"Latvia":                                 Latvia,
@@ -8495,7 +8496,6 @@ var (
 		"Martinique":                             Martinique,
 		"Mauritania":                             Mauritania,
 		"Mauritius":                              Mauritius,
-		"Laos":                                   Laos,
 		"Mexico":                                 Mexico,
 		"MidwayIslands":                          MidwayIslands,
 		"Monaco":                                 Monaco,

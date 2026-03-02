@@ -41,7 +41,7 @@ Generate Go code from the source data file: `go run cmd/iso/main.go -langs go:ge
 Generate JSON, Go, TypeScript and Swift codes from the source data file, and then merge it with the `patch.json` file:
 
 ```shell
-go run cmd/iso/main.go -langs json:gen/json/,go:gen/go/,ts:gen/ts/,swift:gen/swift/ -patch patch.json
+go run cmd/iso/main.go -langs json:gen/json/,go:gen/go/,ts:gen/ts/,swift:gen/swift/ -patch patch.json -o
 ```
 
 Use `-compact` if you want minified output instead of the default pretty formatting.

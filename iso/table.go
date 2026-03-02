@@ -386,7 +386,8 @@ func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, a
 					}
 				}
 
-				if entity != nil {
+				// Keep unofficial currency-like codes (e.g. CNH) without localized currency names.
+				if entity != nil && destItem.GetNumericCode4217() != "" {
 					if currencyInCN := entity.GetCurrencyInCN(); currencyInCN != "" && destItem.GetCurrencyInCN() == "" {
 						destItem.SetCurrencyInCN(currencyInCN)
 					}

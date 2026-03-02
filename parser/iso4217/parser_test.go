@@ -185,8 +185,13 @@ func TestParser_ParseWikipediaHtmlAndGroupBy(t *testing.T) {
 					AlphabeticCode: "CZK", NumericCode4217: "203", Currency: "Czech koruna", MinorUnit: 2,
 					Entities: []string{"Czech Republic"},
 				},
+
+				"CNH": &iso.Entity{
+					AlphabeticCode: "CNH", NumericCode4217: "", Currency: "Renminbi (offshore)", MinorUnit: 2,
+					Entities: []string{"Hong Kong"},
+				},
 			}),
-			wantTotal: 4,
+			wantTotal: 5,
 			wantErr:   false,
 		},
 	}

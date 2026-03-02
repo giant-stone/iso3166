@@ -2601,8 +2601,8 @@ public let Germany = Entity3166(
     minorUnit: 2,
     currency: "Euro",
 
-    currencyInCN: "欧元",
-    currencyInNative: "Euro"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let EastGermany = Entity3166(
@@ -3413,8 +3413,8 @@ public let Japan = Entity3166(
     minorUnit: 0,
     currency: "Japanese yen",
 
-    currencyInCN: "日元",
-    currencyInNative: "日本円"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let JohnstonIsland = Entity3166(
@@ -3636,6 +3636,34 @@ public let Kyrgyzstan = Entity3166(
     numericCode4217: "417",
     minorUnit: 2,
     currency: "Kyrgyzstani som",
+
+    currencyInCN: "",
+    currencyInNative: ""
+)
+
+public let LaoPeoplesDemocraticRepublic = Entity3166(
+    alpha2Code: "LA",
+    alpha3Code: "LAO",
+    alpha4Code: "",
+    independent: true,
+    numericCode: "418",
+    shortName: "Lao People's Democratic Republic",
+
+    periodOfValidity: "",
+
+    alias: ["Laos"],
+    commonName: "Lao Peoples Democratic Republic",
+    commonNameInAlphaNumeric: "LaoPeoplesDemocraticRepublic",
+    callingCode: "856",
+    languages: [],
+
+    regionInCN: "老挝",
+    regionInNative: "",
+
+    alphabeticCode: "",
+    numericCode4217: "",
+    minorUnit: 0,
+    currency: "",
 
     currencyInCN: "",
     currencyInNative: ""
@@ -4140,34 +4168,6 @@ public let Mauritius = Entity3166(
     numericCode4217: "480",
     minorUnit: 2,
     currency: "Mauritian rupee",
-
-    currencyInCN: "",
-    currencyInNative: ""
-)
-
-public let Laos = Entity3166(
-    alpha2Code: "LA",
-    alpha3Code: "LAO",
-    alpha4Code: "",
-    independent: true,
-    numericCode: "481",
-    shortName: "Lao People's Democratic Republic",
-
-    periodOfValidity: "",
-
-    alias: [],
-    commonName: "Laos",
-    commonNameInAlphaNumeric: "Laos",
-    callingCode: "856",
-    languages: [],
-
-    regionInCN: "老挝",
-    regionInNative: "",
-
-    alphabeticCode: "",
-    numericCode4217: "",
-    minorUnit: 0,
-    currency: "",
 
     currencyInCN: "",
     currencyInNative: ""
@@ -6633,8 +6633,8 @@ public let Switzerland = Entity3166(
     minorUnit: 2,
     currency: "WIR",
 
-    currencyInCN: "瑞士法郎",
-    currencyInNative: "Swiss franc"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let SyrianArabRepublic = Entity3166(
@@ -6857,8 +6857,8 @@ public let UnitedArabEmirates = Entity3166(
     minorUnit: 2,
     currency: "United Arab Emirates dirham",
 
-    currencyInCN: "阿联酋迪拉姆",
-    currencyInNative: "درهم إماراتي"
+    currencyInCN: "",
+    currencyInNative: ""
 )
 
 public let Tunisia = Entity3166(
@@ -6899,7 +6899,7 @@ public let Turkey = Entity3166(
 
     periodOfValidity: "",
 
-    alias: [],
+    alias: ["Türkiye"],
     commonName: "Turkey",
     commonNameInAlphaNumeric: "Turkey",
     callingCode: "90",
@@ -7926,6 +7926,7 @@ public let FromCode: [String: Entity3166] = [
     "KR": SouthKorea,
     "KW": Kuwait,
     "KG": Kyrgyzstan,
+    "LA": LaoPeoplesDemocraticRepublic,
     "LB": Lebanon,
     "LS": Lesotho,
     "LV": Latvia,
@@ -7944,7 +7945,6 @@ public let FromCode: [String: Entity3166] = [
     "MQ": Martinique,
     "MR": Mauritania,
     "MU": Mauritius,
-    "LA": Laos,
     "MX": Mexico,
     "MI": MidwayIslands,
     "MIUM": MidwayIslands,
@@ -8219,6 +8219,7 @@ public let FromRegionInCN: [String: Entity3166] = [
     "南韩": SouthKorea,
     "科威特": Kuwait,
     "吉尔吉斯斯坦": Kyrgyzstan,
+    "老挝": LaoPeoplesDemocraticRepublic,
     "黎巴嫩": Lebanon,
     "莱索托": Lesotho,
     "拉脱维亚": Latvia,
@@ -8237,7 +8238,6 @@ public let FromRegionInCN: [String: Entity3166] = [
     "马提尼克": Martinique,
     "毛里塔尼亚": Mauritania,
     "毛里求斯": Mauritius,
-    "老挝": Laos,
     "墨西哥": Mexico,
     "中途岛": MidwayIslands,
     "摩纳哥": Monaco,
@@ -8498,6 +8498,7 @@ public let FromCommonNameInAlphaNumeric: [String: Entity3166] = [
     "SouthKorea": SouthKorea,
     "Kuwait": Kuwait,
     "Kyrgyzstan": Kyrgyzstan,
+    "LaoPeoplesDemocraticRepublic": LaoPeoplesDemocraticRepublic,
     "Lebanon": Lebanon,
     "Lesotho": Lesotho,
     "Latvia": Latvia,
@@ -8516,7 +8517,6 @@ public let FromCommonNameInAlphaNumeric: [String: Entity3166] = [
     "Martinique": Martinique,
     "Mauritania": Mauritania,
     "Mauritius": Mauritius,
-    "Laos": Laos,
     "Mexico": Mexico,
     "MidwayIslands": MidwayIslands,
     "Monaco": Monaco,

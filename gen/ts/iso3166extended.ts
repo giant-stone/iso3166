@@ -2603,8 +2603,8 @@ const Germany = {
   minor_unit: 2,
   currency: "Euro",
 
-  currency_in_cn: "欧元",
-  currency_in_native: "Euro",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const EastGermany = {
@@ -3415,8 +3415,8 @@ const Japan = {
   minor_unit: 0,
   currency: "Japanese yen",
 
-  currency_in_cn: "日元",
-  currency_in_native: "日本円",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const JohnstonIsland = {
@@ -3638,6 +3638,34 @@ const Kyrgyzstan = {
   numeric_code_4217: "417",
   minor_unit: 2,
   currency: "Kyrgyzstani som",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
+const LaoPeoplesDemocraticRepublic = {
+  alpha2Code: "LA",
+  alpha3code: "LAO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "418",
+  short_name: "Lao People's Democratic Republic",
+
+  period_of_validity: "",
+
+  alias: "["Laos"]",
+  common_name: "Lao Peoples Democratic Republic",
+  calling_code: "856",
+
+  languages: [],
+
+  region_in_cn: "老挝",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
 
   currency_in_cn: "",
   currency_in_native: "",
@@ -4142,34 +4170,6 @@ const Mauritius = {
   numeric_code_4217: "480",
   minor_unit: 2,
   currency: "Mauritian rupee",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
-const Laos = {
-  alpha2Code: "LA",
-  alpha3code: "LAO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "481",
-  short_name: "Lao People's Democratic Republic",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Laos",
-  calling_code: "856",
-
-  languages: [],
-
-  region_in_cn: "老挝",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
 
   currency_in_cn: "",
   currency_in_native: "",
@@ -6635,8 +6635,8 @@ const Switzerland = {
   minor_unit: 2,
   currency: "WIR",
 
-  currency_in_cn: "瑞士法郎",
-  currency_in_native: "Swiss franc",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SyrianArabRepublic = {
@@ -6859,8 +6859,8 @@ const UnitedArabEmirates = {
   minor_unit: 2,
   currency: "United Arab Emirates dirham",
 
-  currency_in_cn: "阿联酋迪拉姆",
-  currency_in_native: "درهم إماراتي",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Tunisia = {
@@ -6901,7 +6901,7 @@ const Turkey = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: "["T\u00fcrkiye"]",
   common_name: "Turkey",
   calling_code: "90",
 
@@ -7922,7 +7922,7 @@ export {
   Kosovo,
   Kuwait,
   Kyrgyzstan,
-  Laos,
+  LaoPeoplesDemocraticRepublic,
   Latvia,
   Lebanon,
   Lesotho,
@@ -8202,7 +8202,7 @@ export const Regions = [
   Kosovo,
   Kuwait,
   Kyrgyzstan,
-  Laos,
+  LaoPeoplesDemocraticRepublic,
   Latvia,
   Lebanon,
   Lesotho,
@@ -8488,6 +8488,7 @@ export const RegionsByCode = {
 		"KR": SouthKorea,
 		"KW": Kuwait,
 		"KG": Kyrgyzstan,
+		"LA": LaoPeoplesDemocraticRepublic,
 		"LB": Lebanon,
 		"LS": Lesotho,
 		"LV": Latvia,
@@ -8506,7 +8507,6 @@ export const RegionsByCode = {
 		"MQ": Martinique,
 		"MR": Mauritania,
 		"MU": Mauritius,
-		"LA": Laos,
 		"MX": Mexico,
 		"MI": MidwayIslands,
 		"MIUM": MidwayIslands,
@@ -8784,6 +8784,7 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"SouthKorea": SouthKorea,
 		"Kuwait": Kuwait,
 		"Kyrgyzstan": Kyrgyzstan,
+		"LaoPeoplesDemocraticRepublic": LaoPeoplesDemocraticRepublic,
 		"Lebanon": Lebanon,
 		"Lesotho": Lesotho,
 		"Latvia": Latvia,
@@ -8802,7 +8803,6 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"Martinique": Martinique,
 		"Mauritania": Mauritania,
 		"Mauritius": Mauritius,
-		"Laos": Laos,
 		"Mexico": Mexico,
 		"MidwayIslands": MidwayIslands,
 		"Monaco": Monaco,

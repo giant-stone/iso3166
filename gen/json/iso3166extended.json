@@ -2757,8 +2757,8 @@
     "MinorUnit": 2,
     "Currency": "Euro",
     "Entities": null,
-    "CurrencyInCN": "欧元",
-    "CurrencyInNative": "Euro"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "DD",
@@ -3603,8 +3603,8 @@
     "MinorUnit": 0,
     "Currency": "Japanese yen",
     "Entities": null,
-    "CurrencyInCN": "日元",
-    "CurrencyInNative": "日本円"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "JT",
@@ -3834,6 +3834,37 @@
     "NumericCode4217": "417",
     "MinorUnit": 2,
     "Currency": "Kyrgyzstani som",
+    "Entities": null,
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
+  },
+  {
+    "Alpha2Code": "LA",
+    "ShortName": "Lao People's Democratic Republic",
+    "ShortNameLowerCase": "",
+    "FullName": "",
+    "Alpha3Code": "LAO",
+    "NumericCode": "418",
+    "Remarks": null,
+    "Independent": true,
+    "Status": "",
+    "Alpha4Code": "",
+    "PeriodOfValidity": "",
+    "Alias": [
+      "Laos"
+    ],
+    "CommonName": "Lao Peoples Democratic Republic",
+    "CommonNameInAlphaNumeric": "LaoPeoplesDemocraticRepublic",
+    "CallingCode": "856",
+    "Capital": "",
+    "CapitalInNative": "",
+    "Languages": null,
+    "RegionInCN": "老挝",
+    "RegionInNative": "",
+    "AlphabeticCode": "",
+    "NumericCode4217": "",
+    "MinorUnit": 0,
+    "Currency": "",
     "Entities": null,
     "CurrencyInCN": "",
     "CurrencyInNative": ""
@@ -4356,35 +4387,6 @@
     "NumericCode4217": "480",
     "MinorUnit": 2,
     "Currency": "Mauritian rupee",
-    "Entities": null,
-    "CurrencyInCN": "",
-    "CurrencyInNative": ""
-  },
-  {
-    "Alpha2Code": "LA",
-    "ShortName": "Lao People's Democratic Republic",
-    "ShortNameLowerCase": "",
-    "FullName": "",
-    "Alpha3Code": "LAO",
-    "NumericCode": "481",
-    "Remarks": null,
-    "Independent": true,
-    "Status": "",
-    "Alpha4Code": "",
-    "PeriodOfValidity": "",
-    "Alias": null,
-    "CommonName": "Laos",
-    "CommonNameInAlphaNumeric": "Laos",
-    "CallingCode": "856",
-    "Capital": "",
-    "CapitalInNative": "",
-    "Languages": null,
-    "RegionInCN": "老挝",
-    "RegionInNative": "",
-    "AlphabeticCode": "",
-    "NumericCode4217": "",
-    "MinorUnit": 0,
-    "Currency": "",
     "Entities": null,
     "CurrencyInCN": "",
     "CurrencyInNative": ""
@@ -6938,8 +6940,8 @@
     "MinorUnit": 2,
     "Currency": "WIR",
     "Entities": null,
-    "CurrencyInCN": "瑞士法郎",
-    "CurrencyInNative": "Swiss franc"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "SY",
@@ -7170,8 +7172,8 @@
     "MinorUnit": 2,
     "Currency": "United Arab Emirates dirham",
     "Entities": null,
-    "CurrencyInCN": "阿联酋迪拉姆",
-    "CurrencyInNative": "درهم إماراتي"
+    "CurrencyInCN": "",
+    "CurrencyInNative": ""
   },
   {
     "Alpha2Code": "TN",
@@ -7214,7 +7216,9 @@
     "Status": "",
     "Alpha4Code": "",
     "PeriodOfValidity": "",
-    "Alias": null,
+    "Alias": [
+      "Türkiye"
+    ],
     "CommonName": "Turkey",
     "CommonNameInAlphaNumeric": "Turkey",
     "CallingCode": "90",
