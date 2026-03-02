@@ -336,7 +336,7 @@ public let CZK = Entity4217(
     numericCode4217: "203",
     minorUnit: 2,
     currency: "Czech koruna",
-    entities: [],
+    entities: ["CZ"],
 
     currencyInCN: "",
     currencyInNative: ""

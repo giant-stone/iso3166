@@ -363,7 +363,7 @@ const CZK = {
   minor_unit: 2,
   currency: "Czech koruna",
 
-  entities: [],
+  entities: ["CZ"],
 
   currency_in_cn: "",
   currency_in_native: "",

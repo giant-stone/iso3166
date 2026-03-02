@@ -924,7 +924,9 @@
     "NumericCode4217": "203",
     "MinorUnit": 2,
     "Currency": "Czech koruna",
-    "Entities": [],
+    "Entities": [
+      "CZ"
+    ],
     "CurrencyInCN": "",
     "CurrencyInNative": ""
   },

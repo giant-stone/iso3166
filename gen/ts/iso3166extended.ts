@@ -1749,7 +1749,7 @@ const Czechia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: "["Czech Republic"]",
   common_name: "Czechia",
   calling_code: "",
 

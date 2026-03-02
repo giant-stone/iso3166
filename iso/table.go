@@ -581,7 +581,19 @@ func (i *Table) GetByCode(s string) IEntity {
 
 // GetByVariantName implements ITable.
 func (i *Table) GetByVariantName(s string) IEntity {
-	return i.MapKeyIsIso3166VariantName[s]
+	if entity := i.MapKeyIsIso3166VariantName[s]; entity != nil {
+		return entity
+	}
+
+	for _, entity := range i.MapKeyIsIso3166Code {
+		for _, alias := range entity.GetAlias() {
+			if alias == s {
+				return entity
+			}
+		}
+	}
+
+	return nil
 }
 
 func NewTable(std string) ITable {

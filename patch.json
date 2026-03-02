@@ -54,6 +54,12 @@
     "CommonName": "Canada"
   },
   {
+    "Alpha2Code": "CZ",
+    "Alias": [
+      "Czech Republic"
+    ]
+  },
+  {
     "Alpha2Code": "CN",
     "CallingCode": "86",
     "NumericCode": "156",

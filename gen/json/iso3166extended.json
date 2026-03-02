@@ -1784,7 +1784,9 @@
     "Status": "",
     "Alpha4Code": "",
     "PeriodOfValidity": "",
-    "Alias": null,
+    "Alias": [
+      "Czech Republic"
+    ],
     "CommonName": "Czechia",
     "CommonNameInAlphaNumeric": "Czechia",
     "CallingCode": "",

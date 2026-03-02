@@ -1747,7 +1747,7 @@ public let Czechia = Entity3166(
 
     periodOfValidity: "",
 
-    alias: [],
+    alias: ["Czech Republic"],
     commonName: "Czechia",
     commonNameInAlphaNumeric: "Czechia",
     callingCode: "",
