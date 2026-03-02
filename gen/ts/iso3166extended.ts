@@ -43,7 +43,7 @@ const Afghanistan = {
 
   alias: "[]",
   common_name: "Afghanistan",
-  calling_code: "",
+  calling_code: "93",
 
   languages: [],
 
@@ -71,7 +71,7 @@ const Albania = {
 
   alias: "[]",
   common_name: "Albania",
-  calling_code: "",
+  calling_code: "355",
 
   languages: [],
 
@@ -99,7 +99,7 @@ const Antarctica = {
 
   alias: "[]",
   common_name: "Antarctica",
-  calling_code: "",
+  calling_code: "672",
 
   languages: [],
 
@@ -127,7 +127,7 @@ const Algeria = {
 
   alias: "[]",
   common_name: "Algeria",
-  calling_code: "",
+  calling_code: "213",
 
   languages: [],
 
@@ -155,7 +155,7 @@ const AmericanSamoa = {
 
   alias: "[]",
   common_name: "American Samoa",
-  calling_code: "",
+  calling_code: "1-684",
 
   languages: [],
 
@@ -183,7 +183,7 @@ const Andorra = {
 
   alias: "[]",
   common_name: "Andorra",
-  calling_code: "",
+  calling_code: "376",
 
   languages: [],
 
@@ -211,7 +211,7 @@ const Angola = {
 
   alias: "[]",
   common_name: "Angola",
-  calling_code: "",
+  calling_code: "244",
 
   languages: [],
 
@@ -239,7 +239,7 @@ const AntiguaAndBarbuda = {
 
   alias: "[]",
   common_name: "Antigua And Barbuda",
-  calling_code: "",
+  calling_code: "1-268",
 
   languages: [],
 
@@ -267,7 +267,7 @@ const Azerbaijan = {
 
   alias: "[]",
   common_name: "Azerbaijan",
-  calling_code: "",
+  calling_code: "994",
 
   languages: [],
 
@@ -351,7 +351,7 @@ const Austria = {
 
   alias: "[]",
   common_name: "Austria",
-  calling_code: "",
+  calling_code: "43",
 
   languages: [],
 
@@ -379,7 +379,7 @@ const Bahamas = {
 
   alias: "[]",
   common_name: "Bahamas",
-  calling_code: "",
+  calling_code: "1-242",
 
   languages: [],
 
@@ -407,7 +407,7 @@ const Bahrain = {
 
   alias: "[]",
   common_name: "Bahrain",
-  calling_code: "",
+  calling_code: "973",
 
   languages: [],
 
@@ -435,7 +435,7 @@ const Bangladesh = {
 
   alias: "[]",
   common_name: "Bangladesh",
-  calling_code: "",
+  calling_code: "880",
 
   languages: [],
 
@@ -463,7 +463,7 @@ const Armenia = {
 
   alias: "[]",
   common_name: "Armenia",
-  calling_code: "",
+  calling_code: "374",
 
   languages: [],
 
@@ -491,7 +491,7 @@ const Barbados = {
 
   alias: "[]",
   common_name: "Barbados",
-  calling_code: "",
+  calling_code: "1-246",
 
   languages: [],
 
@@ -519,7 +519,7 @@ const Belgium = {
 
   alias: "[]",
   common_name: "Belgium",
-  calling_code: "",
+  calling_code: "32",
 
   languages: [],
 
@@ -547,7 +547,7 @@ const Bermuda = {
 
   alias: "[]",
   common_name: "Bermuda",
-  calling_code: "",
+  calling_code: "1-441",
 
   languages: [],
 
@@ -575,7 +575,7 @@ const Bhutan = {
 
   alias: "[]",
   common_name: "Bhutan",
-  calling_code: "",
+  calling_code: "975",
 
   languages: [],
 
@@ -603,7 +603,7 @@ const BoliviaPlurinationalStateOf = {
 
   alias: "[]",
   common_name: "Bolivia Plurinational State Of",
-  calling_code: "",
+  calling_code: "591",
 
   languages: [],
 
@@ -631,7 +631,7 @@ const BosniaAndHerzegovina = {
 
   alias: "[]",
   common_name: "Bosnia And Herzegovina",
-  calling_code: "",
+  calling_code: "387",
 
   languages: [],
 
@@ -659,7 +659,7 @@ const Botswana = {
 
   alias: "[]",
   common_name: "Botswana",
-  calling_code: "",
+  calling_code: "267",
 
   languages: [],
 
@@ -687,7 +687,7 @@ const BouvetIsland = {
 
   alias: "[]",
   common_name: "Bouvet Island",
-  calling_code: "",
+  calling_code: "47",
 
   languages: [],
 
@@ -743,7 +743,7 @@ const Belize = {
 
   alias: "[]",
   common_name: "Belize",
-  calling_code: "",
+  calling_code: "501",
 
   languages: [],
 
@@ -771,7 +771,7 @@ const BritishIndianOceanTerritory = {
 
   alias: "[]",
   common_name: "British Indian Ocean Territory",
-  calling_code: "",
+  calling_code: "246",
 
   languages: [],
 
@@ -799,7 +799,7 @@ const SolomonIslands = {
 
   alias: "[]",
   common_name: "Solomon Islands",
-  calling_code: "",
+  calling_code: "677",
 
   languages: [],
 
@@ -827,7 +827,7 @@ const VirginIslandsBritish = {
 
   alias: "[]",
   common_name: "Virgin Islands British",
-  calling_code: "",
+  calling_code: "1-284",
 
   languages: [],
 
@@ -855,7 +855,7 @@ const BruneiDarussalam = {
 
   alias: "[]",
   common_name: "Brunei Darussalam",
-  calling_code: "",
+  calling_code: "673",
 
   languages: [],
 
@@ -883,7 +883,7 @@ const Bulgaria = {
 
   alias: "[]",
   common_name: "Bulgaria",
-  calling_code: "",
+  calling_code: "359",
 
   languages: [],
 
@@ -967,7 +967,7 @@ const Burundi = {
 
   alias: "[]",
   common_name: "Burundi",
-  calling_code: "",
+  calling_code: "257",
 
   languages: [],
 
@@ -995,7 +995,7 @@ const Belarus = {
 
   alias: "[]",
   common_name: "Belarus",
-  calling_code: "",
+  calling_code: "375",
 
   languages: [],
 
@@ -1051,7 +1051,7 @@ const Cameroon = {
 
   alias: "[]",
   common_name: "Cameroon",
-  calling_code: "",
+  calling_code: "237",
 
   languages: [],
 
@@ -1107,7 +1107,7 @@ const CantonAndEnderburyIslands = {
 
   alias: "[]",
   common_name: "Canton And Enderbury Islands",
-  calling_code: "",
+  calling_code: "90",
 
   languages: [],
 
@@ -1135,7 +1135,7 @@ const CaboVerde = {
 
   alias: "[]",
   common_name: "Cabo Verde",
-  calling_code: "",
+  calling_code: "238",
 
   languages: [],
 
@@ -1163,7 +1163,7 @@ const CaymanIslands = {
 
   alias: "[]",
   common_name: "Cayman Islands",
-  calling_code: "",
+  calling_code: "1-345",
 
   languages: [],
 
@@ -1191,7 +1191,7 @@ const CentralAfricanRepublic = {
 
   alias: "[]",
   common_name: "Central African Republic",
-  calling_code: "",
+  calling_code: "236",
 
   languages: [],
 
@@ -1219,7 +1219,7 @@ const SriLanka = {
 
   alias: "[]",
   common_name: "Sri Lanka",
-  calling_code: "",
+  calling_code: "94",
 
   languages: [],
 
@@ -1247,7 +1247,7 @@ const Chad = {
 
   alias: "[]",
   common_name: "Chad",
-  calling_code: "",
+  calling_code: "235",
 
   languages: [],
 
@@ -1275,7 +1275,7 @@ const Chile = {
 
   alias: "[]",
   common_name: "Chile",
-  calling_code: "",
+  calling_code: "56",
 
   languages: [],
 
@@ -1359,7 +1359,7 @@ const ChristmasIsland = {
 
   alias: "[]",
   common_name: "Christmas Island",
-  calling_code: "",
+  calling_code: "61",
 
   languages: [],
 
@@ -1387,7 +1387,7 @@ const CocosKeelingIslands = {
 
   alias: "[]",
   common_name: "Cocos Keeling Islands",
-  calling_code: "",
+  calling_code: "61",
 
   languages: [],
 
@@ -1415,7 +1415,7 @@ const Colombia = {
 
   alias: "[]",
   common_name: "Colombia",
-  calling_code: "",
+  calling_code: "57",
 
   languages: [],
 
@@ -1443,7 +1443,7 @@ const Comoros = {
 
   alias: "[]",
   common_name: "Comoros",
-  calling_code: "",
+  calling_code: "269",
 
   languages: [],
 
@@ -1471,7 +1471,7 @@ const Mayotte = {
 
   alias: "[]",
   common_name: "Mayotte",
-  calling_code: "",
+  calling_code: "262",
 
   languages: [],
 
@@ -1499,7 +1499,7 @@ const Congo = {
 
   alias: "[]",
   common_name: "Congo",
-  calling_code: "",
+  calling_code: "242",
 
   languages: [],
 
@@ -1527,7 +1527,7 @@ const CongoDemocraticRepublicOfthe = {
 
   alias: "[]",
   common_name: "Congo Democratic Republic Of the",
-  calling_code: "",
+  calling_code: "243",
 
   languages: [],
 
@@ -1583,7 +1583,7 @@ const CookIslands = {
 
   alias: "[]",
   common_name: "Cook Islands",
-  calling_code: "",
+  calling_code: "682",
 
   languages: [],
 
@@ -1611,7 +1611,7 @@ const CostaRica = {
 
   alias: "[]",
   common_name: "Costa Rica",
-  calling_code: "",
+  calling_code: "506",
 
   languages: [],
 
@@ -1639,7 +1639,7 @@ const Croatia = {
 
   alias: "[]",
   common_name: "Croatia",
-  calling_code: "",
+  calling_code: "385",
 
   languages: [],
 
@@ -1667,7 +1667,7 @@ const Cuba = {
 
   alias: "[]",
   common_name: "Cuba",
-  calling_code: "",
+  calling_code: "53",
 
   languages: [],
 
@@ -1695,7 +1695,7 @@ const Cyprus = {
 
   alias: "[]",
   common_name: "Cyprus",
-  calling_code: "",
+  calling_code: "357",
 
   languages: [],
 
@@ -1751,7 +1751,7 @@ const Czechia = {
 
   alias: "["Czech Republic"]",
   common_name: "Czechia",
-  calling_code: "",
+  calling_code: "420",
 
   languages: [],
 
@@ -1779,7 +1779,7 @@ const Benin = {
 
   alias: "[]",
   common_name: "Benin",
-  calling_code: "",
+  calling_code: "229",
 
   languages: [],
 
@@ -1835,7 +1835,7 @@ const Denmark = {
 
   alias: "[]",
   common_name: "Denmark",
-  calling_code: "",
+  calling_code: "45",
 
   languages: [],
 
@@ -1863,7 +1863,7 @@ const Dominica = {
 
   alias: "[]",
   common_name: "Dominica",
-  calling_code: "",
+  calling_code: "1-767",
 
   languages: [],
 
@@ -1891,7 +1891,7 @@ const DominicanRepublic = {
 
   alias: "[]",
   common_name: "Dominican Republic",
-  calling_code: "",
+  calling_code: "1-809",
 
   languages: [],
 
@@ -1947,7 +1947,7 @@ const Ecuador = {
 
   alias: "[]",
   common_name: "Ecuador",
-  calling_code: "",
+  calling_code: "593",
 
   languages: [],
 
@@ -1975,7 +1975,7 @@ const ElSalvador = {
 
   alias: "[]",
   common_name: "El Salvador",
-  calling_code: "",
+  calling_code: "503",
 
   languages: [],
 
@@ -2003,7 +2003,7 @@ const EquatorialGuinea = {
 
   alias: "[]",
   common_name: "Equatorial Guinea",
-  calling_code: "",
+  calling_code: "240",
 
   languages: [],
 
@@ -2031,7 +2031,7 @@ const Ethiopia = {
 
   alias: "[]",
   common_name: "Ethiopia",
-  calling_code: "",
+  calling_code: "251",
 
   languages: [],
 
@@ -2059,7 +2059,7 @@ const Eritrea = {
 
   alias: "[]",
   common_name: "Eritrea",
-  calling_code: "",
+  calling_code: "291",
 
   languages: [],
 
@@ -2087,7 +2087,7 @@ const Estonia = {
 
   alias: "[]",
   common_name: "Estonia",
-  calling_code: "",
+  calling_code: "372",
 
   languages: [],
 
@@ -2115,7 +2115,7 @@ const FaroeIslands = {
 
   alias: "[]",
   common_name: "Faroe Islands",
-  calling_code: "",
+  calling_code: "298",
 
   languages: [],
 
@@ -2143,7 +2143,7 @@ const FalklandIslandsMalvinas = {
 
   alias: "[]",
   common_name: "Falkland Islands Malvinas",
-  calling_code: "",
+  calling_code: "500",
 
   languages: [],
 
@@ -2171,7 +2171,7 @@ const SouthGeorgiaAndTheSouthSandwichIslands = {
 
   alias: "[]",
   common_name: "South Georgia And The South Sandwich Islands",
-  calling_code: "",
+  calling_code: "500",
 
   languages: [],
 
@@ -2199,7 +2199,7 @@ const Fiji = {
 
   alias: "[]",
   common_name: "Fiji",
-  calling_code: "",
+  calling_code: "679",
 
   languages: [],
 
@@ -2227,7 +2227,7 @@ const Finland = {
 
   alias: "[]",
   common_name: "Finland",
-  calling_code: "",
+  calling_code: "358",
 
   languages: [],
 
@@ -2255,7 +2255,7 @@ const AlandIslands = {
 
   alias: "[]",
   common_name: "Aland Islands",
-  calling_code: "",
+  calling_code: "358",
 
   languages: [],
 
@@ -2339,7 +2339,7 @@ const FrenchGuiana = {
 
   alias: "[]",
   common_name: "French Guiana",
-  calling_code: "",
+  calling_code: "594",
 
   languages: [],
 
@@ -2367,7 +2367,7 @@ const FrenchPolynesia = {
 
   alias: "[]",
   common_name: "French Polynesia",
-  calling_code: "",
+  calling_code: "689",
 
   languages: [],
 
@@ -2423,7 +2423,7 @@ const FrenchSouthernTerritories = {
 
   alias: "[]",
   common_name: "French Southern Territories",
-  calling_code: "",
+  calling_code: "262",
 
   languages: [],
 
@@ -2451,7 +2451,7 @@ const Djibouti = {
 
   alias: "[]",
   common_name: "Djibouti",
-  calling_code: "",
+  calling_code: "253",
 
   languages: [],
 
@@ -2479,7 +2479,7 @@ const Gabon = {
 
   alias: "[]",
   common_name: "Gabon",
-  calling_code: "",
+  calling_code: "241",
 
   languages: [],
 
@@ -2507,7 +2507,7 @@ const Georgia = {
 
   alias: "[]",
   common_name: "Georgia",
-  calling_code: "",
+  calling_code: "995",
 
   languages: [],
 
@@ -2535,7 +2535,7 @@ const Gambia = {
 
   alias: "[]",
   common_name: "Gambia",
-  calling_code: "",
+  calling_code: "220",
 
   languages: [],
 
@@ -2563,7 +2563,7 @@ const PalestineStateOf = {
 
   alias: "[]",
   common_name: "Palestine State Of",
-  calling_code: "",
+  calling_code: "970",
 
   languages: [],
 
@@ -2647,7 +2647,7 @@ const Ghana = {
 
   alias: "[]",
   common_name: "Ghana",
-  calling_code: "",
+  calling_code: "233",
 
   languages: [],
 
@@ -2675,7 +2675,7 @@ const Gibraltar = {
 
   alias: "[]",
   common_name: "Gibraltar",
-  calling_code: "",
+  calling_code: "350",
 
   languages: [],
 
@@ -2703,7 +2703,7 @@ const Kiribati = {
 
   alias: "[]",
   common_name: "Kiribati",
-  calling_code: "",
+  calling_code: "686",
 
   languages: [],
 
@@ -2731,7 +2731,7 @@ const Greece = {
 
   alias: "[]",
   common_name: "Greece",
-  calling_code: "",
+  calling_code: "30",
 
   languages: [],
 
@@ -2759,7 +2759,7 @@ const Greenland = {
 
   alias: "[]",
   common_name: "Greenland",
-  calling_code: "",
+  calling_code: "299",
 
   languages: [],
 
@@ -2787,7 +2787,7 @@ const Grenada = {
 
   alias: "[]",
   common_name: "Grenada",
-  calling_code: "",
+  calling_code: "1-473",
 
   languages: [],
 
@@ -2815,7 +2815,7 @@ const Guadeloupe = {
 
   alias: "[]",
   common_name: "Guadeloupe",
-  calling_code: "",
+  calling_code: "590",
 
   languages: [],
 
@@ -2843,7 +2843,7 @@ const Guam = {
 
   alias: "[]",
   common_name: "Guam",
-  calling_code: "",
+  calling_code: "1-671",
 
   languages: [],
 
@@ -2871,7 +2871,7 @@ const Guatemala = {
 
   alias: "[]",
   common_name: "Guatemala",
-  calling_code: "",
+  calling_code: "502",
 
   languages: [],
 
@@ -2899,7 +2899,7 @@ const Guinea = {
 
   alias: "[]",
   common_name: "Guinea",
-  calling_code: "",
+  calling_code: "224",
 
   languages: [],
 
@@ -2927,7 +2927,7 @@ const Guyana = {
 
   alias: "[]",
   common_name: "Guyana",
-  calling_code: "",
+  calling_code: "592",
 
   languages: [],
 
@@ -2955,7 +2955,7 @@ const Haiti = {
 
   alias: "[]",
   common_name: "Haiti",
-  calling_code: "",
+  calling_code: "509",
 
   languages: [],
 
@@ -3011,7 +3011,7 @@ const HolySee = {
 
   alias: "[]",
   common_name: "Holy See",
-  calling_code: "",
+  calling_code: "39",
 
   languages: [],
 
@@ -3039,7 +3039,7 @@ const Honduras = {
 
   alias: "[]",
   common_name: "Honduras",
-  calling_code: "",
+  calling_code: "504",
 
   languages: [],
 
@@ -3095,7 +3095,7 @@ const Hungary = {
 
   alias: "[]",
   common_name: "Hungary",
-  calling_code: "",
+  calling_code: "36",
 
   languages: [],
 
@@ -3123,7 +3123,7 @@ const Iceland = {
 
   alias: "[]",
   common_name: "Iceland",
-  calling_code: "",
+  calling_code: "354",
 
   languages: [],
 
@@ -3151,7 +3151,7 @@ const India = {
 
   alias: "[]",
   common_name: "India",
-  calling_code: "",
+  calling_code: "91",
 
   languages: [],
 
@@ -3207,7 +3207,7 @@ const IranIslamicRepublicOf = {
 
   alias: "[]",
   common_name: "Iran Islamic Republic Of",
-  calling_code: "",
+  calling_code: "98",
 
   languages: [],
 
@@ -3235,7 +3235,7 @@ const Iraq = {
 
   alias: "[]",
   common_name: "Iraq",
-  calling_code: "",
+  calling_code: "964",
 
   languages: [],
 
@@ -3263,7 +3263,7 @@ const Ireland = {
 
   alias: "[]",
   common_name: "Ireland",
-  calling_code: "",
+  calling_code: "353",
 
   languages: [],
 
@@ -3291,7 +3291,7 @@ const Israel = {
 
   alias: "[]",
   common_name: "Israel",
-  calling_code: "",
+  calling_code: "972",
 
   languages: [],
 
@@ -3347,7 +3347,7 @@ const CotedIvoire = {
 
   alias: "[]",
   common_name: "Cote dIvoire",
-  calling_code: "",
+  calling_code: "225",
 
   languages: [],
 
@@ -3375,7 +3375,7 @@ const Jamaica = {
 
   alias: "[]",
   common_name: "Jamaica",
-  calling_code: "",
+  calling_code: "1-658",
 
   languages: [],
 
@@ -3459,7 +3459,7 @@ const Kazakhstan = {
 
   alias: "[]",
   common_name: "Kazakhstan",
-  calling_code: "",
+  calling_code: "7",
 
   languages: [],
 
@@ -3487,7 +3487,7 @@ const Jordan = {
 
   alias: "[]",
   common_name: "Jordan",
-  calling_code: "",
+  calling_code: "962",
 
   languages: [],
 
@@ -3515,7 +3515,7 @@ const Kenya = {
 
   alias: "[]",
   common_name: "Kenya",
-  calling_code: "",
+  calling_code: "254",
 
   languages: [],
 
@@ -3543,7 +3543,7 @@ const NorthKorea = {
 
   alias: "[]",
   common_name: "North Korea",
-  calling_code: "",
+  calling_code: "850",
 
   languages: [],
 
@@ -3599,7 +3599,7 @@ const Kuwait = {
 
   alias: "[]",
   common_name: "Kuwait",
-  calling_code: "",
+  calling_code: "965",
 
   languages: [],
 
@@ -3627,7 +3627,7 @@ const Kyrgyzstan = {
 
   alias: "[]",
   common_name: "Kyrgyzstan",
-  calling_code: "",
+  calling_code: "996",
 
   languages: [],
 
@@ -3655,7 +3655,7 @@ const Lebanon = {
 
   alias: "[]",
   common_name: "Lebanon",
-  calling_code: "",
+  calling_code: "961",
 
   languages: [],
 
@@ -3683,7 +3683,7 @@ const Lesotho = {
 
   alias: "[]",
   common_name: "Lesotho",
-  calling_code: "",
+  calling_code: "266",
 
   languages: [],
 
@@ -3711,7 +3711,7 @@ const Latvia = {
 
   alias: "[]",
   common_name: "Latvia",
-  calling_code: "",
+  calling_code: "371",
 
   languages: [],
 
@@ -3739,7 +3739,7 @@ const Liberia = {
 
   alias: "[]",
   common_name: "Liberia",
-  calling_code: "",
+  calling_code: "231",
 
   languages: [],
 
@@ -3767,7 +3767,7 @@ const Libya = {
 
   alias: "[]",
   common_name: "Libya",
-  calling_code: "",
+  calling_code: "218",
 
   languages: [],
 
@@ -3795,7 +3795,7 @@ const Liechtenstein = {
 
   alias: "[]",
   common_name: "Liechtenstein",
-  calling_code: "",
+  calling_code: "423",
 
   languages: [],
 
@@ -3823,7 +3823,7 @@ const Lithuania = {
 
   alias: "[]",
   common_name: "Lithuania",
-  calling_code: "",
+  calling_code: "370",
 
   languages: [],
 
@@ -3851,7 +3851,7 @@ const Luxembourg = {
 
   alias: "[]",
   common_name: "Luxembourg",
-  calling_code: "",
+  calling_code: "352",
 
   languages: [],
 
@@ -3935,7 +3935,7 @@ const Malawi = {
 
   alias: "[]",
   common_name: "Malawi",
-  calling_code: "",
+  calling_code: "265",
 
   languages: [],
 
@@ -3991,7 +3991,7 @@ const Maldives = {
 
   alias: "[]",
   common_name: "Maldives",
-  calling_code: "",
+  calling_code: "960",
 
   languages: [],
 
@@ -4019,7 +4019,7 @@ const Mali = {
 
   alias: "[]",
   common_name: "Mali",
-  calling_code: "",
+  calling_code: "223",
 
   languages: [],
 
@@ -4047,7 +4047,7 @@ const Malta = {
 
   alias: "[]",
   common_name: "Malta",
-  calling_code: "",
+  calling_code: "356",
 
   languages: [],
 
@@ -4075,7 +4075,7 @@ const Martinique = {
 
   alias: "[]",
   common_name: "Martinique",
-  calling_code: "",
+  calling_code: "596",
 
   languages: [],
 
@@ -4103,7 +4103,7 @@ const Mauritania = {
 
   alias: "[]",
   common_name: "Mauritania",
-  calling_code: "",
+  calling_code: "222",
 
   languages: [],
 
@@ -4131,7 +4131,7 @@ const Mauritius = {
 
   alias: "[]",
   common_name: "Mauritius",
-  calling_code: "",
+  calling_code: "230",
 
   languages: [],
 
@@ -4187,7 +4187,7 @@ const Mexico = {
 
   alias: "[]",
   common_name: "Mexico",
-  calling_code: "",
+  calling_code: "52",
 
   languages: [],
 
@@ -4243,7 +4243,7 @@ const Monaco = {
 
   alias: "[]",
   common_name: "Monaco",
-  calling_code: "",
+  calling_code: "377",
 
   languages: [],
 
@@ -4271,7 +4271,7 @@ const Mongolia = {
 
   alias: "[]",
   common_name: "Mongolia",
-  calling_code: "",
+  calling_code: "976",
 
   languages: [],
 
@@ -4299,7 +4299,7 @@ const MoldovaRepublicOf = {
 
   alias: "[]",
   common_name: "Moldova Republic Of",
-  calling_code: "",
+  calling_code: "373",
 
   languages: [],
 
@@ -4327,7 +4327,7 @@ const Montenegro = {
 
   alias: "[]",
   common_name: "Montenegro",
-  calling_code: "",
+  calling_code: "382",
 
   languages: [],
 
@@ -4355,7 +4355,7 @@ const Montserrat = {
 
   alias: "[]",
   common_name: "Montserrat",
-  calling_code: "",
+  calling_code: "1-664",
 
   languages: [],
 
@@ -4383,7 +4383,7 @@ const Morocco = {
 
   alias: "[]",
   common_name: "Morocco",
-  calling_code: "",
+  calling_code: "212",
 
   languages: [],
 
@@ -4411,7 +4411,7 @@ const Mozambique = {
 
   alias: "[]",
   common_name: "Mozambique",
-  calling_code: "",
+  calling_code: "258",
 
   languages: [],
 
@@ -4439,7 +4439,7 @@ const Oman = {
 
   alias: "[]",
   common_name: "Oman",
-  calling_code: "",
+  calling_code: "968",
 
   languages: [],
 
@@ -4467,7 +4467,7 @@ const Namibia = {
 
   alias: "[]",
   common_name: "Namibia",
-  calling_code: "",
+  calling_code: "264",
 
   languages: [],
 
@@ -4495,7 +4495,7 @@ const Nauru = {
 
   alias: "[]",
   common_name: "Nauru",
-  calling_code: "",
+  calling_code: "674",
 
   languages: [],
 
@@ -4523,7 +4523,7 @@ const Nepal = {
 
   alias: "[]",
   common_name: "Nepal",
-  calling_code: "",
+  calling_code: "977",
 
   languages: [],
 
@@ -4551,7 +4551,7 @@ const Netherlands = {
 
   alias: "[]",
   common_name: "Netherlands",
-  calling_code: "",
+  calling_code: "31",
 
   languages: [],
 
@@ -4579,7 +4579,7 @@ const Curacao = {
 
   alias: "[]",
   common_name: "Curacao",
-  calling_code: "",
+  calling_code: "599",
 
   languages: [],
 
@@ -4607,7 +4607,7 @@ const Aruba = {
 
   alias: "[]",
   common_name: "Aruba",
-  calling_code: "",
+  calling_code: "297",
 
   languages: [],
 
@@ -4635,7 +4635,7 @@ const SintMaartenDutchpart = {
 
   alias: "[]",
   common_name: "Sint Maarten Dutch part",
-  calling_code: "",
+  calling_code: "1-721",
 
   languages: [],
 
@@ -4663,7 +4663,7 @@ const BonaireSintEustatiusAndSaba = {
 
   alias: "[]",
   common_name: "Bonaire Sint Eustatius And Saba",
-  calling_code: "",
+  calling_code: "599",
 
   languages: [],
 
@@ -4719,7 +4719,7 @@ const NewCaledonia = {
 
   alias: "[]",
   common_name: "New Caledonia",
-  calling_code: "",
+  calling_code: "687",
 
   languages: [],
 
@@ -4775,7 +4775,7 @@ const Vanuatu = {
 
   alias: "[]",
   common_name: "Vanuatu",
-  calling_code: "",
+  calling_code: "678",
 
   languages: [],
 
@@ -4831,7 +4831,7 @@ const Nicaragua = {
 
   alias: "[]",
   common_name: "Nicaragua",
-  calling_code: "",
+  calling_code: "505",
 
   languages: [],
 
@@ -4859,7 +4859,7 @@ const Niger = {
 
   alias: "[]",
   common_name: "Niger",
-  calling_code: "",
+  calling_code: "227",
 
   languages: [],
 
@@ -4887,7 +4887,7 @@ const Nigeria = {
 
   alias: "[]",
   common_name: "Nigeria",
-  calling_code: "",
+  calling_code: "234",
 
   languages: [],
 
@@ -4915,7 +4915,7 @@ const Niue = {
 
   alias: "[]",
   common_name: "Niue",
-  calling_code: "",
+  calling_code: "683",
 
   languages: [],
 
@@ -4943,7 +4943,7 @@ const NorfolkIsland = {
 
   alias: "[]",
   common_name: "Norfolk Island",
-  calling_code: "",
+  calling_code: "672",
 
   languages: [],
 
@@ -4971,7 +4971,7 @@ const Norway = {
 
   alias: "[]",
   common_name: "Norway",
-  calling_code: "",
+  calling_code: "47",
 
   languages: [],
 
@@ -4999,7 +4999,7 @@ const NorthernMarianaIslands = {
 
   alias: "[]",
   common_name: "Northern Mariana Islands",
-  calling_code: "",
+  calling_code: "1-670",
 
   languages: [],
 
@@ -5083,7 +5083,7 @@ const MicronesiaFederatedStatesOf = {
 
   alias: "[]",
   common_name: "Micronesia Federated States Of",
-  calling_code: "",
+  calling_code: "691",
 
   languages: [],
 
@@ -5111,7 +5111,7 @@ const MarshallIslands = {
 
   alias: "[]",
   common_name: "Marshall Islands",
-  calling_code: "",
+  calling_code: "692",
 
   languages: [],
 
@@ -5139,7 +5139,7 @@ const Palau = {
 
   alias: "[]",
   common_name: "Palau",
-  calling_code: "",
+  calling_code: "680",
 
   languages: [],
 
@@ -5167,7 +5167,7 @@ const Pakistan = {
 
   alias: "[]",
   common_name: "Pakistan",
-  calling_code: "",
+  calling_code: "92",
 
   languages: [],
 
@@ -5251,7 +5251,7 @@ const PapuaNewGuinea = {
 
   alias: "[]",
   common_name: "Papua New Guinea",
-  calling_code: "",
+  calling_code: "675",
 
   languages: [],
 
@@ -5279,7 +5279,7 @@ const Paraguay = {
 
   alias: "[]",
   common_name: "Paraguay",
-  calling_code: "",
+  calling_code: "595",
 
   languages: [],
 
@@ -5307,7 +5307,7 @@ const Peru = {
 
   alias: "[]",
   common_name: "Peru",
-  calling_code: "",
+  calling_code: "51",
 
   languages: [],
 
@@ -5363,7 +5363,7 @@ const Pitcairn = {
 
   alias: "[]",
   common_name: "Pitcairn",
-  calling_code: "",
+  calling_code: "64",
 
   languages: [],
 
@@ -5391,7 +5391,7 @@ const Poland = {
 
   alias: "[]",
   common_name: "Poland",
-  calling_code: "",
+  calling_code: "48",
 
   languages: [],
 
@@ -5419,7 +5419,7 @@ const Portugal = {
 
   alias: "[]",
   common_name: "Portugal",
-  calling_code: "",
+  calling_code: "351",
 
   languages: [],
 
@@ -5447,7 +5447,7 @@ const Guinea_Bissau = {
 
   alias: "[]",
   common_name: "Guinea_Bissau",
-  calling_code: "",
+  calling_code: "245",
 
   languages: [],
 
@@ -5475,7 +5475,7 @@ const Timor_Leste = {
 
   alias: "[]",
   common_name: "Timor_Leste",
-  calling_code: "",
+  calling_code: "670",
 
   languages: [],
 
@@ -5531,7 +5531,7 @@ const PuertoRico = {
 
   alias: "[]",
   common_name: "Puerto Rico",
-  calling_code: "",
+  calling_code: "1-787",
 
   languages: [],
 
@@ -5559,7 +5559,7 @@ const Qatar = {
 
   alias: "[]",
   common_name: "Qatar",
-  calling_code: "",
+  calling_code: "974",
 
   languages: [],
 
@@ -5587,7 +5587,7 @@ const Reunion = {
 
   alias: "[]",
   common_name: "Reunion",
-  calling_code: "",
+  calling_code: "262",
 
   languages: [],
 
@@ -5615,7 +5615,7 @@ const Romania = {
 
   alias: "[]",
   common_name: "Romania",
-  calling_code: "",
+  calling_code: "40",
 
   languages: [],
 
@@ -5671,7 +5671,7 @@ const Rwanda = {
 
   alias: "[]",
   common_name: "Rwanda",
-  calling_code: "",
+  calling_code: "250",
 
   languages: [],
 
@@ -5699,7 +5699,7 @@ const SaintBarthelemy = {
 
   alias: "[]",
   common_name: "Saint Barthelemy",
-  calling_code: "",
+  calling_code: "590",
 
   languages: [],
 
@@ -5727,7 +5727,7 @@ const SaintHelenaAscensionAndTristandaCunha = {
 
   alias: "[]",
   common_name: "Saint Helena Ascension And Tristan da Cunha",
-  calling_code: "",
+  calling_code: "290",
 
   languages: [],
 
@@ -5755,7 +5755,7 @@ const SaintKittsAndNevis = {
 
   alias: "[]",
   common_name: "Saint Kitts And Nevis",
-  calling_code: "",
+  calling_code: "1-869",
 
   languages: [],
 
@@ -5783,7 +5783,7 @@ const Anguilla = {
 
   alias: "[]",
   common_name: "Anguilla",
-  calling_code: "",
+  calling_code: "1-264",
 
   languages: [],
 
@@ -5811,7 +5811,7 @@ const SaintLucia = {
 
   alias: "[]",
   common_name: "Saint Lucia",
-  calling_code: "",
+  calling_code: "1-758",
 
   languages: [],
 
@@ -5839,7 +5839,7 @@ const SaintMartinFrenchpart = {
 
   alias: "[]",
   common_name: "Saint Martin French part",
-  calling_code: "",
+  calling_code: "590",
 
   languages: [],
 
@@ -5867,7 +5867,7 @@ const SaintPierreAndMiquelon = {
 
   alias: "[]",
   common_name: "Saint Pierre And Miquelon",
-  calling_code: "",
+  calling_code: "508",
 
   languages: [],
 
@@ -5895,7 +5895,7 @@ const SaintVincentAndTheGrenadines = {
 
   alias: "[]",
   common_name: "Saint Vincent And The Grenadines",
-  calling_code: "",
+  calling_code: "1-784",
 
   languages: [],
 
@@ -5923,7 +5923,7 @@ const SanMarino = {
 
   alias: "[]",
   common_name: "San Marino",
-  calling_code: "",
+  calling_code: "378",
 
   languages: [],
 
@@ -5951,7 +5951,7 @@ const SaoTomeAndPrincipe = {
 
   alias: "[]",
   common_name: "Sao Tome And Principe",
-  calling_code: "",
+  calling_code: "239",
 
   languages: [],
 
@@ -6007,7 +6007,7 @@ const Senegal = {
 
   alias: "[]",
   common_name: "Senegal",
-  calling_code: "",
+  calling_code: "221",
 
   languages: [],
 
@@ -6035,7 +6035,7 @@ const Serbia = {
 
   alias: "[]",
   common_name: "Serbia",
-  calling_code: "",
+  calling_code: "381",
 
   languages: [],
 
@@ -6063,7 +6063,7 @@ const Seychelles = {
 
   alias: "[]",
   common_name: "Seychelles",
-  calling_code: "",
+  calling_code: "248",
 
   languages: [],
 
@@ -6091,7 +6091,7 @@ const SierraLeone = {
 
   alias: "[]",
   common_name: "Sierra Leone",
-  calling_code: "",
+  calling_code: "232",
 
   languages: [],
 
@@ -6147,7 +6147,7 @@ const Slovakia = {
 
   alias: "[]",
   common_name: "Slovakia",
-  calling_code: "",
+  calling_code: "421",
 
   languages: [],
 
@@ -6231,7 +6231,7 @@ const Slovenia = {
 
   alias: "[]",
   common_name: "Slovenia",
-  calling_code: "",
+  calling_code: "386",
 
   languages: [],
 
@@ -6259,7 +6259,7 @@ const Somalia = {
 
   alias: "[]",
   common_name: "Somalia",
-  calling_code: "",
+  calling_code: "252",
 
   languages: [],
 
@@ -6343,7 +6343,7 @@ const Zimbabwe = {
 
   alias: "[]",
   common_name: "Zimbabwe",
-  calling_code: "",
+  calling_code: "263",
 
   languages: [],
 
@@ -6427,7 +6427,7 @@ const SouthSudan = {
 
   alias: "[]",
   common_name: "South Sudan",
-  calling_code: "",
+  calling_code: "211",
 
   languages: [],
 
@@ -6455,7 +6455,7 @@ const Sudan = {
 
   alias: "[]",
   common_name: "Sudan",
-  calling_code: "",
+  calling_code: "249",
 
   languages: [],
 
@@ -6483,7 +6483,7 @@ const WesternSahara = {
 
   alias: "[]",
   common_name: "Western Sahara",
-  calling_code: "",
+  calling_code: "212",
 
   languages: [],
 
@@ -6511,7 +6511,7 @@ const Suriname = {
 
   alias: "[]",
   common_name: "Suriname",
-  calling_code: "",
+  calling_code: "597",
 
   languages: [],
 
@@ -6539,7 +6539,7 @@ const SvalbardAndJanMayen = {
 
   alias: "[]",
   common_name: "Svalbard And Jan Mayen",
-  calling_code: "",
+  calling_code: "47",
 
   languages: [],
 
@@ -6567,7 +6567,7 @@ const Eswatini = {
 
   alias: "[]",
   common_name: "Eswatini",
-  calling_code: "",
+  calling_code: "268",
 
   languages: [],
 
@@ -6595,7 +6595,7 @@ const Sweden = {
 
   alias: "[]",
   common_name: "Sweden",
-  calling_code: "",
+  calling_code: "46",
 
   languages: [],
 
@@ -6651,7 +6651,7 @@ const SyrianArabRepublic = {
 
   alias: "[]",
   common_name: "Syrian Arab Republic",
-  calling_code: "",
+  calling_code: "963",
 
   languages: [],
 
@@ -6679,7 +6679,7 @@ const Tajikistan = {
 
   alias: "[]",
   common_name: "Tajikistan",
-  calling_code: "",
+  calling_code: "992",
 
   languages: [],
 
@@ -6735,7 +6735,7 @@ const Togo = {
 
   alias: "[]",
   common_name: "Togo",
-  calling_code: "",
+  calling_code: "228",
 
   languages: [],
 
@@ -6763,7 +6763,7 @@ const Tokelau = {
 
   alias: "[]",
   common_name: "Tokelau",
-  calling_code: "",
+  calling_code: "690",
 
   languages: [],
 
@@ -6791,7 +6791,7 @@ const Tonga = {
 
   alias: "[]",
   common_name: "Tonga",
-  calling_code: "",
+  calling_code: "676",
 
   languages: [],
 
@@ -6819,7 +6819,7 @@ const TrinidadAndTobago = {
 
   alias: "[]",
   common_name: "Trinidad And Tobago",
-  calling_code: "",
+  calling_code: "1-868",
 
   languages: [],
 
@@ -6875,7 +6875,7 @@ const Tunisia = {
 
   alias: "[]",
   common_name: "Tunisia",
-  calling_code: "",
+  calling_code: "216",
 
   languages: [],
 
@@ -6931,7 +6931,7 @@ const Turkmenistan = {
 
   alias: "[]",
   common_name: "Turkmenistan",
-  calling_code: "",
+  calling_code: "993",
 
   languages: [],
 
@@ -6959,7 +6959,7 @@ const TurksAndCaicosIslands = {
 
   alias: "[]",
   common_name: "Turks And Caicos Islands",
-  calling_code: "",
+  calling_code: "1-649",
 
   languages: [],
 
@@ -6987,7 +6987,7 @@ const Tuvalu = {
 
   alias: "[]",
   common_name: "Tuvalu",
-  calling_code: "",
+  calling_code: "688",
 
   languages: [],
 
@@ -7015,7 +7015,7 @@ const Uganda = {
 
   alias: "[]",
   common_name: "Uganda",
-  calling_code: "",
+  calling_code: "256",
 
   languages: [],
 
@@ -7043,7 +7043,7 @@ const Ukraine = {
 
   alias: "[]",
   common_name: "Ukraine",
-  calling_code: "",
+  calling_code: "380",
 
   languages: [],
 
@@ -7071,7 +7071,7 @@ const NorthMacedonia = {
 
   alias: "[]",
   common_name: "North Macedonia",
-  calling_code: "",
+  calling_code: "389",
 
   languages: [],
 
@@ -7127,7 +7127,7 @@ const Egypt = {
 
   alias: "[]",
   common_name: "Egypt",
-  calling_code: "",
+  calling_code: "20",
 
   languages: [],
 
@@ -7183,7 +7183,7 @@ const Guernsey = {
 
   alias: "[]",
   common_name: "Guernsey",
-  calling_code: "",
+  calling_code: "44",
 
   languages: [],
 
@@ -7211,7 +7211,7 @@ const Jersey = {
 
   alias: "[]",
   common_name: "Jersey",
-  calling_code: "",
+  calling_code: "44",
 
   languages: [],
 
@@ -7239,7 +7239,7 @@ const IsleOfMan = {
 
   alias: "[]",
   common_name: "Isle Of Man",
-  calling_code: "",
+  calling_code: "44",
 
   languages: [],
 
@@ -7267,7 +7267,7 @@ const TanzaniaUnitedRepublicOf = {
 
   alias: "[]",
   common_name: "Tanzania United Republic Of",
-  calling_code: "",
+  calling_code: "255",
 
   languages: [],
 
@@ -7351,7 +7351,7 @@ const VirginIslandsUS = {
 
   alias: "[]",
   common_name: "Virgin Islands US",
-  calling_code: "",
+  calling_code: "1-340",
 
   languages: [],
 
@@ -7379,7 +7379,7 @@ const BurkinaFaso = {
 
   alias: "[]",
   common_name: "Burkina Faso",
-  calling_code: "",
+  calling_code: "226",
 
   languages: [],
 
@@ -7435,7 +7435,7 @@ const Uruguay = {
 
   alias: "[]",
   common_name: "Uruguay",
-  calling_code: "",
+  calling_code: "598",
 
   languages: [],
 
@@ -7463,7 +7463,7 @@ const Uzbekistan = {
 
   alias: "[]",
   common_name: "Uzbekistan",
-  calling_code: "",
+  calling_code: "998",
 
   languages: [],
 
@@ -7491,7 +7491,7 @@ const VenezuelaBolivarianRepublicOf = {
 
   alias: "[]",
   common_name: "Venezuela Bolivarian Republic Of",
-  calling_code: "",
+  calling_code: "58",
 
   languages: [],
 
@@ -7547,7 +7547,7 @@ const WallisAndFutuna = {
 
   alias: "[]",
   common_name: "Wallis And Futuna",
-  calling_code: "",
+  calling_code: "681",
 
   languages: [],
 
@@ -7575,7 +7575,7 @@ const Samoa = {
 
   alias: "[]",
   common_name: "Samoa",
-  calling_code: "",
+  calling_code: "685",
 
   languages: [],
 
@@ -7603,7 +7603,7 @@ const Yemen = {
 
   alias: "[]",
   common_name: "Yemen",
-  calling_code: "",
+  calling_code: "967",
 
   languages: [],
 
@@ -7687,7 +7687,7 @@ const Zambia = {
 
   alias: "[]",
   common_name: "Zambia",
-  calling_code: "",
+  calling_code: "260",
 
   languages: [],
 
@@ -7771,7 +7771,7 @@ const Kosovo = {
 
   alias: "[]",
   common_name: "Kosovo",
-  calling_code: "",
+  calling_code: "383",
 
   languages: [],
 

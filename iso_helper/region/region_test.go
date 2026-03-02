@@ -229,6 +229,38 @@ func TestNewFromCode(t *testing.T) {
 	}
 }
 
+func TestNewFromCode_CallingCode(t *testing.T) {
+	for _, item := range []struct {
+		code            string
+		wantCallingCode string
+	}{
+		{
+			code:            "CN",
+			wantCallingCode: "86",
+		},
+		{
+			code:            "HK",
+			wantCallingCode: "852",
+		},
+		{
+			code:            "US",
+			wantCallingCode: "1",
+		},
+		{
+			code:            "VI",
+			wantCallingCode: "1-340",
+		},
+		{
+			code:            "CZ",
+			wantCallingCode: "420",
+		},
+	} {
+		got := region.NewFromCode(item.code)
+		require.NotNil(t, got, item.code)
+		require.Equal(t, item.wantCallingCode, got.GetCallingCode(), item.code)
+	}
+}
+
 func TestTotalRegions(t *testing.T) {
 	want := 193
 	require.LessOrEqual(t, want, len(iso_data.FromCode), "FromCode")

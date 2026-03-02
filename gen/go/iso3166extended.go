@@ -17,7 +17,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Afghanistan",
 		CommonNameInAlphaNumeric: "Afghanistan",
-		CallingCode:              "",
+		CallingCode:              "93",
 		Languages:                []string{},
 
 		RegionInCN:     "阿富汗",
@@ -45,7 +45,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Albania",
 		CommonNameInAlphaNumeric: "Albania",
-		CallingCode:              "",
+		CallingCode:              "355",
 		Languages:                []string{},
 
 		RegionInCN:     "阿尔巴尼亚",
@@ -73,7 +73,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Antarctica",
 		CommonNameInAlphaNumeric: "Antarctica",
-		CallingCode:              "",
+		CallingCode:              "672",
 		Languages:                []string{},
 
 		RegionInCN:     "南极洲",
@@ -101,7 +101,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Algeria",
 		CommonNameInAlphaNumeric: "Algeria",
-		CallingCode:              "",
+		CallingCode:              "213",
 		Languages:                []string{},
 
 		RegionInCN:     "阿尔及利亚",
@@ -129,7 +129,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "American Samoa",
 		CommonNameInAlphaNumeric: "AmericanSamoa",
-		CallingCode:              "",
+		CallingCode:              "1-684",
 		Languages:                []string{},
 
 		RegionInCN:     "美属萨摩亚",
@@ -157,7 +157,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Andorra",
 		CommonNameInAlphaNumeric: "Andorra",
-		CallingCode:              "",
+		CallingCode:              "376",
 		Languages:                []string{},
 
 		RegionInCN:     "安道尔",
@@ -185,7 +185,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Angola",
 		CommonNameInAlphaNumeric: "Angola",
-		CallingCode:              "",
+		CallingCode:              "244",
 		Languages:                []string{},
 
 		RegionInCN:     "安哥拉",
@@ -213,7 +213,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Antigua And Barbuda",
 		CommonNameInAlphaNumeric: "AntiguaAndBarbuda",
-		CallingCode:              "",
+		CallingCode:              "1-268",
 		Languages:                []string{},
 
 		RegionInCN:     "安提瓜和巴布达",
@@ -241,7 +241,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Azerbaijan",
 		CommonNameInAlphaNumeric: "Azerbaijan",
-		CallingCode:              "",
+		CallingCode:              "994",
 		Languages:                []string{},
 
 		RegionInCN:     "阿塞拜疆",
@@ -325,7 +325,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Austria",
 		CommonNameInAlphaNumeric: "Austria",
-		CallingCode:              "",
+		CallingCode:              "43",
 		Languages:                []string{},
 
 		RegionInCN:     "奥地利",
@@ -353,7 +353,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bahamas",
 		CommonNameInAlphaNumeric: "Bahamas",
-		CallingCode:              "",
+		CallingCode:              "1-242",
 		Languages:                []string{},
 
 		RegionInCN:     "巴哈马",
@@ -381,7 +381,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bahrain",
 		CommonNameInAlphaNumeric: "Bahrain",
-		CallingCode:              "",
+		CallingCode:              "973",
 		Languages:                []string{},
 
 		RegionInCN:     "巴林",
@@ -409,7 +409,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bangladesh",
 		CommonNameInAlphaNumeric: "Bangladesh",
-		CallingCode:              "",
+		CallingCode:              "880",
 		Languages:                []string{},
 
 		RegionInCN:     "孟加拉国",
@@ -437,7 +437,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Armenia",
 		CommonNameInAlphaNumeric: "Armenia",
-		CallingCode:              "",
+		CallingCode:              "374",
 		Languages:                []string{},
 
 		RegionInCN:     "亚美尼亚",
@@ -465,7 +465,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Barbados",
 		CommonNameInAlphaNumeric: "Barbados",
-		CallingCode:              "",
+		CallingCode:              "1-246",
 		Languages:                []string{},
 
 		RegionInCN:     "巴巴多斯",
@@ -493,7 +493,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Belgium",
 		CommonNameInAlphaNumeric: "Belgium",
-		CallingCode:              "",
+		CallingCode:              "32",
 		Languages:                []string{},
 
 		RegionInCN:     "比利时",
@@ -521,7 +521,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bermuda",
 		CommonNameInAlphaNumeric: "Bermuda",
-		CallingCode:              "",
+		CallingCode:              "1-441",
 		Languages:                []string{},
 
 		RegionInCN:     "百慕大",
@@ -549,7 +549,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bhutan",
 		CommonNameInAlphaNumeric: "Bhutan",
-		CallingCode:              "",
+		CallingCode:              "975",
 		Languages:                []string{},
 
 		RegionInCN:     "不丹",
@@ -577,7 +577,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bolivia Plurinational State Of",
 		CommonNameInAlphaNumeric: "BoliviaPlurinationalStateOf",
-		CallingCode:              "",
+		CallingCode:              "591",
 		Languages:                []string{},
 
 		RegionInCN:     "玻利维亚",
@@ -605,7 +605,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bosnia And Herzegovina",
 		CommonNameInAlphaNumeric: "BosniaAndHerzegovina",
-		CallingCode:              "",
+		CallingCode:              "387",
 		Languages:                []string{},
 
 		RegionInCN:     "波黑",
@@ -633,7 +633,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Botswana",
 		CommonNameInAlphaNumeric: "Botswana",
-		CallingCode:              "",
+		CallingCode:              "267",
 		Languages:                []string{},
 
 		RegionInCN:     "博茨瓦纳",
@@ -661,7 +661,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bouvet Island",
 		CommonNameInAlphaNumeric: "BouvetIsland",
-		CallingCode:              "",
+		CallingCode:              "47",
 		Languages:                []string{},
 
 		RegionInCN:     "布韦岛",
@@ -717,7 +717,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Belize",
 		CommonNameInAlphaNumeric: "Belize",
-		CallingCode:              "",
+		CallingCode:              "501",
 		Languages:                []string{},
 
 		RegionInCN:     "伯利兹",
@@ -745,7 +745,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "British Indian Ocean Territory",
 		CommonNameInAlphaNumeric: "BritishIndianOceanTerritory",
-		CallingCode:              "",
+		CallingCode:              "246",
 		Languages:                []string{},
 
 		RegionInCN:     "英属印度洋领地",
@@ -773,7 +773,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Solomon Islands",
 		CommonNameInAlphaNumeric: "SolomonIslands",
-		CallingCode:              "",
+		CallingCode:              "677",
 		Languages:                []string{},
 
 		RegionInCN:     "所罗门群岛",
@@ -801,7 +801,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Virgin Islands British",
 		CommonNameInAlphaNumeric: "VirginIslandsBritish",
-		CallingCode:              "",
+		CallingCode:              "1-284",
 		Languages:                []string{},
 
 		RegionInCN:     "英属维尔京群岛",
@@ -829,7 +829,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Brunei Darussalam",
 		CommonNameInAlphaNumeric: "BruneiDarussalam",
-		CallingCode:              "",
+		CallingCode:              "673",
 		Languages:                []string{},
 
 		RegionInCN:     "文莱",
@@ -857,7 +857,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bulgaria",
 		CommonNameInAlphaNumeric: "Bulgaria",
-		CallingCode:              "",
+		CallingCode:              "359",
 		Languages:                []string{},
 
 		RegionInCN:     "保加利亚",
@@ -941,7 +941,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Burundi",
 		CommonNameInAlphaNumeric: "Burundi",
-		CallingCode:              "",
+		CallingCode:              "257",
 		Languages:                []string{},
 
 		RegionInCN:     "布隆迪",
@@ -969,7 +969,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Belarus",
 		CommonNameInAlphaNumeric: "Belarus",
-		CallingCode:              "",
+		CallingCode:              "375",
 		Languages:                []string{},
 
 		RegionInCN:     "白俄罗斯",
@@ -1025,7 +1025,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Cameroon",
 		CommonNameInAlphaNumeric: "Cameroon",
-		CallingCode:              "",
+		CallingCode:              "237",
 		Languages:                []string{},
 
 		RegionInCN:     "喀麦隆",
@@ -1081,7 +1081,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Canton And Enderbury Islands",
 		CommonNameInAlphaNumeric: "CantonAndEnderburyIslands",
-		CallingCode:              "",
+		CallingCode:              "90",
 		Languages:                []string{},
 
 		RegionInCN:     "坎顿及恩德伯里群岛",
@@ -1109,7 +1109,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Cabo Verde",
 		CommonNameInAlphaNumeric: "CaboVerde",
-		CallingCode:              "",
+		CallingCode:              "238",
 		Languages:                []string{},
 
 		RegionInCN:     "佛得角",
@@ -1137,7 +1137,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Cayman Islands",
 		CommonNameInAlphaNumeric: "CaymanIslands",
-		CallingCode:              "",
+		CallingCode:              "1-345",
 		Languages:                []string{},
 
 		RegionInCN:     "开曼群岛",
@@ -1165,7 +1165,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Central African Republic",
 		CommonNameInAlphaNumeric: "CentralAfricanRepublic",
-		CallingCode:              "",
+		CallingCode:              "236",
 		Languages:                []string{},
 
 		RegionInCN:     "中非",
@@ -1193,7 +1193,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Sri Lanka",
 		CommonNameInAlphaNumeric: "SriLanka",
-		CallingCode:              "",
+		CallingCode:              "94",
 		Languages:                []string{},
 
 		RegionInCN:     "斯里兰卡",
@@ -1221,7 +1221,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Chad",
 		CommonNameInAlphaNumeric: "Chad",
-		CallingCode:              "",
+		CallingCode:              "235",
 		Languages:                []string{},
 
 		RegionInCN:     "乍得",
@@ -1249,7 +1249,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Chile",
 		CommonNameInAlphaNumeric: "Chile",
-		CallingCode:              "",
+		CallingCode:              "56",
 		Languages:                []string{},
 
 		RegionInCN:     "智利",
@@ -1333,7 +1333,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Christmas Island",
 		CommonNameInAlphaNumeric: "ChristmasIsland",
-		CallingCode:              "",
+		CallingCode:              "61",
 		Languages:                []string{},
 
 		RegionInCN:     "圣诞岛",
@@ -1361,7 +1361,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Cocos Keeling Islands",
 		CommonNameInAlphaNumeric: "CocosKeelingIslands",
-		CallingCode:              "",
+		CallingCode:              "61",
 		Languages:                []string{},
 
 		RegionInCN:     "科科斯（基林）群岛",
@@ -1389,7 +1389,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Colombia",
 		CommonNameInAlphaNumeric: "Colombia",
-		CallingCode:              "",
+		CallingCode:              "57",
 		Languages:                []string{},
 
 		RegionInCN:     "哥伦比亚",
@@ -1417,7 +1417,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Comoros",
 		CommonNameInAlphaNumeric: "Comoros",
-		CallingCode:              "",
+		CallingCode:              "269",
 		Languages:                []string{},
 
 		RegionInCN:     "科摩罗",
@@ -1445,7 +1445,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Mayotte",
 		CommonNameInAlphaNumeric: "Mayotte",
-		CallingCode:              "",
+		CallingCode:              "262",
 		Languages:                []string{},
 
 		RegionInCN:     "马约特",
@@ -1473,7 +1473,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Congo",
 		CommonNameInAlphaNumeric: "Congo",
-		CallingCode:              "",
+		CallingCode:              "242",
 		Languages:                []string{},
 
 		RegionInCN:     "刚果共和国",
@@ -1501,7 +1501,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Congo Democratic Republic Of the",
 		CommonNameInAlphaNumeric: "CongoDemocraticRepublicOfthe",
-		CallingCode:              "",
+		CallingCode:              "243",
 		Languages:                []string{},
 
 		RegionInCN:     "刚果民主共和国",
@@ -1557,7 +1557,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Cook Islands",
 		CommonNameInAlphaNumeric: "CookIslands",
-		CallingCode:              "",
+		CallingCode:              "682",
 		Languages:                []string{},
 
 		RegionInCN:     "库克群岛",
@@ -1585,7 +1585,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Costa Rica",
 		CommonNameInAlphaNumeric: "CostaRica",
-		CallingCode:              "",
+		CallingCode:              "506",
 		Languages:                []string{},
 
 		RegionInCN:     "哥斯达黎加",
@@ -1613,7 +1613,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Croatia",
 		CommonNameInAlphaNumeric: "Croatia",
-		CallingCode:              "",
+		CallingCode:              "385",
 		Languages:                []string{},
 
 		RegionInCN:     "克罗地亚",
@@ -1641,7 +1641,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Cuba",
 		CommonNameInAlphaNumeric: "Cuba",
-		CallingCode:              "",
+		CallingCode:              "53",
 		Languages:                []string{},
 
 		RegionInCN:     "古巴",
@@ -1669,7 +1669,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Cyprus",
 		CommonNameInAlphaNumeric: "Cyprus",
-		CallingCode:              "",
+		CallingCode:              "357",
 		Languages:                []string{},
 
 		RegionInCN:     "塞浦路斯",
@@ -1725,7 +1725,7 @@ var (
 		Alias:                    []string{"Czech Republic"},
 		CommonName:               "Czechia",
 		CommonNameInAlphaNumeric: "Czechia",
-		CallingCode:              "",
+		CallingCode:              "420",
 		Languages:                []string{},
 
 		RegionInCN:     "捷克",
@@ -1753,7 +1753,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Benin",
 		CommonNameInAlphaNumeric: "Benin",
-		CallingCode:              "",
+		CallingCode:              "229",
 		Languages:                []string{},
 
 		RegionInCN:     "贝宁",
@@ -1809,7 +1809,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Denmark",
 		CommonNameInAlphaNumeric: "Denmark",
-		CallingCode:              "",
+		CallingCode:              "45",
 		Languages:                []string{},
 
 		RegionInCN:     "丹麦",
@@ -1837,7 +1837,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Dominica",
 		CommonNameInAlphaNumeric: "Dominica",
-		CallingCode:              "",
+		CallingCode:              "1-767",
 		Languages:                []string{},
 
 		RegionInCN:     "多米尼克",
@@ -1865,7 +1865,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Dominican Republic",
 		CommonNameInAlphaNumeric: "DominicanRepublic",
-		CallingCode:              "",
+		CallingCode:              "1-809",
 		Languages:                []string{},
 
 		RegionInCN:     "多米尼加",
@@ -1921,7 +1921,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Ecuador",
 		CommonNameInAlphaNumeric: "Ecuador",
-		CallingCode:              "",
+		CallingCode:              "593",
 		Languages:                []string{},
 
 		RegionInCN:     "厄瓜多尔",
@@ -1949,7 +1949,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "El Salvador",
 		CommonNameInAlphaNumeric: "ElSalvador",
-		CallingCode:              "",
+		CallingCode:              "503",
 		Languages:                []string{},
 
 		RegionInCN:     "萨尔瓦多",
@@ -1977,7 +1977,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Equatorial Guinea",
 		CommonNameInAlphaNumeric: "EquatorialGuinea",
-		CallingCode:              "",
+		CallingCode:              "240",
 		Languages:                []string{},
 
 		RegionInCN:     "赤道几内亚",
@@ -2005,7 +2005,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Ethiopia",
 		CommonNameInAlphaNumeric: "Ethiopia",
-		CallingCode:              "",
+		CallingCode:              "251",
 		Languages:                []string{},
 
 		RegionInCN:     "埃塞俄比亚",
@@ -2033,7 +2033,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Eritrea",
 		CommonNameInAlphaNumeric: "Eritrea",
-		CallingCode:              "",
+		CallingCode:              "291",
 		Languages:                []string{},
 
 		RegionInCN:     "厄立特里亚",
@@ -2061,7 +2061,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Estonia",
 		CommonNameInAlphaNumeric: "Estonia",
-		CallingCode:              "",
+		CallingCode:              "372",
 		Languages:                []string{},
 
 		RegionInCN:     "爱沙尼亚",
@@ -2089,7 +2089,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Faroe Islands",
 		CommonNameInAlphaNumeric: "FaroeIslands",
-		CallingCode:              "",
+		CallingCode:              "298",
 		Languages:                []string{},
 
 		RegionInCN:     "法罗群岛",
@@ -2117,7 +2117,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Falkland Islands Malvinas",
 		CommonNameInAlphaNumeric: "FalklandIslandsMalvinas",
-		CallingCode:              "",
+		CallingCode:              "500",
 		Languages:                []string{},
 
 		RegionInCN:     "福克兰群岛",
@@ -2145,7 +2145,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "South Georgia And The South Sandwich Islands",
 		CommonNameInAlphaNumeric: "SouthGeorgiaAndTheSouthSandwichIslands",
-		CallingCode:              "",
+		CallingCode:              "500",
 		Languages:                []string{},
 
 		RegionInCN:     "南乔治亚和南桑威奇群岛",
@@ -2173,7 +2173,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Fiji",
 		CommonNameInAlphaNumeric: "Fiji",
-		CallingCode:              "",
+		CallingCode:              "679",
 		Languages:                []string{},
 
 		RegionInCN:     "斐济",
@@ -2201,7 +2201,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Finland",
 		CommonNameInAlphaNumeric: "Finland",
-		CallingCode:              "",
+		CallingCode:              "358",
 		Languages:                []string{},
 
 		RegionInCN:     "芬兰",
@@ -2229,7 +2229,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Aland Islands",
 		CommonNameInAlphaNumeric: "AlandIslands",
-		CallingCode:              "",
+		CallingCode:              "358",
 		Languages:                []string{},
 
 		RegionInCN:     "奥兰",
@@ -2313,7 +2313,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "French Guiana",
 		CommonNameInAlphaNumeric: "FrenchGuiana",
-		CallingCode:              "",
+		CallingCode:              "594",
 		Languages:                []string{},
 
 		RegionInCN:     "法属圭亚那",
@@ -2341,7 +2341,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "French Polynesia",
 		CommonNameInAlphaNumeric: "FrenchPolynesia",
-		CallingCode:              "",
+		CallingCode:              "689",
 		Languages:                []string{},
 
 		RegionInCN:     "法属波利尼西亚",
@@ -2397,7 +2397,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "French Southern Territories",
 		CommonNameInAlphaNumeric: "FrenchSouthernTerritories",
-		CallingCode:              "",
+		CallingCode:              "262",
 		Languages:                []string{},
 
 		RegionInCN:     "法属南部和南极领地",
@@ -2425,7 +2425,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Djibouti",
 		CommonNameInAlphaNumeric: "Djibouti",
-		CallingCode:              "",
+		CallingCode:              "253",
 		Languages:                []string{},
 
 		RegionInCN:     "吉布提",
@@ -2453,7 +2453,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Gabon",
 		CommonNameInAlphaNumeric: "Gabon",
-		CallingCode:              "",
+		CallingCode:              "241",
 		Languages:                []string{},
 
 		RegionInCN:     "加蓬",
@@ -2481,7 +2481,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Georgia",
 		CommonNameInAlphaNumeric: "Georgia",
-		CallingCode:              "",
+		CallingCode:              "995",
 		Languages:                []string{},
 
 		RegionInCN:     "格鲁吉亚",
@@ -2509,7 +2509,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Gambia",
 		CommonNameInAlphaNumeric: "Gambia",
-		CallingCode:              "",
+		CallingCode:              "220",
 		Languages:                []string{},
 
 		RegionInCN:     "冈比亚",
@@ -2537,7 +2537,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Palestine State Of",
 		CommonNameInAlphaNumeric: "PalestineStateOf",
-		CallingCode:              "",
+		CallingCode:              "970",
 		Languages:                []string{},
 
 		RegionInCN:     "巴勒斯坦",
@@ -2621,7 +2621,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Ghana",
 		CommonNameInAlphaNumeric: "Ghana",
-		CallingCode:              "",
+		CallingCode:              "233",
 		Languages:                []string{},
 
 		RegionInCN:     "加纳",
@@ -2649,7 +2649,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Gibraltar",
 		CommonNameInAlphaNumeric: "Gibraltar",
-		CallingCode:              "",
+		CallingCode:              "350",
 		Languages:                []string{},
 
 		RegionInCN:     "直布罗陀",
@@ -2677,7 +2677,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Kiribati",
 		CommonNameInAlphaNumeric: "Kiribati",
-		CallingCode:              "",
+		CallingCode:              "686",
 		Languages:                []string{},
 
 		RegionInCN:     "基里巴斯",
@@ -2705,7 +2705,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Greece",
 		CommonNameInAlphaNumeric: "Greece",
-		CallingCode:              "",
+		CallingCode:              "30",
 		Languages:                []string{},
 
 		RegionInCN:     "希腊",
@@ -2733,7 +2733,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Greenland",
 		CommonNameInAlphaNumeric: "Greenland",
-		CallingCode:              "",
+		CallingCode:              "299",
 		Languages:                []string{},
 
 		RegionInCN:     "格陵兰",
@@ -2761,7 +2761,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Grenada",
 		CommonNameInAlphaNumeric: "Grenada",
-		CallingCode:              "",
+		CallingCode:              "1-473",
 		Languages:                []string{},
 
 		RegionInCN:     "格林纳达",
@@ -2789,7 +2789,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Guadeloupe",
 		CommonNameInAlphaNumeric: "Guadeloupe",
-		CallingCode:              "",
+		CallingCode:              "590",
 		Languages:                []string{},
 
 		RegionInCN:     "瓜德罗普",
@@ -2817,7 +2817,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Guam",
 		CommonNameInAlphaNumeric: "Guam",
-		CallingCode:              "",
+		CallingCode:              "1-671",
 		Languages:                []string{},
 
 		RegionInCN:     "关岛",
@@ -2845,7 +2845,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Guatemala",
 		CommonNameInAlphaNumeric: "Guatemala",
-		CallingCode:              "",
+		CallingCode:              "502",
 		Languages:                []string{},
 
 		RegionInCN:     "危地马拉",
@@ -2873,7 +2873,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Guinea",
 		CommonNameInAlphaNumeric: "Guinea",
-		CallingCode:              "",
+		CallingCode:              "224",
 		Languages:                []string{},
 
 		RegionInCN:     "几内亚",
@@ -2901,7 +2901,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Guyana",
 		CommonNameInAlphaNumeric: "Guyana",
-		CallingCode:              "",
+		CallingCode:              "592",
 		Languages:                []string{},
 
 		RegionInCN:     "圭亚那",
@@ -2929,7 +2929,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Haiti",
 		CommonNameInAlphaNumeric: "Haiti",
-		CallingCode:              "",
+		CallingCode:              "509",
 		Languages:                []string{},
 
 		RegionInCN:     "海地",
@@ -2985,7 +2985,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Holy See",
 		CommonNameInAlphaNumeric: "HolySee",
-		CallingCode:              "",
+		CallingCode:              "39",
 		Languages:                []string{},
 
 		RegionInCN:     "梵蒂冈",
@@ -3013,7 +3013,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Honduras",
 		CommonNameInAlphaNumeric: "Honduras",
-		CallingCode:              "",
+		CallingCode:              "504",
 		Languages:                []string{},
 
 		RegionInCN:     "洪都拉斯",
@@ -3069,7 +3069,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Hungary",
 		CommonNameInAlphaNumeric: "Hungary",
-		CallingCode:              "",
+		CallingCode:              "36",
 		Languages:                []string{},
 
 		RegionInCN:     "匈牙利",
@@ -3097,7 +3097,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Iceland",
 		CommonNameInAlphaNumeric: "Iceland",
-		CallingCode:              "",
+		CallingCode:              "354",
 		Languages:                []string{},
 
 		RegionInCN:     "冰岛",
@@ -3125,7 +3125,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "India",
 		CommonNameInAlphaNumeric: "India",
-		CallingCode:              "",
+		CallingCode:              "91",
 		Languages:                []string{},
 
 		RegionInCN:     "印度",
@@ -3181,7 +3181,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Iran Islamic Republic Of",
 		CommonNameInAlphaNumeric: "IranIslamicRepublicOf",
-		CallingCode:              "",
+		CallingCode:              "98",
 		Languages:                []string{},
 
 		RegionInCN:     "伊朗",
@@ -3209,7 +3209,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Iraq",
 		CommonNameInAlphaNumeric: "Iraq",
-		CallingCode:              "",
+		CallingCode:              "964",
 		Languages:                []string{},
 
 		RegionInCN:     "伊拉克",
@@ -3237,7 +3237,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Ireland",
 		CommonNameInAlphaNumeric: "Ireland",
-		CallingCode:              "",
+		CallingCode:              "353",
 		Languages:                []string{},
 
 		RegionInCN:     "爱尔兰",
@@ -3265,7 +3265,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Israel",
 		CommonNameInAlphaNumeric: "Israel",
-		CallingCode:              "",
+		CallingCode:              "972",
 		Languages:                []string{},
 
 		RegionInCN:     "以色列",
@@ -3321,7 +3321,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Cote dIvoire",
 		CommonNameInAlphaNumeric: "CotedIvoire",
-		CallingCode:              "",
+		CallingCode:              "225",
 		Languages:                []string{},
 
 		RegionInCN:     "科特迪瓦",
@@ -3349,7 +3349,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Jamaica",
 		CommonNameInAlphaNumeric: "Jamaica",
-		CallingCode:              "",
+		CallingCode:              "1-658",
 		Languages:                []string{},
 
 		RegionInCN:     "牙买加",
@@ -3433,7 +3433,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Kazakhstan",
 		CommonNameInAlphaNumeric: "Kazakhstan",
-		CallingCode:              "",
+		CallingCode:              "7",
 		Languages:                []string{},
 
 		RegionInCN:     "哈萨克斯坦",
@@ -3461,7 +3461,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Jordan",
 		CommonNameInAlphaNumeric: "Jordan",
-		CallingCode:              "",
+		CallingCode:              "962",
 		Languages:                []string{},
 
 		RegionInCN:     "约旦",
@@ -3489,7 +3489,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Kenya",
 		CommonNameInAlphaNumeric: "Kenya",
-		CallingCode:              "",
+		CallingCode:              "254",
 		Languages:                []string{},
 
 		RegionInCN:     "肯尼亚",
@@ -3517,7 +3517,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "North Korea",
 		CommonNameInAlphaNumeric: "NorthKorea",
-		CallingCode:              "",
+		CallingCode:              "850",
 		Languages:                []string{},
 
 		RegionInCN:     "北韩",
@@ -3573,7 +3573,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Kuwait",
 		CommonNameInAlphaNumeric: "Kuwait",
-		CallingCode:              "",
+		CallingCode:              "965",
 		Languages:                []string{},
 
 		RegionInCN:     "科威特",
@@ -3601,7 +3601,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Kyrgyzstan",
 		CommonNameInAlphaNumeric: "Kyrgyzstan",
-		CallingCode:              "",
+		CallingCode:              "996",
 		Languages:                []string{},
 
 		RegionInCN:     "吉尔吉斯斯坦",
@@ -3629,7 +3629,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Lebanon",
 		CommonNameInAlphaNumeric: "Lebanon",
-		CallingCode:              "",
+		CallingCode:              "961",
 		Languages:                []string{},
 
 		RegionInCN:     "黎巴嫩",
@@ -3657,7 +3657,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Lesotho",
 		CommonNameInAlphaNumeric: "Lesotho",
-		CallingCode:              "",
+		CallingCode:              "266",
 		Languages:                []string{},
 
 		RegionInCN:     "莱索托",
@@ -3685,7 +3685,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Latvia",
 		CommonNameInAlphaNumeric: "Latvia",
-		CallingCode:              "",
+		CallingCode:              "371",
 		Languages:                []string{},
 
 		RegionInCN:     "拉脱维亚",
@@ -3713,7 +3713,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Liberia",
 		CommonNameInAlphaNumeric: "Liberia",
-		CallingCode:              "",
+		CallingCode:              "231",
 		Languages:                []string{},
 
 		RegionInCN:     "利比里亚",
@@ -3741,7 +3741,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Libya",
 		CommonNameInAlphaNumeric: "Libya",
-		CallingCode:              "",
+		CallingCode:              "218",
 		Languages:                []string{},
 
 		RegionInCN:     "利比亚",
@@ -3769,7 +3769,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Liechtenstein",
 		CommonNameInAlphaNumeric: "Liechtenstein",
-		CallingCode:              "",
+		CallingCode:              "423",
 		Languages:                []string{},
 
 		RegionInCN:     "列支敦士登",
@@ -3797,7 +3797,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Lithuania",
 		CommonNameInAlphaNumeric: "Lithuania",
-		CallingCode:              "",
+		CallingCode:              "370",
 		Languages:                []string{},
 
 		RegionInCN:     "立陶宛",
@@ -3825,7 +3825,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Luxembourg",
 		CommonNameInAlphaNumeric: "Luxembourg",
-		CallingCode:              "",
+		CallingCode:              "352",
 		Languages:                []string{},
 
 		RegionInCN:     "卢森堡",
@@ -3909,7 +3909,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Malawi",
 		CommonNameInAlphaNumeric: "Malawi",
-		CallingCode:              "",
+		CallingCode:              "265",
 		Languages:                []string{},
 
 		RegionInCN:     "马拉维",
@@ -3965,7 +3965,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Maldives",
 		CommonNameInAlphaNumeric: "Maldives",
-		CallingCode:              "",
+		CallingCode:              "960",
 		Languages:                []string{},
 
 		RegionInCN:     "马尔代夫",
@@ -3993,7 +3993,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Mali",
 		CommonNameInAlphaNumeric: "Mali",
-		CallingCode:              "",
+		CallingCode:              "223",
 		Languages:                []string{},
 
 		RegionInCN:     "马里",
@@ -4021,7 +4021,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Malta",
 		CommonNameInAlphaNumeric: "Malta",
-		CallingCode:              "",
+		CallingCode:              "356",
 		Languages:                []string{},
 
 		RegionInCN:     "马耳他",
@@ -4049,7 +4049,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Martinique",
 		CommonNameInAlphaNumeric: "Martinique",
-		CallingCode:              "",
+		CallingCode:              "596",
 		Languages:                []string{},
 
 		RegionInCN:     "马提尼克",
@@ -4077,7 +4077,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Mauritania",
 		CommonNameInAlphaNumeric: "Mauritania",
-		CallingCode:              "",
+		CallingCode:              "222",
 		Languages:                []string{},
 
 		RegionInCN:     "毛里塔尼亚",
@@ -4105,7 +4105,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Mauritius",
 		CommonNameInAlphaNumeric: "Mauritius",
-		CallingCode:              "",
+		CallingCode:              "230",
 		Languages:                []string{},
 
 		RegionInCN:     "毛里求斯",
@@ -4161,7 +4161,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Mexico",
 		CommonNameInAlphaNumeric: "Mexico",
-		CallingCode:              "",
+		CallingCode:              "52",
 		Languages:                []string{},
 
 		RegionInCN:     "墨西哥",
@@ -4217,7 +4217,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Monaco",
 		CommonNameInAlphaNumeric: "Monaco",
-		CallingCode:              "",
+		CallingCode:              "377",
 		Languages:                []string{},
 
 		RegionInCN:     "摩纳哥",
@@ -4245,7 +4245,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Mongolia",
 		CommonNameInAlphaNumeric: "Mongolia",
-		CallingCode:              "",
+		CallingCode:              "976",
 		Languages:                []string{},
 
 		RegionInCN:     "蒙古国",
@@ -4273,7 +4273,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Moldova Republic Of",
 		CommonNameInAlphaNumeric: "MoldovaRepublicOf",
-		CallingCode:              "",
+		CallingCode:              "373",
 		Languages:                []string{},
 
 		RegionInCN:     "摩尔多瓦",
@@ -4301,7 +4301,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Montenegro",
 		CommonNameInAlphaNumeric: "Montenegro",
-		CallingCode:              "",
+		CallingCode:              "382",
 		Languages:                []string{},
 
 		RegionInCN:     "黑山",
@@ -4329,7 +4329,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Montserrat",
 		CommonNameInAlphaNumeric: "Montserrat",
-		CallingCode:              "",
+		CallingCode:              "1-664",
 		Languages:                []string{},
 
 		RegionInCN:     "蒙特塞拉特",
@@ -4357,7 +4357,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Morocco",
 		CommonNameInAlphaNumeric: "Morocco",
-		CallingCode:              "",
+		CallingCode:              "212",
 		Languages:                []string{},
 
 		RegionInCN:     "摩洛哥",
@@ -4385,7 +4385,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Mozambique",
 		CommonNameInAlphaNumeric: "Mozambique",
-		CallingCode:              "",
+		CallingCode:              "258",
 		Languages:                []string{},
 
 		RegionInCN:     "莫桑比克",
@@ -4413,7 +4413,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Oman",
 		CommonNameInAlphaNumeric: "Oman",
-		CallingCode:              "",
+		CallingCode:              "968",
 		Languages:                []string{},
 
 		RegionInCN:     "阿曼",
@@ -4441,7 +4441,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Namibia",
 		CommonNameInAlphaNumeric: "Namibia",
-		CallingCode:              "",
+		CallingCode:              "264",
 		Languages:                []string{},
 
 		RegionInCN:     "纳米比亚",
@@ -4469,7 +4469,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Nauru",
 		CommonNameInAlphaNumeric: "Nauru",
-		CallingCode:              "",
+		CallingCode:              "674",
 		Languages:                []string{},
 
 		RegionInCN:     "瑙鲁",
@@ -4497,7 +4497,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Nepal",
 		CommonNameInAlphaNumeric: "Nepal",
-		CallingCode:              "",
+		CallingCode:              "977",
 		Languages:                []string{},
 
 		RegionInCN:     "尼泊尔",
@@ -4525,7 +4525,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Netherlands",
 		CommonNameInAlphaNumeric: "Netherlands",
-		CallingCode:              "",
+		CallingCode:              "31",
 		Languages:                []string{},
 
 		RegionInCN:     "荷兰",
@@ -4553,7 +4553,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Curacao",
 		CommonNameInAlphaNumeric: "Curacao",
-		CallingCode:              "",
+		CallingCode:              "599",
 		Languages:                []string{},
 
 		RegionInCN:     "库拉索",
@@ -4581,7 +4581,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Aruba",
 		CommonNameInAlphaNumeric: "Aruba",
-		CallingCode:              "",
+		CallingCode:              "297",
 		Languages:                []string{},
 
 		RegionInCN:     "阿鲁巴",
@@ -4609,7 +4609,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Sint Maarten Dutch part",
 		CommonNameInAlphaNumeric: "SintMaartenDutchpart",
-		CallingCode:              "",
+		CallingCode:              "1-721",
 		Languages:                []string{},
 
 		RegionInCN:     "荷属圣马丁",
@@ -4637,7 +4637,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Bonaire Sint Eustatius And Saba",
 		CommonNameInAlphaNumeric: "BonaireSintEustatiusAndSaba",
-		CallingCode:              "",
+		CallingCode:              "599",
 		Languages:                []string{},
 
 		RegionInCN:     "荷兰加勒比区",
@@ -4693,7 +4693,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "New Caledonia",
 		CommonNameInAlphaNumeric: "NewCaledonia",
-		CallingCode:              "",
+		CallingCode:              "687",
 		Languages:                []string{},
 
 		RegionInCN:     "新喀里多尼亚",
@@ -4749,7 +4749,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Vanuatu",
 		CommonNameInAlphaNumeric: "Vanuatu",
-		CallingCode:              "",
+		CallingCode:              "678",
 		Languages:                []string{},
 
 		RegionInCN:     "瓦努阿图",
@@ -4805,7 +4805,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Nicaragua",
 		CommonNameInAlphaNumeric: "Nicaragua",
-		CallingCode:              "",
+		CallingCode:              "505",
 		Languages:                []string{},
 
 		RegionInCN:     "尼加拉瓜",
@@ -4833,7 +4833,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Niger",
 		CommonNameInAlphaNumeric: "Niger",
-		CallingCode:              "",
+		CallingCode:              "227",
 		Languages:                []string{},
 
 		RegionInCN:     "尼日尔",
@@ -4861,7 +4861,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Nigeria",
 		CommonNameInAlphaNumeric: "Nigeria",
-		CallingCode:              "",
+		CallingCode:              "234",
 		Languages:                []string{},
 
 		RegionInCN:     "尼日利亚",
@@ -4889,7 +4889,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Niue",
 		CommonNameInAlphaNumeric: "Niue",
-		CallingCode:              "",
+		CallingCode:              "683",
 		Languages:                []string{},
 
 		RegionInCN:     "纽埃",
@@ -4917,7 +4917,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Norfolk Island",
 		CommonNameInAlphaNumeric: "NorfolkIsland",
-		CallingCode:              "",
+		CallingCode:              "672",
 		Languages:                []string{},
 
 		RegionInCN:     "诺福克岛",
@@ -4945,7 +4945,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Norway",
 		CommonNameInAlphaNumeric: "Norway",
-		CallingCode:              "",
+		CallingCode:              "47",
 		Languages:                []string{},
 
 		RegionInCN:     "挪威",
@@ -4973,7 +4973,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Northern Mariana Islands",
 		CommonNameInAlphaNumeric: "NorthernMarianaIslands",
-		CallingCode:              "",
+		CallingCode:              "1-670",
 		Languages:                []string{},
 
 		RegionInCN:     "北马里亚纳群岛",
@@ -5057,7 +5057,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Micronesia Federated States Of",
 		CommonNameInAlphaNumeric: "MicronesiaFederatedStatesOf",
-		CallingCode:              "",
+		CallingCode:              "691",
 		Languages:                []string{},
 
 		RegionInCN:     "密克罗尼西亚联邦",
@@ -5085,7 +5085,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Marshall Islands",
 		CommonNameInAlphaNumeric: "MarshallIslands",
-		CallingCode:              "",
+		CallingCode:              "692",
 		Languages:                []string{},
 
 		RegionInCN:     "马绍尔群岛",
@@ -5113,7 +5113,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Palau",
 		CommonNameInAlphaNumeric: "Palau",
-		CallingCode:              "",
+		CallingCode:              "680",
 		Languages:                []string{},
 
 		RegionInCN:     "帕劳",
@@ -5141,7 +5141,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Pakistan",
 		CommonNameInAlphaNumeric: "Pakistan",
-		CallingCode:              "",
+		CallingCode:              "92",
 		Languages:                []string{},
 
 		RegionInCN:     "巴基斯坦",
@@ -5225,7 +5225,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Papua New Guinea",
 		CommonNameInAlphaNumeric: "PapuaNewGuinea",
-		CallingCode:              "",
+		CallingCode:              "675",
 		Languages:                []string{},
 
 		RegionInCN:     "巴布亚新几内亚",
@@ -5253,7 +5253,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Paraguay",
 		CommonNameInAlphaNumeric: "Paraguay",
-		CallingCode:              "",
+		CallingCode:              "595",
 		Languages:                []string{},
 
 		RegionInCN:     "巴拉圭",
@@ -5281,7 +5281,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Peru",
 		CommonNameInAlphaNumeric: "Peru",
-		CallingCode:              "",
+		CallingCode:              "51",
 		Languages:                []string{},
 
 		RegionInCN:     "秘鲁",
@@ -5337,7 +5337,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Pitcairn",
 		CommonNameInAlphaNumeric: "Pitcairn",
-		CallingCode:              "",
+		CallingCode:              "64",
 		Languages:                []string{},
 
 		RegionInCN:     "皮特凯恩群岛",
@@ -5365,7 +5365,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Poland",
 		CommonNameInAlphaNumeric: "Poland",
-		CallingCode:              "",
+		CallingCode:              "48",
 		Languages:                []string{},
 
 		RegionInCN:     "波兰",
@@ -5393,7 +5393,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Portugal",
 		CommonNameInAlphaNumeric: "Portugal",
-		CallingCode:              "",
+		CallingCode:              "351",
 		Languages:                []string{},
 
 		RegionInCN:     "葡萄牙",
@@ -5421,7 +5421,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Guinea_Bissau",
 		CommonNameInAlphaNumeric: "Guinea_Bissau",
-		CallingCode:              "",
+		CallingCode:              "245",
 		Languages:                []string{},
 
 		RegionInCN:     "几内亚比绍",
@@ -5449,7 +5449,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Timor_Leste",
 		CommonNameInAlphaNumeric: "Timor_Leste",
-		CallingCode:              "",
+		CallingCode:              "670",
 		Languages:                []string{},
 
 		RegionInCN:     "东帝汶",
@@ -5505,7 +5505,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Puerto Rico",
 		CommonNameInAlphaNumeric: "PuertoRico",
-		CallingCode:              "",
+		CallingCode:              "1-787",
 		Languages:                []string{},
 
 		RegionInCN:     "波多黎各",
@@ -5533,7 +5533,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Qatar",
 		CommonNameInAlphaNumeric: "Qatar",
-		CallingCode:              "",
+		CallingCode:              "974",
 		Languages:                []string{},
 
 		RegionInCN:     "卡塔尔",
@@ -5561,7 +5561,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Reunion",
 		CommonNameInAlphaNumeric: "Reunion",
-		CallingCode:              "",
+		CallingCode:              "262",
 		Languages:                []string{},
 
 		RegionInCN:     "留尼汪",
@@ -5589,7 +5589,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Romania",
 		CommonNameInAlphaNumeric: "Romania",
-		CallingCode:              "",
+		CallingCode:              "40",
 		Languages:                []string{},
 
 		RegionInCN:     "罗马尼亚",
@@ -5645,7 +5645,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Rwanda",
 		CommonNameInAlphaNumeric: "Rwanda",
-		CallingCode:              "",
+		CallingCode:              "250",
 		Languages:                []string{},
 
 		RegionInCN:     "卢旺达",
@@ -5673,7 +5673,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Saint Barthelemy",
 		CommonNameInAlphaNumeric: "SaintBarthelemy",
-		CallingCode:              "",
+		CallingCode:              "590",
 		Languages:                []string{},
 
 		RegionInCN:     "圣巴泰勒米",
@@ -5701,7 +5701,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Saint Helena Ascension And Tristan da Cunha",
 		CommonNameInAlphaNumeric: "SaintHelenaAscensionAndTristandaCunha",
-		CallingCode:              "",
+		CallingCode:              "290",
 		Languages:                []string{},
 
 		RegionInCN:     "圣赫勒拿、阿森松和特里斯坦-达库尼亚",
@@ -5729,7 +5729,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Saint Kitts And Nevis",
 		CommonNameInAlphaNumeric: "SaintKittsAndNevis",
-		CallingCode:              "",
+		CallingCode:              "1-869",
 		Languages:                []string{},
 
 		RegionInCN:     "圣基茨和尼维斯",
@@ -5757,7 +5757,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Anguilla",
 		CommonNameInAlphaNumeric: "Anguilla",
-		CallingCode:              "",
+		CallingCode:              "1-264",
 		Languages:                []string{},
 
 		RegionInCN:     "安圭拉",
@@ -5785,7 +5785,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Saint Lucia",
 		CommonNameInAlphaNumeric: "SaintLucia",
-		CallingCode:              "",
+		CallingCode:              "1-758",
 		Languages:                []string{},
 
 		RegionInCN:     "圣卢西亚",
@@ -5813,7 +5813,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Saint Martin French part",
 		CommonNameInAlphaNumeric: "SaintMartinFrenchpart",
-		CallingCode:              "",
+		CallingCode:              "590",
 		Languages:                []string{},
 
 		RegionInCN:     "法属圣马丁",
@@ -5841,7 +5841,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Saint Pierre And Miquelon",
 		CommonNameInAlphaNumeric: "SaintPierreAndMiquelon",
-		CallingCode:              "",
+		CallingCode:              "508",
 		Languages:                []string{},
 
 		RegionInCN:     "圣皮埃尔和密克隆",
@@ -5869,7 +5869,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Saint Vincent And The Grenadines",
 		CommonNameInAlphaNumeric: "SaintVincentAndTheGrenadines",
-		CallingCode:              "",
+		CallingCode:              "1-784",
 		Languages:                []string{},
 
 		RegionInCN:     "圣文森特和格林纳丁斯",
@@ -5897,7 +5897,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "San Marino",
 		CommonNameInAlphaNumeric: "SanMarino",
-		CallingCode:              "",
+		CallingCode:              "378",
 		Languages:                []string{},
 
 		RegionInCN:     "圣马力诺",
@@ -5925,7 +5925,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Sao Tome And Principe",
 		CommonNameInAlphaNumeric: "SaoTomeAndPrincipe",
-		CallingCode:              "",
+		CallingCode:              "239",
 		Languages:                []string{},
 
 		RegionInCN:     "圣多美和普林西比",
@@ -5981,7 +5981,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Senegal",
 		CommonNameInAlphaNumeric: "Senegal",
-		CallingCode:              "",
+		CallingCode:              "221",
 		Languages:                []string{},
 
 		RegionInCN:     "塞内加尔",
@@ -6009,7 +6009,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Serbia",
 		CommonNameInAlphaNumeric: "Serbia",
-		CallingCode:              "",
+		CallingCode:              "381",
 		Languages:                []string{},
 
 		RegionInCN:     "塞尔维亚",
@@ -6037,7 +6037,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Seychelles",
 		CommonNameInAlphaNumeric: "Seychelles",
-		CallingCode:              "",
+		CallingCode:              "248",
 		Languages:                []string{},
 
 		RegionInCN:     "塞舌尔",
@@ -6065,7 +6065,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Sierra Leone",
 		CommonNameInAlphaNumeric: "SierraLeone",
-		CallingCode:              "",
+		CallingCode:              "232",
 		Languages:                []string{},
 
 		RegionInCN:     "塞拉利昂",
@@ -6121,7 +6121,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Slovakia",
 		CommonNameInAlphaNumeric: "Slovakia",
-		CallingCode:              "",
+		CallingCode:              "421",
 		Languages:                []string{},
 
 		RegionInCN:     "斯洛伐克",
@@ -6205,7 +6205,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Slovenia",
 		CommonNameInAlphaNumeric: "Slovenia",
-		CallingCode:              "",
+		CallingCode:              "386",
 		Languages:                []string{},
 
 		RegionInCN:     "斯洛文尼亚",
@@ -6233,7 +6233,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Somalia",
 		CommonNameInAlphaNumeric: "Somalia",
-		CallingCode:              "",
+		CallingCode:              "252",
 		Languages:                []string{},
 
 		RegionInCN:     "索马里",
@@ -6317,7 +6317,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Zimbabwe",
 		CommonNameInAlphaNumeric: "Zimbabwe",
-		CallingCode:              "",
+		CallingCode:              "263",
 		Languages:                []string{},
 
 		RegionInCN:     "津巴布韦",
@@ -6401,7 +6401,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "South Sudan",
 		CommonNameInAlphaNumeric: "SouthSudan",
-		CallingCode:              "",
+		CallingCode:              "211",
 		Languages:                []string{},
 
 		RegionInCN:     "南苏丹",
@@ -6429,7 +6429,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Sudan",
 		CommonNameInAlphaNumeric: "Sudan",
-		CallingCode:              "",
+		CallingCode:              "249",
 		Languages:                []string{},
 
 		RegionInCN:     "苏丹",
@@ -6457,7 +6457,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Western Sahara",
 		CommonNameInAlphaNumeric: "WesternSahara",
-		CallingCode:              "",
+		CallingCode:              "212",
 		Languages:                []string{},
 
 		RegionInCN:     "西撒哈拉",
@@ -6485,7 +6485,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Suriname",
 		CommonNameInAlphaNumeric: "Suriname",
-		CallingCode:              "",
+		CallingCode:              "597",
 		Languages:                []string{},
 
 		RegionInCN:     "苏里南",
@@ -6513,7 +6513,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Svalbard And Jan Mayen",
 		CommonNameInAlphaNumeric: "SvalbardAndJanMayen",
-		CallingCode:              "",
+		CallingCode:              "47",
 		Languages:                []string{},
 
 		RegionInCN:     "斯瓦尔巴和扬马延",
@@ -6541,7 +6541,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Eswatini",
 		CommonNameInAlphaNumeric: "Eswatini",
-		CallingCode:              "",
+		CallingCode:              "268",
 		Languages:                []string{},
 
 		RegionInCN:     "斯威士兰",
@@ -6569,7 +6569,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Sweden",
 		CommonNameInAlphaNumeric: "Sweden",
-		CallingCode:              "",
+		CallingCode:              "46",
 		Languages:                []string{},
 
 		RegionInCN:     "瑞典",
@@ -6625,7 +6625,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Syrian Arab Republic",
 		CommonNameInAlphaNumeric: "SyrianArabRepublic",
-		CallingCode:              "",
+		CallingCode:              "963",
 		Languages:                []string{},
 
 		RegionInCN:     "叙利亚",
@@ -6653,7 +6653,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Tajikistan",
 		CommonNameInAlphaNumeric: "Tajikistan",
-		CallingCode:              "",
+		CallingCode:              "992",
 		Languages:                []string{},
 
 		RegionInCN:     "塔吉克斯坦",
@@ -6709,7 +6709,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Togo",
 		CommonNameInAlphaNumeric: "Togo",
-		CallingCode:              "",
+		CallingCode:              "228",
 		Languages:                []string{},
 
 		RegionInCN:     "多哥",
@@ -6737,7 +6737,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Tokelau",
 		CommonNameInAlphaNumeric: "Tokelau",
-		CallingCode:              "",
+		CallingCode:              "690",
 		Languages:                []string{},
 
 		RegionInCN:     "托克劳",
@@ -6765,7 +6765,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Tonga",
 		CommonNameInAlphaNumeric: "Tonga",
-		CallingCode:              "",
+		CallingCode:              "676",
 		Languages:                []string{},
 
 		RegionInCN:     "汤加",
@@ -6793,7 +6793,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Trinidad And Tobago",
 		CommonNameInAlphaNumeric: "TrinidadAndTobago",
-		CallingCode:              "",
+		CallingCode:              "1-868",
 		Languages:                []string{},
 
 		RegionInCN:     "特立尼达和多巴哥",
@@ -6849,7 +6849,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Tunisia",
 		CommonNameInAlphaNumeric: "Tunisia",
-		CallingCode:              "",
+		CallingCode:              "216",
 		Languages:                []string{},
 
 		RegionInCN:     "突尼斯",
@@ -6905,7 +6905,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Turkmenistan",
 		CommonNameInAlphaNumeric: "Turkmenistan",
-		CallingCode:              "",
+		CallingCode:              "993",
 		Languages:                []string{},
 
 		RegionInCN:     "土库曼斯坦",
@@ -6933,7 +6933,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Turks And Caicos Islands",
 		CommonNameInAlphaNumeric: "TurksAndCaicosIslands",
-		CallingCode:              "",
+		CallingCode:              "1-649",
 		Languages:                []string{},
 
 		RegionInCN:     "特克斯和凯科斯群岛",
@@ -6961,7 +6961,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Tuvalu",
 		CommonNameInAlphaNumeric: "Tuvalu",
-		CallingCode:              "",
+		CallingCode:              "688",
 		Languages:                []string{},
 
 		RegionInCN:     "图瓦卢",
@@ -6989,7 +6989,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Uganda",
 		CommonNameInAlphaNumeric: "Uganda",
-		CallingCode:              "",
+		CallingCode:              "256",
 		Languages:                []string{},
 
 		RegionInCN:     "乌干达",
@@ -7017,7 +7017,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Ukraine",
 		CommonNameInAlphaNumeric: "Ukraine",
-		CallingCode:              "",
+		CallingCode:              "380",
 		Languages:                []string{},
 
 		RegionInCN:     "乌克兰",
@@ -7045,7 +7045,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "North Macedonia",
 		CommonNameInAlphaNumeric: "NorthMacedonia",
-		CallingCode:              "",
+		CallingCode:              "389",
 		Languages:                []string{},
 
 		RegionInCN:     "北马其顿",
@@ -7101,7 +7101,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Egypt",
 		CommonNameInAlphaNumeric: "Egypt",
-		CallingCode:              "",
+		CallingCode:              "20",
 		Languages:                []string{},
 
 		RegionInCN:     "埃及",
@@ -7157,7 +7157,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Guernsey",
 		CommonNameInAlphaNumeric: "Guernsey",
-		CallingCode:              "",
+		CallingCode:              "44",
 		Languages:                []string{},
 
 		RegionInCN:     "根西",
@@ -7185,7 +7185,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Jersey",
 		CommonNameInAlphaNumeric: "Jersey",
-		CallingCode:              "",
+		CallingCode:              "44",
 		Languages:                []string{},
 
 		RegionInCN:     "泽西",
@@ -7213,7 +7213,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Isle Of Man",
 		CommonNameInAlphaNumeric: "IsleOfMan",
-		CallingCode:              "",
+		CallingCode:              "44",
 		Languages:                []string{},
 
 		RegionInCN:     "马恩岛",
@@ -7241,7 +7241,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Tanzania United Republic Of",
 		CommonNameInAlphaNumeric: "TanzaniaUnitedRepublicOf",
-		CallingCode:              "",
+		CallingCode:              "255",
 		Languages:                []string{},
 
 		RegionInCN:     "坦桑尼亚",
@@ -7325,7 +7325,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Virgin Islands US",
 		CommonNameInAlphaNumeric: "VirginIslandsUS",
-		CallingCode:              "",
+		CallingCode:              "1-340",
 		Languages:                []string{},
 
 		RegionInCN:     "美属维尔京群岛",
@@ -7353,7 +7353,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Burkina Faso",
 		CommonNameInAlphaNumeric: "BurkinaFaso",
-		CallingCode:              "",
+		CallingCode:              "226",
 		Languages:                []string{},
 
 		RegionInCN:     "布基纳法索",
@@ -7409,7 +7409,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Uruguay",
 		CommonNameInAlphaNumeric: "Uruguay",
-		CallingCode:              "",
+		CallingCode:              "598",
 		Languages:                []string{},
 
 		RegionInCN:     "乌拉圭",
@@ -7437,7 +7437,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Uzbekistan",
 		CommonNameInAlphaNumeric: "Uzbekistan",
-		CallingCode:              "",
+		CallingCode:              "998",
 		Languages:                []string{},
 
 		RegionInCN:     "乌兹别克斯坦",
@@ -7465,7 +7465,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Venezuela Bolivarian Republic Of",
 		CommonNameInAlphaNumeric: "VenezuelaBolivarianRepublicOf",
-		CallingCode:              "",
+		CallingCode:              "58",
 		Languages:                []string{},
 
 		RegionInCN:     "委内瑞拉",
@@ -7521,7 +7521,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Wallis And Futuna",
 		CommonNameInAlphaNumeric: "WallisAndFutuna",
-		CallingCode:              "",
+		CallingCode:              "681",
 		Languages:                []string{},
 
 		RegionInCN:     "瓦利斯和富图纳",
@@ -7549,7 +7549,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Samoa",
 		CommonNameInAlphaNumeric: "Samoa",
-		CallingCode:              "",
+		CallingCode:              "685",
 		Languages:                []string{},
 
 		RegionInCN:     "萨摩亚",
@@ -7577,7 +7577,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Yemen",
 		CommonNameInAlphaNumeric: "Yemen",
-		CallingCode:              "",
+		CallingCode:              "967",
 		Languages:                []string{},
 
 		RegionInCN:     "也门",
@@ -7661,7 +7661,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Zambia",
 		CommonNameInAlphaNumeric: "Zambia",
-		CallingCode:              "",
+		CallingCode:              "260",
 		Languages:                []string{},
 
 		RegionInCN:     "赞比亚",
@@ -7745,7 +7745,7 @@ var (
 		Alias:                    []string{},
 		CommonName:               "Kosovo",
 		CommonNameInAlphaNumeric: "Kosovo",
-		CallingCode:              "",
+		CallingCode:              "383",
 		Languages:                []string{},
 
 		RegionInCN:     "科索沃",

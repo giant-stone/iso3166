@@ -42,7 +42,7 @@ public let Afghanistan = Entity3166(
     alias: [],
     commonName: "Afghanistan",
     commonNameInAlphaNumeric: "Afghanistan",
-    callingCode: "",
+    callingCode: "93",
     languages: [],
 
     regionInCN: "阿富汗",
@@ -70,7 +70,7 @@ public let Albania = Entity3166(
     alias: [],
     commonName: "Albania",
     commonNameInAlphaNumeric: "Albania",
-    callingCode: "",
+    callingCode: "355",
     languages: [],
 
     regionInCN: "阿尔巴尼亚",
@@ -98,7 +98,7 @@ public let Antarctica = Entity3166(
     alias: [],
     commonName: "Antarctica",
     commonNameInAlphaNumeric: "Antarctica",
-    callingCode: "",
+    callingCode: "672",
     languages: [],
 
     regionInCN: "南极洲",
@@ -126,7 +126,7 @@ public let Algeria = Entity3166(
     alias: [],
     commonName: "Algeria",
     commonNameInAlphaNumeric: "Algeria",
-    callingCode: "",
+    callingCode: "213",
     languages: [],
 
     regionInCN: "阿尔及利亚",
@@ -154,7 +154,7 @@ public let AmericanSamoa = Entity3166(
     alias: [],
     commonName: "American Samoa",
     commonNameInAlphaNumeric: "AmericanSamoa",
-    callingCode: "",
+    callingCode: "1-684",
     languages: [],
 
     regionInCN: "美属萨摩亚",
@@ -182,7 +182,7 @@ public let Andorra = Entity3166(
     alias: [],
     commonName: "Andorra",
     commonNameInAlphaNumeric: "Andorra",
-    callingCode: "",
+    callingCode: "376",
     languages: [],
 
     regionInCN: "安道尔",
@@ -210,7 +210,7 @@ public let Angola = Entity3166(
     alias: [],
     commonName: "Angola",
     commonNameInAlphaNumeric: "Angola",
-    callingCode: "",
+    callingCode: "244",
     languages: [],
 
     regionInCN: "安哥拉",
@@ -238,7 +238,7 @@ public let AntiguaAndBarbuda = Entity3166(
     alias: [],
     commonName: "Antigua And Barbuda",
     commonNameInAlphaNumeric: "AntiguaAndBarbuda",
-    callingCode: "",
+    callingCode: "1-268",
     languages: [],
 
     regionInCN: "安提瓜和巴布达",
@@ -266,7 +266,7 @@ public let Azerbaijan = Entity3166(
     alias: [],
     commonName: "Azerbaijan",
     commonNameInAlphaNumeric: "Azerbaijan",
-    callingCode: "",
+    callingCode: "994",
     languages: [],
 
     regionInCN: "阿塞拜疆",
@@ -350,7 +350,7 @@ public let Austria = Entity3166(
     alias: [],
     commonName: "Austria",
     commonNameInAlphaNumeric: "Austria",
-    callingCode: "",
+    callingCode: "43",
     languages: [],
 
     regionInCN: "奥地利",
@@ -378,7 +378,7 @@ public let Bahamas = Entity3166(
     alias: [],
     commonName: "Bahamas",
     commonNameInAlphaNumeric: "Bahamas",
-    callingCode: "",
+    callingCode: "1-242",
     languages: [],
 
     regionInCN: "巴哈马",
@@ -406,7 +406,7 @@ public let Bahrain = Entity3166(
     alias: [],
     commonName: "Bahrain",
     commonNameInAlphaNumeric: "Bahrain",
-    callingCode: "",
+    callingCode: "973",
     languages: [],
 
     regionInCN: "巴林",
@@ -434,7 +434,7 @@ public let Bangladesh = Entity3166(
     alias: [],
     commonName: "Bangladesh",
     commonNameInAlphaNumeric: "Bangladesh",
-    callingCode: "",
+    callingCode: "880",
     languages: [],
 
     regionInCN: "孟加拉国",
@@ -462,7 +462,7 @@ public let Armenia = Entity3166(
     alias: [],
     commonName: "Armenia",
     commonNameInAlphaNumeric: "Armenia",
-    callingCode: "",
+    callingCode: "374",
     languages: [],
 
     regionInCN: "亚美尼亚",
@@ -490,7 +490,7 @@ public let Barbados = Entity3166(
     alias: [],
     commonName: "Barbados",
     commonNameInAlphaNumeric: "Barbados",
-    callingCode: "",
+    callingCode: "1-246",
     languages: [],
 
     regionInCN: "巴巴多斯",
@@ -518,7 +518,7 @@ public let Belgium = Entity3166(
     alias: [],
     commonName: "Belgium",
     commonNameInAlphaNumeric: "Belgium",
-    callingCode: "",
+    callingCode: "32",
     languages: [],
 
     regionInCN: "比利时",
@@ -546,7 +546,7 @@ public let Bermuda = Entity3166(
     alias: [],
     commonName: "Bermuda",
     commonNameInAlphaNumeric: "Bermuda",
-    callingCode: "",
+    callingCode: "1-441",
     languages: [],
 
     regionInCN: "百慕大",
@@ -574,7 +574,7 @@ public let Bhutan = Entity3166(
     alias: [],
     commonName: "Bhutan",
     commonNameInAlphaNumeric: "Bhutan",
-    callingCode: "",
+    callingCode: "975",
     languages: [],
 
     regionInCN: "不丹",
@@ -602,7 +602,7 @@ public let BoliviaPlurinationalStateOf = Entity3166(
     alias: [],
     commonName: "Bolivia Plurinational State Of",
     commonNameInAlphaNumeric: "BoliviaPlurinationalStateOf",
-    callingCode: "",
+    callingCode: "591",
     languages: [],
 
     regionInCN: "玻利维亚",
@@ -630,7 +630,7 @@ public let BosniaAndHerzegovina = Entity3166(
     alias: [],
     commonName: "Bosnia And Herzegovina",
     commonNameInAlphaNumeric: "BosniaAndHerzegovina",
-    callingCode: "",
+    callingCode: "387",
     languages: [],
 
     regionInCN: "波黑",
@@ -658,7 +658,7 @@ public let Botswana = Entity3166(
     alias: [],
     commonName: "Botswana",
     commonNameInAlphaNumeric: "Botswana",
-    callingCode: "",
+    callingCode: "267",
     languages: [],
 
     regionInCN: "博茨瓦纳",
@@ -686,7 +686,7 @@ public let BouvetIsland = Entity3166(
     alias: [],
     commonName: "Bouvet Island",
     commonNameInAlphaNumeric: "BouvetIsland",
-    callingCode: "",
+    callingCode: "47",
     languages: [],
 
     regionInCN: "布韦岛",
@@ -742,7 +742,7 @@ public let Belize = Entity3166(
     alias: [],
     commonName: "Belize",
     commonNameInAlphaNumeric: "Belize",
-    callingCode: "",
+    callingCode: "501",
     languages: [],
 
     regionInCN: "伯利兹",
@@ -770,7 +770,7 @@ public let BritishIndianOceanTerritory = Entity3166(
     alias: [],
     commonName: "British Indian Ocean Territory",
     commonNameInAlphaNumeric: "BritishIndianOceanTerritory",
-    callingCode: "",
+    callingCode: "246",
     languages: [],
 
     regionInCN: "英属印度洋领地",
@@ -798,7 +798,7 @@ public let SolomonIslands = Entity3166(
     alias: [],
     commonName: "Solomon Islands",
     commonNameInAlphaNumeric: "SolomonIslands",
-    callingCode: "",
+    callingCode: "677",
     languages: [],
 
     regionInCN: "所罗门群岛",
@@ -826,7 +826,7 @@ public let VirginIslandsBritish = Entity3166(
     alias: [],
     commonName: "Virgin Islands British",
     commonNameInAlphaNumeric: "VirginIslandsBritish",
-    callingCode: "",
+    callingCode: "1-284",
     languages: [],
 
     regionInCN: "英属维尔京群岛",
@@ -854,7 +854,7 @@ public let BruneiDarussalam = Entity3166(
     alias: [],
     commonName: "Brunei Darussalam",
     commonNameInAlphaNumeric: "BruneiDarussalam",
-    callingCode: "",
+    callingCode: "673",
     languages: [],
 
     regionInCN: "文莱",
@@ -882,7 +882,7 @@ public let Bulgaria = Entity3166(
     alias: [],
     commonName: "Bulgaria",
     commonNameInAlphaNumeric: "Bulgaria",
-    callingCode: "",
+    callingCode: "359",
     languages: [],
 
     regionInCN: "保加利亚",
@@ -966,7 +966,7 @@ public let Burundi = Entity3166(
     alias: [],
     commonName: "Burundi",
     commonNameInAlphaNumeric: "Burundi",
-    callingCode: "",
+    callingCode: "257",
     languages: [],
 
     regionInCN: "布隆迪",
@@ -994,7 +994,7 @@ public let Belarus = Entity3166(
     alias: [],
     commonName: "Belarus",
     commonNameInAlphaNumeric: "Belarus",
-    callingCode: "",
+    callingCode: "375",
     languages: [],
 
     regionInCN: "白俄罗斯",
@@ -1050,7 +1050,7 @@ public let Cameroon = Entity3166(
     alias: [],
     commonName: "Cameroon",
     commonNameInAlphaNumeric: "Cameroon",
-    callingCode: "",
+    callingCode: "237",
     languages: [],
 
     regionInCN: "喀麦隆",
@@ -1106,7 +1106,7 @@ public let CantonAndEnderburyIslands = Entity3166(
     alias: [],
     commonName: "Canton And Enderbury Islands",
     commonNameInAlphaNumeric: "CantonAndEnderburyIslands",
-    callingCode: "",
+    callingCode: "90",
     languages: [],
 
     regionInCN: "坎顿及恩德伯里群岛",
@@ -1134,7 +1134,7 @@ public let CaboVerde = Entity3166(
     alias: [],
     commonName: "Cabo Verde",
     commonNameInAlphaNumeric: "CaboVerde",
-    callingCode: "",
+    callingCode: "238",
     languages: [],
 
     regionInCN: "佛得角",
@@ -1162,7 +1162,7 @@ public let CaymanIslands = Entity3166(
     alias: [],
     commonName: "Cayman Islands",
     commonNameInAlphaNumeric: "CaymanIslands",
-    callingCode: "",
+    callingCode: "1-345",
     languages: [],
 
     regionInCN: "开曼群岛",
@@ -1190,7 +1190,7 @@ public let CentralAfricanRepublic = Entity3166(
     alias: [],
     commonName: "Central African Republic",
     commonNameInAlphaNumeric: "CentralAfricanRepublic",
-    callingCode: "",
+    callingCode: "236",
     languages: [],
 
     regionInCN: "中非",
@@ -1218,7 +1218,7 @@ public let SriLanka = Entity3166(
     alias: [],
     commonName: "Sri Lanka",
     commonNameInAlphaNumeric: "SriLanka",
-    callingCode: "",
+    callingCode: "94",
     languages: [],
 
     regionInCN: "斯里兰卡",
@@ -1246,7 +1246,7 @@ public let Chad = Entity3166(
     alias: [],
     commonName: "Chad",
     commonNameInAlphaNumeric: "Chad",
-    callingCode: "",
+    callingCode: "235",
     languages: [],
 
     regionInCN: "乍得",
@@ -1274,7 +1274,7 @@ public let Chile = Entity3166(
     alias: [],
     commonName: "Chile",
     commonNameInAlphaNumeric: "Chile",
-    callingCode: "",
+    callingCode: "56",
     languages: [],
 
     regionInCN: "智利",
@@ -1358,7 +1358,7 @@ public let ChristmasIsland = Entity3166(
     alias: [],
     commonName: "Christmas Island",
     commonNameInAlphaNumeric: "ChristmasIsland",
-    callingCode: "",
+    callingCode: "61",
     languages: [],
 
     regionInCN: "圣诞岛",
@@ -1386,7 +1386,7 @@ public let CocosKeelingIslands = Entity3166(
     alias: [],
     commonName: "Cocos Keeling Islands",
     commonNameInAlphaNumeric: "CocosKeelingIslands",
-    callingCode: "",
+    callingCode: "61",
     languages: [],
 
     regionInCN: "科科斯（基林）群岛",
@@ -1414,7 +1414,7 @@ public let Colombia = Entity3166(
     alias: [],
     commonName: "Colombia",
     commonNameInAlphaNumeric: "Colombia",
-    callingCode: "",
+    callingCode: "57",
     languages: [],
 
     regionInCN: "哥伦比亚",
@@ -1442,7 +1442,7 @@ public let Comoros = Entity3166(
     alias: [],
     commonName: "Comoros",
     commonNameInAlphaNumeric: "Comoros",
-    callingCode: "",
+    callingCode: "269",
     languages: [],
 
     regionInCN: "科摩罗",
@@ -1470,7 +1470,7 @@ public let Mayotte = Entity3166(
     alias: [],
     commonName: "Mayotte",
     commonNameInAlphaNumeric: "Mayotte",
-    callingCode: "",
+    callingCode: "262",
     languages: [],
 
     regionInCN: "马约特",
@@ -1498,7 +1498,7 @@ public let Congo = Entity3166(
     alias: [],
     commonName: "Congo",
     commonNameInAlphaNumeric: "Congo",
-    callingCode: "",
+    callingCode: "242",
     languages: [],
 
     regionInCN: "刚果共和国",
@@ -1526,7 +1526,7 @@ public let CongoDemocraticRepublicOfthe = Entity3166(
     alias: [],
     commonName: "Congo Democratic Republic Of the",
     commonNameInAlphaNumeric: "CongoDemocraticRepublicOfthe",
-    callingCode: "",
+    callingCode: "243",
     languages: [],
 
     regionInCN: "刚果民主共和国",
@@ -1582,7 +1582,7 @@ public let CookIslands = Entity3166(
     alias: [],
     commonName: "Cook Islands",
     commonNameInAlphaNumeric: "CookIslands",
-    callingCode: "",
+    callingCode: "682",
     languages: [],
 
     regionInCN: "库克群岛",
@@ -1610,7 +1610,7 @@ public let CostaRica = Entity3166(
     alias: [],
     commonName: "Costa Rica",
     commonNameInAlphaNumeric: "CostaRica",
-    callingCode: "",
+    callingCode: "506",
     languages: [],
 
     regionInCN: "哥斯达黎加",
@@ -1638,7 +1638,7 @@ public let Croatia = Entity3166(
     alias: [],
     commonName: "Croatia",
     commonNameInAlphaNumeric: "Croatia",
-    callingCode: "",
+    callingCode: "385",
     languages: [],
 
     regionInCN: "克罗地亚",
@@ -1666,7 +1666,7 @@ public let Cuba = Entity3166(
     alias: [],
     commonName: "Cuba",
     commonNameInAlphaNumeric: "Cuba",
-    callingCode: "",
+    callingCode: "53",
     languages: [],
 
     regionInCN: "古巴",
@@ -1694,7 +1694,7 @@ public let Cyprus = Entity3166(
     alias: [],
     commonName: "Cyprus",
     commonNameInAlphaNumeric: "Cyprus",
-    callingCode: "",
+    callingCode: "357",
     languages: [],
 
     regionInCN: "塞浦路斯",
@@ -1750,7 +1750,7 @@ public let Czechia = Entity3166(
     alias: ["Czech Republic"],
     commonName: "Czechia",
     commonNameInAlphaNumeric: "Czechia",
-    callingCode: "",
+    callingCode: "420",
     languages: [],
 
     regionInCN: "捷克",
@@ -1778,7 +1778,7 @@ public let Benin = Entity3166(
     alias: [],
     commonName: "Benin",
     commonNameInAlphaNumeric: "Benin",
-    callingCode: "",
+    callingCode: "229",
     languages: [],
 
     regionInCN: "贝宁",
@@ -1834,7 +1834,7 @@ public let Denmark = Entity3166(
     alias: [],
     commonName: "Denmark",
     commonNameInAlphaNumeric: "Denmark",
-    callingCode: "",
+    callingCode: "45",
     languages: [],
 
     regionInCN: "丹麦",
@@ -1862,7 +1862,7 @@ public let Dominica = Entity3166(
     alias: [],
     commonName: "Dominica",
     commonNameInAlphaNumeric: "Dominica",
-    callingCode: "",
+    callingCode: "1-767",
     languages: [],
 
     regionInCN: "多米尼克",
@@ -1890,7 +1890,7 @@ public let DominicanRepublic = Entity3166(
     alias: [],
     commonName: "Dominican Republic",
     commonNameInAlphaNumeric: "DominicanRepublic",
-    callingCode: "",
+    callingCode: "1-809",
     languages: [],
 
     regionInCN: "多米尼加",
@@ -1946,7 +1946,7 @@ public let Ecuador = Entity3166(
     alias: [],
     commonName: "Ecuador",
     commonNameInAlphaNumeric: "Ecuador",
-    callingCode: "",
+    callingCode: "593",
     languages: [],
 
     regionInCN: "厄瓜多尔",
@@ -1974,7 +1974,7 @@ public let ElSalvador = Entity3166(
     alias: [],
     commonName: "El Salvador",
     commonNameInAlphaNumeric: "ElSalvador",
-    callingCode: "",
+    callingCode: "503",
     languages: [],
 
     regionInCN: "萨尔瓦多",
@@ -2002,7 +2002,7 @@ public let EquatorialGuinea = Entity3166(
     alias: [],
     commonName: "Equatorial Guinea",
     commonNameInAlphaNumeric: "EquatorialGuinea",
-    callingCode: "",
+    callingCode: "240",
     languages: [],
 
     regionInCN: "赤道几内亚",
@@ -2030,7 +2030,7 @@ public let Ethiopia = Entity3166(
     alias: [],
     commonName: "Ethiopia",
     commonNameInAlphaNumeric: "Ethiopia",
-    callingCode: "",
+    callingCode: "251",
     languages: [],
 
     regionInCN: "埃塞俄比亚",
@@ -2058,7 +2058,7 @@ public let Eritrea = Entity3166(
     alias: [],
     commonName: "Eritrea",
     commonNameInAlphaNumeric: "Eritrea",
-    callingCode: "",
+    callingCode: "291",
     languages: [],
 
     regionInCN: "厄立特里亚",
@@ -2086,7 +2086,7 @@ public let Estonia = Entity3166(
     alias: [],
     commonName: "Estonia",
     commonNameInAlphaNumeric: "Estonia",
-    callingCode: "",
+    callingCode: "372",
     languages: [],
 
     regionInCN: "爱沙尼亚",
@@ -2114,7 +2114,7 @@ public let FaroeIslands = Entity3166(
     alias: [],
     commonName: "Faroe Islands",
     commonNameInAlphaNumeric: "FaroeIslands",
-    callingCode: "",
+    callingCode: "298",
     languages: [],
 
     regionInCN: "法罗群岛",
@@ -2142,7 +2142,7 @@ public let FalklandIslandsMalvinas = Entity3166(
     alias: [],
     commonName: "Falkland Islands Malvinas",
     commonNameInAlphaNumeric: "FalklandIslandsMalvinas",
-    callingCode: "",
+    callingCode: "500",
     languages: [],
 
     regionInCN: "福克兰群岛",
@@ -2170,7 +2170,7 @@ public let SouthGeorgiaAndTheSouthSandwichIslands = Entity3166(
     alias: [],
     commonName: "South Georgia And The South Sandwich Islands",
     commonNameInAlphaNumeric: "SouthGeorgiaAndTheSouthSandwichIslands",
-    callingCode: "",
+    callingCode: "500",
     languages: [],
 
     regionInCN: "南乔治亚和南桑威奇群岛",
@@ -2198,7 +2198,7 @@ public let Fiji = Entity3166(
     alias: [],
     commonName: "Fiji",
     commonNameInAlphaNumeric: "Fiji",
-    callingCode: "",
+    callingCode: "679",
     languages: [],
 
     regionInCN: "斐济",
@@ -2226,7 +2226,7 @@ public let Finland = Entity3166(
     alias: [],
     commonName: "Finland",
     commonNameInAlphaNumeric: "Finland",
-    callingCode: "",
+    callingCode: "358",
     languages: [],
 
     regionInCN: "芬兰",
@@ -2254,7 +2254,7 @@ public let AlandIslands = Entity3166(
     alias: [],
     commonName: "Aland Islands",
     commonNameInAlphaNumeric: "AlandIslands",
-    callingCode: "",
+    callingCode: "358",
     languages: [],
 
     regionInCN: "奥兰",
@@ -2338,7 +2338,7 @@ public let FrenchGuiana = Entity3166(
     alias: [],
     commonName: "French Guiana",
     commonNameInAlphaNumeric: "FrenchGuiana",
-    callingCode: "",
+    callingCode: "594",
     languages: [],
 
     regionInCN: "法属圭亚那",
@@ -2366,7 +2366,7 @@ public let FrenchPolynesia = Entity3166(
     alias: [],
     commonName: "French Polynesia",
     commonNameInAlphaNumeric: "FrenchPolynesia",
-    callingCode: "",
+    callingCode: "689",
     languages: [],
 
     regionInCN: "法属波利尼西亚",
@@ -2422,7 +2422,7 @@ public let FrenchSouthernTerritories = Entity3166(
     alias: [],
     commonName: "French Southern Territories",
     commonNameInAlphaNumeric: "FrenchSouthernTerritories",
-    callingCode: "",
+    callingCode: "262",
     languages: [],
 
     regionInCN: "法属南部和南极领地",
@@ -2450,7 +2450,7 @@ public let Djibouti = Entity3166(
     alias: [],
     commonName: "Djibouti",
     commonNameInAlphaNumeric: "Djibouti",
-    callingCode: "",
+    callingCode: "253",
     languages: [],
 
     regionInCN: "吉布提",
@@ -2478,7 +2478,7 @@ public let Gabon = Entity3166(
     alias: [],
     commonName: "Gabon",
     commonNameInAlphaNumeric: "Gabon",
-    callingCode: "",
+    callingCode: "241",
     languages: [],
 
     regionInCN: "加蓬",
@@ -2506,7 +2506,7 @@ public let Georgia = Entity3166(
     alias: [],
     commonName: "Georgia",
     commonNameInAlphaNumeric: "Georgia",
-    callingCode: "",
+    callingCode: "995",
     languages: [],
 
     regionInCN: "格鲁吉亚",
@@ -2534,7 +2534,7 @@ public let Gambia = Entity3166(
     alias: [],
     commonName: "Gambia",
     commonNameInAlphaNumeric: "Gambia",
-    callingCode: "",
+    callingCode: "220",
     languages: [],
 
     regionInCN: "冈比亚",
@@ -2562,7 +2562,7 @@ public let PalestineStateOf = Entity3166(
     alias: [],
     commonName: "Palestine State Of",
     commonNameInAlphaNumeric: "PalestineStateOf",
-    callingCode: "",
+    callingCode: "970",
     languages: [],
 
     regionInCN: "巴勒斯坦",
@@ -2646,7 +2646,7 @@ public let Ghana = Entity3166(
     alias: [],
     commonName: "Ghana",
     commonNameInAlphaNumeric: "Ghana",
-    callingCode: "",
+    callingCode: "233",
     languages: [],
 
     regionInCN: "加纳",
@@ -2674,7 +2674,7 @@ public let Gibraltar = Entity3166(
     alias: [],
     commonName: "Gibraltar",
     commonNameInAlphaNumeric: "Gibraltar",
-    callingCode: "",
+    callingCode: "350",
     languages: [],
 
     regionInCN: "直布罗陀",
@@ -2702,7 +2702,7 @@ public let Kiribati = Entity3166(
     alias: [],
     commonName: "Kiribati",
     commonNameInAlphaNumeric: "Kiribati",
-    callingCode: "",
+    callingCode: "686",
     languages: [],
 
     regionInCN: "基里巴斯",
@@ -2730,7 +2730,7 @@ public let Greece = Entity3166(
     alias: [],
     commonName: "Greece",
     commonNameInAlphaNumeric: "Greece",
-    callingCode: "",
+    callingCode: "30",
     languages: [],
 
     regionInCN: "希腊",
@@ -2758,7 +2758,7 @@ public let Greenland = Entity3166(
     alias: [],
     commonName: "Greenland",
     commonNameInAlphaNumeric: "Greenland",
-    callingCode: "",
+    callingCode: "299",
     languages: [],
 
     regionInCN: "格陵兰",
@@ -2786,7 +2786,7 @@ public let Grenada = Entity3166(
     alias: [],
     commonName: "Grenada",
     commonNameInAlphaNumeric: "Grenada",
-    callingCode: "",
+    callingCode: "1-473",
     languages: [],
 
     regionInCN: "格林纳达",
@@ -2814,7 +2814,7 @@ public let Guadeloupe = Entity3166(
     alias: [],
     commonName: "Guadeloupe",
     commonNameInAlphaNumeric: "Guadeloupe",
-    callingCode: "",
+    callingCode: "590",
     languages: [],
 
     regionInCN: "瓜德罗普",
@@ -2842,7 +2842,7 @@ public let Guam = Entity3166(
     alias: [],
     commonName: "Guam",
     commonNameInAlphaNumeric: "Guam",
-    callingCode: "",
+    callingCode: "1-671",
     languages: [],
 
     regionInCN: "关岛",
@@ -2870,7 +2870,7 @@ public let Guatemala = Entity3166(
     alias: [],
     commonName: "Guatemala",
     commonNameInAlphaNumeric: "Guatemala",
-    callingCode: "",
+    callingCode: "502",
     languages: [],
 
     regionInCN: "危地马拉",
@@ -2898,7 +2898,7 @@ public let Guinea = Entity3166(
     alias: [],
     commonName: "Guinea",
     commonNameInAlphaNumeric: "Guinea",
-    callingCode: "",
+    callingCode: "224",
     languages: [],
 
     regionInCN: "几内亚",
@@ -2926,7 +2926,7 @@ public let Guyana = Entity3166(
     alias: [],
     commonName: "Guyana",
     commonNameInAlphaNumeric: "Guyana",
-    callingCode: "",
+    callingCode: "592",
     languages: [],
 
     regionInCN: "圭亚那",
@@ -2954,7 +2954,7 @@ public let Haiti = Entity3166(
     alias: [],
     commonName: "Haiti",
     commonNameInAlphaNumeric: "Haiti",
-    callingCode: "",
+    callingCode: "509",
     languages: [],
 
     regionInCN: "海地",
@@ -3010,7 +3010,7 @@ public let HolySee = Entity3166(
     alias: [],
     commonName: "Holy See",
     commonNameInAlphaNumeric: "HolySee",
-    callingCode: "",
+    callingCode: "39",
     languages: [],
 
     regionInCN: "梵蒂冈",
@@ -3038,7 +3038,7 @@ public let Honduras = Entity3166(
     alias: [],
     commonName: "Honduras",
     commonNameInAlphaNumeric: "Honduras",
-    callingCode: "",
+    callingCode: "504",
     languages: [],
 
     regionInCN: "洪都拉斯",
@@ -3094,7 +3094,7 @@ public let Hungary = Entity3166(
     alias: [],
     commonName: "Hungary",
     commonNameInAlphaNumeric: "Hungary",
-    callingCode: "",
+    callingCode: "36",
     languages: [],
 
     regionInCN: "匈牙利",
@@ -3122,7 +3122,7 @@ public let Iceland = Entity3166(
     alias: [],
     commonName: "Iceland",
     commonNameInAlphaNumeric: "Iceland",
-    callingCode: "",
+    callingCode: "354",
     languages: [],
 
     regionInCN: "冰岛",
@@ -3150,7 +3150,7 @@ public let India = Entity3166(
     alias: [],
     commonName: "India",
     commonNameInAlphaNumeric: "India",
-    callingCode: "",
+    callingCode: "91",
     languages: [],
 
     regionInCN: "印度",
@@ -3206,7 +3206,7 @@ public let IranIslamicRepublicOf = Entity3166(
     alias: [],
     commonName: "Iran Islamic Republic Of",
     commonNameInAlphaNumeric: "IranIslamicRepublicOf",
-    callingCode: "",
+    callingCode: "98",
     languages: [],
 
     regionInCN: "伊朗",
@@ -3234,7 +3234,7 @@ public let Iraq = Entity3166(
     alias: [],
     commonName: "Iraq",
     commonNameInAlphaNumeric: "Iraq",
-    callingCode: "",
+    callingCode: "964",
     languages: [],
 
     regionInCN: "伊拉克",
@@ -3262,7 +3262,7 @@ public let Ireland = Entity3166(
     alias: [],
     commonName: "Ireland",
     commonNameInAlphaNumeric: "Ireland",
-    callingCode: "",
+    callingCode: "353",
     languages: [],
 
     regionInCN: "爱尔兰",
@@ -3290,7 +3290,7 @@ public let Israel = Entity3166(
     alias: [],
     commonName: "Israel",
     commonNameInAlphaNumeric: "Israel",
-    callingCode: "",
+    callingCode: "972",
     languages: [],
 
     regionInCN: "以色列",
@@ -3346,7 +3346,7 @@ public let CotedIvoire = Entity3166(
     alias: [],
     commonName: "Cote dIvoire",
     commonNameInAlphaNumeric: "CotedIvoire",
-    callingCode: "",
+    callingCode: "225",
     languages: [],
 
     regionInCN: "科特迪瓦",
@@ -3374,7 +3374,7 @@ public let Jamaica = Entity3166(
     alias: [],
     commonName: "Jamaica",
     commonNameInAlphaNumeric: "Jamaica",
-    callingCode: "",
+    callingCode: "1-658",
     languages: [],
 
     regionInCN: "牙买加",
@@ -3458,7 +3458,7 @@ public let Kazakhstan = Entity3166(
     alias: [],
     commonName: "Kazakhstan",
     commonNameInAlphaNumeric: "Kazakhstan",
-    callingCode: "",
+    callingCode: "7",
     languages: [],
 
     regionInCN: "哈萨克斯坦",
@@ -3486,7 +3486,7 @@ public let Jordan = Entity3166(
     alias: [],
     commonName: "Jordan",
     commonNameInAlphaNumeric: "Jordan",
-    callingCode: "",
+    callingCode: "962",
     languages: [],
 
     regionInCN: "约旦",
@@ -3514,7 +3514,7 @@ public let Kenya = Entity3166(
     alias: [],
     commonName: "Kenya",
     commonNameInAlphaNumeric: "Kenya",
-    callingCode: "",
+    callingCode: "254",
     languages: [],
 
     regionInCN: "肯尼亚",
@@ -3542,7 +3542,7 @@ public let NorthKorea = Entity3166(
     alias: [],
     commonName: "North Korea",
     commonNameInAlphaNumeric: "NorthKorea",
-    callingCode: "",
+    callingCode: "850",
     languages: [],
 
     regionInCN: "北韩",
@@ -3598,7 +3598,7 @@ public let Kuwait = Entity3166(
     alias: [],
     commonName: "Kuwait",
     commonNameInAlphaNumeric: "Kuwait",
-    callingCode: "",
+    callingCode: "965",
     languages: [],
 
     regionInCN: "科威特",
@@ -3626,7 +3626,7 @@ public let Kyrgyzstan = Entity3166(
     alias: [],
     commonName: "Kyrgyzstan",
     commonNameInAlphaNumeric: "Kyrgyzstan",
-    callingCode: "",
+    callingCode: "996",
     languages: [],
 
     regionInCN: "吉尔吉斯斯坦",
@@ -3654,7 +3654,7 @@ public let Lebanon = Entity3166(
     alias: [],
     commonName: "Lebanon",
     commonNameInAlphaNumeric: "Lebanon",
-    callingCode: "",
+    callingCode: "961",
     languages: [],
 
     regionInCN: "黎巴嫩",
@@ -3682,7 +3682,7 @@ public let Lesotho = Entity3166(
     alias: [],
     commonName: "Lesotho",
     commonNameInAlphaNumeric: "Lesotho",
-    callingCode: "",
+    callingCode: "266",
     languages: [],
 
     regionInCN: "莱索托",
@@ -3710,7 +3710,7 @@ public let Latvia = Entity3166(
     alias: [],
     commonName: "Latvia",
     commonNameInAlphaNumeric: "Latvia",
-    callingCode: "",
+    callingCode: "371",
     languages: [],
 
     regionInCN: "拉脱维亚",
@@ -3738,7 +3738,7 @@ public let Liberia = Entity3166(
     alias: [],
     commonName: "Liberia",
     commonNameInAlphaNumeric: "Liberia",
-    callingCode: "",
+    callingCode: "231",
     languages: [],
 
     regionInCN: "利比里亚",
@@ -3766,7 +3766,7 @@ public let Libya = Entity3166(
     alias: [],
     commonName: "Libya",
     commonNameInAlphaNumeric: "Libya",
-    callingCode: "",
+    callingCode: "218",
     languages: [],
 
     regionInCN: "利比亚",
@@ -3794,7 +3794,7 @@ public let Liechtenstein = Entity3166(
     alias: [],
     commonName: "Liechtenstein",
     commonNameInAlphaNumeric: "Liechtenstein",
-    callingCode: "",
+    callingCode: "423",
     languages: [],
 
     regionInCN: "列支敦士登",
@@ -3822,7 +3822,7 @@ public let Lithuania = Entity3166(
     alias: [],
     commonName: "Lithuania",
     commonNameInAlphaNumeric: "Lithuania",
-    callingCode: "",
+    callingCode: "370",
     languages: [],
 
     regionInCN: "立陶宛",
@@ -3850,7 +3850,7 @@ public let Luxembourg = Entity3166(
     alias: [],
     commonName: "Luxembourg",
     commonNameInAlphaNumeric: "Luxembourg",
-    callingCode: "",
+    callingCode: "352",
     languages: [],
 
     regionInCN: "卢森堡",
@@ -3934,7 +3934,7 @@ public let Malawi = Entity3166(
     alias: [],
     commonName: "Malawi",
     commonNameInAlphaNumeric: "Malawi",
-    callingCode: "",
+    callingCode: "265",
     languages: [],
 
     regionInCN: "马拉维",
@@ -3990,7 +3990,7 @@ public let Maldives = Entity3166(
     alias: [],
     commonName: "Maldives",
     commonNameInAlphaNumeric: "Maldives",
-    callingCode: "",
+    callingCode: "960",
     languages: [],
 
     regionInCN: "马尔代夫",
@@ -4018,7 +4018,7 @@ public let Mali = Entity3166(
     alias: [],
     commonName: "Mali",
     commonNameInAlphaNumeric: "Mali",
-    callingCode: "",
+    callingCode: "223",
     languages: [],
 
     regionInCN: "马里",
@@ -4046,7 +4046,7 @@ public let Malta = Entity3166(
     alias: [],
     commonName: "Malta",
     commonNameInAlphaNumeric: "Malta",
-    callingCode: "",
+    callingCode: "356",
     languages: [],
 
     regionInCN: "马耳他",
@@ -4074,7 +4074,7 @@ public let Martinique = Entity3166(
     alias: [],
     commonName: "Martinique",
     commonNameInAlphaNumeric: "Martinique",
-    callingCode: "",
+    callingCode: "596",
     languages: [],
 
     regionInCN: "马提尼克",
@@ -4102,7 +4102,7 @@ public let Mauritania = Entity3166(
     alias: [],
     commonName: "Mauritania",
     commonNameInAlphaNumeric: "Mauritania",
-    callingCode: "",
+    callingCode: "222",
     languages: [],
 
     regionInCN: "毛里塔尼亚",
@@ -4130,7 +4130,7 @@ public let Mauritius = Entity3166(
     alias: [],
     commonName: "Mauritius",
     commonNameInAlphaNumeric: "Mauritius",
-    callingCode: "",
+    callingCode: "230",
     languages: [],
 
     regionInCN: "毛里求斯",
@@ -4186,7 +4186,7 @@ public let Mexico = Entity3166(
     alias: [],
     commonName: "Mexico",
     commonNameInAlphaNumeric: "Mexico",
-    callingCode: "",
+    callingCode: "52",
     languages: [],
 
     regionInCN: "墨西哥",
@@ -4242,7 +4242,7 @@ public let Monaco = Entity3166(
     alias: [],
     commonName: "Monaco",
     commonNameInAlphaNumeric: "Monaco",
-    callingCode: "",
+    callingCode: "377",
     languages: [],
 
     regionInCN: "摩纳哥",
@@ -4270,7 +4270,7 @@ public let Mongolia = Entity3166(
     alias: [],
     commonName: "Mongolia",
     commonNameInAlphaNumeric: "Mongolia",
-    callingCode: "",
+    callingCode: "976",
     languages: [],
 
     regionInCN: "蒙古国",
@@ -4298,7 +4298,7 @@ public let MoldovaRepublicOf = Entity3166(
     alias: [],
     commonName: "Moldova Republic Of",
     commonNameInAlphaNumeric: "MoldovaRepublicOf",
-    callingCode: "",
+    callingCode: "373",
     languages: [],
 
     regionInCN: "摩尔多瓦",
@@ -4326,7 +4326,7 @@ public let Montenegro = Entity3166(
     alias: [],
     commonName: "Montenegro",
     commonNameInAlphaNumeric: "Montenegro",
-    callingCode: "",
+    callingCode: "382",
     languages: [],
 
     regionInCN: "黑山",
@@ -4354,7 +4354,7 @@ public let Montserrat = Entity3166(
     alias: [],
     commonName: "Montserrat",
     commonNameInAlphaNumeric: "Montserrat",
-    callingCode: "",
+    callingCode: "1-664",
     languages: [],
 
     regionInCN: "蒙特塞拉特",
@@ -4382,7 +4382,7 @@ public let Morocco = Entity3166(
     alias: [],
     commonName: "Morocco",
     commonNameInAlphaNumeric: "Morocco",
-    callingCode: "",
+    callingCode: "212",
     languages: [],
 
     regionInCN: "摩洛哥",
@@ -4410,7 +4410,7 @@ public let Mozambique = Entity3166(
     alias: [],
     commonName: "Mozambique",
     commonNameInAlphaNumeric: "Mozambique",
-    callingCode: "",
+    callingCode: "258",
     languages: [],
 
     regionInCN: "莫桑比克",
@@ -4438,7 +4438,7 @@ public let Oman = Entity3166(
     alias: [],
     commonName: "Oman",
     commonNameInAlphaNumeric: "Oman",
-    callingCode: "",
+    callingCode: "968",
     languages: [],
 
     regionInCN: "阿曼",
@@ -4466,7 +4466,7 @@ public let Namibia = Entity3166(
     alias: [],
     commonName: "Namibia",
     commonNameInAlphaNumeric: "Namibia",
-    callingCode: "",
+    callingCode: "264",
     languages: [],
 
     regionInCN: "纳米比亚",
@@ -4494,7 +4494,7 @@ public let Nauru = Entity3166(
     alias: [],
     commonName: "Nauru",
     commonNameInAlphaNumeric: "Nauru",
-    callingCode: "",
+    callingCode: "674",
     languages: [],
 
     regionInCN: "瑙鲁",
@@ -4522,7 +4522,7 @@ public let Nepal = Entity3166(
     alias: [],
     commonName: "Nepal",
     commonNameInAlphaNumeric: "Nepal",
-    callingCode: "",
+    callingCode: "977",
     languages: [],
 
     regionInCN: "尼泊尔",
@@ -4550,7 +4550,7 @@ public let Netherlands = Entity3166(
     alias: [],
     commonName: "Netherlands",
     commonNameInAlphaNumeric: "Netherlands",
-    callingCode: "",
+    callingCode: "31",
     languages: [],
 
     regionInCN: "荷兰",
@@ -4578,7 +4578,7 @@ public let Curacao = Entity3166(
     alias: [],
     commonName: "Curacao",
     commonNameInAlphaNumeric: "Curacao",
-    callingCode: "",
+    callingCode: "599",
     languages: [],
 
     regionInCN: "库拉索",
@@ -4606,7 +4606,7 @@ public let Aruba = Entity3166(
     alias: [],
     commonName: "Aruba",
     commonNameInAlphaNumeric: "Aruba",
-    callingCode: "",
+    callingCode: "297",
     languages: [],
 
     regionInCN: "阿鲁巴",
@@ -4634,7 +4634,7 @@ public let SintMaartenDutchpart = Entity3166(
     alias: [],
     commonName: "Sint Maarten Dutch part",
     commonNameInAlphaNumeric: "SintMaartenDutchpart",
-    callingCode: "",
+    callingCode: "1-721",
     languages: [],
 
     regionInCN: "荷属圣马丁",
@@ -4662,7 +4662,7 @@ public let BonaireSintEustatiusAndSaba = Entity3166(
     alias: [],
     commonName: "Bonaire Sint Eustatius And Saba",
     commonNameInAlphaNumeric: "BonaireSintEustatiusAndSaba",
-    callingCode: "",
+    callingCode: "599",
     languages: [],
 
     regionInCN: "荷兰加勒比区",
@@ -4718,7 +4718,7 @@ public let NewCaledonia = Entity3166(
     alias: [],
     commonName: "New Caledonia",
     commonNameInAlphaNumeric: "NewCaledonia",
-    callingCode: "",
+    callingCode: "687",
     languages: [],
 
     regionInCN: "新喀里多尼亚",
@@ -4774,7 +4774,7 @@ public let Vanuatu = Entity3166(
     alias: [],
     commonName: "Vanuatu",
     commonNameInAlphaNumeric: "Vanuatu",
-    callingCode: "",
+    callingCode: "678",
     languages: [],
 
     regionInCN: "瓦努阿图",
@@ -4830,7 +4830,7 @@ public let Nicaragua = Entity3166(
     alias: [],
     commonName: "Nicaragua",
     commonNameInAlphaNumeric: "Nicaragua",
-    callingCode: "",
+    callingCode: "505",
     languages: [],
 
     regionInCN: "尼加拉瓜",
@@ -4858,7 +4858,7 @@ public let Niger = Entity3166(
     alias: [],
     commonName: "Niger",
     commonNameInAlphaNumeric: "Niger",
-    callingCode: "",
+    callingCode: "227",
     languages: [],
 
     regionInCN: "尼日尔",
@@ -4886,7 +4886,7 @@ public let Nigeria = Entity3166(
     alias: [],
     commonName: "Nigeria",
     commonNameInAlphaNumeric: "Nigeria",
-    callingCode: "",
+    callingCode: "234",
     languages: [],
 
     regionInCN: "尼日利亚",
@@ -4914,7 +4914,7 @@ public let Niue = Entity3166(
     alias: [],
     commonName: "Niue",
     commonNameInAlphaNumeric: "Niue",
-    callingCode: "",
+    callingCode: "683",
     languages: [],
 
     regionInCN: "纽埃",
@@ -4942,7 +4942,7 @@ public let NorfolkIsland = Entity3166(
     alias: [],
     commonName: "Norfolk Island",
     commonNameInAlphaNumeric: "NorfolkIsland",
-    callingCode: "",
+    callingCode: "672",
     languages: [],
 
     regionInCN: "诺福克岛",
@@ -4970,7 +4970,7 @@ public let Norway = Entity3166(
     alias: [],
     commonName: "Norway",
     commonNameInAlphaNumeric: "Norway",
-    callingCode: "",
+    callingCode: "47",
     languages: [],
 
     regionInCN: "挪威",
@@ -4998,7 +4998,7 @@ public let NorthernMarianaIslands = Entity3166(
     alias: [],
     commonName: "Northern Mariana Islands",
     commonNameInAlphaNumeric: "NorthernMarianaIslands",
-    callingCode: "",
+    callingCode: "1-670",
     languages: [],
 
     regionInCN: "北马里亚纳群岛",
@@ -5082,7 +5082,7 @@ public let MicronesiaFederatedStatesOf = Entity3166(
     alias: [],
     commonName: "Micronesia Federated States Of",
     commonNameInAlphaNumeric: "MicronesiaFederatedStatesOf",
-    callingCode: "",
+    callingCode: "691",
     languages: [],
 
     regionInCN: "密克罗尼西亚联邦",
@@ -5110,7 +5110,7 @@ public let MarshallIslands = Entity3166(
     alias: [],
     commonName: "Marshall Islands",
     commonNameInAlphaNumeric: "MarshallIslands",
-    callingCode: "",
+    callingCode: "692",
     languages: [],
 
     regionInCN: "马绍尔群岛",
@@ -5138,7 +5138,7 @@ public let Palau = Entity3166(
     alias: [],
     commonName: "Palau",
     commonNameInAlphaNumeric: "Palau",
-    callingCode: "",
+    callingCode: "680",
     languages: [],
 
     regionInCN: "帕劳",
@@ -5166,7 +5166,7 @@ public let Pakistan = Entity3166(
     alias: [],
     commonName: "Pakistan",
     commonNameInAlphaNumeric: "Pakistan",
-    callingCode: "",
+    callingCode: "92",
     languages: [],
 
     regionInCN: "巴基斯坦",
@@ -5250,7 +5250,7 @@ public let PapuaNewGuinea = Entity3166(
     alias: [],
     commonName: "Papua New Guinea",
     commonNameInAlphaNumeric: "PapuaNewGuinea",
-    callingCode: "",
+    callingCode: "675",
     languages: [],
 
     regionInCN: "巴布亚新几内亚",
@@ -5278,7 +5278,7 @@ public let Paraguay = Entity3166(
     alias: [],
     commonName: "Paraguay",
     commonNameInAlphaNumeric: "Paraguay",
-    callingCode: "",
+    callingCode: "595",
     languages: [],
 
     regionInCN: "巴拉圭",
@@ -5306,7 +5306,7 @@ public let Peru = Entity3166(
     alias: [],
     commonName: "Peru",
     commonNameInAlphaNumeric: "Peru",
-    callingCode: "",
+    callingCode: "51",
     languages: [],
 
     regionInCN: "秘鲁",
@@ -5362,7 +5362,7 @@ public let Pitcairn = Entity3166(
     alias: [],
     commonName: "Pitcairn",
     commonNameInAlphaNumeric: "Pitcairn",
-    callingCode: "",
+    callingCode: "64",
     languages: [],
 
     regionInCN: "皮特凯恩群岛",
@@ -5390,7 +5390,7 @@ public let Poland = Entity3166(
     alias: [],
     commonName: "Poland",
     commonNameInAlphaNumeric: "Poland",
-    callingCode: "",
+    callingCode: "48",
     languages: [],
 
     regionInCN: "波兰",
@@ -5418,7 +5418,7 @@ public let Portugal = Entity3166(
     alias: [],
     commonName: "Portugal",
     commonNameInAlphaNumeric: "Portugal",
-    callingCode: "",
+    callingCode: "351",
     languages: [],
 
     regionInCN: "葡萄牙",
@@ -5446,7 +5446,7 @@ public let Guinea_Bissau = Entity3166(
     alias: [],
     commonName: "Guinea_Bissau",
     commonNameInAlphaNumeric: "Guinea_Bissau",
-    callingCode: "",
+    callingCode: "245",
     languages: [],
 
     regionInCN: "几内亚比绍",
@@ -5474,7 +5474,7 @@ public let Timor_Leste = Entity3166(
     alias: [],
     commonName: "Timor_Leste",
     commonNameInAlphaNumeric: "Timor_Leste",
-    callingCode: "",
+    callingCode: "670",
     languages: [],
 
     regionInCN: "东帝汶",
@@ -5530,7 +5530,7 @@ public let PuertoRico = Entity3166(
     alias: [],
     commonName: "Puerto Rico",
     commonNameInAlphaNumeric: "PuertoRico",
-    callingCode: "",
+    callingCode: "1-787",
     languages: [],
 
     regionInCN: "波多黎各",
@@ -5558,7 +5558,7 @@ public let Qatar = Entity3166(
     alias: [],
     commonName: "Qatar",
     commonNameInAlphaNumeric: "Qatar",
-    callingCode: "",
+    callingCode: "974",
     languages: [],
 
     regionInCN: "卡塔尔",
@@ -5586,7 +5586,7 @@ public let Reunion = Entity3166(
     alias: [],
     commonName: "Reunion",
     commonNameInAlphaNumeric: "Reunion",
-    callingCode: "",
+    callingCode: "262",
     languages: [],
 
     regionInCN: "留尼汪",
@@ -5614,7 +5614,7 @@ public let Romania = Entity3166(
     alias: [],
     commonName: "Romania",
     commonNameInAlphaNumeric: "Romania",
-    callingCode: "",
+    callingCode: "40",
     languages: [],
 
     regionInCN: "罗马尼亚",
@@ -5670,7 +5670,7 @@ public let Rwanda = Entity3166(
     alias: [],
     commonName: "Rwanda",
     commonNameInAlphaNumeric: "Rwanda",
-    callingCode: "",
+    callingCode: "250",
     languages: [],
 
     regionInCN: "卢旺达",
@@ -5698,7 +5698,7 @@ public let SaintBarthelemy = Entity3166(
     alias: [],
     commonName: "Saint Barthelemy",
     commonNameInAlphaNumeric: "SaintBarthelemy",
-    callingCode: "",
+    callingCode: "590",
     languages: [],
 
     regionInCN: "圣巴泰勒米",
@@ -5726,7 +5726,7 @@ public let SaintHelenaAscensionAndTristandaCunha = Entity3166(
     alias: [],
     commonName: "Saint Helena Ascension And Tristan da Cunha",
     commonNameInAlphaNumeric: "SaintHelenaAscensionAndTristandaCunha",
-    callingCode: "",
+    callingCode: "290",
     languages: [],
 
     regionInCN: "圣赫勒拿、阿森松和特里斯坦-达库尼亚",
@@ -5754,7 +5754,7 @@ public let SaintKittsAndNevis = Entity3166(
     alias: [],
     commonName: "Saint Kitts And Nevis",
     commonNameInAlphaNumeric: "SaintKittsAndNevis",
-    callingCode: "",
+    callingCode: "1-869",
     languages: [],
 
     regionInCN: "圣基茨和尼维斯",
@@ -5782,7 +5782,7 @@ public let Anguilla = Entity3166(
     alias: [],
     commonName: "Anguilla",
     commonNameInAlphaNumeric: "Anguilla",
-    callingCode: "",
+    callingCode: "1-264",
     languages: [],
 
     regionInCN: "安圭拉",
@@ -5810,7 +5810,7 @@ public let SaintLucia = Entity3166(
     alias: [],
     commonName: "Saint Lucia",
     commonNameInAlphaNumeric: "SaintLucia",
-    callingCode: "",
+    callingCode: "1-758",
     languages: [],
 
     regionInCN: "圣卢西亚",
@@ -5838,7 +5838,7 @@ public let SaintMartinFrenchpart = Entity3166(
     alias: [],
     commonName: "Saint Martin French part",
     commonNameInAlphaNumeric: "SaintMartinFrenchpart",
-    callingCode: "",
+    callingCode: "590",
     languages: [],
 
     regionInCN: "法属圣马丁",
@@ -5866,7 +5866,7 @@ public let SaintPierreAndMiquelon = Entity3166(
     alias: [],
     commonName: "Saint Pierre And Miquelon",
     commonNameInAlphaNumeric: "SaintPierreAndMiquelon",
-    callingCode: "",
+    callingCode: "508",
     languages: [],
 
     regionInCN: "圣皮埃尔和密克隆",
@@ -5894,7 +5894,7 @@ public let SaintVincentAndTheGrenadines = Entity3166(
     alias: [],
     commonName: "Saint Vincent And The Grenadines",
     commonNameInAlphaNumeric: "SaintVincentAndTheGrenadines",
-    callingCode: "",
+    callingCode: "1-784",
     languages: [],
 
     regionInCN: "圣文森特和格林纳丁斯",
@@ -5922,7 +5922,7 @@ public let SanMarino = Entity3166(
     alias: [],
     commonName: "San Marino",
     commonNameInAlphaNumeric: "SanMarino",
-    callingCode: "",
+    callingCode: "378",
     languages: [],
 
     regionInCN: "圣马力诺",
@@ -5950,7 +5950,7 @@ public let SaoTomeAndPrincipe = Entity3166(
     alias: [],
     commonName: "Sao Tome And Principe",
     commonNameInAlphaNumeric: "SaoTomeAndPrincipe",
-    callingCode: "",
+    callingCode: "239",
     languages: [],
 
     regionInCN: "圣多美和普林西比",
@@ -6006,7 +6006,7 @@ public let Senegal = Entity3166(
     alias: [],
     commonName: "Senegal",
     commonNameInAlphaNumeric: "Senegal",
-    callingCode: "",
+    callingCode: "221",
     languages: [],
 
     regionInCN: "塞内加尔",
@@ -6034,7 +6034,7 @@ public let Serbia = Entity3166(
     alias: [],
     commonName: "Serbia",
     commonNameInAlphaNumeric: "Serbia",
-    callingCode: "",
+    callingCode: "381",
     languages: [],
 
     regionInCN: "塞尔维亚",
@@ -6062,7 +6062,7 @@ public let Seychelles = Entity3166(
     alias: [],
     commonName: "Seychelles",
     commonNameInAlphaNumeric: "Seychelles",
-    callingCode: "",
+    callingCode: "248",
     languages: [],
 
     regionInCN: "塞舌尔",
@@ -6090,7 +6090,7 @@ public let SierraLeone = Entity3166(
     alias: [],
     commonName: "Sierra Leone",
     commonNameInAlphaNumeric: "SierraLeone",
-    callingCode: "",
+    callingCode: "232",
     languages: [],
 
     regionInCN: "塞拉利昂",
@@ -6146,7 +6146,7 @@ public let Slovakia = Entity3166(
     alias: [],
     commonName: "Slovakia",
     commonNameInAlphaNumeric: "Slovakia",
-    callingCode: "",
+    callingCode: "421",
     languages: [],
 
     regionInCN: "斯洛伐克",
@@ -6230,7 +6230,7 @@ public let Slovenia = Entity3166(
     alias: [],
     commonName: "Slovenia",
     commonNameInAlphaNumeric: "Slovenia",
-    callingCode: "",
+    callingCode: "386",
     languages: [],
 
     regionInCN: "斯洛文尼亚",
@@ -6258,7 +6258,7 @@ public let Somalia = Entity3166(
     alias: [],
     commonName: "Somalia",
     commonNameInAlphaNumeric: "Somalia",
-    callingCode: "",
+    callingCode: "252",
     languages: [],
 
     regionInCN: "索马里",
@@ -6342,7 +6342,7 @@ public let Zimbabwe = Entity3166(
     alias: [],
     commonName: "Zimbabwe",
     commonNameInAlphaNumeric: "Zimbabwe",
-    callingCode: "",
+    callingCode: "263",
     languages: [],
 
     regionInCN: "津巴布韦",
@@ -6426,7 +6426,7 @@ public let SouthSudan = Entity3166(
     alias: [],
     commonName: "South Sudan",
     commonNameInAlphaNumeric: "SouthSudan",
-    callingCode: "",
+    callingCode: "211",
     languages: [],
 
     regionInCN: "南苏丹",
@@ -6454,7 +6454,7 @@ public let Sudan = Entity3166(
     alias: [],
     commonName: "Sudan",
     commonNameInAlphaNumeric: "Sudan",
-    callingCode: "",
+    callingCode: "249",
     languages: [],
 
     regionInCN: "苏丹",
@@ -6482,7 +6482,7 @@ public let WesternSahara = Entity3166(
     alias: [],
     commonName: "Western Sahara",
     commonNameInAlphaNumeric: "WesternSahara",
-    callingCode: "",
+    callingCode: "212",
     languages: [],
 
     regionInCN: "西撒哈拉",
@@ -6510,7 +6510,7 @@ public let Suriname = Entity3166(
     alias: [],
     commonName: "Suriname",
     commonNameInAlphaNumeric: "Suriname",
-    callingCode: "",
+    callingCode: "597",
     languages: [],
 
     regionInCN: "苏里南",
@@ -6538,7 +6538,7 @@ public let SvalbardAndJanMayen = Entity3166(
     alias: [],
     commonName: "Svalbard And Jan Mayen",
     commonNameInAlphaNumeric: "SvalbardAndJanMayen",
-    callingCode: "",
+    callingCode: "47",
     languages: [],
 
     regionInCN: "斯瓦尔巴和扬马延",
@@ -6566,7 +6566,7 @@ public let Eswatini = Entity3166(
     alias: [],
     commonName: "Eswatini",
     commonNameInAlphaNumeric: "Eswatini",
-    callingCode: "",
+    callingCode: "268",
     languages: [],
 
     regionInCN: "斯威士兰",
@@ -6594,7 +6594,7 @@ public let Sweden = Entity3166(
     alias: [],
     commonName: "Sweden",
     commonNameInAlphaNumeric: "Sweden",
-    callingCode: "",
+    callingCode: "46",
     languages: [],
 
     regionInCN: "瑞典",
@@ -6650,7 +6650,7 @@ public let SyrianArabRepublic = Entity3166(
     alias: [],
     commonName: "Syrian Arab Republic",
     commonNameInAlphaNumeric: "SyrianArabRepublic",
-    callingCode: "",
+    callingCode: "963",
     languages: [],
 
     regionInCN: "叙利亚",
@@ -6678,7 +6678,7 @@ public let Tajikistan = Entity3166(
     alias: [],
     commonName: "Tajikistan",
     commonNameInAlphaNumeric: "Tajikistan",
-    callingCode: "",
+    callingCode: "992",
     languages: [],
 
     regionInCN: "塔吉克斯坦",
@@ -6734,7 +6734,7 @@ public let Togo = Entity3166(
     alias: [],
     commonName: "Togo",
     commonNameInAlphaNumeric: "Togo",
-    callingCode: "",
+    callingCode: "228",
     languages: [],
 
     regionInCN: "多哥",
@@ -6762,7 +6762,7 @@ public let Tokelau = Entity3166(
     alias: [],
     commonName: "Tokelau",
     commonNameInAlphaNumeric: "Tokelau",
-    callingCode: "",
+    callingCode: "690",
     languages: [],
 
     regionInCN: "托克劳",
@@ -6790,7 +6790,7 @@ public let Tonga = Entity3166(
     alias: [],
     commonName: "Tonga",
     commonNameInAlphaNumeric: "Tonga",
-    callingCode: "",
+    callingCode: "676",
     languages: [],
 
     regionInCN: "汤加",
@@ -6818,7 +6818,7 @@ public let TrinidadAndTobago = Entity3166(
     alias: [],
     commonName: "Trinidad And Tobago",
     commonNameInAlphaNumeric: "TrinidadAndTobago",
-    callingCode: "",
+    callingCode: "1-868",
     languages: [],
 
     regionInCN: "特立尼达和多巴哥",
@@ -6874,7 +6874,7 @@ public let Tunisia = Entity3166(
     alias: [],
     commonName: "Tunisia",
     commonNameInAlphaNumeric: "Tunisia",
-    callingCode: "",
+    callingCode: "216",
     languages: [],
 
     regionInCN: "突尼斯",
@@ -6930,7 +6930,7 @@ public let Turkmenistan = Entity3166(
     alias: [],
     commonName: "Turkmenistan",
     commonNameInAlphaNumeric: "Turkmenistan",
-    callingCode: "",
+    callingCode: "993",
     languages: [],
 
     regionInCN: "土库曼斯坦",
@@ -6958,7 +6958,7 @@ public let TurksAndCaicosIslands = Entity3166(
     alias: [],
     commonName: "Turks And Caicos Islands",
     commonNameInAlphaNumeric: "TurksAndCaicosIslands",
-    callingCode: "",
+    callingCode: "1-649",
     languages: [],
 
     regionInCN: "特克斯和凯科斯群岛",
@@ -6986,7 +6986,7 @@ public let Tuvalu = Entity3166(
     alias: [],
     commonName: "Tuvalu",
     commonNameInAlphaNumeric: "Tuvalu",
-    callingCode: "",
+    callingCode: "688",
     languages: [],
 
     regionInCN: "图瓦卢",
@@ -7014,7 +7014,7 @@ public let Uganda = Entity3166(
     alias: [],
     commonName: "Uganda",
     commonNameInAlphaNumeric: "Uganda",
-    callingCode: "",
+    callingCode: "256",
     languages: [],
 
     regionInCN: "乌干达",
@@ -7042,7 +7042,7 @@ public let Ukraine = Entity3166(
     alias: [],
     commonName: "Ukraine",
     commonNameInAlphaNumeric: "Ukraine",
-    callingCode: "",
+    callingCode: "380",
     languages: [],
 
     regionInCN: "乌克兰",
@@ -7070,7 +7070,7 @@ public let NorthMacedonia = Entity3166(
     alias: [],
     commonName: "North Macedonia",
     commonNameInAlphaNumeric: "NorthMacedonia",
-    callingCode: "",
+    callingCode: "389",
     languages: [],
 
     regionInCN: "北马其顿",
@@ -7126,7 +7126,7 @@ public let Egypt = Entity3166(
     alias: [],
     commonName: "Egypt",
     commonNameInAlphaNumeric: "Egypt",
-    callingCode: "",
+    callingCode: "20",
     languages: [],
 
     regionInCN: "埃及",
@@ -7182,7 +7182,7 @@ public let Guernsey = Entity3166(
     alias: [],
     commonName: "Guernsey",
     commonNameInAlphaNumeric: "Guernsey",
-    callingCode: "",
+    callingCode: "44",
     languages: [],
 
     regionInCN: "根西",
@@ -7210,7 +7210,7 @@ public let Jersey = Entity3166(
     alias: [],
     commonName: "Jersey",
     commonNameInAlphaNumeric: "Jersey",
-    callingCode: "",
+    callingCode: "44",
     languages: [],
 
     regionInCN: "泽西",
@@ -7238,7 +7238,7 @@ public let IsleOfMan = Entity3166(
     alias: [],
     commonName: "Isle Of Man",
     commonNameInAlphaNumeric: "IsleOfMan",
-    callingCode: "",
+    callingCode: "44",
     languages: [],
 
     regionInCN: "马恩岛",
@@ -7266,7 +7266,7 @@ public let TanzaniaUnitedRepublicOf = Entity3166(
     alias: [],
     commonName: "Tanzania United Republic Of",
     commonNameInAlphaNumeric: "TanzaniaUnitedRepublicOf",
-    callingCode: "",
+    callingCode: "255",
     languages: [],
 
     regionInCN: "坦桑尼亚",
@@ -7350,7 +7350,7 @@ public let VirginIslandsUS = Entity3166(
     alias: [],
     commonName: "Virgin Islands US",
     commonNameInAlphaNumeric: "VirginIslandsUS",
-    callingCode: "",
+    callingCode: "1-340",
     languages: [],
 
     regionInCN: "美属维尔京群岛",
@@ -7378,7 +7378,7 @@ public let BurkinaFaso = Entity3166(
     alias: [],
     commonName: "Burkina Faso",
     commonNameInAlphaNumeric: "BurkinaFaso",
-    callingCode: "",
+    callingCode: "226",
     languages: [],
 
     regionInCN: "布基纳法索",
@@ -7434,7 +7434,7 @@ public let Uruguay = Entity3166(
     alias: [],
     commonName: "Uruguay",
     commonNameInAlphaNumeric: "Uruguay",
-    callingCode: "",
+    callingCode: "598",
     languages: [],
 
     regionInCN: "乌拉圭",
@@ -7462,7 +7462,7 @@ public let Uzbekistan = Entity3166(
     alias: [],
     commonName: "Uzbekistan",
     commonNameInAlphaNumeric: "Uzbekistan",
-    callingCode: "",
+    callingCode: "998",
     languages: [],
 
     regionInCN: "乌兹别克斯坦",
@@ -7490,7 +7490,7 @@ public let VenezuelaBolivarianRepublicOf = Entity3166(
     alias: [],
     commonName: "Venezuela Bolivarian Republic Of",
     commonNameInAlphaNumeric: "VenezuelaBolivarianRepublicOf",
-    callingCode: "",
+    callingCode: "58",
     languages: [],
 
     regionInCN: "委内瑞拉",
@@ -7546,7 +7546,7 @@ public let WallisAndFutuna = Entity3166(
     alias: [],
     commonName: "Wallis And Futuna",
     commonNameInAlphaNumeric: "WallisAndFutuna",
-    callingCode: "",
+    callingCode: "681",
     languages: [],
 
     regionInCN: "瓦利斯和富图纳",
@@ -7574,7 +7574,7 @@ public let Samoa = Entity3166(
     alias: [],
     commonName: "Samoa",
     commonNameInAlphaNumeric: "Samoa",
-    callingCode: "",
+    callingCode: "685",
     languages: [],
 
     regionInCN: "萨摩亚",
@@ -7602,7 +7602,7 @@ public let Yemen = Entity3166(
     alias: [],
     commonName: "Yemen",
     commonNameInAlphaNumeric: "Yemen",
-    callingCode: "",
+    callingCode: "967",
     languages: [],
 
     regionInCN: "也门",
@@ -7686,7 +7686,7 @@ public let Zambia = Entity3166(
     alias: [],
     commonName: "Zambia",
     commonNameInAlphaNumeric: "Zambia",
-    callingCode: "",
+    callingCode: "260",
     languages: [],
 
     regionInCN: "赞比亚",
@@ -7770,7 +7770,7 @@ public let Kosovo = Entity3166(
     alias: [],
     commonName: "Kosovo",
     commonNameInAlphaNumeric: "Kosovo",
-    callingCode: "",
+    callingCode: "383",
     languages: [],
 
     regionInCN: "科索沃",

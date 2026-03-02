@@ -25,6 +25,7 @@ import (
 	parser_iso3166p1 "github.com/giant-stone/iso3166/parser/iso3166p1"
 	parser_iso3166p3 "github.com/giant-stone/iso3166/parser/iso3166p3"
 	parser_iso4217 "github.com/giant-stone/iso3166/parser/iso4217"
+	parser_itu_t_e164 "github.com/giant-stone/iso3166/parser/itu_t_e164"
 )
 
 const (
@@ -60,6 +61,7 @@ var stdsSupported = map[string]struct{}{
 	parser_iso3166p1.STANDARD_ISO_3166_PART_1: {},
 	parser_iso3166p3.STANDARD_ISO_3166_PART_3: {},
 	parser_iso4217.STANDARD_ISO_4217:          {},
+	parser_itu_t_e164.STANDARD_ITU_T_E164:     {},
 }
 
 var (
@@ -67,12 +69,14 @@ var (
 		parser_iso3166p1.STANDARD_ISO_3166_PART_1: parser_iso3166p1.URL_WIKIPEDIA_PAGE,
 		parser_iso3166p3.STANDARD_ISO_3166_PART_3: parser_iso3166p3.URL_WIKIPEDIA_PAGE,
 		parser_iso4217.STANDARD_ISO_4217:          parser_iso4217.URL_WIKIPEDIA_PAGE,
+		parser_itu_t_e164.STANDARD_ITU_T_E164:     parser_itu_t_e164.URL_WIKIPEDIA_PAGE,
 	}
 
 	mapStdToParser = map[string]parser.IParser{
 		parser_iso3166p1.STANDARD_ISO_3166_PART_1: parser_iso3166p1.New(),
 		parser_iso3166p3.STANDARD_ISO_3166_PART_3: parser_iso3166p3.New(),
 		parser_iso4217.STANDARD_ISO_4217:          parser_iso4217.New(),
+		parser_itu_t_e164.STANDARD_ITU_T_E164:     parser_itu_t_e164.New(),
 	}
 )
 
@@ -90,6 +94,7 @@ var (
 		parser_iso3166p1.STANDARD_ISO_3166_PART_1: "source/wikipedia/ISO_3166-1.html",
 		parser_iso3166p3.STANDARD_ISO_3166_PART_3: "source/wikipedia/ISO_3166-3.html",
 		parser_iso4217.STANDARD_ISO_4217:          "source/wikipedia/ISO_4217.html",
+		parser_itu_t_e164.STANDARD_ITU_T_E164:     "source/wikipedia/List_of_telephone_country_codes.html",
 	}
 )
 
@@ -160,6 +165,7 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 		parser_iso3166p1.STANDARD_ISO_3166_PART_1,
 		parser_iso3166p3.STANDARD_ISO_3166_PART_3,
 		parser_iso4217.STANDARD_ISO_4217,
+		parser_itu_t_e164.STANDARD_ITU_T_E164,
 	} {
 		if _, ok := doGenStds[std]; ok {
 			sourceFilePath := defaultMapStdToSourceDataPath[std]

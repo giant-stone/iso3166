@@ -1,6 +1,6 @@
 # About
 
-Generate ISO 3166-1, ISO 3166-3 and ISO 4217 data in JSON, Go, TypeScript and Swift.
+Generate ISO 3166-1, ISO 3166-3, ISO 4217 and ITU-T E.164 data in JSON, Go, TypeScript and Swift.
 
 [![Go](https://github.com/giant-stone/iso3166/actions/workflows/go.yml/badge.svg)](https://github.com/giant-stone/iso3166/actions/workflows/go.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/giant-stone/iso3166)](https://goreportcard.com/report/github.com/giant-stone/iso3166)
