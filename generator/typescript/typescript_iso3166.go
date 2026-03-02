@@ -25,6 +25,7 @@ const fileTemplateIso3166 = `export interface IEntity {
   // non-ISO 3166-1 fields
   //
 
+  alias: string[];
   common_name: string;
   calling_code: string; // ref: https://en.wikipedia.org/wiki/List_of_country_calling_codes
 
@@ -104,7 +105,7 @@ const lineTemplateIso3166 = `const {{.CommonNameInAlphaNumeric}} = {
 
   period_of_validity: "{{.PeriodOfValidity}}",
 
-  alias: "{{.Alias}}",
+  alias: {{.Alias}},
   common_name: "{{.CommonName}}",
   calling_code: "{{.CallingCode}}",
 
