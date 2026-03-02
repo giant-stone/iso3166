@@ -765,10 +765,10 @@ public let MOP = Entity4217(
     numericCode4217: "446",
     minorUnit: 2,
     currency: "Macanese pataca",
-    entities: [],
+    entities: ["MO"],
 
-    currencyInCN: "",
-    currencyInNative: ""
+    currencyInCN: "澳门元",
+    currencyInNative: "澳門元"
 )
 
 public let MWK = Entity4217(

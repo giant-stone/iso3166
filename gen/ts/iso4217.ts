@@ -831,10 +831,10 @@ const MOP = {
   minor_unit: 2,
   currency: "Macanese pataca",
 
-  entities: [],
+  entities: ["MO"],
 
-  currency_in_cn: "",
-  currency_in_native: "",
+  currency_in_cn: "澳门元",
+  currency_in_native: "澳門元",
 } as IEntity;
 
 const MWK = {

@@ -757,10 +757,10 @@ var (
 		NumericCode4217: "446",
 		MinorUnit:       2,
 		Currency:        "Macanese pataca",
-		Entities:        []string{},
+		Entities:        []string{"MO"},
 
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
+		CurrencyInCN:     "澳门元",
+		CurrencyInNative: "澳門元",
 	}
 
 	MWK = &iso.Entity{

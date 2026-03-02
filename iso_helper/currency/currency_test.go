@@ -64,6 +64,17 @@ func TestNewFromAlphabeticCode(t *testing.T) {
 		},
 
 		{
+			name: "MOP",
+			args: args{s: "MOP"},
+			want: &iso.Entity{
+				AlphabeticCode: "MOP", NumericCode4217: "446", Currency: "Macanese pataca", MinorUnit: 2, Entities: []string{"MO"},
+
+				CurrencyInCN:     "澳门元",
+				CurrencyInNative: "澳門元",
+			},
+		},
+
+		{
 			name: "ANG",
 			args: args{s: "ANG"},
 			want: &iso.Entity{

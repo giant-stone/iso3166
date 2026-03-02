@@ -256,6 +256,11 @@ func TestTable_MergeActionFillWithIso4217(t *testing.T) {
 						AlphabeticCode: "EUR", NumericCode4217: "978", Currency: "Euro", MinorUnit: 2,
 						Entities: []string{"EU"},
 					},
+
+					"MOP": &iso.Entity{
+						AlphabeticCode: "MOP", NumericCode4217: "446", Currency: "Macanese pataca", MinorUnit: 2,
+						Entities: []string{},
+					},
 				},
 			},
 			args: args{
@@ -270,6 +275,16 @@ func TestTable_MergeActionFillWithIso4217(t *testing.T) {
 						// patch entity with alpha-2 code can still target EUR through AlphabeticCode.
 						AlphabeticCode: "EUR",
 						CurrencyInCN:   "欧元", CurrencyInNative: "Euro",
+					},
+
+					"MO": &iso.Entity{
+						Alpha2Code:       "MO",
+						NumericCode:      "446",
+						CommonName:       "Macao",
+						RegionInCN:       "中国澳门",
+						RegionInNative:   "中國澳門",
+						CurrencyInCN:     "澳门元",
+						CurrencyInNative: "澳門元",
 					},
 				},
 				action:  iso.MergeActionMerge,
@@ -291,8 +306,23 @@ func TestTable_MergeActionFillWithIso4217(t *testing.T) {
 					CurrencyInCN:     "欧元",
 					CurrencyInNative: "Euro",
 				},
+
+				"MOP": &iso.Entity{
+					Alpha2Code:       "MO",
+					NumericCode:      "446",
+					CommonName:       "Macao",
+					RegionInCN:       "中国澳门",
+					RegionInNative:   "中國澳門",
+					AlphabeticCode:   "MOP",
+					NumericCode4217:  "446",
+					MinorUnit:        2,
+					Currency:         "Macanese pataca",
+					Entities:         []string{"MO"},
+					CurrencyInCN:     "澳门元",
+					CurrencyInNative: "澳門元",
+				},
 			},
-			wantTotal: 2,
+			wantTotal: 3,
 		},
 	}
 	for idx, tt := range tests {
