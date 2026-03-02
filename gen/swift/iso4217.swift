@@ -19,8 +19,8 @@ public let CNH = Entity4217(
     currency: "Renminbi (offshore)",
     entities: ["HK"],
 
-    currencyInCN: "",
-    currencyInNative: ""
+    currencyInCN: "离岸人民币",
+    currencyInNative: "離岸人民幣"
 )
 
 public let ALL = Entity4217(
@@ -1669,8 +1669,8 @@ public let EUR = Entity4217(
     currency: "Euro",
     entities: ["AD", "AT", "AX", "BE", "BL", "CY", "DE", "EE", "ES", "EU", "FI", "FR", "GF", "GP", "GR", "HR", "IE", "IT", "LT", "LU", "LV", "MC", "ME", "MF", "MQ", "MT", "NL", "PM", "PT", "RE", "SI", "SK", "SM", "TF", "VA", "XK", "YT"],
 
-    currencyInCN: "",
-    currencyInNative: ""
+    currencyInCN: "欧元",
+    currencyInNative: "Euro"
 )
 
 public let MXV = Entity4217(

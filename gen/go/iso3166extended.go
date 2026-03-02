@@ -7676,6 +7676,34 @@ var (
 		CurrencyInNative: "",
 	}
 
+	EuropeanUnion = &iso.Entity{
+		Alpha2Code:  "EU",
+		Alpha3Code:  "",
+		Alpha4Code:  "",
+		Independent: false,
+		NumericCode: "978",
+		ShortName:   "EU",
+
+		PeriodOfValidity: "",
+
+		Alias:                    []string{},
+		CommonName:               "European Union",
+		CommonNameInAlphaNumeric: "EuropeanUnion",
+		CallingCode:              "",
+		Languages:                []string{"Bulgarian", "Croatian", "Czech", "Danish", "Dutch", "English", "Estonian", "Finnish", "French", "German", "Greek", "Hungarian", "Irish", "Italian", "Latvian", "Lithuanian", "Maltese", "Polish", "Portuguese", "Romanian", "Slovak", "Slovenian", "Spanish", "Swedish"},
+
+		RegionInCN:     "欧盟",
+		RegionInNative: "European Union",
+
+		AlphabeticCode:  "EUR",
+		NumericCode4217: "",
+		MinorUnit:       0,
+		Currency:        "",
+
+		CurrencyInCN:     "欧元",
+		CurrencyInNative: "Euro",
+	}
+
 	Korea = &iso.Entity{
 		Alpha2Code:  "",
 		Alpha3Code:  "XKO",
@@ -8060,6 +8088,7 @@ var (
 		"YU":   Yugoslavia,
 		"YUCS": Yugoslavia,
 		"ZM":   Zambia,
+		"EU":   EuropeanUnion,
 		"XKO":  Korea,
 		"XWG":  WestGermany,
 		"XK":   Kosovo,
@@ -8340,6 +8369,7 @@ var (
 		"塞尔维亚和黑山":            SerbiaAndMontenegro,
 		"南斯拉夫":               Yugoslavia,
 		"赞比亚":                Zambia,
+		"欧盟":                 EuropeanUnion,
 		"朝鲜":                 Korea,
 		"西德":                 WestGermany,
 		"科索沃":                Kosovo,
@@ -8622,6 +8652,7 @@ var (
 		"SerbiaAndMontenegro":                    SerbiaAndMontenegro,
 		"Yugoslavia":                             Yugoslavia,
 		"Zambia":                                 Zambia,
+		"EuropeanUnion":                          EuropeanUnion,
 		"Korea":                                  Korea,
 		"WestGermany":                            WestGermany,
 		"Kosovo":                                 Kosovo,

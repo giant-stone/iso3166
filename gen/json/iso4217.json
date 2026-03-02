@@ -27,8 +27,8 @@
     "Entities": [
       "HK"
     ],
-    "CurrencyInCN": "",
-    "CurrencyInNative": ""
+    "CurrencyInCN": "离岸人民币",
+    "CurrencyInNative": "離岸人民幣"
   },
   {
     "Alpha2Code": "",
@@ -4724,8 +4724,8 @@
       "XK",
       "YT"
     ],
-    "CurrencyInCN": "",
-    "CurrencyInNative": ""
+    "CurrencyInCN": "欧元",
+    "CurrencyInNative": "Euro"
   },
   {
     "Alpha2Code": "",

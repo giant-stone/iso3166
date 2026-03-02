@@ -261,6 +261,27 @@ func TestNewFromCode_CallingCode(t *testing.T) {
 	}
 }
 
+func TestPatchEntity_EU(t *testing.T) {
+	got := region.NewFromCode("EU")
+	require.NotNil(t, got)
+
+	require.Equal(t, "EU", got.GetAlpha2Code(), "Alpha2Code")
+	require.Equal(t, "European Union", got.GetCommonName(), "CommonName")
+	require.Equal(t, "欧盟", got.GetRegionInCN(), "RegionInCN")
+	require.Equal(t, "European Union", got.GetRegionInNative(), "RegionInNative")
+
+	require.Equal(t, "978", got.GetNumericCode(), "NumericCode")
+	require.Equal(t, "EUR", got.GetAlphabeticCode(), "AlphabeticCode")
+	require.Equal(t, "欧元", got.GetCurrencyInCN(), "CurrencyInCN")
+	require.Equal(t, "Euro", got.GetCurrencyInNative(), "CurrencyInNative")
+
+	require.Contains(t, got.GetLanguages(), "English", "Languages")
+
+	got = region.NewFromCommonNameInAlphaNumeric("EuropeanUnion")
+	require.NotNil(t, got)
+	require.Equal(t, "EU", got.GetAlpha2Code(), "CommonNameInAlphaNumeric")
+}
+
 func TestTotalRegions(t *testing.T) {
 	want := 193
 	require.LessOrEqual(t, want, len(iso_data.FromCode), "FromCode")

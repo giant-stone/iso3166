@@ -17,8 +17,8 @@ const CNH = {
 
   entities: ["HK"],
 
-  currency_in_cn: "",
-  currency_in_native: "",
+  currency_in_cn: "离岸人民币",
+  currency_in_native: "離岸人民幣",
 } as IEntity;
 
 const ALL = {
@@ -1817,8 +1817,8 @@ const EUR = {
 
   entities: ["AD","AT","AX","BE","BL","CY","DE","EE","ES","EU","FI","FR","GF","GP","GR","HR","IE","IT","LT","LU","LV","MC","ME","MF","MQ","MT","NL","PM","PT","RE","SI","SK","SM","TF","VA","XK","YT"],
 
-  currency_in_cn: "",
-  currency_in_native: "",
+  currency_in_cn: "欧元",
+  currency_in_native: "Euro",
 } as IEntity;
 
 const MXV = {

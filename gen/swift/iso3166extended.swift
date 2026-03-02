@@ -7701,6 +7701,34 @@ public let Zambia = Entity3166(
     currencyInNative: ""
 )
 
+public let EuropeanUnion = Entity3166(
+    alpha2Code: "EU",
+    alpha3Code: "",
+    alpha4Code: "",
+    independent: false,
+    numericCode: "978",
+    shortName: "EU",
+
+    periodOfValidity: "",
+
+    alias: [],
+    commonName: "European Union",
+    commonNameInAlphaNumeric: "EuropeanUnion",
+    callingCode: "",
+    languages: ["Bulgarian", "Croatian", "Czech", "Danish", "Dutch", "English", "Estonian", "Finnish", "French", "German", "Greek", "Hungarian", "Irish", "Italian", "Latvian", "Lithuanian", "Maltese", "Polish", "Portuguese", "Romanian", "Slovak", "Slovenian", "Spanish", "Swedish"],
+
+    regionInCN: "欧盟",
+    regionInNative: "European Union",
+
+    alphabeticCode: "EUR",
+    numericCode4217: "",
+    minorUnit: 0,
+    currency: "",
+
+    currencyInCN: "欧元",
+    currencyInNative: "Euro"
+)
+
 public let Korea = Entity3166(
     alpha2Code: "",
     alpha3Code: "XKO",
@@ -8085,6 +8113,7 @@ public let FromCode: [String: Entity3166] = [
     "YU": Yugoslavia,
     "YUCS": Yugoslavia,
     "ZM": Zambia,
+    "EU": EuropeanUnion,
     "XKO": Korea,
     "XWG": WestGermany,
     "XK": Kosovo,
@@ -8363,6 +8392,7 @@ public let FromRegionInCN: [String: Entity3166] = [
     "塞尔维亚和黑山": SerbiaAndMontenegro,
     "南斯拉夫": Yugoslavia,
     "赞比亚": Zambia,
+    "欧盟": EuropeanUnion,
     "朝鲜": Korea,
     "西德": WestGermany,
     "科索沃": Kosovo,
@@ -8643,6 +8673,7 @@ public let FromCommonNameInAlphaNumeric: [String: Entity3166] = [
     "SerbiaAndMontenegro": SerbiaAndMontenegro,
     "Yugoslavia": Yugoslavia,
     "Zambia": Zambia,
+    "EuropeanUnion": EuropeanUnion,
     "Korea": Korea,
     "WestGermany": WestGermany,
     "Kosovo": Kosovo,

@@ -7703,6 +7703,34 @@ const Zambia = {
   currency_in_native: "",
 } as IEntity;
 
+const EuropeanUnion = {
+  alpha2Code: "EU",
+  alpha3code: "",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "978",
+  short_name: "EU",
+
+  period_of_validity: "",
+
+  alias: "[]",
+  common_name: "European Union",
+  calling_code: "",
+
+  languages: ["Bulgarian","Croatian","Czech","Danish","Dutch","English","Estonian","Finnish","French","German","Greek","Hungarian","Irish","Italian","Latvian","Lithuanian","Maltese","Polish","Portuguese","Romanian","Slovak","Slovenian","Spanish","Swedish"],
+
+  region_in_cn: "欧盟",
+  region_in_native: "European Union",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "欧元",
+  currency_in_native: "Euro",
+} as IEntity;
+
 const Korea = {
   alpha2Code: "",
   alpha3code: "XKO",
@@ -7869,6 +7897,7 @@ export {
   Estonia,
   Eswatini,
   Ethiopia,
+  EuropeanUnion,
   FalklandIslandsMalvinas,
   FaroeIslands,
   Fiji,
@@ -8149,6 +8178,7 @@ export const Regions = [
   Estonia,
   Eswatini,
   Ethiopia,
+  EuropeanUnion,
   FalklandIslandsMalvinas,
   FaroeIslands,
   Fiji,
@@ -8647,6 +8677,7 @@ export const RegionsByCode = {
 		"YU": Yugoslavia,
 		"YUCS": Yugoslavia,
 		"ZM": Zambia,
+		"EU": EuropeanUnion,
 		"XKO": Korea,
 		"XWG": WestGermany,
 		"XK": Kosovo,
@@ -8929,6 +8960,7 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"SerbiaAndMontenegro": SerbiaAndMontenegro,
 		"Yugoslavia": Yugoslavia,
 		"Zambia": Zambia,
+		"EuropeanUnion": EuropeanUnion,
 		"Korea": Korea,
 		"WestGermany": WestGermany,
 		"Kosovo": Kosovo,

@@ -126,7 +126,16 @@ func (i *Table) MergeFromJson(name string, action MergeAction) ITable {
 
 	for _, v := range rs {
 		t := map[string]IEntity{}
-		t[v.Code()] = v
+		key := v.Code()
+		if i.GroupBy == GroupByIso4217AlphabeticCode {
+			if alphabeticCode := v.GetAlphabeticCode(); alphabeticCode != "" {
+				key = alphabeticCode
+			}
+		}
+		if key == "" {
+			continue
+		}
+		t[key] = v
 		i.Merge(t, action)
 	}
 
@@ -356,6 +365,50 @@ func (i *Table) Merge(srcItems map[string]IEntity, action MergeAction) ITable {
 }
 
 func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, action MergeAction) ITable {
+	if action == MergeActionMerge || action == MergeActionSkip {
+		for _, srcItem := range srcItems {
+			code := srcItem.GetAlphabeticCode()
+			if code == "" {
+				continue
+			}
+
+			destItem, dup := i.MapKeyIsIso4217AlphabeticCode[code]
+			if !dup {
+				if action == MergeActionSkip {
+					continue
+				}
+				i.Put(srcItem.Clone())
+				continue
+			}
+
+			if srcItem.GetNumericCode4217() != "" {
+				destItem.SetNumericCode4217(srcItem.GetNumericCode4217())
+			}
+
+			if srcItem.GetMinorUnit() > 0 {
+				destItem.SetMinorUnit(srcItem.GetMinorUnit())
+			}
+
+			if srcItem.GetCurrency() != "" {
+				destItem.SetCurrency(srcItem.GetCurrency())
+			}
+
+			if len(srcItem.GetEntities()) > 0 {
+				destItem.SetEntities(srcItem.GetEntities())
+			}
+
+			if srcItem.GetCurrencyInCN() != "" {
+				destItem.SetCurrencyInCN(srcItem.GetCurrencyInCN())
+			}
+
+			if srcItem.GetCurrencyInNative() != "" {
+				destItem.SetCurrencyInNative(srcItem.GetCurrencyInNative())
+			}
+		}
+
+		return i
+	}
+
 	t := NewTable("").SetGroupBy(GroupByIso3166CodeOrVariantName).Load(srcItems)
 
 	for _, destItem := range i.MapKeyIsIso4217AlphabeticCode {

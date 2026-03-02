@@ -11,8 +11,8 @@ var (
 		Currency:        "Renminbi (offshore)",
 		Entities:        []string{"HK"},
 
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
+		CurrencyInCN:     "离岸人民币",
+		CurrencyInNative: "離岸人民幣",
 	}
 
 	ALL = &iso.Entity{
@@ -1661,8 +1661,8 @@ var (
 		Currency:        "Euro",
 		Entities:        []string{"AD", "AT", "AX", "BE", "BL", "CY", "DE", "EE", "ES", "EU", "FI", "FR", "GF", "GP", "GR", "HR", "IE", "IT", "LT", "LU", "LV", "MC", "ME", "MF", "MQ", "MT", "NL", "PM", "PT", "RE", "SI", "SK", "SM", "TF", "VA", "XK", "YT"},
 
-		CurrencyInCN:     "",
-		CurrencyInNative: "",
+		CurrencyInCN:     "欧元",
+		CurrencyInNative: "Euro",
 	}
 
 	MXV = &iso.Entity{

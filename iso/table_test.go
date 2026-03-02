@@ -242,6 +242,58 @@ func TestTable_MergeActionFillWithIso4217(t *testing.T) {
 
 			wantTotal: 3,
 		},
+
+		{
+			name: "test action iso.MergeActionMerge for iso4217 patch entries",
+			fields: fields{
+				destItems: map[string]iso.IEntity{
+					"CNH": &iso.Entity{
+						AlphabeticCode: "CNH", NumericCode4217: "", Currency: "Renminbi (offshore)", MinorUnit: 2,
+						Entities: []string{"HK"},
+					},
+
+					"EUR": &iso.Entity{
+						AlphabeticCode: "EUR", NumericCode4217: "978", Currency: "Euro", MinorUnit: 2,
+						Entities: []string{"EU"},
+					},
+				},
+			},
+			args: args{
+				srcItems: map[string]iso.IEntity{
+					"CNH": &iso.Entity{
+						AlphabeticCode: "CNH",
+						CurrencyInCN:   "离岸人民币", CurrencyInNative: "離岸人民幣",
+					},
+
+					"EU": &iso.Entity{
+						Alpha2Code: "EU",
+						// patch entity with alpha-2 code can still target EUR through AlphabeticCode.
+						AlphabeticCode: "EUR",
+						CurrencyInCN:   "欧元", CurrencyInNative: "Euro",
+					},
+				},
+				action:  iso.MergeActionMerge,
+				groupBy: iso.GroupByIso4217AlphabeticCode,
+			},
+			wantEntities: map[string]iso.IEntity{
+				"CNH": &iso.Entity{
+					AlphabeticCode: "CNH", NumericCode4217: "", Currency: "Renminbi (offshore)", MinorUnit: 2,
+					Entities: []string{"HK"},
+
+					CurrencyInCN:     "离岸人民币",
+					CurrencyInNative: "離岸人民幣",
+				},
+
+				"EUR": &iso.Entity{
+					AlphabeticCode: "EUR", NumericCode4217: "978", Currency: "Euro", MinorUnit: 2,
+					Entities: []string{"EU"},
+
+					CurrencyInCN:     "欧元",
+					CurrencyInNative: "Euro",
+				},
+			},
+			wantTotal: 2,
+		},
 	}
 	for idx, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
