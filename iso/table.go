@@ -126,7 +126,16 @@ func (i *Table) MergeFromJson(name string, action MergeAction) ITable {
 
 	for _, v := range rs {
 		t := map[string]IEntity{}
-		t[v.Code()] = v
+		key := v.Code()
+		if i.GroupBy == GroupByIso4217AlphabeticCode {
+			if alphabeticCode := v.GetAlphabeticCode(); alphabeticCode != "" {
+				key = alphabeticCode
+			}
+		}
+		if key == "" {
+			continue
+		}
+		t[key] = v
 		i.Merge(t, action)
 	}
 
@@ -356,6 +365,23 @@ func (i *Table) Merge(srcItems map[string]IEntity, action MergeAction) ITable {
 }
 
 func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, action MergeAction) ITable {
+	if action == MergeActionMerge || action == MergeActionSkip {
+		for _, srcItem := range srcItems {
+			if srcItem.GetAlphabeticCode() != "" {
+				i.mergeIso4217ByAlphabeticCode(srcItem, action)
+				continue
+			}
+
+			// Merge ISO 3166 style patch entries (e.g. MO) into ISO 4217 rows (e.g. MOP)
+			// by numeric-code mapping when parser entity resolution failed.
+			if action == MergeActionMerge {
+				i.mergeIso4217FromIso3166ByNumericCode(srcItem)
+			}
+		}
+
+		return i
+	}
+
 	t := NewTable("").SetGroupBy(GroupByIso3166CodeOrVariantName).Load(srcItems)
 
 	for _, destItem := range i.MapKeyIsIso4217AlphabeticCode {
@@ -386,7 +412,8 @@ func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, a
 					}
 				}
 
-				if entity != nil {
+				// Keep unofficial currency-like codes (e.g. CNH) without localized currency names.
+				if entity != nil && destItem.GetNumericCode4217() != "" {
 					if currencyInCN := entity.GetCurrencyInCN(); currencyInCN != "" && destItem.GetCurrencyInCN() == "" {
 						destItem.SetCurrencyInCN(currencyInCN)
 					}
@@ -402,6 +429,161 @@ func (i *Table) mergeGroupByIso4217AlphabeticCode(srcItems map[string]IEntity, a
 	}
 
 	return i
+}
+
+func (i *Table) mergeIso4217ByAlphabeticCode(srcItem IEntity, action MergeAction) {
+	code := srcItem.GetAlphabeticCode()
+	if code == "" {
+		return
+	}
+
+	destItem, dup := i.MapKeyIsIso4217AlphabeticCode[code]
+	if !dup {
+		if action == MergeActionSkip {
+			return
+		}
+		i.Put(srcItem.Clone())
+		return
+	}
+
+	mergeIso4217Fields(destItem, srcItem)
+}
+
+func (i *Table) mergeIso4217FromIso3166ByNumericCode(srcItem IEntity) {
+	numericCode := srcItem.GetNumericCode()
+	if numericCode == "" {
+		return
+	}
+
+	for _, destItem := range i.MapKeyIsIso4217AlphabeticCode {
+		if destItem.GetNumericCode4217() != numericCode {
+			continue
+		}
+
+		// Keep the normal flow for already-resolved currency entities.
+		if len(destItem.GetEntities()) > 0 {
+			continue
+		}
+
+		mergeIso3166Fields(destItem, srcItem)
+		mergeIso4217LocalizedFields(destItem, srcItem)
+
+		if alpha2Code := srcItem.GetAlpha2Code(); alpha2Code != "" {
+			destItem.SetEntities(appendStringIfNotFound(destItem.GetEntities(), alpha2Code))
+		}
+
+		return
+	}
+}
+
+func mergeIso4217Fields(destItem, srcItem IEntity) {
+	if srcItem.GetNumericCode4217() != "" {
+		destItem.SetNumericCode4217(srcItem.GetNumericCode4217())
+	}
+
+	if srcItem.GetMinorUnit() > 0 {
+		destItem.SetMinorUnit(srcItem.GetMinorUnit())
+	}
+
+	if srcItem.GetCurrency() != "" {
+		destItem.SetCurrency(srcItem.GetCurrency())
+	}
+
+	if len(srcItem.GetEntities()) > 0 {
+		destItem.SetEntities(srcItem.GetEntities())
+	}
+
+	mergeIso4217LocalizedFields(destItem, srcItem)
+}
+
+func mergeIso3166Fields(destItem, srcItem IEntity) {
+	if srcItem.GetAlpha2Code() != "" {
+		destItem.SetAlpha2Code(srcItem.GetAlpha2Code())
+	}
+
+	if srcItem.GetShortName() != "" {
+		destItem.SetShortName(srcItem.GetShortName())
+	}
+
+	if srcItem.GetAlpha3Code() != "" {
+		destItem.SetAlpha3Code(srcItem.GetAlpha3Code())
+	}
+
+	if srcItem.GetAlpha4Code() != "" {
+		destItem.SetAlpha4Code(srcItem.GetAlpha4Code())
+	}
+
+	if srcItem.GetNumericCode() != "" {
+		destItem.SetNumericCode(srcItem.GetNumericCode())
+	}
+
+	if srcItem.GetIndependent() {
+		destItem.SetIndependent(srcItem.GetIndependent())
+	}
+
+	if srcItem.GetPeriodOfValidity() != "" {
+		destItem.SetPeriodOfValidity(srcItem.GetPeriodOfValidity())
+	}
+
+	if len(srcItem.GetAlias()) > 0 {
+		destItem.SetAlias(srcItem.GetAlias())
+	}
+
+	if srcItem.GetCommonName() != "" {
+		destItem.SetCommonName(srcItem.GetCommonName())
+	}
+
+	if srcItem.GetCommonNameInAlphaNumeric() != "" {
+		destItem.SetCommonNameInAlphaNumeric(srcItem.GetCommonNameInAlphaNumeric())
+	}
+
+	if srcItem.GetCallingCode() != "" {
+		destItem.SetCallingCode(srcItem.GetCallingCode())
+	}
+
+	if srcItem.GetCapital() != "" {
+		destItem.SetCapital(srcItem.GetCapital())
+	}
+
+	if srcItem.GetCapitalInNative() != "" {
+		destItem.SetCapitalInNative(srcItem.GetCapitalInNative())
+	}
+
+	if len(srcItem.GetLanguages()) > 0 {
+		destItem.SetLanguages(srcItem.GetLanguages())
+	}
+
+	if srcItem.GetRegionInNative() != "" {
+		destItem.SetRegionInNative(srcItem.GetRegionInNative())
+	}
+
+	if srcItem.GetRegionInCN() != "" {
+		destItem.SetRegionInCN(srcItem.GetRegionInCN())
+	}
+}
+
+func mergeIso4217LocalizedFields(destItem, srcItem IEntity) {
+	if srcItem.GetCurrencyInCN() != "" {
+		destItem.SetCurrencyInCN(srcItem.GetCurrencyInCN())
+	}
+
+	if srcItem.GetCurrencyInNative() != "" {
+		destItem.SetCurrencyInNative(srcItem.GetCurrencyInNative())
+	}
+}
+
+func appendStringIfNotFound(values []string, target string) []string {
+	if target == "" {
+		return values
+	}
+
+	for _, value := range values {
+		if value == target {
+			return values
+		}
+	}
+
+	return append(values, target)
 }
 
 func (i *Table) mergeGroupByIso3166CodeOrVariantName(srcItems map[string]IEntity, action MergeAction) ITable {
@@ -581,7 +763,19 @@ func (i *Table) GetByCode(s string) IEntity {
 
 // GetByVariantName implements ITable.
 func (i *Table) GetByVariantName(s string) IEntity {
-	return i.MapKeyIsIso3166VariantName[s]
+	if entity := i.MapKeyIsIso3166VariantName[s]; entity != nil {
+		return entity
+	}
+
+	for _, entity := range i.MapKeyIsIso3166Code {
+		for _, alias := range entity.GetAlias() {
+			if alias == s {
+				return entity
+			}
+		}
+	}
+
+	return nil
 }
 
 func NewTable(std string) ITable {

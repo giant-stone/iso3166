@@ -92,6 +92,18 @@ func TestParseRegionNameOrCodeFromString(t *testing.T) {
 			wantShortName:  "Falkland Islands",
 			wantAlpha2Code: "",
 		},
+		{
+			name:           "legacy location name without explicit alpha-2 code",
+			args:           args{s: "Czech Republic"},
+			wantShortName:  "Czech Republic",
+			wantAlpha2Code: "",
+		},
+		{
+			name:           "czechia as plain region name",
+			args:           args{s: "Czechia"},
+			wantShortName:  "Czechia",
+			wantAlpha2Code: "",
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -168,8 +180,18 @@ func TestParser_ParseWikipediaHtmlAndGroupBy(t *testing.T) {
 					AlphabeticCode: "HKD", NumericCode4217: "344", Currency: "Hong Kong dollar", MinorUnit: 2,
 					Entities: []string{"Hong Kong"},
 				},
+
+				"CZK": &iso.Entity{
+					AlphabeticCode: "CZK", NumericCode4217: "203", Currency: "Czech koruna", MinorUnit: 2,
+					Entities: []string{"Czech Republic"},
+				},
+
+				"CNH": &iso.Entity{
+					AlphabeticCode: "CNH", NumericCode4217: "", Currency: "Renminbi (offshore)", MinorUnit: 2,
+					Entities: []string{"Hong Kong"},
+				},
 			}),
-			wantTotal: 3,
+			wantTotal: 5,
 			wantErr:   false,
 		},
 	}

@@ -11,6 +11,7 @@ export interface IEntity {
   // non-ISO 3166-1 fields
   //
 
+  alias: string[];
   common_name: string;
   calling_code: string; // ref: https://en.wikipedia.org/wiki/List_of_country_calling_codes
 
@@ -41,9 +42,9 @@ const Afghanistan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Afghanistan",
-  calling_code: "",
+  calling_code: "93",
 
   languages: [],
 
@@ -69,9 +70,9 @@ const Albania = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Albania",
-  calling_code: "",
+  calling_code: "355",
 
   languages: [],
 
@@ -97,9 +98,9 @@ const Antarctica = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Antarctica",
-  calling_code: "",
+  calling_code: "672",
 
   languages: [],
 
@@ -125,9 +126,9 @@ const Algeria = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Algeria",
-  calling_code: "",
+  calling_code: "213",
 
   languages: [],
 
@@ -153,9 +154,9 @@ const AmericanSamoa = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "American Samoa",
-  calling_code: "",
+  calling_code: "1-684",
 
   languages: [],
 
@@ -181,9 +182,9 @@ const Andorra = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Andorra",
-  calling_code: "",
+  calling_code: "376",
 
   languages: [],
 
@@ -209,9 +210,9 @@ const Angola = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Angola",
-  calling_code: "",
+  calling_code: "244",
 
   languages: [],
 
@@ -237,9 +238,9 @@ const AntiguaAndBarbuda = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Antigua And Barbuda",
-  calling_code: "",
+  calling_code: "1-268",
 
   languages: [],
 
@@ -265,9 +266,9 @@ const Azerbaijan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Azerbaijan",
-  calling_code: "",
+  calling_code: "994",
 
   languages: [],
 
@@ -293,7 +294,7 @@ const Argentina = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Argentina",
   calling_code: "54",
 
@@ -321,7 +322,7 @@ const Australia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Australia",
   calling_code: "61",
 
@@ -349,9 +350,9 @@ const Austria = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Austria",
-  calling_code: "",
+  calling_code: "43",
 
   languages: [],
 
@@ -377,9 +378,9 @@ const Bahamas = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bahamas",
-  calling_code: "",
+  calling_code: "1-242",
 
   languages: [],
 
@@ -405,9 +406,9 @@ const Bahrain = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bahrain",
-  calling_code: "",
+  calling_code: "973",
 
   languages: [],
 
@@ -433,9 +434,9 @@ const Bangladesh = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bangladesh",
-  calling_code: "",
+  calling_code: "880",
 
   languages: [],
 
@@ -461,9 +462,9 @@ const Armenia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Armenia",
-  calling_code: "",
+  calling_code: "374",
 
   languages: [],
 
@@ -489,9 +490,9 @@ const Barbados = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Barbados",
-  calling_code: "",
+  calling_code: "1-246",
 
   languages: [],
 
@@ -517,9 +518,9 @@ const Belgium = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Belgium",
-  calling_code: "",
+  calling_code: "32",
 
   languages: [],
 
@@ -545,9 +546,9 @@ const Bermuda = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bermuda",
-  calling_code: "",
+  calling_code: "1-441",
 
   languages: [],
 
@@ -573,9 +574,9 @@ const Bhutan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bhutan",
-  calling_code: "",
+  calling_code: "975",
 
   languages: [],
 
@@ -601,9 +602,9 @@ const BoliviaPlurinationalStateOf = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bolivia Plurinational State Of",
-  calling_code: "",
+  calling_code: "591",
 
   languages: [],
 
@@ -629,9 +630,9 @@ const BosniaAndHerzegovina = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bosnia And Herzegovina",
-  calling_code: "",
+  calling_code: "387",
 
   languages: [],
 
@@ -657,9 +658,9 @@ const Botswana = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Botswana",
-  calling_code: "",
+  calling_code: "267",
 
   languages: [],
 
@@ -685,9 +686,9 @@ const BouvetIsland = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bouvet Island",
-  calling_code: "",
+  calling_code: "47",
 
   languages: [],
 
@@ -713,7 +714,7 @@ const Brazil = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Brazil",
   calling_code: "55",
 
@@ -741,9 +742,9 @@ const Belize = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Belize",
-  calling_code: "",
+  calling_code: "501",
 
   languages: [],
 
@@ -769,9 +770,9 @@ const BritishIndianOceanTerritory = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "British Indian Ocean Territory",
-  calling_code: "",
+  calling_code: "246",
 
   languages: [],
 
@@ -797,9 +798,9 @@ const SolomonIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Solomon Islands",
-  calling_code: "",
+  calling_code: "677",
 
   languages: [],
 
@@ -825,9 +826,9 @@ const VirginIslandsBritish = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Virgin Islands British",
-  calling_code: "",
+  calling_code: "1-284",
 
   languages: [],
 
@@ -853,9 +854,9 @@ const BruneiDarussalam = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Brunei Darussalam",
-  calling_code: "",
+  calling_code: "673",
 
   languages: [],
 
@@ -881,9 +882,9 @@ const Bulgaria = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bulgaria",
-  calling_code: "",
+  calling_code: "359",
 
   languages: [],
 
@@ -909,7 +910,7 @@ const Burma = {
 
   period_of_validity: "1974–1989",
 
-  alias: "[]",
+  alias: [],
   common_name: "Burma",
   calling_code: "",
 
@@ -937,7 +938,7 @@ const Myanmar = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Myanmar",
   calling_code: "95",
 
@@ -965,9 +966,9 @@ const Burundi = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Burundi",
-  calling_code: "",
+  calling_code: "257",
 
   languages: [],
 
@@ -993,9 +994,9 @@ const Belarus = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Belarus",
-  calling_code: "",
+  calling_code: "375",
 
   languages: [],
 
@@ -1021,7 +1022,7 @@ const Cambodia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Cambodia",
   calling_code: "855",
 
@@ -1049,9 +1050,9 @@ const Cameroon = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Cameroon",
-  calling_code: "",
+  calling_code: "237",
 
   languages: [],
 
@@ -1077,7 +1078,7 @@ const Canada = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Canada",
   calling_code: "1",
 
@@ -1105,9 +1106,9 @@ const CantonAndEnderburyIslands = {
 
   period_of_validity: "1974–1984",
 
-  alias: "[]",
+  alias: [],
   common_name: "Canton And Enderbury Islands",
-  calling_code: "",
+  calling_code: "90",
 
   languages: [],
 
@@ -1133,9 +1134,9 @@ const CaboVerde = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Cabo Verde",
-  calling_code: "",
+  calling_code: "238",
 
   languages: [],
 
@@ -1161,9 +1162,9 @@ const CaymanIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Cayman Islands",
-  calling_code: "",
+  calling_code: "1-345",
 
   languages: [],
 
@@ -1189,9 +1190,9 @@ const CentralAfricanRepublic = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Central African Republic",
-  calling_code: "",
+  calling_code: "236",
 
   languages: [],
 
@@ -1217,9 +1218,9 @@ const SriLanka = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Sri Lanka",
-  calling_code: "",
+  calling_code: "94",
 
   languages: [],
 
@@ -1245,9 +1246,9 @@ const Chad = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Chad",
-  calling_code: "",
+  calling_code: "235",
 
   languages: [],
 
@@ -1273,9 +1274,9 @@ const Chile = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Chile",
-  calling_code: "",
+  calling_code: "56",
 
   languages: [],
 
@@ -1301,7 +1302,7 @@ const China = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "China",
   calling_code: "86",
 
@@ -1329,7 +1330,7 @@ const Taiwan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Taiwan",
   calling_code: "886",
 
@@ -1357,9 +1358,9 @@ const ChristmasIsland = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Christmas Island",
-  calling_code: "",
+  calling_code: "61",
 
   languages: [],
 
@@ -1385,9 +1386,9 @@ const CocosKeelingIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Cocos Keeling Islands",
-  calling_code: "",
+  calling_code: "61",
 
   languages: [],
 
@@ -1413,9 +1414,9 @@ const Colombia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Colombia",
-  calling_code: "",
+  calling_code: "57",
 
   languages: [],
 
@@ -1441,9 +1442,9 @@ const Comoros = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Comoros",
-  calling_code: "",
+  calling_code: "269",
 
   languages: [],
 
@@ -1469,9 +1470,9 @@ const Mayotte = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Mayotte",
-  calling_code: "",
+  calling_code: "262",
 
   languages: [],
 
@@ -1497,9 +1498,9 @@ const Congo = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Congo",
-  calling_code: "",
+  calling_code: "242",
 
   languages: [],
 
@@ -1525,9 +1526,9 @@ const CongoDemocraticRepublicOfthe = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Congo Democratic Republic Of the",
-  calling_code: "",
+  calling_code: "243",
 
   languages: [],
 
@@ -1553,7 +1554,7 @@ const Zaire = {
 
   period_of_validity: "1974–1997",
 
-  alias: "[]",
+  alias: [],
   common_name: "Zaire",
   calling_code: "",
 
@@ -1581,9 +1582,9 @@ const CookIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Cook Islands",
-  calling_code: "",
+  calling_code: "682",
 
   languages: [],
 
@@ -1609,9 +1610,9 @@ const CostaRica = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Costa Rica",
-  calling_code: "",
+  calling_code: "506",
 
   languages: [],
 
@@ -1637,9 +1638,9 @@ const Croatia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Croatia",
-  calling_code: "",
+  calling_code: "385",
 
   languages: [],
 
@@ -1665,9 +1666,9 @@ const Cuba = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Cuba",
-  calling_code: "",
+  calling_code: "53",
 
   languages: [],
 
@@ -1693,9 +1694,9 @@ const Cyprus = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Cyprus",
-  calling_code: "",
+  calling_code: "357",
 
   languages: [],
 
@@ -1721,7 +1722,7 @@ const Czechoslovakia = {
 
   period_of_validity: "1974–1993",
 
-  alias: "[]",
+  alias: [],
   common_name: "Czechoslovakia",
   calling_code: "",
 
@@ -1749,9 +1750,9 @@ const Czechia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: ["Czech Republic"],
   common_name: "Czechia",
-  calling_code: "",
+  calling_code: "420",
 
   languages: [],
 
@@ -1777,9 +1778,9 @@ const Benin = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Benin",
-  calling_code: "",
+  calling_code: "229",
 
   languages: [],
 
@@ -1805,7 +1806,7 @@ const Dahomey = {
 
   period_of_validity: "1974–1977",
 
-  alias: "[]",
+  alias: [],
   common_name: "Dahomey",
   calling_code: "",
 
@@ -1833,9 +1834,9 @@ const Denmark = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Denmark",
-  calling_code: "",
+  calling_code: "45",
 
   languages: [],
 
@@ -1861,9 +1862,9 @@ const Dominica = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Dominica",
-  calling_code: "",
+  calling_code: "1-767",
 
   languages: [],
 
@@ -1889,9 +1890,9 @@ const DominicanRepublic = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Dominican Republic",
-  calling_code: "",
+  calling_code: "1-809",
 
   languages: [],
 
@@ -1917,7 +1918,7 @@ const DronningMaudLand = {
 
   period_of_validity: "1974–1983",
 
-  alias: "[]",
+  alias: [],
   common_name: "Dronning Maud Land",
   calling_code: "",
 
@@ -1945,9 +1946,9 @@ const Ecuador = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Ecuador",
-  calling_code: "",
+  calling_code: "593",
 
   languages: [],
 
@@ -1973,9 +1974,9 @@ const ElSalvador = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "El Salvador",
-  calling_code: "",
+  calling_code: "503",
 
   languages: [],
 
@@ -2001,9 +2002,9 @@ const EquatorialGuinea = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Equatorial Guinea",
-  calling_code: "",
+  calling_code: "240",
 
   languages: [],
 
@@ -2029,9 +2030,9 @@ const Ethiopia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Ethiopia",
-  calling_code: "",
+  calling_code: "251",
 
   languages: [],
 
@@ -2057,9 +2058,9 @@ const Eritrea = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Eritrea",
-  calling_code: "",
+  calling_code: "291",
 
   languages: [],
 
@@ -2085,9 +2086,9 @@ const Estonia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Estonia",
-  calling_code: "",
+  calling_code: "372",
 
   languages: [],
 
@@ -2113,9 +2114,9 @@ const FaroeIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Faroe Islands",
-  calling_code: "",
+  calling_code: "298",
 
   languages: [],
 
@@ -2141,9 +2142,9 @@ const FalklandIslandsMalvinas = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Falkland Islands Malvinas",
-  calling_code: "",
+  calling_code: "500",
 
   languages: [],
 
@@ -2169,9 +2170,9 @@ const SouthGeorgiaAndTheSouthSandwichIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "South Georgia And The South Sandwich Islands",
-  calling_code: "",
+  calling_code: "500",
 
   languages: [],
 
@@ -2197,9 +2198,9 @@ const Fiji = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Fiji",
-  calling_code: "",
+  calling_code: "679",
 
   languages: [],
 
@@ -2225,9 +2226,9 @@ const Finland = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Finland",
-  calling_code: "",
+  calling_code: "358",
 
   languages: [],
 
@@ -2253,9 +2254,9 @@ const AlandIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Aland Islands",
-  calling_code: "",
+  calling_code: "358",
 
   languages: [],
 
@@ -2281,7 +2282,7 @@ const FranceMetropolitan = {
 
   period_of_validity: "1993–1997",
 
-  alias: "[]",
+  alias: [],
   common_name: "France Metropolitan",
   calling_code: "",
 
@@ -2309,7 +2310,7 @@ const France = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "France",
   calling_code: "33",
 
@@ -2337,9 +2338,9 @@ const FrenchGuiana = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "French Guiana",
-  calling_code: "",
+  calling_code: "594",
 
   languages: [],
 
@@ -2365,9 +2366,9 @@ const FrenchPolynesia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "French Polynesia",
-  calling_code: "",
+  calling_code: "689",
 
   languages: [],
 
@@ -2393,7 +2394,7 @@ const FrenchSouthernAndAntarcticTerritories = {
 
   period_of_validity: "1974–1979",
 
-  alias: "[]",
+  alias: [],
   common_name: "French Southern And Antarctic Territories",
   calling_code: "",
 
@@ -2421,9 +2422,9 @@ const FrenchSouthernTerritories = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "French Southern Territories",
-  calling_code: "",
+  calling_code: "262",
 
   languages: [],
 
@@ -2449,9 +2450,9 @@ const Djibouti = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Djibouti",
-  calling_code: "",
+  calling_code: "253",
 
   languages: [],
 
@@ -2477,9 +2478,9 @@ const Gabon = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Gabon",
-  calling_code: "",
+  calling_code: "241",
 
   languages: [],
 
@@ -2505,9 +2506,9 @@ const Georgia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Georgia",
-  calling_code: "",
+  calling_code: "995",
 
   languages: [],
 
@@ -2533,9 +2534,9 @@ const Gambia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Gambia",
-  calling_code: "",
+  calling_code: "220",
 
   languages: [],
 
@@ -2561,9 +2562,9 @@ const PalestineStateOf = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Palestine State Of",
-  calling_code: "",
+  calling_code: "970",
 
   languages: [],
 
@@ -2589,7 +2590,7 @@ const Germany = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Germany",
   calling_code: "49",
 
@@ -2603,8 +2604,8 @@ const Germany = {
   minor_unit: 2,
   currency: "Euro",
 
-  currency_in_cn: "欧元",
-  currency_in_native: "Euro",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const EastGermany = {
@@ -2617,7 +2618,7 @@ const EastGermany = {
 
   period_of_validity: "1974–1990",
 
-  alias: "[]",
+  alias: [],
   common_name: "East Germany",
   calling_code: "",
 
@@ -2645,9 +2646,9 @@ const Ghana = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Ghana",
-  calling_code: "",
+  calling_code: "233",
 
   languages: [],
 
@@ -2673,9 +2674,9 @@ const Gibraltar = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Gibraltar",
-  calling_code: "",
+  calling_code: "350",
 
   languages: [],
 
@@ -2701,9 +2702,9 @@ const Kiribati = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Kiribati",
-  calling_code: "",
+  calling_code: "686",
 
   languages: [],
 
@@ -2729,9 +2730,9 @@ const Greece = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Greece",
-  calling_code: "",
+  calling_code: "30",
 
   languages: [],
 
@@ -2757,9 +2758,9 @@ const Greenland = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Greenland",
-  calling_code: "",
+  calling_code: "299",
 
   languages: [],
 
@@ -2785,9 +2786,9 @@ const Grenada = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Grenada",
-  calling_code: "",
+  calling_code: "1-473",
 
   languages: [],
 
@@ -2813,9 +2814,9 @@ const Guadeloupe = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Guadeloupe",
-  calling_code: "",
+  calling_code: "590",
 
   languages: [],
 
@@ -2841,9 +2842,9 @@ const Guam = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Guam",
-  calling_code: "",
+  calling_code: "1-671",
 
   languages: [],
 
@@ -2869,9 +2870,9 @@ const Guatemala = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Guatemala",
-  calling_code: "",
+  calling_code: "502",
 
   languages: [],
 
@@ -2897,9 +2898,9 @@ const Guinea = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Guinea",
-  calling_code: "",
+  calling_code: "224",
 
   languages: [],
 
@@ -2925,9 +2926,9 @@ const Guyana = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Guyana",
-  calling_code: "",
+  calling_code: "592",
 
   languages: [],
 
@@ -2953,9 +2954,9 @@ const Haiti = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Haiti",
-  calling_code: "",
+  calling_code: "509",
 
   languages: [],
 
@@ -2981,7 +2982,7 @@ const HeardIslandAndMcDonaldIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Heard Island And McDonald Islands",
   calling_code: "",
 
@@ -3009,9 +3010,9 @@ const HolySee = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Holy See",
-  calling_code: "",
+  calling_code: "39",
 
   languages: [],
 
@@ -3037,9 +3038,9 @@ const Honduras = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Honduras",
-  calling_code: "",
+  calling_code: "504",
 
   languages: [],
 
@@ -3065,7 +3066,7 @@ const HongKong = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Hong Kong",
   calling_code: "852",
 
@@ -3093,9 +3094,9 @@ const Hungary = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Hungary",
-  calling_code: "",
+  calling_code: "36",
 
   languages: [],
 
@@ -3121,9 +3122,9 @@ const Iceland = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Iceland",
-  calling_code: "",
+  calling_code: "354",
 
   languages: [],
 
@@ -3149,9 +3150,9 @@ const India = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "India",
-  calling_code: "",
+  calling_code: "91",
 
   languages: [],
 
@@ -3177,7 +3178,7 @@ const Indonesia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Indonesia",
   calling_code: "62",
 
@@ -3205,9 +3206,9 @@ const IranIslamicRepublicOf = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Iran Islamic Republic Of",
-  calling_code: "",
+  calling_code: "98",
 
   languages: [],
 
@@ -3233,9 +3234,9 @@ const Iraq = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Iraq",
-  calling_code: "",
+  calling_code: "964",
 
   languages: [],
 
@@ -3261,9 +3262,9 @@ const Ireland = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Ireland",
-  calling_code: "",
+  calling_code: "353",
 
   languages: [],
 
@@ -3289,9 +3290,9 @@ const Israel = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Israel",
-  calling_code: "",
+  calling_code: "972",
 
   languages: [],
 
@@ -3317,7 +3318,7 @@ const Italy = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Italy",
   calling_code: "39",
 
@@ -3345,9 +3346,9 @@ const CotedIvoire = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Cote dIvoire",
-  calling_code: "",
+  calling_code: "225",
 
   languages: [],
 
@@ -3373,9 +3374,9 @@ const Jamaica = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Jamaica",
-  calling_code: "",
+  calling_code: "1-658",
 
   languages: [],
 
@@ -3401,7 +3402,7 @@ const Japan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Japan",
   calling_code: "81",
 
@@ -3415,8 +3416,8 @@ const Japan = {
   minor_unit: 0,
   currency: "Japanese yen",
 
-  currency_in_cn: "日元",
-  currency_in_native: "日本円",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const JohnstonIsland = {
@@ -3429,7 +3430,7 @@ const JohnstonIsland = {
 
   period_of_validity: "1974–1986",
 
-  alias: "[]",
+  alias: [],
   common_name: "Johnston Island",
   calling_code: "",
 
@@ -3457,9 +3458,9 @@ const Kazakhstan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Kazakhstan",
-  calling_code: "",
+  calling_code: "7",
 
   languages: [],
 
@@ -3485,9 +3486,9 @@ const Jordan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Jordan",
-  calling_code: "",
+  calling_code: "962",
 
   languages: [],
 
@@ -3513,9 +3514,9 @@ const Kenya = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Kenya",
-  calling_code: "",
+  calling_code: "254",
 
   languages: [],
 
@@ -3541,9 +3542,9 @@ const NorthKorea = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "North Korea",
-  calling_code: "",
+  calling_code: "850",
 
   languages: [],
 
@@ -3569,7 +3570,7 @@ const SouthKorea = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "South Korea",
   calling_code: "82",
 
@@ -3597,9 +3598,9 @@ const Kuwait = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Kuwait",
-  calling_code: "",
+  calling_code: "965",
 
   languages: [],
 
@@ -3625,9 +3626,9 @@ const Kyrgyzstan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Kyrgyzstan",
-  calling_code: "",
+  calling_code: "996",
 
   languages: [],
 
@@ -3643,6 +3644,34 @@ const Kyrgyzstan = {
   currency_in_native: "",
 } as IEntity;
 
+const LaoPeoplesDemocraticRepublic = {
+  alpha2Code: "LA",
+  alpha3code: "LAO",
+  alpha4code: "",
+  independent: true,
+  numeric_code: "418",
+  short_name: "Lao People's Democratic Republic",
+
+  period_of_validity: "",
+
+  alias: ["Laos"],
+  common_name: "Lao Peoples Democratic Republic",
+  calling_code: "856",
+
+  languages: [],
+
+  region_in_cn: "老挝",
+  region_in_native: "",
+
+  alphabetic_code: "",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "",
+  currency_in_native: "",
+} as IEntity;
+
 const Lebanon = {
   alpha2Code: "LB",
   alpha3code: "LBN",
@@ -3653,9 +3682,9 @@ const Lebanon = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Lebanon",
-  calling_code: "",
+  calling_code: "961",
 
   languages: [],
 
@@ -3681,9 +3710,9 @@ const Lesotho = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Lesotho",
-  calling_code: "",
+  calling_code: "266",
 
   languages: [],
 
@@ -3709,9 +3738,9 @@ const Latvia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Latvia",
-  calling_code: "",
+  calling_code: "371",
 
   languages: [],
 
@@ -3737,9 +3766,9 @@ const Liberia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Liberia",
-  calling_code: "",
+  calling_code: "231",
 
   languages: [],
 
@@ -3765,9 +3794,9 @@ const Libya = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Libya",
-  calling_code: "",
+  calling_code: "218",
 
   languages: [],
 
@@ -3793,9 +3822,9 @@ const Liechtenstein = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Liechtenstein",
-  calling_code: "",
+  calling_code: "423",
 
   languages: [],
 
@@ -3821,9 +3850,9 @@ const Lithuania = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Lithuania",
-  calling_code: "",
+  calling_code: "370",
 
   languages: [],
 
@@ -3849,9 +3878,9 @@ const Luxembourg = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Luxembourg",
-  calling_code: "",
+  calling_code: "352",
 
   languages: [],
 
@@ -3877,7 +3906,7 @@ const Macao = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Macao",
   calling_code: "853",
 
@@ -3905,7 +3934,7 @@ const Madagascar = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Madagascar",
   calling_code: "261",
 
@@ -3933,9 +3962,9 @@ const Malawi = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Malawi",
-  calling_code: "",
+  calling_code: "265",
 
   languages: [],
 
@@ -3961,7 +3990,7 @@ const Malaysia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Malaysia",
   calling_code: "60",
 
@@ -3989,9 +4018,9 @@ const Maldives = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Maldives",
-  calling_code: "",
+  calling_code: "960",
 
   languages: [],
 
@@ -4017,9 +4046,9 @@ const Mali = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Mali",
-  calling_code: "",
+  calling_code: "223",
 
   languages: [],
 
@@ -4045,9 +4074,9 @@ const Malta = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Malta",
-  calling_code: "",
+  calling_code: "356",
 
   languages: [],
 
@@ -4073,9 +4102,9 @@ const Martinique = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Martinique",
-  calling_code: "",
+  calling_code: "596",
 
   languages: [],
 
@@ -4101,9 +4130,9 @@ const Mauritania = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Mauritania",
-  calling_code: "",
+  calling_code: "222",
 
   languages: [],
 
@@ -4129,9 +4158,9 @@ const Mauritius = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Mauritius",
-  calling_code: "",
+  calling_code: "230",
 
   languages: [],
 
@@ -4147,34 +4176,6 @@ const Mauritius = {
   currency_in_native: "",
 } as IEntity;
 
-const Laos = {
-  alpha2Code: "LA",
-  alpha3code: "LAO",
-  alpha4code: "",
-  independent: true,
-  numeric_code: "481",
-  short_name: "Lao People's Democratic Republic",
-
-  period_of_validity: "",
-
-  alias: "[]",
-  common_name: "Laos",
-  calling_code: "856",
-
-  languages: [],
-
-  region_in_cn: "老挝",
-  region_in_native: "",
-
-  alphabetic_code: "",
-  numeric_code_4217: "",
-  minor_unit: 0,
-  currency: "",
-
-  currency_in_cn: "",
-  currency_in_native: "",
-} as IEntity;
-
 const Mexico = {
   alpha2Code: "MX",
   alpha3code: "MEX",
@@ -4185,9 +4186,9 @@ const Mexico = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Mexico",
-  calling_code: "",
+  calling_code: "52",
 
   languages: [],
 
@@ -4213,7 +4214,7 @@ const MidwayIslands = {
 
   period_of_validity: "1974–1986",
 
-  alias: "[]",
+  alias: [],
   common_name: "Midway Islands",
   calling_code: "",
 
@@ -4241,9 +4242,9 @@ const Monaco = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Monaco",
-  calling_code: "",
+  calling_code: "377",
 
   languages: [],
 
@@ -4269,9 +4270,9 @@ const Mongolia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Mongolia",
-  calling_code: "",
+  calling_code: "976",
 
   languages: [],
 
@@ -4297,9 +4298,9 @@ const MoldovaRepublicOf = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Moldova Republic Of",
-  calling_code: "",
+  calling_code: "373",
 
   languages: [],
 
@@ -4325,9 +4326,9 @@ const Montenegro = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Montenegro",
-  calling_code: "",
+  calling_code: "382",
 
   languages: [],
 
@@ -4353,9 +4354,9 @@ const Montserrat = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Montserrat",
-  calling_code: "",
+  calling_code: "1-664",
 
   languages: [],
 
@@ -4381,9 +4382,9 @@ const Morocco = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Morocco",
-  calling_code: "",
+  calling_code: "212",
 
   languages: [],
 
@@ -4409,9 +4410,9 @@ const Mozambique = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Mozambique",
-  calling_code: "",
+  calling_code: "258",
 
   languages: [],
 
@@ -4437,9 +4438,9 @@ const Oman = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Oman",
-  calling_code: "",
+  calling_code: "968",
 
   languages: [],
 
@@ -4465,9 +4466,9 @@ const Namibia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Namibia",
-  calling_code: "",
+  calling_code: "264",
 
   languages: [],
 
@@ -4493,9 +4494,9 @@ const Nauru = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Nauru",
-  calling_code: "",
+  calling_code: "674",
 
   languages: [],
 
@@ -4521,9 +4522,9 @@ const Nepal = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Nepal",
-  calling_code: "",
+  calling_code: "977",
 
   languages: [],
 
@@ -4549,9 +4550,9 @@ const Netherlands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Netherlands",
-  calling_code: "",
+  calling_code: "31",
 
   languages: [],
 
@@ -4577,9 +4578,9 @@ const Curacao = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Curacao",
-  calling_code: "",
+  calling_code: "599",
 
   languages: [],
 
@@ -4605,9 +4606,9 @@ const Aruba = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Aruba",
-  calling_code: "",
+  calling_code: "297",
 
   languages: [],
 
@@ -4633,9 +4634,9 @@ const SintMaartenDutchpart = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Sint Maarten Dutch part",
-  calling_code: "",
+  calling_code: "1-721",
 
   languages: [],
 
@@ -4661,9 +4662,9 @@ const BonaireSintEustatiusAndSaba = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Bonaire Sint Eustatius And Saba",
-  calling_code: "",
+  calling_code: "599",
 
   languages: [],
 
@@ -4689,7 +4690,7 @@ const NeutralZone = {
 
   period_of_validity: "1974–1993",
 
-  alias: "[]",
+  alias: [],
   common_name: "Neutral Zone",
   calling_code: "",
 
@@ -4717,9 +4718,9 @@ const NewCaledonia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "New Caledonia",
-  calling_code: "",
+  calling_code: "687",
 
   languages: [],
 
@@ -4745,7 +4746,7 @@ const NewHebrides = {
 
   period_of_validity: "1974–1980",
 
-  alias: "[]",
+  alias: [],
   common_name: "New Hebrides",
   calling_code: "",
 
@@ -4773,9 +4774,9 @@ const Vanuatu = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Vanuatu",
-  calling_code: "",
+  calling_code: "678",
 
   languages: [],
 
@@ -4801,7 +4802,7 @@ const NewZealand = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "New Zealand",
   calling_code: "64",
 
@@ -4829,9 +4830,9 @@ const Nicaragua = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Nicaragua",
-  calling_code: "",
+  calling_code: "505",
 
   languages: [],
 
@@ -4857,9 +4858,9 @@ const Niger = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Niger",
-  calling_code: "",
+  calling_code: "227",
 
   languages: [],
 
@@ -4885,9 +4886,9 @@ const Nigeria = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Nigeria",
-  calling_code: "",
+  calling_code: "234",
 
   languages: [],
 
@@ -4913,9 +4914,9 @@ const Niue = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Niue",
-  calling_code: "",
+  calling_code: "683",
 
   languages: [],
 
@@ -4941,9 +4942,9 @@ const NorfolkIsland = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Norfolk Island",
-  calling_code: "",
+  calling_code: "672",
 
   languages: [],
 
@@ -4969,9 +4970,9 @@ const Norway = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Norway",
-  calling_code: "",
+  calling_code: "47",
 
   languages: [],
 
@@ -4997,9 +4998,9 @@ const NorthernMarianaIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Northern Mariana Islands",
-  calling_code: "",
+  calling_code: "1-670",
 
   languages: [],
 
@@ -5025,7 +5026,7 @@ const UnitedStatesMinorOutlyingIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "United States Minor Outlying Islands",
   calling_code: "",
 
@@ -5053,7 +5054,7 @@ const PacificIslandsTrustTerritoryOfthe = {
 
   period_of_validity: "1974–1986",
 
-  alias: "[]",
+  alias: [],
   common_name: "Pacific Islands Trust Territory Of the",
   calling_code: "",
 
@@ -5081,9 +5082,9 @@ const MicronesiaFederatedStatesOf = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Micronesia Federated States Of",
-  calling_code: "",
+  calling_code: "691",
 
   languages: [],
 
@@ -5109,9 +5110,9 @@ const MarshallIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Marshall Islands",
-  calling_code: "",
+  calling_code: "692",
 
   languages: [],
 
@@ -5137,9 +5138,9 @@ const Palau = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Palau",
-  calling_code: "",
+  calling_code: "680",
 
   languages: [],
 
@@ -5165,9 +5166,9 @@ const Pakistan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Pakistan",
-  calling_code: "",
+  calling_code: "92",
 
   languages: [],
 
@@ -5193,7 +5194,7 @@ const Panama = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Panama",
   calling_code: "507",
 
@@ -5221,7 +5222,7 @@ const PanamaCanalZone = {
 
   period_of_validity: "1974–1980",
 
-  alias: "[]",
+  alias: [],
   common_name: "Panama Canal Zone",
   calling_code: "",
 
@@ -5249,9 +5250,9 @@ const PapuaNewGuinea = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Papua New Guinea",
-  calling_code: "",
+  calling_code: "675",
 
   languages: [],
 
@@ -5277,9 +5278,9 @@ const Paraguay = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Paraguay",
-  calling_code: "",
+  calling_code: "595",
 
   languages: [],
 
@@ -5305,9 +5306,9 @@ const Peru = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Peru",
-  calling_code: "",
+  calling_code: "51",
 
   languages: [],
 
@@ -5333,7 +5334,7 @@ const Philippines = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Philippines",
   calling_code: "63",
 
@@ -5361,9 +5362,9 @@ const Pitcairn = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Pitcairn",
-  calling_code: "",
+  calling_code: "64",
 
   languages: [],
 
@@ -5389,9 +5390,9 @@ const Poland = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Poland",
-  calling_code: "",
+  calling_code: "48",
 
   languages: [],
 
@@ -5417,9 +5418,9 @@ const Portugal = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Portugal",
-  calling_code: "",
+  calling_code: "351",
 
   languages: [],
 
@@ -5445,9 +5446,9 @@ const Guinea_Bissau = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Guinea_Bissau",
-  calling_code: "",
+  calling_code: "245",
 
   languages: [],
 
@@ -5473,9 +5474,9 @@ const Timor_Leste = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Timor_Leste",
-  calling_code: "",
+  calling_code: "670",
 
   languages: [],
 
@@ -5501,7 +5502,7 @@ const EastTimor = {
 
   period_of_validity: "1974–2002",
 
-  alias: "[]",
+  alias: [],
   common_name: "East Timor",
   calling_code: "",
 
@@ -5529,9 +5530,9 @@ const PuertoRico = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Puerto Rico",
-  calling_code: "",
+  calling_code: "1-787",
 
   languages: [],
 
@@ -5557,9 +5558,9 @@ const Qatar = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Qatar",
-  calling_code: "",
+  calling_code: "974",
 
   languages: [],
 
@@ -5585,9 +5586,9 @@ const Reunion = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Reunion",
-  calling_code: "",
+  calling_code: "262",
 
   languages: [],
 
@@ -5613,9 +5614,9 @@ const Romania = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Romania",
-  calling_code: "",
+  calling_code: "40",
 
   languages: [],
 
@@ -5641,7 +5642,7 @@ const Russia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Russia",
   calling_code: "7",
 
@@ -5669,9 +5670,9 @@ const Rwanda = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Rwanda",
-  calling_code: "",
+  calling_code: "250",
 
   languages: [],
 
@@ -5697,9 +5698,9 @@ const SaintBarthelemy = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Saint Barthelemy",
-  calling_code: "",
+  calling_code: "590",
 
   languages: [],
 
@@ -5725,9 +5726,9 @@ const SaintHelenaAscensionAndTristandaCunha = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Saint Helena Ascension And Tristan da Cunha",
-  calling_code: "",
+  calling_code: "290",
 
   languages: [],
 
@@ -5753,9 +5754,9 @@ const SaintKittsAndNevis = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Saint Kitts And Nevis",
-  calling_code: "",
+  calling_code: "1-869",
 
   languages: [],
 
@@ -5781,9 +5782,9 @@ const Anguilla = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Anguilla",
-  calling_code: "",
+  calling_code: "1-264",
 
   languages: [],
 
@@ -5809,9 +5810,9 @@ const SaintLucia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Saint Lucia",
-  calling_code: "",
+  calling_code: "1-758",
 
   languages: [],
 
@@ -5837,9 +5838,9 @@ const SaintMartinFrenchpart = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Saint Martin French part",
-  calling_code: "",
+  calling_code: "590",
 
   languages: [],
 
@@ -5865,9 +5866,9 @@ const SaintPierreAndMiquelon = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Saint Pierre And Miquelon",
-  calling_code: "",
+  calling_code: "508",
 
   languages: [],
 
@@ -5893,9 +5894,9 @@ const SaintVincentAndTheGrenadines = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Saint Vincent And The Grenadines",
-  calling_code: "",
+  calling_code: "1-784",
 
   languages: [],
 
@@ -5921,9 +5922,9 @@ const SanMarino = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "San Marino",
-  calling_code: "",
+  calling_code: "378",
 
   languages: [],
 
@@ -5949,9 +5950,9 @@ const SaoTomeAndPrincipe = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Sao Tome And Principe",
-  calling_code: "",
+  calling_code: "239",
 
   languages: [],
 
@@ -5977,7 +5978,7 @@ const SaudiArabia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Saudi Arabia",
   calling_code: "966",
 
@@ -6005,9 +6006,9 @@ const Senegal = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Senegal",
-  calling_code: "",
+  calling_code: "221",
 
   languages: [],
 
@@ -6033,9 +6034,9 @@ const Serbia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Serbia",
-  calling_code: "",
+  calling_code: "381",
 
   languages: [],
 
@@ -6061,9 +6062,9 @@ const Seychelles = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Seychelles",
-  calling_code: "",
+  calling_code: "248",
 
   languages: [],
 
@@ -6089,9 +6090,9 @@ const SierraLeone = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Sierra Leone",
-  calling_code: "",
+  calling_code: "232",
 
   languages: [],
 
@@ -6117,7 +6118,7 @@ const Singapore = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Singapore",
   calling_code: "65",
 
@@ -6145,9 +6146,9 @@ const Slovakia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Slovakia",
-  calling_code: "",
+  calling_code: "421",
 
   languages: [],
 
@@ -6173,7 +6174,7 @@ const Viet_NamDemocraticRepublicOf = {
 
   period_of_validity: "1974–1977",
 
-  alias: "[]",
+  alias: [],
   common_name: "Viet_Nam Democratic Republic Of",
   calling_code: "",
 
@@ -6201,7 +6202,7 @@ const VietNam = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Viet Nam",
   calling_code: "84",
 
@@ -6229,9 +6230,9 @@ const Slovenia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Slovenia",
-  calling_code: "",
+  calling_code: "386",
 
   languages: [],
 
@@ -6257,9 +6258,9 @@ const Somalia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Somalia",
-  calling_code: "",
+  calling_code: "252",
 
   languages: [],
 
@@ -6285,7 +6286,7 @@ const SouthAfrica = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "South Africa",
   calling_code: "27",
 
@@ -6313,7 +6314,7 @@ const SouthernRhodesia = {
 
   period_of_validity: "1974–1980",
 
-  alias: "[]",
+  alias: [],
   common_name: "Southern Rhodesia",
   calling_code: "",
 
@@ -6341,9 +6342,9 @@ const Zimbabwe = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Zimbabwe",
-  calling_code: "",
+  calling_code: "263",
 
   languages: [],
 
@@ -6369,7 +6370,7 @@ const YemenDemocratic = {
 
   period_of_validity: "1974–1990",
 
-  alias: "[]",
+  alias: [],
   common_name: "Yemen Democratic",
   calling_code: "",
 
@@ -6397,7 +6398,7 @@ const Spain = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Spain",
   calling_code: "34",
 
@@ -6425,9 +6426,9 @@ const SouthSudan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "South Sudan",
-  calling_code: "",
+  calling_code: "211",
 
   languages: [],
 
@@ -6453,9 +6454,9 @@ const Sudan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Sudan",
-  calling_code: "",
+  calling_code: "249",
 
   languages: [],
 
@@ -6481,9 +6482,9 @@ const WesternSahara = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Western Sahara",
-  calling_code: "",
+  calling_code: "212",
 
   languages: [],
 
@@ -6509,9 +6510,9 @@ const Suriname = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Suriname",
-  calling_code: "",
+  calling_code: "597",
 
   languages: [],
 
@@ -6537,9 +6538,9 @@ const SvalbardAndJanMayen = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Svalbard And Jan Mayen",
-  calling_code: "",
+  calling_code: "47",
 
   languages: [],
 
@@ -6565,9 +6566,9 @@ const Eswatini = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Eswatini",
-  calling_code: "",
+  calling_code: "268",
 
   languages: [],
 
@@ -6593,9 +6594,9 @@ const Sweden = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Sweden",
-  calling_code: "",
+  calling_code: "46",
 
   languages: [],
 
@@ -6621,7 +6622,7 @@ const Switzerland = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Switzerland",
   calling_code: "41",
 
@@ -6635,8 +6636,8 @@ const Switzerland = {
   minor_unit: 2,
   currency: "WIR",
 
-  currency_in_cn: "瑞士法郎",
-  currency_in_native: "Swiss franc",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SyrianArabRepublic = {
@@ -6649,9 +6650,9 @@ const SyrianArabRepublic = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Syrian Arab Republic",
-  calling_code: "",
+  calling_code: "963",
 
   languages: [],
 
@@ -6677,9 +6678,9 @@ const Tajikistan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Tajikistan",
-  calling_code: "",
+  calling_code: "992",
 
   languages: [],
 
@@ -6705,7 +6706,7 @@ const Thailand = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Thailand",
   calling_code: "66",
 
@@ -6733,9 +6734,9 @@ const Togo = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Togo",
-  calling_code: "",
+  calling_code: "228",
 
   languages: [],
 
@@ -6761,9 +6762,9 @@ const Tokelau = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Tokelau",
-  calling_code: "",
+  calling_code: "690",
 
   languages: [],
 
@@ -6789,9 +6790,9 @@ const Tonga = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Tonga",
-  calling_code: "",
+  calling_code: "676",
 
   languages: [],
 
@@ -6817,9 +6818,9 @@ const TrinidadAndTobago = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Trinidad And Tobago",
-  calling_code: "",
+  calling_code: "1-868",
 
   languages: [],
 
@@ -6845,7 +6846,7 @@ const UnitedArabEmirates = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "United Arab Emirates",
   calling_code: "971",
 
@@ -6859,8 +6860,8 @@ const UnitedArabEmirates = {
   minor_unit: 2,
   currency: "United Arab Emirates dirham",
 
-  currency_in_cn: "阿联酋迪拉姆",
-  currency_in_native: "درهم إماراتي",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const Tunisia = {
@@ -6873,9 +6874,9 @@ const Tunisia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Tunisia",
-  calling_code: "",
+  calling_code: "216",
 
   languages: [],
 
@@ -6901,7 +6902,7 @@ const Turkey = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: ["T\u00fcrkiye"],
   common_name: "Turkey",
   calling_code: "90",
 
@@ -6929,9 +6930,9 @@ const Turkmenistan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Turkmenistan",
-  calling_code: "",
+  calling_code: "993",
 
   languages: [],
 
@@ -6957,9 +6958,9 @@ const TurksAndCaicosIslands = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Turks And Caicos Islands",
-  calling_code: "",
+  calling_code: "1-649",
 
   languages: [],
 
@@ -6985,9 +6986,9 @@ const Tuvalu = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Tuvalu",
-  calling_code: "",
+  calling_code: "688",
 
   languages: [],
 
@@ -7013,9 +7014,9 @@ const Uganda = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Uganda",
-  calling_code: "",
+  calling_code: "256",
 
   languages: [],
 
@@ -7041,9 +7042,9 @@ const Ukraine = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Ukraine",
-  calling_code: "",
+  calling_code: "380",
 
   languages: [],
 
@@ -7069,9 +7070,9 @@ const NorthMacedonia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "North Macedonia",
-  calling_code: "",
+  calling_code: "389",
 
   languages: [],
 
@@ -7097,7 +7098,7 @@ const SovietUnion = {
 
   period_of_validity: "1974–1992",
 
-  alias: "[]",
+  alias: [],
   common_name: "Soviet Union",
   calling_code: "",
 
@@ -7125,9 +7126,9 @@ const Egypt = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Egypt",
-  calling_code: "",
+  calling_code: "20",
 
   languages: [],
 
@@ -7153,7 +7154,7 @@ const UnitedKingdom = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "United Kingdom",
   calling_code: "44",
 
@@ -7181,9 +7182,9 @@ const Guernsey = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Guernsey",
-  calling_code: "",
+  calling_code: "44",
 
   languages: [],
 
@@ -7209,9 +7210,9 @@ const Jersey = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Jersey",
-  calling_code: "",
+  calling_code: "44",
 
   languages: [],
 
@@ -7237,9 +7238,9 @@ const IsleOfMan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Isle Of Man",
-  calling_code: "",
+  calling_code: "44",
 
   languages: [],
 
@@ -7265,9 +7266,9 @@ const TanzaniaUnitedRepublicOf = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Tanzania United Republic Of",
-  calling_code: "",
+  calling_code: "255",
 
   languages: [],
 
@@ -7293,7 +7294,7 @@ const UnitedStates = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "United States",
   calling_code: "1",
 
@@ -7321,7 +7322,7 @@ const USMiscellaneousPacificIslands = {
 
   period_of_validity: "1974–1986",
 
-  alias: "[]",
+  alias: [],
   common_name: "US Miscellaneous Pacific Islands",
   calling_code: "",
 
@@ -7349,9 +7350,9 @@ const VirginIslandsUS = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Virgin Islands US",
-  calling_code: "",
+  calling_code: "1-340",
 
   languages: [],
 
@@ -7377,9 +7378,9 @@ const BurkinaFaso = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Burkina Faso",
-  calling_code: "",
+  calling_code: "226",
 
   languages: [],
 
@@ -7405,7 +7406,7 @@ const UpperVolta = {
 
   period_of_validity: "1974–1984",
 
-  alias: "[]",
+  alias: [],
   common_name: "Upper Volta",
   calling_code: "",
 
@@ -7433,9 +7434,9 @@ const Uruguay = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Uruguay",
-  calling_code: "",
+  calling_code: "598",
 
   languages: [],
 
@@ -7461,9 +7462,9 @@ const Uzbekistan = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Uzbekistan",
-  calling_code: "",
+  calling_code: "998",
 
   languages: [],
 
@@ -7489,9 +7490,9 @@ const VenezuelaBolivarianRepublicOf = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Venezuela Bolivarian Republic Of",
-  calling_code: "",
+  calling_code: "58",
 
   languages: [],
 
@@ -7517,7 +7518,7 @@ const WakeIsland = {
 
   period_of_validity: "1974–1986",
 
-  alias: "[]",
+  alias: [],
   common_name: "Wake Island",
   calling_code: "",
 
@@ -7545,9 +7546,9 @@ const WallisAndFutuna = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Wallis And Futuna",
-  calling_code: "",
+  calling_code: "681",
 
   languages: [],
 
@@ -7573,9 +7574,9 @@ const Samoa = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Samoa",
-  calling_code: "",
+  calling_code: "685",
 
   languages: [],
 
@@ -7601,9 +7602,9 @@ const Yemen = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Yemen",
-  calling_code: "",
+  calling_code: "967",
 
   languages: [],
 
@@ -7629,7 +7630,7 @@ const SerbiaAndMontenegro = {
 
   period_of_validity: "2003–2006",
 
-  alias: "[]",
+  alias: [],
   common_name: "Serbia And Montenegro",
   calling_code: "",
 
@@ -7657,7 +7658,7 @@ const Yugoslavia = {
 
   period_of_validity: "1974–2003",
 
-  alias: "[]",
+  alias: [],
   common_name: "Yugoslavia",
   calling_code: "",
 
@@ -7685,9 +7686,9 @@ const Zambia = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Zambia",
-  calling_code: "",
+  calling_code: "260",
 
   languages: [],
 
@@ -7703,6 +7704,34 @@ const Zambia = {
   currency_in_native: "",
 } as IEntity;
 
+const EuropeanUnion = {
+  alpha2Code: "EU",
+  alpha3code: "",
+  alpha4code: "",
+  independent: false,
+  numeric_code: "978",
+  short_name: "EU",
+
+  period_of_validity: "",
+
+  alias: [],
+  common_name: "European Union",
+  calling_code: "",
+
+  languages: ["Bulgarian","Croatian","Czech","Danish","Dutch","English","Estonian","Finnish","French","German","Greek","Hungarian","Irish","Italian","Latvian","Lithuanian","Maltese","Polish","Portuguese","Romanian","Slovak","Slovenian","Spanish","Swedish"],
+
+  region_in_cn: "欧盟",
+  region_in_native: "European Union",
+
+  alphabetic_code: "EUR",
+  numeric_code_4217: "",
+  minor_unit: 0,
+  currency: "",
+
+  currency_in_cn: "欧元",
+  currency_in_native: "Euro",
+} as IEntity;
+
 const Korea = {
   alpha2Code: "",
   alpha3code: "XKO",
@@ -7713,7 +7742,7 @@ const Korea = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Korea",
   calling_code: "",
 
@@ -7741,7 +7770,7 @@ const WestGermany = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "West Germany",
   calling_code: "",
 
@@ -7769,9 +7798,9 @@ const Kosovo = {
 
   period_of_validity: "",
 
-  alias: "[]",
+  alias: [],
   common_name: "Kosovo",
-  calling_code: "",
+  calling_code: "383",
 
   languages: [],
 
@@ -7869,6 +7898,7 @@ export {
   Estonia,
   Eswatini,
   Ethiopia,
+  EuropeanUnion,
   FalklandIslandsMalvinas,
   FaroeIslands,
   Fiji,
@@ -7922,7 +7952,7 @@ export {
   Kosovo,
   Kuwait,
   Kyrgyzstan,
-  Laos,
+  LaoPeoplesDemocraticRepublic,
   Latvia,
   Lebanon,
   Lesotho,
@@ -8149,6 +8179,7 @@ export const Regions = [
   Estonia,
   Eswatini,
   Ethiopia,
+  EuropeanUnion,
   FalklandIslandsMalvinas,
   FaroeIslands,
   Fiji,
@@ -8202,7 +8233,7 @@ export const Regions = [
   Kosovo,
   Kuwait,
   Kyrgyzstan,
-  Laos,
+  LaoPeoplesDemocraticRepublic,
   Latvia,
   Lebanon,
   Lesotho,
@@ -8488,6 +8519,7 @@ export const RegionsByCode = {
 		"KR": SouthKorea,
 		"KW": Kuwait,
 		"KG": Kyrgyzstan,
+		"LA": LaoPeoplesDemocraticRepublic,
 		"LB": Lebanon,
 		"LS": Lesotho,
 		"LV": Latvia,
@@ -8506,7 +8538,6 @@ export const RegionsByCode = {
 		"MQ": Martinique,
 		"MR": Mauritania,
 		"MU": Mauritius,
-		"LA": Laos,
 		"MX": Mexico,
 		"MI": MidwayIslands,
 		"MIUM": MidwayIslands,
@@ -8647,6 +8678,7 @@ export const RegionsByCode = {
 		"YU": Yugoslavia,
 		"YUCS": Yugoslavia,
 		"ZM": Zambia,
+		"EU": EuropeanUnion,
 		"XKO": Korea,
 		"XWG": WestGermany,
 		"XK": Kosovo,
@@ -8784,6 +8816,7 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"SouthKorea": SouthKorea,
 		"Kuwait": Kuwait,
 		"Kyrgyzstan": Kyrgyzstan,
+		"LaoPeoplesDemocraticRepublic": LaoPeoplesDemocraticRepublic,
 		"Lebanon": Lebanon,
 		"Lesotho": Lesotho,
 		"Latvia": Latvia,
@@ -8802,7 +8835,6 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"Martinique": Martinique,
 		"Mauritania": Mauritania,
 		"Mauritius": Mauritius,
-		"Laos": Laos,
 		"Mexico": Mexico,
 		"MidwayIslands": MidwayIslands,
 		"Monaco": Monaco,
@@ -8929,6 +8961,7 @@ export const RegionsFromCommonNameInAlphaNumeric = {
 		"SerbiaAndMontenegro": SerbiaAndMontenegro,
 		"Yugoslavia": Yugoslavia,
 		"Zambia": Zambia,
+		"EuropeanUnion": EuropeanUnion,
 		"Korea": Korea,
 		"WestGermany": WestGermany,
 		"Kosovo": Kosovo,

@@ -191,6 +191,11 @@ func TestTable_MergeActionFillWithIso4217(t *testing.T) {
 						AlphabeticCode: "HKD", NumericCode4217: "344", Currency: "Hong Kong dollar", MinorUnit: 2,
 						Entities: []string{"Hong Kong"},
 					},
+
+					"CZK": &iso.Entity{
+						AlphabeticCode: "CZK", NumericCode4217: "203", Currency: "Czech koruna", MinorUnit: 2,
+						Entities: []string{"Czech Republic"},
+					},
 				},
 			},
 
@@ -200,6 +205,9 @@ func TestTable_MergeActionFillWithIso4217(t *testing.T) {
 					// use alpha-2 code as key
 					"HK": &iso.Entity{
 						Alpha2Code: "HK", Alpha3Code: "HKG", Independent: false, NumericCode: "344", ShortName: "Hong Kong", CommonName: "Hong Kong", CommonNameInAlphaNumeric: "HongKong", RegionInCN: "香港",
+					},
+					"CZ": &iso.Entity{
+						Alpha2Code: "CZ", Alpha3Code: "CZE", Independent: true, NumericCode: "203", ShortName: "Czechia", CommonName: "Czechia", CommonNameInAlphaNumeric: "Czechia", Alias: []string{"Czech Republic"}, RegionInCN: "捷克",
 					},
 				},
 				action:  iso.MergeActionFillWithIso3166,
@@ -222,9 +230,99 @@ func TestTable_MergeActionFillWithIso4217(t *testing.T) {
 					// The common name "Hong Kong" should be replace with alpha-2 code "HK".
 					Entities: []string{"HK"},
 				},
+
+				"CZK": &iso.Entity{
+					// 4217 fields
+					AlphabeticCode: "CZK", NumericCode4217: "203", Currency: "Czech koruna", MinorUnit: 2,
+
+					// Alias "Czech Republic" should be resolved to alpha-2 code "CZ".
+					Entities: []string{"CZ"},
+				},
 			},
 
-			wantTotal: 2,
+			wantTotal: 3,
+		},
+
+		{
+			name: "test action iso.MergeActionMerge for iso4217 patch entries",
+			fields: fields{
+				destItems: map[string]iso.IEntity{
+					"CNH": &iso.Entity{
+						AlphabeticCode: "CNH", NumericCode4217: "", Currency: "Renminbi (offshore)", MinorUnit: 2,
+						Entities: []string{"HK"},
+					},
+
+					"EUR": &iso.Entity{
+						AlphabeticCode: "EUR", NumericCode4217: "978", Currency: "Euro", MinorUnit: 2,
+						Entities: []string{"EU"},
+					},
+
+					"MOP": &iso.Entity{
+						AlphabeticCode: "MOP", NumericCode4217: "446", Currency: "Macanese pataca", MinorUnit: 2,
+						Entities: []string{},
+					},
+				},
+			},
+			args: args{
+				srcItems: map[string]iso.IEntity{
+					"CNH": &iso.Entity{
+						AlphabeticCode: "CNH",
+						CurrencyInCN:   "离岸人民币", CurrencyInNative: "離岸人民幣",
+					},
+
+					"EU": &iso.Entity{
+						Alpha2Code: "EU",
+						// patch entity with alpha-2 code can still target EUR through AlphabeticCode.
+						AlphabeticCode: "EUR",
+						CurrencyInCN:   "欧元", CurrencyInNative: "Euro",
+					},
+
+					"MO": &iso.Entity{
+						Alpha2Code:       "MO",
+						NumericCode:      "446",
+						CommonName:       "Macao",
+						RegionInCN:       "中国澳门",
+						RegionInNative:   "中國澳門",
+						CurrencyInCN:     "澳门元",
+						CurrencyInNative: "澳門元",
+					},
+				},
+				action:  iso.MergeActionMerge,
+				groupBy: iso.GroupByIso4217AlphabeticCode,
+			},
+			wantEntities: map[string]iso.IEntity{
+				"CNH": &iso.Entity{
+					AlphabeticCode: "CNH", NumericCode4217: "", Currency: "Renminbi (offshore)", MinorUnit: 2,
+					Entities: []string{"HK"},
+
+					CurrencyInCN:     "离岸人民币",
+					CurrencyInNative: "離岸人民幣",
+				},
+
+				"EUR": &iso.Entity{
+					AlphabeticCode: "EUR", NumericCode4217: "978", Currency: "Euro", MinorUnit: 2,
+					Entities: []string{"EU"},
+
+					CurrencyInCN:     "欧元",
+					CurrencyInNative: "Euro",
+				},
+
+				"MOP": &iso.Entity{
+					Alpha2Code:       "MO",
+					NumericCode:      "446",
+					CommonName:       "Macao",
+					RegionInCN:       "中国澳门",
+					RegionInNative:   "中國澳門",
+					AlphabeticCode:   "MOP",
+					NumericCode4217:  "446",
+					MinorUnit:        2,
+					Currency:         "Macanese pataca",
+					Entities:         []string{"MO"},
+					CurrencyInCN:     "澳门元",
+					CurrencyInNative: "澳門元",
+				},
+			},
+			wantTotal: 3,
 		},
 	}
 	for idx, tt := range tests {
@@ -244,6 +342,58 @@ func TestTable_MergeActionFillWithIso4217(t *testing.T) {
 				}
 				require.Equal(t, wantEntity, gotEntity, "idx=%d key=%s", idx, key)
 			}
+		})
+	}
+}
+
+func TestTable_GetByVariantName(t *testing.T) {
+	tests := []struct {
+		name string // description of this test case
+		// Named input parameters for target function.
+		s    string
+		want iso.IEntity
+	}{
+		{
+			name: "find by alias",
+			s:    "Czech Republic",
+			want: &iso.Entity{
+				Alpha2Code:               "CZ",
+				ShortName:                "Czechia",
+				CommonName:               "Czechia",
+				CommonNameInAlphaNumeric: "Czechia",
+				Alias:                    []string{"Czech Republic"},
+			},
+		},
+		{
+			name: "find by common name",
+			s:    "Czechia",
+			want: &iso.Entity{
+				Alpha2Code:               "CZ",
+				ShortName:                "Czechia",
+				CommonName:               "Czechia",
+				CommonNameInAlphaNumeric: "Czechia",
+				Alias:                    []string{"Czech Republic"},
+			},
+		},
+		{
+			name: "not found",
+			s:    "NotExists",
+			want: nil,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			i := iso.NewTable("").SetGroupBy(iso.GroupByIso3166CodeOrVariantName).Load(map[string]iso.IEntity{
+				"CZ": &iso.Entity{
+					Alpha2Code: "CZ",
+					ShortName:  "Czechia",
+					CommonName: "Czechia",
+					Alias:      []string{"Czech Republic"},
+				},
+			})
+
+			got := i.GetByVariantName(tt.s)
+			require.Equal(t, tt.want, got)
 		})
 	}
 }

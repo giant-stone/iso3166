@@ -9,6 +9,18 @@ export interface IEntity {
   currency_in_native: string;
 }
 
+const CNH = {
+  alphabetic_code: "CNH",
+  numeric_code_4217: "",
+  minor_unit: 2,
+  currency: "Renminbi (offshore)",
+
+  entities: ["HK"],
+
+  currency_in_cn: "离岸人民币",
+  currency_in_native: "離岸人民幣",
+} as IEntity;
+
 const ALL = {
   alphabetic_code: "ALL",
   numeric_code_4217: "008",
@@ -363,7 +375,7 @@ const CZK = {
   minor_unit: 2,
   currency: "Czech koruna",
 
-  entities: [],
+  entities: ["CZ"],
 
   currency_in_cn: "",
   currency_in_native: "",
@@ -665,8 +677,8 @@ const JPY = {
 
   entities: ["JP"],
 
-  currency_in_cn: "日元",
-  currency_in_native: "日本円",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const KZT = {
@@ -819,10 +831,10 @@ const MOP = {
   minor_unit: 2,
   currency: "Macanese pataca",
 
-  entities: [],
+  entities: ["MO"],
 
-  currency_in_cn: "",
-  currency_in_native: "",
+  currency_in_cn: "澳门元",
+  currency_in_native: "澳門元",
 } as IEntity;
 
 const MWK = {
@@ -1277,8 +1289,8 @@ const CHF = {
 
   entities: ["LI","CH"],
 
-  currency_in_cn: "瑞士法郎",
-  currency_in_native: "Swiss franc",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const SYP = {
@@ -1337,8 +1349,8 @@ const AED = {
 
   entities: ["AE"],
 
-  currency_in_cn: "阿联酋迪拉姆",
-  currency_in_native: "درهم إماراتي",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TND = {
@@ -1661,8 +1673,8 @@ const CHE = {
 
   entities: ["CH"],
 
-  currency_in_cn: "瑞士法郎",
-  currency_in_native: "Swiss franc",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const CHW = {
@@ -1673,8 +1685,8 @@ const CHW = {
 
   entities: ["CH"],
 
-  currency_in_cn: "瑞士法郎",
-  currency_in_native: "Swiss franc",
+  currency_in_cn: "",
+  currency_in_native: "",
 } as IEntity;
 
 const TRY = {
@@ -1916,6 +1928,7 @@ export {
   CHW,
   CLF,
   CLP,
+  CNH,
   CNY,
   COP,
   CRC,
@@ -2075,6 +2088,7 @@ export const Currencies = [
   CHW,
   CLF,
   CLP,
+  CNH,
   CNY,
   COP,
   CRC,
@@ -2202,6 +2216,7 @@ export const Currencies = [
 ] as IEntity[];
 
 export const CurrencyFromAlphabeticCode = {
+		"CNH": CNH,
 		"ALL": ALL,
 		"DZD": DZD,
 		"ARS": ARS,
