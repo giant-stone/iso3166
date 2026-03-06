@@ -26,8 +26,8 @@ func TestNewFromAlphabeticCode(t *testing.T) {
 			want: &iso.Entity{
 				AlphabeticCode: "AED", NumericCode4217: "784", Currency: "United Arab Emirates dirham", MinorUnit: 2, Entities: []string{"AE"},
 
-				CurrencyInCN:     "阿联酋迪拉姆",
-				CurrencyInNative: "درهم إماراتي",
+				CurrencyInCN:     "",
+				CurrencyInNative: "",
 			},
 		},
 
@@ -41,6 +41,16 @@ func TestNewFromAlphabeticCode(t *testing.T) {
 				CurrencyInNative: "人民币",
 			},
 		},
+		{
+			name: "CNH",
+			args: args{s: "CNH"},
+			want: &iso.Entity{
+				AlphabeticCode: "CNH", NumericCode4217: "", Currency: "Renminbi (offshore)", MinorUnit: 2, Entities: []string{"HK"},
+
+				CurrencyInCN:     "离岸人民币",
+				CurrencyInNative: "離岸人民幣",
+			},
+		},
 
 		{
 			name: "HKD",
@@ -50,6 +60,17 @@ func TestNewFromAlphabeticCode(t *testing.T) {
 
 				CurrencyInCN:     "港元",
 				CurrencyInNative: "港幣",
+			},
+		},
+
+		{
+			name: "MOP",
+			args: args{s: "MOP"},
+			want: &iso.Entity{
+				AlphabeticCode: "MOP", NumericCode4217: "446", Currency: "Macanese pataca", MinorUnit: 2, Entities: []string{"MO"},
+
+				CurrencyInCN:     "澳门元",
+				CurrencyInNative: "澳門元",
 			},
 		},
 
@@ -70,8 +91,8 @@ func TestNewFromAlphabeticCode(t *testing.T) {
 			want: &iso.Entity{
 				AlphabeticCode: "CHF", NumericCode4217: "756", Currency: "Swiss franc", MinorUnit: 2, Entities: []string{"LI", "CH"},
 
-				CurrencyInCN:     "瑞士法郎",
-				CurrencyInNative: "Swiss franc",
+				CurrencyInCN:     "",
+				CurrencyInNative: "",
 			},
 		},
 

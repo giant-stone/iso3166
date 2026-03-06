@@ -18,12 +18,14 @@ import (
 	"github.com/giant-stone/iso3166/generator"
 	generator_golang "github.com/giant-stone/iso3166/generator/golang"
 	generator_json "github.com/giant-stone/iso3166/generator/json"
+	generator_swift "github.com/giant-stone/iso3166/generator/swift"
 	generator_typescript "github.com/giant-stone/iso3166/generator/typescript"
 	"github.com/giant-stone/iso3166/iso"
 	"github.com/giant-stone/iso3166/parser"
 	parser_iso3166p1 "github.com/giant-stone/iso3166/parser/iso3166p1"
 	parser_iso3166p3 "github.com/giant-stone/iso3166/parser/iso3166p3"
 	parser_iso4217 "github.com/giant-stone/iso3166/parser/iso4217"
+	parser_itu_t_e164 "github.com/giant-stone/iso3166/parser/itu_t_e164"
 )
 
 const (
@@ -37,9 +39,9 @@ var (
 	genStds   string
 	genLangs  string
 
-	syncSource bool
-	fmtPretty  bool
-	override   bool
+	syncSource    bool
+	compactOutput bool
+	override      bool
 )
 
 const (
@@ -49,15 +51,17 @@ const (
 )
 
 const (
-	LANG_JSON = "json"
-	LANG_GO   = "go"
-	LANG_TS   = "ts"
+	LANG_JSON  = "json"
+	LANG_GO    = "go"
+	LANG_TS    = "ts"
+	LANG_SWIFT = "swift"
 )
 
 var stdsSupported = map[string]struct{}{
 	parser_iso3166p1.STANDARD_ISO_3166_PART_1: {},
 	parser_iso3166p3.STANDARD_ISO_3166_PART_3: {},
 	parser_iso4217.STANDARD_ISO_4217:          {},
+	parser_itu_t_e164.STANDARD_ITU_T_E164:     {},
 }
 
 var (
@@ -65,20 +69,23 @@ var (
 		parser_iso3166p1.STANDARD_ISO_3166_PART_1: parser_iso3166p1.URL_WIKIPEDIA_PAGE,
 		parser_iso3166p3.STANDARD_ISO_3166_PART_3: parser_iso3166p3.URL_WIKIPEDIA_PAGE,
 		parser_iso4217.STANDARD_ISO_4217:          parser_iso4217.URL_WIKIPEDIA_PAGE,
+		parser_itu_t_e164.STANDARD_ITU_T_E164:     parser_itu_t_e164.URL_WIKIPEDIA_PAGE,
 	}
 
 	mapStdToParser = map[string]parser.IParser{
 		parser_iso3166p1.STANDARD_ISO_3166_PART_1: parser_iso3166p1.New(),
 		parser_iso3166p3.STANDARD_ISO_3166_PART_3: parser_iso3166p3.New(),
 		parser_iso4217.STANDARD_ISO_4217:          parser_iso4217.New(),
+		parser_itu_t_e164.STANDARD_ITU_T_E164:     parser_itu_t_e164.New(),
 	}
 )
 
 var (
 	defaultMapLangToSaveTo = map[string]string{
-		LANG_JSON: "gen/json",
-		LANG_GO:   "gen/go",
-		LANG_TS:   "gen/ts",
+		LANG_JSON:  "gen/json",
+		LANG_GO:    "gen/go",
+		LANG_TS:    "gen/ts",
+		LANG_SWIFT: "gen/swift",
 	}
 )
 
@@ -87,6 +94,7 @@ var (
 		parser_iso3166p1.STANDARD_ISO_3166_PART_1: "source/wikipedia/ISO_3166-1.html",
 		parser_iso3166p3.STANDARD_ISO_3166_PART_3: "source/wikipedia/ISO_3166-3.html",
 		parser_iso4217.STANDARD_ISO_4217:          "source/wikipedia/ISO_4217.html",
+		parser_itu_t_e164.STANDARD_ITU_T_E164:     "source/wikipedia/List_of_telephone_country_codes.html",
 	}
 )
 
@@ -98,15 +106,7 @@ func main() {
 		chunks = append(chunks, strings.Join([]string{lang, saveTo}, ":"))
 	}
 
-	flag.BoolVar(&syncSource, "sync", false, "Synchronize the source data file from the Wikipedia website.")
-	flag.BoolVar(&fmtPretty, "fmt", false, "Format the generated file in pretty.")
-	flag.BoolVar(&override, "o", false, "Override file if it already exists.")
-
-	flag.StringVar(&genLangs, "langs", strings.Join(chunks, ","), "Generate ISO standards in JSON/Go/TypeScript, format in `<langA>:<path/to/data/file/A>,<langB>:<path/to/data/file/B>` .")
-	flag.StringVar(&genStds, "stds", strings.Join(gslice.UniqMapToSlice(stdsSupported), ","), "Generate which ISO standards")
-	flag.StringVar(&pathPatch, "patch", "patch.json", "The full path to the patch JSON file.")
-
-	flag.StringVar(&logLevel, "l", "debug", "The logging level, its value is one of {debug,info,warn,error}.")
+	initFlags(flag.CommandLine, chunks)
 	flag.Parse()
 
 	glogging.Install([]string{"stderr"}, glogging.Loglevel(logLevel), "")
@@ -145,6 +145,18 @@ func main() {
 	}
 }
 
+func initFlags(fs *flag.FlagSet, chunks []string) {
+	fs.BoolVar(&syncSource, "sync", false, "Synchronize the source data file from the Wikipedia website.")
+	fs.BoolVar(&compactOutput, "compact", false, "Write generated files in compact format (pretty is default).")
+	fs.BoolVar(&override, "o", false, "Override file if it already exists.")
+
+	fs.StringVar(&genLangs, "langs", strings.Join(chunks, ","), "Generate ISO standards in JSON/Go/TypeScript, format in `<langA>:<path/to/data/file/A>,<langB>:<path/to/data/file/B>` .")
+	fs.StringVar(&genStds, "stds", strings.Join(gslice.UniqMapToSlice(stdsSupported), ","), "Generate which ISO standards")
+	fs.StringVar(&pathPatch, "patch", "patch.json", "The full path to the patch JSON file.")
+
+	fs.StringVar(&logLevel, "l", "debug", "The logging level, its value is one of {debug,info,warn,error}.")
+}
+
 func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[string]string, override bool) {
 	tableMerge := iso.NewTable(STANDARD_3166_EXTENDED).SetGroupBy(iso.GroupByIso3166CodeOrVariantName)
 
@@ -153,6 +165,7 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 		parser_iso3166p1.STANDARD_ISO_3166_PART_1,
 		parser_iso3166p3.STANDARD_ISO_3166_PART_3,
 		parser_iso4217.STANDARD_ISO_4217,
+		parser_itu_t_e164.STANDARD_ITU_T_E164,
 	} {
 		if _, ok := doGenStds[std]; ok {
 			sourceFilePath := defaultMapStdToSourceDataPath[std]
@@ -182,15 +195,17 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 	}
 
 	mapLangToGenerator := map[string]FuncNewGenerator{
-		LANG_JSON: generator_json.New,
-		LANG_GO:   generator_golang.New,
-		LANG_TS:   generator_typescript.New,
+		LANG_JSON:  generator_json.New,
+		LANG_GO:    generator_golang.New,
+		LANG_TS:    generator_typescript.New,
+		LANG_SWIFT: generator_swift.New,
 	}
 
 	mapLangToFilenameTemplate := map[string]string{
-		LANG_JSON: "%s.json",
-		LANG_GO:   "%s.go",
-		LANG_TS:   "%s.ts",
+		LANG_JSON:  "%s.json",
+		LANG_GO:    "%s.go",
+		LANG_TS:    "%s.ts",
+		LANG_SWIFT: "%s.swift",
 	}
 
 	for lang := range mapLangToSaveTo {
@@ -211,7 +226,7 @@ func genIso3166Extended(doGenStds map[string]struct{}, mapLangToSaveTo map[strin
 		}
 
 		if shouldWriteIt {
-			err := g.WriteTo(fullPath, 0755, fmtPretty)
+			err := g.WriteTo(fullPath, 0755, !compactOutput)
 			if err != nil {
 				glogging.Sugared.Fatalf("WriteTo %v, %s", err, fullPath)
 			}
@@ -256,15 +271,17 @@ func genIso4217Extended(mapLangToSaveTo map[string]string, pathPatch string, ove
 	}
 
 	mapLangToGenerator := map[string]FuncNewGenerator{
-		LANG_JSON: generator_json.New,
-		LANG_GO:   generator_golang.New,
-		LANG_TS:   generator_typescript.New,
+		LANG_JSON:  generator_json.New,
+		LANG_GO:    generator_golang.New,
+		LANG_TS:    generator_typescript.New,
+		LANG_SWIFT: generator_swift.New,
 	}
 
 	mapLangToFilenameTemplate := map[string]string{
-		LANG_JSON: "%s.json",
-		LANG_GO:   "%s.go",
-		LANG_TS:   "%s.ts",
+		LANG_JSON:  "%s.json",
+		LANG_GO:    "%s.go",
+		LANG_TS:    "%s.ts",
+		LANG_SWIFT: "%s.swift",
 	}
 
 	for lang := range mapLangToSaveTo {
@@ -285,7 +302,7 @@ func genIso4217Extended(mapLangToSaveTo map[string]string, pathPatch string, ove
 		}
 
 		if shouldWriteIt {
-			err = g.WriteTo(fullPath, 0755, fmtPretty)
+			err = g.WriteTo(fullPath, 0755, !compactOutput)
 			if err != nil {
 				glogging.Sugared.Fatalf("WriteTo %v, %s", err, fullPath)
 			}

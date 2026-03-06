@@ -31,47 +31,54 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (t iso.ITable, err error) {
 		return nil, err
 	}
 
-	xpath := `//table[contains(@class,"wikitable")]`
-	nodeTable := htmlquery.FindOne(domRoot, xpath)
-	if nodeTable == nil {
+	const xpathTableMain = `//table[contains(@class,"wikitable")]`
+	nodeTableMain := htmlquery.FindOne(domRoot, xpathTableMain)
+	if nodeTableMain == nil {
 		return nil, fmt.Errorf(`table[@class="wikitable"] not found`)
 	}
 
+	m := make(map[string]iso.IEntity)
+	groupBy := i.Table.GetGroupBy()
+	parseMainTableRows(nodeTableMain, groupBy, m)
+
+	const xpathTableActiveAbbreviations = `//table[contains(@class,"wikitable")][caption[contains(normalize-space(.), "Active abbreviations resembling ISO")]]`
+	nodeTableActiveAbbreviation := htmlquery.FindOne(domRoot, xpathTableActiveAbbreviations)
+	if nodeTableActiveAbbreviation == nil {
+		return i.Table.Load(m), nil
+	}
+
+	parseActiveAbbreviationRows(nodeTableActiveAbbreviation, groupBy, m)
+
+	return i.Table.Load(m), nil
+}
+
+func parseMainTableRows(nodeTable *html.Node, groupBy iso.GroupBy, out map[string]iso.IEntity) {
 	skipCodes := map[string]struct{}{
 		// Special drawing rights
 		"XDR": {},
 	}
 
-	m := make(map[string]iso.IEntity)
-	groupBy := i.Table.GetGroupBy()
-
-	for _, nodeTr := range htmlquery.Find(nodeTable, `//tr`) {
+	for _, nodeTr := range htmlquery.Find(nodeTable, `.//tr`) {
 		nodesTd := htmlquery.Find(nodeTr, `./td`)
-
 		if len(nodesTd) != 5 {
 			continue
 		}
 
-		nodeCode := nodesTd[0]
-		nodeNum := nodesTd[1]
-		nodeDecimalSeparator := nodesTd[2]
-		nodeCurrency := nodesTd[3]
-		nodeLocationsListed := nodesTd[4]
-
-		code := htmlquery.InnerText(nodeCode)
-		num := htmlquery.InnerText(nodeNum)
-		decimalSeparator := htmlquery.InnerText(nodeDecimalSeparator)
-		currency := ExtractInnerTextFromHtml(nodeCurrency) // E.g. "Hong Kong dollar"
-		locationMap := ExtractEntityMapFromHtml(nodeLocationsListed)
+		code := normalizeTableCode(htmlquery.InnerText(nodesTd[0]))
+		num := strings.TrimSpace(htmlquery.InnerText(nodesTd[1]))
+		decimalSeparator := strings.TrimSpace(htmlquery.InnerText(nodesTd[2]))
+		currency := ExtractInnerTextFromHtml(nodesTd[3]) // E.g. "Hong Kong dollar"
+		locationMap := ExtractEntityMapFromHtml(nodesTd[4])
 
 		if code == "" || currency == "" {
-			// line := htmlquery.InnerText(nodeTr)
-			// glogging.Sugared.Warnf("parse code or currency from table tr %q failed", line)
 			continue
+		}
 
-		} else if _, ok := skipCodes[code]; ok {
+		if _, ok := skipCodes[code]; ok {
 			continue
-		} else if code[0] == 'X' {
+		}
+
+		if strings.HasPrefix(code, "X") {
 			// https://en.wikipedia.org/wiki/ISO_4217#X_currencies_(funds,_precious_metals,_supranationals,_other)
 			continue
 		}
@@ -81,50 +88,92 @@ func (i *Parser) ParseWikipediaHtml(body []byte) (t iso.ITable, err error) {
 			continue
 		}
 
-		if groupBy == iso.GroupByIso3166CodeOrVariantName {
-			for _, entityLocation := range locationMap {
-				key := entityLocation.GetAlpha2Code()
-				if key == "" {
-					key = entityLocation.GetShortName()
-				}
-				if _, dup := m[key]; key == "" || dup {
-					continue
-				}
+		mergeCurrencyEntity(out, groupBy, code, num, decimalSeparator, currency, locationMap)
+	}
+}
 
-				entity := iso.NewEntity()
+func parseActiveAbbreviationRows(nodeTable *html.Node, groupBy iso.GroupBy, out map[string]iso.IEntity) {
+	for _, nodeTr := range htmlquery.Find(nodeTable, `.//tr`) {
+		nodesTd := htmlquery.Find(nodeTr, `./td`)
+		if len(nodesTd) < 5 {
+			continue
+		}
 
-				entity.SetAlpha2Code(entityLocation.GetAlpha2Code())
-				entity.SetShortName(entityLocation.GetShortName())
-				entity.SetAlphabeticCode(code)
-				entity.SetNumericCode4217(num)
-				entity.SetMinorUnit(gstrconv.Atoi(decimalSeparator))
-				entity.SetCurrency(currency)
+		code := normalizeTableCode(htmlquery.InnerText(nodesTd[0]))
+		if code != "CNH" {
+			continue
+		}
 
-				m[key] = entity
+		num := strings.TrimSpace(htmlquery.InnerText(nodesTd[1]))
+		if num == "—" {
+			num = ""
+		}
+
+		decimalSeparator := strings.TrimSpace(htmlquery.InnerText(nodesTd[2]))
+		currency := strings.TrimSpace(htmlquery.InnerText(nodesTd[3]))
+		locationMap := ExtractEntityMapFromHtml(nodesTd[4])
+		if currency == "" {
+			continue
+		}
+
+		mergeCurrencyEntity(out, groupBy, code, num, decimalSeparator, currency, locationMap)
+	}
+}
+
+func mergeCurrencyEntity(
+	out map[string]iso.IEntity,
+	groupBy iso.GroupBy,
+	code string,
+	num string,
+	decimalSeparator string,
+	currency string,
+	locationMap map[string]iso.IEntity,
+) {
+	minorUnit := gstrconv.Atoi(decimalSeparator)
+
+	if groupBy == iso.GroupByIso3166CodeOrVariantName {
+		for _, entityLocation := range locationMap {
+			key := entityLocation.GetAlpha2Code()
+			if key == "" {
+				key = entityLocation.GetShortName()
 			}
-		} else if groupBy == iso.GroupByIso4217AlphabeticCode {
-			key := code
+			if _, dup := out[key]; key == "" || dup {
+				continue
+			}
 
 			entity := iso.NewEntity()
-
-			entity.SetAlpha2Code("")
-			entity.SetShortName("")
+			entity.SetAlpha2Code(entityLocation.GetAlpha2Code())
+			entity.SetShortName(entityLocation.GetShortName())
 			entity.SetAlphabeticCode(code)
 			entity.SetNumericCode4217(num)
-			entity.SetMinorUnit(gstrconv.Atoi(decimalSeparator))
+			entity.SetMinorUnit(minorUnit)
 			entity.SetCurrency(currency)
 
-			entities := map[string]struct{}{}
-			for regionCommonNameOrCode := range locationMap {
-				entities[regionCommonNameOrCode] = struct{}{}
-			}
-			entity.SetEntities(gslice.UniqMapToSlice(entities))
-
-			m[key] = entity
+			out[key] = entity
 		}
+		return
 	}
 
-	return i.Table.Load(m), nil
+	if groupBy == iso.GroupByIso4217AlphabeticCode {
+		entity := iso.NewEntity()
+		entity.SetAlphabeticCode(code)
+		entity.SetNumericCode4217(num)
+		entity.SetMinorUnit(minorUnit)
+		entity.SetCurrency(currency)
+
+		entities := map[string]struct{}{}
+		for regionCommonNameOrCode := range locationMap {
+			entities[regionCommonNameOrCode] = struct{}{}
+		}
+		entity.SetEntities(gslice.UniqMapToSlice(entities))
+
+		out[code] = entity
+	}
+}
+
+func normalizeTableCode(s string) string {
+	code := strings.TrimSpace(s)
+	return strings.TrimSpace(strings.Split(code, "[")[0])
 }
 
 // GetTable implements IReaderWriter.
