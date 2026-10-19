@@ -1,0 +1,6 @@
+/gen export-ignore
+/gen/** -diff linguist-generated=true
+/source export-ignore
+/source/** -diff linguist-generated=true
+/test_data export-ignore
+/test_data/** -diff linguist-generated=true
